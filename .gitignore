@@ -1,0 +1,124 @@
+# .gitignore repositori penelitian rice_yolo (YOLOv8 vs YOLO11, deteksi penyakit daun padi).
+# Prinsip: yang masuk hanya kode, konfigurasi, dokumentasi, manifest/daftar split kecil, tabel/grafik hasil kecil, dan sumber paper.
+# Dataset, hasil training, bobot model, lingkungan Python, foto dataset, dan bahan pribadi TIDAK masuk.
+
+# ---------------------------------------------------------------- Python / Jupyter
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------- LaTeX (hasil kompilasi)
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+/paper/*.pdf
+/paper/final/*.pdf
+/paper/arsip/*.pdf
+
+# ---------------------------------------------------------------- OS dan editor
+Thumbs.db
+.DS_Store
+desktop.ini
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------- rahasia
+.env
+.env.*
+*.key
+*.pem
+secrets.toml
+
+# ---------------------------------------------------------------- bobot model (unduh/latih ulang; lihat README)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+*.ckpt
+
+# ---------------------------------------------------------------- folder besar atau bukan bagian repositori
+/runs/
+/weights/
+/tools/
+/bahan_presentasi/
+/bahan_bimbingan/
+/bahan_bimbingan_v9/
+/_prototipe_app_v9/
+/_sinkron_tilik_padi/
+
+# ---------------------------------------------------------------- dataset: semua diabaikan kecuali manifest/daftar split kecil
+# (foto dan label tidak didistribusikan; unduh dari sumber aslinya, lihat README)
+/data/**
+!/data/**/
+!/data/processed/prov_v7/manifest.csv
+!/data/processed/prov_v7/data.yaml
+!/data/processed/prov_v7/dataset_meta.json
+!/data/processed/prov_v7/FROZEN.txt
+!/data/processed/prov_v7/lists/*.txt
+!/data/processed/prov_v7_randsplit/manifest.csv
+!/data/processed/prov_v7_randsplit/data.yaml
+!/data/processed/prov_v7_randsplit/dataset_meta.json
+!/data/processed/prov_v7_randsplit/FROZEN.txt
+!/data/processed/prov_v9/manifest.csv
+!/data/processed/prov_v9/data.yaml
+!/data/processed/prov_v9/dataset_meta.json
+!/data/processed/prov_v9/FROZEN.txt
+!/data/processed/prov_v9/lists/*.txt
+!/data/derived/prov_v7_valsel/daftar_val_bersih.txt
+!/data/derived/prov_v7_valsel/data_valsel.yaml
+!/data/derived/prov_v7_valsel/valsel_meta.json
+!/data/derived/prov_v9_valsel/daftar_val_bersih.txt
+!/data/derived/prov_v9_valsel/data_valsel.yaml
+!/data/derived/prov_v9_valsel/valsel_meta.json
+!/data/derived/prov_v7_deploy/manifest.csv
+!/data/derived/prov_v7_deploy/data.yaml
+!/data/derived/prov_v7_deploy/dataset_meta.json
+!/data/derived/prov_v9_deploy/manifest.csv
+!/data/derived/prov_v9_deploy/data.yaml
+!/data/derived/prov_v9_deploy/dataset_meta.json
+
+# ---------------------------------------------------------------- reports: tabel/teks masuk; foto dan montase foto dataset tidak
+/reports/**/*.jpg
+/reports/**/*.jpeg
+/reports/**/*.png
+!/reports/final_eval/grafik/gambar1_*.png
+!/reports/final_eval/grafik/gambar2_*.png
+!/reports/final_eval/grafik/gambar3_*.png
+!/reports/final_eval_v7/grafik/gambar1_*.png
+!/reports/final_eval_v7/grafik/gambar2_*.png
+!/reports/final_eval_v7/grafik/gambar3_*.png
+!/reports/final_eval_v7/posthoc_sensitivitas_ambang/*.png
+!/reports/final_eval_v9/grafik/*.png
+!/reports/prov_v6/kurva_tahap_b/*.png
+# berkas berisi foto tersemat atau data pihak ketiga yang besar
+/reports/prov_v4/expert_pack/
+/reports/prov_v4/pasangan_lintas_kelas_untuk_pakar.xlsx
+/reports/v9_latar/audit_masker/lembar_audit.html
+/reports/kandidat_v8/kembar/
+
+# ---------------------------------------------------------------- aplikasi: tangkapan layar ada di repositori tilik-padi
+/app/docs/tangkapan_layar/
+/app/docs/arsip_yolo11s/tangkapan_layar/
+/app/docs/arsip_v7_yolov8s/tangkapan_layar/
+/app/docs/uji/pindai_val.csv
+
+# ---------------------------------------------------------------- laporan pemeriksaan lokal (tidak di-push)
+/PEMERIKSAAN_PUSH.md
+CLAUDE.md
+KEPUTUSAN_PROYEK.md
+reports/blb_audit/index.html
+reports/blb_audit/*.xlsx

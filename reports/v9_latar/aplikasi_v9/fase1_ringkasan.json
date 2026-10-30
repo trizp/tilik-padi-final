@@ -1,0 +1,93 @@
+{
+ "tau": 0.35,
+ "per_kelompok": {
+  "semua VAL prov_v9": {
+   "n": 1138,
+   "iou_alur_rata2": 0.9,
+   "iou_alur_median": 0.9903,
+   "n_keduanya_dipisah": 964,
+   "iou_keduanya_dipisah_rata2": 0.955,
+   "iou_keduanya_dipisah_median": 0.9908,
+   "kotak": 2517,
+   "persen_kotak_ge50_seg": 98.0,
+   "persen_kotak_ge50_sam2": 97.7,
+   "cadangan_sam2": 158,
+   "cadangan_seg": 72,
+   "cadangan_cocok": 1020,
+   "matriks_cadangan_sam2_x_seg": {
+    "sam2 ya / seg ya": 56,
+    "sam2 ya / seg tidak": 102,
+    "sam2 tidak / seg ya": 16,
+    "sam2 tidak / seg tidak": 964
+   }
+  },
+  "ds4": {
+   "n": 837,
+   "iou_alur_rata2": 0.9559,
+   "iou_alur_median": 0.9913,
+   "n_keduanya_dipisah": 825,
+   "iou_keduanya_dipisah_rata2": 0.9636,
+   "iou_keduanya_dipisah_median": 0.9913,
+   "kotak": 2189,
+   "persen_kotak_ge50_seg": 98.9,
+   "persen_kotak_ge50_sam2": 97.7,
+   "cadangan_sam2": 12,
+   "cadangan_seg": 3,
+   "cadangan_cocok": 828,
+   "matriks_cadangan_sam2_x_seg": {
+    "sam2 ya / seg ya": 3,
+    "sam2 ya / seg tidak": 9,
+    "sam2 tidak / seg ya": 0,
+    "sam2 tidak / seg tidak": 825
+   }
+  },
+  "ds1 BLB": {
+   "n": 277,
+   "iou_alur_rata2": 0.7336,
+   "iou_alur_median": 0.9467,
+   "n_keduanya_dipisah": 121,
+   "iou_keduanya_dipisah_rata2": 0.9017,
+   "iou_keduanya_dipisah_median": 0.9836,
+   "kotak": 328,
+   "persen_kotak_ge50_seg": 91.5,
+   "persen_kotak_ge50_sam2": 97.6,
+   "cadangan_sam2": 142,
+   "cadangan_seg": 63,
+   "cadangan_cocok": 170,
+   "matriks_cadangan_sam2_x_seg": {
+    "sam2 ya / seg ya": 49,
+    "sam2 ya / seg tidak": 93,
+    "sam2 tidak / seg ya": 14,
+    "sam2 tidak / seg tidak": 121
+   }
+  },
+  "ds2 sehat": {
+   "n": 24,
+   "iou_alur_rata2": 0.8718,
+   "iou_alur_median": 0.9832,
+   "n_keduanya_dipisah": 18,
+   "iou_keduanya_dipisah_rata2": 0.919,
+   "iou_keduanya_dipisah_median": 0.9798,
+   "kotak": 0,
+   "persen_kotak_ge50_seg": null,
+   "persen_kotak_ge50_sam2": null,
+   "cadangan_sam2": 4,
+   "cadangan_seg": 6,
+   "cadangan_cocok": 22,
+   "matriks_cadangan_sam2_x_seg": {
+    "sam2 ya / seg ya": 4,
+    "sam2 ya / seg tidak": 0,
+    "sam2 tidak / seg ya": 2,
+    "sam2 tidak / seg tidak": 18
+   }
+  }
+ },
+ "penilaian_manual_x_seg": {
+  "baik|berbeda dari SAM2 (IoU<0,8)": 2,
+  "baik|mirip SAM2 (IoU>=0,8)": 39,
+  "cadangan|berbeda dari SAM2 (IoU<0,8)": 3,
+  "cadangan|cadangan": 3,
+  "salah_objek|berbeda dari SAM2 (IoU<0,8)": 3
+ },
+ "catatan_penilaian": "penilaian manual menilai keluaran SAM2; 'mirip SAM2' pada foto 'baik' = setuju; pada 'salah_objek' = ikut salah"
+}

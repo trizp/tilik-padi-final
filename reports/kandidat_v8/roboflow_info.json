@@ -1,0 +1,924 @@
+{
+  "rf_gymvi_5class": {
+    "workspace": "dataset-gymvi",
+    "proyek": "deteksi-penyakit-pada-daun-padi---5-class",
+    "judul": "Deteksi Penyakit pada Daun Padi - 5 Class",
+    "lisensi": "CC BY 4.0",
+    "jenis": "object-detection",
+    "kelas": {
+      "0": 792,
+      "1": 585,
+      "2": 1137,
+      "3": 447,
+      "4": 708
+    },
+    "jumlah_gambar_proyek": 1584,
+    "versi": [
+      {
+        "id": "2",
+        "nama": "valid",
+        "gambar": 1584,
+        "split": {
+          "valid": 264,
+          "train": 1320
+        },
+        "augmentasi": {},
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": 416,
+            "height": 416
+          },
+          "remap": {
+            "labels": {
+              "0": {
+                "override": "blast"
+              },
+              "1": {
+                "override": "blight"
+              },
+              "2": {
+                "override": "brownspot"
+              },
+              "3": {
+                "override": "healthy"
+              },
+              "4": {
+                "override": "hispa"
+              }
+            }
+          }
+        },
+        "dibuat": 1638432487.041
+      },
+      {
+        "id": "1",
+        "nama": "train",
+        "gambar": 1320,
+        "split": {
+          "train": 1320
+        },
+        "augmentasi": {},
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": 416,
+            "height": 416
+          },
+          "remap": {
+            "labels": {
+              "0": {
+                "override": "blast"
+              },
+              "1": {
+                "override": "blight"
+              },
+              "2": {
+                "override": "brownspot"
+              },
+              "3": {
+                "override": "healthy"
+              },
+              "4": {
+                "override": "hispa"
+              }
+            }
+          }
+        },
+        "dibuat": 1638432355.638
+      }
+    ],
+    "url": "https://universe.roboflow.com/dataset-gymvi/deteksi-penyakit-pada-daun-padi---5-class"
+  },
+  "rf_aditia_4ued0": {
+    "workspace": "aditia-putra",
+    "proyek": "deteksi-penyakit-daun-padi-4ued0",
+    "judul": "Deteksi penyakit daun padi",
+    "lisensi": "CC BY 4.0",
+    "jenis": "object-detection",
+    "kelas": {
+      "Narrow Brown Spot": 500,
+      "Hawar Daun": 500,
+      "Daun Padi Normal": 500
+    },
+    "jumlah_gambar_proyek": 1500,
+    "versi": [
+      {
+        "id": "8",
+        "nama": "2023-12-22 12:38am",
+        "gambar": 1500,
+        "split": {
+          "valid": 300,
+          "test": 150,
+          "train": 1050
+        },
+        "augmentasi": {},
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "width": 640,
+            "format": "Stretch to",
+            "height": 640
+          }
+        },
+        "dibuat": 1703180337.428
+      },
+      {
+        "id": "7",
+        "nama": "2023-12-22 12:38am",
+        "gambar": 1500,
+        "split": {
+          "valid": 300,
+          "test": 150,
+          "train": 1050
+        },
+        "augmentasi": {},
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "width": 640,
+            "format": "Stretch to",
+            "height": 640
+          }
+        },
+        "dibuat": 1703180337.205
+      },
+      {
+        "id": "6",
+        "nama": "2023-12-22 12:38am",
+        "gambar": 1500,
+        "split": {
+          "valid": 300,
+          "test": 150,
+          "train": 1050
+        },
+        "augmentasi": {},
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "width": 640,
+            "format": "Stretch to",
+            "height": 640
+          }
+        },
+        "dibuat": 1703180337.102
+      },
+      {
+        "id": "5",
+        "nama": "2023-12-22 12:36am",
+        "gambar": 1500,
+        "split": {
+          "valid": 300,
+          "test": 150,
+          "train": 1050
+        },
+        "augmentasi": {},
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": 640,
+            "height": 640
+          }
+        },
+        "dibuat": 1703180205.255
+      },
+      {
+        "id": "3",
+        "nama": "2023-12-01 7:45pm",
+        "gambar": 3600,
+        "split": {
+          "valid": 300,
+          "test": 150,
+          "train": 3150
+        },
+        "augmentasi": {
+          "image": {
+            "versions": 3
+          },
+          "blur": {
+            "pixels": 3
+          },
+          "rgrayscale": {
+            "percent": 80
+          },
+          "crop": {
+            "min": 0,
+            "percent": 35
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": 640,
+            "height": 640
+          }
+        },
+        "dibuat": 1701434561.69
+      },
+      {
+        "id": "2",
+        "nama": "2023-12-01 7:35pm",
+        "gambar": 3600,
+        "split": {
+          "valid": 300,
+          "test": 150,
+          "train": 3150
+        },
+        "augmentasi": {
+          "saturation": {
+            "percent": 40
+          },
+          "image": {
+            "versions": 3
+          },
+          "brightness": {
+            "brighten": true,
+            "percent": 25,
+            "darken": true
+          },
+          "ninety": {
+            "clockwise": true,
+            "upside-down": true,
+            "counter-clockwise": true
+          },
+          "noise": {
+            "percent": 5
+          },
+          "hue": {
+            "degrees": 25
+          },
+          "rgrayscale": {
+            "percent": 80
+          },
+          "blur": {
+            "pixels": 3
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "crop": {
+            "min": 0,
+            "percent": 35
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "width": 640,
+            "format": "Stretch to",
+            "height": 640
+          }
+        },
+        "dibuat": 1701433972.28
+      },
+      {
+        "id": "1",
+        "nama": "2023-12-01 7:33pm",
+        "gambar": 3600,
+        "split": {
+          "valid": 300,
+          "test": 150,
+          "train": 3150
+        },
+        "augmentasi": {
+          "saturation": {
+            "percent": 40
+          },
+          "image": {
+            "versions": 3
+          },
+          "brightness": {
+            "brighten": true,
+            "percent": 25,
+            "darken": true
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "noise": {
+            "percent": 5
+          },
+          "hue": {
+            "degrees": 25
+          },
+          "blur": {
+            "pixels": 3
+          },
+          "rgrayscale": {
+            "percent": 80
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "crop": {
+            "min": 0,
+            "percent": 35
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": 640,
+            "height": 640
+          }
+        },
+        "dibuat": 1701433865.383
+      }
+    ],
+    "url": "https://universe.roboflow.com/aditia-putra/deteksi-penyakit-daun-padi-4ued0"
+  },
+  "rf_daunpadi_b1cjw": {
+    "workspace": "daun-padi-8ckhf",
+    "proyek": "penyakit-daun-padi-b1cjw",
+    "judul": "Penyakit Daun Padi",
+    "lisensi": "CC BY 4.0",
+    "jenis": "object-detection",
+    "kelas": {
+      "Brownspot": 3000,
+      "leafblast": 1820,
+      "Hispa": 4118
+    },
+    "jumlah_gambar_proyek": 1999,
+    "versi": [
+      {
+        "id": "29",
+        "nama": "HeheNotBad",
+        "gambar": 3998,
+        "split": {
+          "train": 3998
+        },
+        "augmentasi": {
+          "image": {
+            "versions": 2
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1734017310.472
+      },
+      {
+        "id": "28",
+        "nama": "rismaempat",
+        "gambar": 3077,
+        "split": {
+          "valid": 615,
+          "test": 306,
+          "train": 2156
+        },
+        "augmentasi": {
+          "image": {
+            "versions": 2
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1734016720.013
+      },
+      {
+        "id": "27",
+        "nama": "2024-12-12 8:03pm",
+        "gambar": 3393,
+        "split": {
+          "valid": 396,
+          "test": 209,
+          "train": 2788
+        },
+        "augmentasi": {
+          "image": {
+            "versions": 2
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1734008545.773
+      },
+      {
+        "id": "26",
+        "nama": "2024-12-12 12:22pm",
+        "gambar": 3393,
+        "split": {
+          "valid": 396,
+          "test": 209,
+          "train": 2788
+        },
+        "augmentasi": {
+          "image": {
+            "versions": 2
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1733980887.395
+      },
+      {
+        "id": "25",
+        "nama": "percobaan",
+        "gambar": 1999,
+        "split": {
+          "valid": 396,
+          "test": 209,
+          "train": 1394
+        },
+        "augmentasi": {},
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1733963821.78
+      },
+      {
+        "id": "24",
+        "nama": "Bismillah",
+        "gambar": 3998,
+        "split": {
+          "train": 3998
+        },
+        "augmentasi": {
+          "image": {
+            "versions": 2
+          },
+          "shear": {
+            "vertical": 10,
+            "horizontal": 10
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1733665504.325
+      },
+      {
+        "id": "23",
+        "nama": "2024-12-08 6:59pm",
+        "gambar": 1999,
+        "split": {
+          "valid": 390,
+          "test": 204,
+          "train": 1405
+        },
+        "augmentasi": {},
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1733659073.389
+      },
+      {
+        "id": "22",
+        "nama": "2024-12-08 11:15am",
+        "gambar": 1999,
+        "split": {
+          "valid": 614,
+          "test": 309,
+          "train": 1076
+        },
+        "augmentasi": {},
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1733631224.045
+      },
+      {
+        "id": "21",
+        "nama": "rismatiga",
+        "gambar": 3075,
+        "split": {
+          "valid": 614,
+          "test": 309,
+          "train": 2152
+        },
+        "augmentasi": {
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "image": {
+            "versions": 2
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1733622991.045
+      },
+      {
+        "id": "18",
+        "nama": "TF2",
+        "gambar": 3998,
+        "split": {
+          "train": 3998
+        },
+        "augmentasi": {
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "image": {
+            "versions": 2
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1733208445.331
+      },
+      {
+        "id": "17",
+        "nama": "risma2",
+        "gambar": 3075,
+        "split": {
+          "valid": 614,
+          "test": 309,
+          "train": 2152
+        },
+        "augmentasi": {
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "image": {
+            "versions": 2
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1732865540.291
+      },
+      {
+        "id": "16",
+        "nama": "2024-11-29 2:01pm",
+        "gambar": 3399,
+        "split": {
+          "valid": 400,
+          "test": 199,
+          "train": 2800
+        },
+        "augmentasi": {
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "image": {
+            "versions": 2
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1732863668.632
+      },
+      {
+        "id": "15",
+        "nama": "2024-11-13 4:50pm",
+        "gambar": 3333,
+        "split": {
+          "test": 665,
+          "train": 2668
+        },
+        "augmentasi": {
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "image": {
+            "versions": 2
+          }
+        },
+        "praproses": {
+          "auto-orient": true,
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1731516644.951
+      },
+      {
+        "id": "14",
+        "nama": "2024-11-13 4:37pm",
+        "gambar": 3333,
+        "split": {
+          "test": 665,
+          "train": 2668
+        },
+        "augmentasi": {
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "image": {
+            "versions": 2
+          }
+        },
+        "praproses": {
+          "resize": {
+            "format": "Stretch to",
+            "width": "320",
+            "height": "320"
+          },
+          "auto-orient": true
+        },
+        "dibuat": 1731515863.943
+      },
+      {
+        "id": "11",
+        "nama": "Risma1",
+        "gambar": 3399,
+        "split": {
+          "valid": 400,
+          "test": 199,
+          "train": 2800
+        },
+        "augmentasi": {
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "image": {
+            "versions": 2
+          }
+        },
+        "praproses": {
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1731244103.86
+      },
+      {
+        "id": "5",
+        "nama": "2024-11-02 9:27am",
+        "gambar": 3331,
+        "split": {
+          "test": 667,
+          "train": 2664
+        },
+        "augmentasi": {
+          "rotate": {
+            "degrees": 15
+          },
+          "ninety": {
+            "clockwise": true,
+            "counter-clockwise": true,
+            "upside-down": true
+          },
+          "shear": {
+            "horizontal": 10,
+            "vertical": 10
+          },
+          "flip": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "image": {
+            "versions": 2
+          }
+        },
+        "praproses": {
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "dibuat": 1730539653.524
+      }
+    ],
+    "url": "https://universe.roboflow.com/daun-padi-8ckhf/penyakit-daun-padi-b1cjw"
+  }
+}

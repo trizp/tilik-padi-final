@@ -1,0 +1,12 @@
+{
+  "n": 931,
+  "bolak_balik_identik_bit_per_bit": 931,
+  "jpegtran_vs_np_rot90": {
+    "selisih_rata2": 0.094,
+    "persen_nilai_piksel_berbeda": 7.34
+  },
+  "q95_vs_np_rot90": {
+    "selisih_rata2": 0.4092,
+    "persen_nilai_piksel_berbeda": 35.18
+  }
+}

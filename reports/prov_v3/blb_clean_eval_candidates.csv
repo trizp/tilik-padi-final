@@ -1,0 +1,158 @@
+berkas,sumber,grup_kandidat,bersih_ds1,bersih_ds4,bersih_ds2,bersih_ds3,n_kembar_ds1,inlier_maks_ds1,n_kembar_ds4,n_kembar_ds2,n_kembar_ds3,n_kembar_ds1_bila_pakai_filter_sebaran
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (101).jpg,ds2,178,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (102).jpg,ds2,4,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (103).jpg,ds2,7,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (104).jpg,ds2,7,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (105).jpg,ds2,7,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (108).jpg,ds2,10,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (110).jpg,ds2,21,True,True,False,True,0,0,0,8,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (113).jpg,ds2,21,True,True,False,True,0,0,0,7,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (114).jpg,ds2,21,True,True,False,True,0,0,0,7,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (117).jpg,ds2,21,True,True,False,True,0,0,0,6,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (118).jpg,ds2,21,True,True,False,True,0,0,0,8,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (12).jpg,ds2,34,True,True,False,True,0,0,0,1,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (122).jpg,ds2,125,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (123).jpg,ds2,125,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (124).jpg,ds2,125,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (125).jpg,ds2,125,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (126).jpg,ds2,125,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (128).jpg,ds2,125,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (130).jpg,ds2,38,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (131).jpg,ds2,38,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (132).jpg,ds2,38,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (133).jpg,ds2,38,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (134).jpg,ds2,38,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (137).jpg,ds2,83,True,True,False,True,0,0,0,7,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (138).jpg,ds2,83,True,True,False,True,0,0,0,7,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (139).jpg,ds2,44,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (145).jpg,ds2,99,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (146).jpg,ds2,52,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (148).jpg,ds2,100,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (150).jpg,ds2,102,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (151).jpg,ds2,102,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (152).jpg,ds2,102,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (159).jpg,ds2,106,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (160).jpg,ds2,108,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (161).jpg,ds2,69,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (162).jpg,ds2,111,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (169).jpg,ds2,79,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (17).jpg,ds2,78,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (171).jpg,ds2,80,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (172).jpg,ds2,81,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (173).jpg,ds2,82,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (174).jpg,ds2,83,True,True,False,True,0,0,0,5,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (180).jpg,ds2,106,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (21).jpg,ds2,95,True,True,False,True,0,0,0,1,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (22).jpg,ds2,95,True,True,False,True,0,0,0,1,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (28).jpg,ds2,102,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (29).jpg,ds2,102,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (3).jpg,ds2,125,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (30).jpg,ds2,105,True,True,False,True,0,0,0,1,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (31).jpg,ds2,105,True,True,False,True,0,0,0,1,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (32).jpg,ds2,106,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (33).jpg,ds2,107,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (34).jpg,ds2,108,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (35).jpg,ds2,108,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (39).jpg,ds2,113,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (4).jpg,ds2,125,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (45).jpg,ds2,120,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (46).jpg,ds2,121,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (48).jpg,ds2,123,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (5).jpg,ds2,125,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (50).jpg,ds2,126,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (56).jpg,ds2,132,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (6).jpg,ds2,136,True,True,False,True,0,0,0,1,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (61).jpg,ds2,142,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (62).jpg,ds2,142,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (63).jpg,ds2,142,True,True,False,True,0,0,0,2,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (64).jpg,ds2,142,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (67).jpg,ds2,144,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (68).jpg,ds2,178,True,True,False,True,0,0,0,3,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (69).jpg,ds2,178,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (8).jpg,ds2,83,True,True,False,True,0,0,0,7,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (83).jpg,ds2,163,True,True,False,True,0,0,0,1,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (84).jpg,ds2,163,True,True,False,True,0,0,0,1,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (9).jpg,ds2,83,True,True,False,True,0,0,0,6,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (96).jpg,ds2,176,True,True,True,True,0,0,0,0,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (97).jpg,ds2,178,True,True,False,True,0,0,0,4,0,0
+data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Bacterial Leaf Blight/Bacterial_leaf_Blight  (98).jpg,ds2,178,True,True,False,True,0,0,0,4,0,0
+data/raw/ds3/blight/IMG_0834.jpg,ds3,180,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0936.jpg,ds3,181,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0937.jpg,ds3,182,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0938.jpg,ds3,183,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0939.jpg,ds3,184,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0941.jpg,ds3,185,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0943.jpg,ds3,186,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0944.jpg,ds3,187,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0946.jpg,ds3,188,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0947.jpg,ds3,189,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0948.jpg,ds3,190,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0949.jpg,ds3,191,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0950.jpg,ds3,192,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0952.jpg,ds3,193,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0956.jpg,ds3,194,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0959.jpg,ds3,195,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0962.jpg,ds3,196,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0964.jpg,ds3,197,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0965.jpg,ds3,198,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0966.jpg,ds3,199,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0971.jpg,ds3,200,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0972.jpg,ds3,201,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0973.jpg,ds3,202,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0976.jpg,ds3,203,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0979.jpg,ds3,204,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0982.jpg,ds3,205,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0983.jpg,ds3,206,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0984.jpg,ds3,207,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0985.jpg,ds3,208,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0986.jpg,ds3,209,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0987.jpg,ds3,210,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0990.jpg,ds3,211,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0991.jpg,ds3,212,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0992.jpg,ds3,213,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0993.jpg,ds3,214,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0998.jpg,ds3,215,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_0999.jpg,ds3,216,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1001.jpg,ds3,217,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1002.jpg,ds3,218,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1003.jpg,ds3,219,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1004.jpg,ds3,220,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1008.jpg,ds3,221,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1009.jpg,ds3,222,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1010.jpg,ds3,223,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1011.jpg,ds3,224,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1012.jpg,ds3,225,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1013.jpg,ds3,226,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1014.jpg,ds3,227,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1015.jpg,ds3,228,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1016.jpg,ds3,229,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1020.jpg,ds3,230,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1021.jpg,ds3,231,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1022.jpg,ds3,232,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1023.jpg,ds3,233,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1024.jpg,ds3,234,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1026.jpg,ds3,235,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1027.jpg,ds3,236,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1029.jpg,ds3,237,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1030.jpg,ds3,238,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1031.jpg,ds3,239,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1033.jpg,ds3,240,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1034.jpg,ds3,241,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1035.jpg,ds3,242,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1036.jpg,ds3,243,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1042.jpg,ds3,244,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1043.jpg,ds3,245,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1047.jpg,ds3,246,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1055.jpg,ds3,247,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1056.jpg,ds3,248,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1057.jpg,ds3,249,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1059.jpg,ds3,250,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1063.jpg,ds3,251,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1064.jpg,ds3,252,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1065.jpg,ds3,253,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1066.jpg,ds3,254,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1068.jpg,ds3,255,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1069.jpg,ds3,256,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1071.jpg,ds3,257,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1072.jpg,ds3,258,True,True,True,True,0,0,0,0,0,0
+data/raw/ds3/blight/IMG_1075.jpg,ds3,259,True,True,True,True,0,0,0,0,0,0

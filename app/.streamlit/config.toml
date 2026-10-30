@@ -1,0 +1,23 @@
+[theme]
+base = "light"
+primaryColor = "#2F6B3B"          # Daun padi
+backgroundColor = "#F3F6F2"       # Air sawah
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1F2D24"             # Tinta daun
+linkColor = "#2F6B3B"
+borderColor = "#D5DED3"
+font = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap, system-ui, sans-serif"
+baseFontSize = 17
+baseRadius = "small"
+
+[client]
+toolbarMode = "viewer"
+showSidebarNavigation = false
+showErrorDetails = "none"
+
+[server]
+maxUploadSize = 25                # MB; batas 10 MB diperiksa aplikasi agar pesan galatnya berbahasa Indonesia
+runOnSave = false
+
+[browser]
+gatherUsageStats = false

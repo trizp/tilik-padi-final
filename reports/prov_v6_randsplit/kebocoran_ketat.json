@@ -1,0 +1,143 @@
+{
+  "dibuat": "2026-10-09T09:20:17",
+  "uji_kecil": false,
+  "kriteria_kembar_langsung": "phash<=14 (8 varian dihedral) ATAU nama dasar Roboflow/K4 sama ATAU SIFT>=21 inlier ke satu gambar train (kandidat: k=200 tetangga embedding); TANPA kelompok berantai dan jendela waktu",
+  "per_split": {
+    "val": {
+      "gambar": 1732,
+      "batas_atas_kelompok_berantai_persen": 92.1,
+      "batas_bawah_kembar_langsung_persen": 77.3,
+      "kembar_langsung_n": 1338,
+      "per_kriteria_n": {
+        "phash_jarak": 180,
+        "roboflow": 414,
+        "k4": 506,
+        "sift_inlier": 1326
+      }
+    },
+    "test": {
+      "gambar": 866,
+      "batas_atas_kelompok_berantai_persen": 91.6,
+      "batas_bawah_kembar_langsung_persen": 76.1,
+      "kembar_langsung_n": 659,
+      "per_kriteria_n": {
+        "phash_jarak": 85,
+        "roboflow": 272,
+        "k4": 268,
+        "sift_inlier": 652
+      }
+    }
+  },
+  "val+test": {
+    "gambar": 2598,
+    "batas_atas_kelompok_berantai_persen": 92.0,
+    "batas_bawah_kembar_langsung_persen": 76.9,
+    "kembar_langsung_n": 1997,
+    "per_kriteria_n": {
+      "phash_jarak": 265,
+      "roboflow": 686,
+      "k4": 774,
+      "sift_inlier": 1978
+    }
+  },
+  "per_sumber": {
+    "ds1": {
+      "gambar": 740,
+      "batas_atas_kelompok_berantai_persen": 97.0,
+      "batas_bawah_kembar_langsung_persen": 96.4,
+      "kembar_langsung_n": 713,
+      "per_kriteria_n": {
+        "phash_jarak": 92,
+        "roboflow": 370,
+        "k4": 429,
+        "sift_inlier": 698
+      }
+    },
+    "ds1_provisional": {
+      "gambar": 574,
+      "batas_atas_kelompok_berantai_persen": 97.9,
+      "batas_bawah_kembar_langsung_persen": 97.9,
+      "kembar_langsung_n": 562,
+      "per_kriteria_n": {
+        "phash_jarak": 141,
+        "roboflow": 316,
+        "k4": 345,
+        "sift_inlier": 558
+      }
+    },
+    "ds2": {
+      "gambar": 45,
+      "batas_atas_kelompok_berantai_persen": 44.4,
+      "batas_bawah_kembar_langsung_persen": 31.1,
+      "kembar_langsung_n": 14,
+      "per_kriteria_n": {
+        "phash_jarak": 0,
+        "roboflow": 0,
+        "k4": 0,
+        "sift_inlier": 14
+      }
+    },
+    "ds4": {
+      "gambar": 1239,
+      "batas_atas_kelompok_berantai_persen": 87.9,
+      "batas_bawah_kembar_langsung_persen": 57.1,
+      "kembar_langsung_n": 708,
+      "per_kriteria_n": {
+        "phash_jarak": 32,
+        "roboflow": 0,
+        "k4": 0,
+        "sift_inlier": 708
+      }
+    }
+  },
+  "per_kelas": {
+    "background": {
+      "gambar": 367,
+      "batas_atas_kelompok_berantai_persen": 75.5,
+      "batas_bawah_kembar_langsung_persen": 25.9,
+      "kembar_langsung_n": 95,
+      "per_kriteria_n": {
+        "phash_jarak": 0,
+        "roboflow": 0,
+        "k4": 0,
+        "sift_inlier": 95
+      }
+    },
+    "bacterial_leaf_blight": {
+      "gambar": 574,
+      "batas_atas_kelompok_berantai_persen": 97.9,
+      "batas_bawah_kembar_langsung_persen": 97.9,
+      "kembar_langsung_n": 562,
+      "per_kriteria_n": {
+        "phash_jarak": 141,
+        "roboflow": 316,
+        "k4": 345,
+        "sift_inlier": 558
+      }
+    },
+    "brown_spot": {
+      "gambar": 1187,
+      "batas_atas_kelompok_berantai_persen": 96.0,
+      "batas_bawah_kembar_langsung_persen": 85.8,
+      "kembar_langsung_n": 1018,
+      "per_kriteria_n": {
+        "phash_jarak": 114,
+        "roboflow": 304,
+        "k4": 429,
+        "sift_inlier": 1003
+      }
+    },
+    "leaf_blast": {
+      "gambar": 470,
+      "batas_atas_kelompok_berantai_persen": 87.4,
+      "batas_bawah_kembar_langsung_persen": 68.5,
+      "kembar_langsung_n": 322,
+      "per_kriteria_n": {
+        "phash_jarak": 10,
+        "roboflow": 66,
+        "k4": 0,
+        "sift_inlier": 322
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+﻿Set,Model,Kondisi,mAP50,IK95 mAP50,mAP50-95,IK95 mAP50-95,P,R,F1,Akurasi diagnosis,IK95 Akurasi diagnosis,Recall diagnosis Blast,IK95 Recall diagnosis Blast
+Test BLB provisional (terpisah),YOLOv8s,"Dengan latar (v7, foto asli)",0.334 ± 0.012,"[0.203, 0.545]",0.103 ± 0.011,"[0.058, 0.186]",0.439 ± 0.019,0.497 ± 0.047,0.466 ± 0.031,0.687 ± 0.083,"[0.560, 0.822]",-,-
+Test BLB provisional (terpisah),YOLOv8s,"Tanpa latar (v9, foto tanpa latar)",0.413 ± 0.055,"[0.253, 0.600]",0.136 ± 0.021,"[0.078, 0.229]",0.466 ± 0.111,0.494 ± 0.052,0.478 ± 0.082,0.636 ± 0.054,"[0.507, 0.765]",-,-
+Test BLB provisional (terpisah),YOLO11s,"Dengan latar (v7, foto asli)",0.364 ± 0.082,"[0.214, 0.582]",0.116 ± 0.048,"[0.061, 0.210]",0.461 ± 0.073,0.517 ± 0.057,0.487 ± 0.064,0.764 ± 0.047,"[0.623, 0.880]",-,-
+Test BLB provisional (terpisah),YOLO11s,"Tanpa latar (v9, foto tanpa latar)",0.456 ± 0.068,"[0.279, 0.679]",0.167 ± 0.020,"[0.092, 0.275]",0.526 ± 0.069,0.557 ± 0.054,0.541 ± 0.060,0.724 ± 0.067,"[0.564, 0.859]",-,-

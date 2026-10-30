@@ -1,0 +1,25 @@
+{
+  "model": "yolo11s",
+  "seed": 2,
+  "run": "v7_final_prov_yolo11s_s2",
+  "ambang": 0.35,
+  "langkah": {
+    "1_rata2_akurasi_val_bersih": {
+      "yolo11s": 0.88,
+      "yolov8s": 0.8749,
+      "yolo11n": 0.8658,
+      "yolov8n": 0.8604
+    },
+    "2_selisih_terbaik_vs_berikutnya": 0.0051,
+    "2_tie_break_cpu_ms_median_3seed": {
+      "yolo11s": 80.94,
+      "yolov8s": 102.84
+    },
+    "3_seed_akurasi_val_tertinggi_di_yolo11s": {
+      "s0": 0.8769,
+      "s1": 0.8746,
+      "s2": 0.8884
+    }
+  },
+  "catatan": "dipilih hanya dari VAL prov_v7 sebelum test dibuka; kecepatan CPU diukur pada 100 gambar val (kecepatan_cpu_pemilihan_web.json)"
+}

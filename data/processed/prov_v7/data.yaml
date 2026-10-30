@@ -1,0 +1,22 @@
+path: D:/TELKOM/SKRIPSI/rice_yolo/data/processed/prov_v7
+train: images/train
+val: images/val
+test: images/test
+test_new_session: images/test_new_session
+names:
+  0: leaf_blast
+  1: brown_spot
+  2: bacterial_leaf_blight
+dataset_name: prov_v7
+run_prefix: v7_
+provisional: true
+provisional_sources:
+- ds1_provisional
+seed: 42
+grouping_rule_version: v5
+manifest_sha256: b467d8c894cffbf6e749af114b699af5847b6129d4a39f6784afd7cf2457ffe8
+frozen: true
+induk_dataset: prov_v6
+induk_manifest_sha256: 2963885f1119b684afa5996afbb291f49b8ed5baefd88bc44b398297698aa4d7
+perbaikan: orientasi 931 foto ds4 diperbaiki dengan jpegtran (lossless); label, split,
+  kelompok sama dengan prov_v6

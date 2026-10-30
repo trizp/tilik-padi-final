@@ -1,0 +1,3 @@
+﻿run,ambang,sesi_baru_mAP50,sesi_baru_mAP50_95,sesi_baru_akurasi_diagnosis,ds3_utama_akurasi,ds3_utama_recall_BLB,ds3_utama_recall_Blast,ds3_utama_akurasi_per_kelompok,tungro_n,tungro_didiagnosis_BLB,tungro_persen_BLB,tungro_sebaran,model,LABEL
+v7_deploy_yolo11s_s2,0.35,0.6433,0.2893,0.8294,0.5857,1.0,0.1714,0.6029,80,76,95.0,"{""bacterial_leaf_blight"": 76, ""sehat_atau_tidak_terdeteksi"": 4}",model web YOLO11s (aplikasi sekarang),"PEMBANDING, bukan hasil utama paper"
+v7_deploy_yolov8s_s2,0.37,0.6059,0.2762,0.796,0.4714,0.9429,0.0,0.4853,80,75,93.8,"{""sehat_atau_tidak_terdeteksi"": 4, ""bacterial_leaf_blight"": 75, ""brown_spot"": 1}",model web YOLOv8s (disiapkan; kesesuaian judul),"PEMBANDING, bukan hasil utama paper"

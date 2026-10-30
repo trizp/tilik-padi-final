@@ -1,0 +1,18 @@
+{
+  "id_split_identik_dengan_prov_v6_randsplit": true,
+  "selisih_id_split": 0,
+  "jumlah_per_split": {
+    "train": 5863,
+    "val": 1732,
+    "test": 866,
+    "test_new_session": 299
+  },
+  "disk_sama_dengan_manifest": true,
+  "foto_jpegtran_dalam_randsplit": 931,
+  "gambar_hash_berubah": 931,
+  "berubah_di_luar_jpegtran": 0,
+  "label_berbeda": 0,
+  "ds4_tidak_identik_dengan_prov_v7": 0,
+  "ds4_bertag_exif_orientasi": 0,
+  "LOLOS": true
+}

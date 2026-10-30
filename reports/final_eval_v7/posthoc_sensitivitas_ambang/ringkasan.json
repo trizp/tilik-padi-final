@@ -1,0 +1,221 @@
+{
+  "ANALISIS": "POST-HOC; tidak dipakai memilih model/ambang/angka utama",
+  "hasil": {
+    "test|yolov8n": {
+      "BLB (prov.)": {
+        "pada_ambang_terkunci": 0.674,
+        "pada_0.10": 0.932,
+        "maksimum_kurva": 0.949
+      },
+      "Blast": {
+        "pada_ambang_terkunci": 0.82,
+        "pada_0.10": 0.826,
+        "maksimum_kurva": 0.826
+      },
+      "Brown spot": {
+        "pada_ambang_terkunci": 0.745,
+        "pada_0.10": 0.766,
+        "maksimum_kurva": 0.77
+      },
+      "Sehat/tdk terdeteksi": {
+        "pada_ambang_terkunci": 0.707,
+        "pada_0.10": 0.411,
+        "maksimum_kurva": 0.975
+      },
+      "Semua citra": {
+        "pada_ambang_terkunci": 0.727,
+        "pada_0.10": 0.739,
+        "maksimum_kurva": 0.75
+      }
+    },
+    "test|yolo11n": {
+      "BLB (prov.)": {
+        "pada_ambang_terkunci": 0.706,
+        "pada_0.10": 0.892,
+        "maksimum_kurva": 0.937
+      },
+      "Blast": {
+        "pada_ambang_terkunci": 0.691,
+        "pada_0.10": 0.721,
+        "maksimum_kurva": 0.721
+      },
+      "Brown spot": {
+        "pada_ambang_terkunci": 0.836,
+        "pada_0.10": 0.859,
+        "maksimum_kurva": 0.861
+      },
+      "Sehat/tdk terdeteksi": {
+        "pada_ambang_terkunci": 0.667,
+        "pada_0.10": 0.53,
+        "maksimum_kurva": 0.97
+      },
+      "Semua citra": {
+        "pada_ambang_terkunci": 0.728,
+        "pada_0.10": 0.762,
+        "maksimum_kurva": 0.763
+      }
+    },
+    "test|yolov8s": {
+      "BLB (prov.)": {
+        "pada_ambang_terkunci": 0.691,
+        "pada_0.10": 0.885,
+        "maksimum_kurva": 0.926
+      },
+      "Blast": {
+        "pada_ambang_terkunci": 0.787,
+        "pada_0.10": 0.802,
+        "maksimum_kurva": 0.802
+      },
+      "Brown spot": {
+        "pada_ambang_terkunci": 0.764,
+        "pada_0.10": 0.802,
+        "maksimum_kurva": 0.804
+      },
+      "Sehat/tdk terdeteksi": {
+        "pada_ambang_terkunci": 0.711,
+        "pada_0.10": 0.479,
+        "maksimum_kurva": 0.956
+      },
+      "Semua citra": {
+        "pada_ambang_terkunci": 0.732,
+        "pada_0.10": 0.747,
+        "maksimum_kurva": 0.751
+      }
+    },
+    "test|yolo11s": {
+      "BLB (prov.)": {
+        "pada_ambang_terkunci": 0.745,
+        "pada_0.10": 0.848,
+        "maksimum_kurva": 0.875
+      },
+      "Blast": {
+        "pada_ambang_terkunci": 0.847,
+        "pada_0.10": 0.853,
+        "maksimum_kurva": 0.853
+      },
+      "Brown spot": {
+        "pada_ambang_terkunci": 0.8,
+        "pada_0.10": 0.83,
+        "maksimum_kurva": 0.83
+      },
+      "Sehat/tdk terdeteksi": {
+        "pada_ambang_terkunci": 0.717,
+        "pada_0.10": 0.504,
+        "maksimum_kurva": 0.958
+      },
+      "Semua citra": {
+        "pada_ambang_terkunci": 0.771,
+        "pada_0.10": 0.758,
+        "maksimum_kurva": 0.779
+      }
+    },
+    "val|yolov8n": {
+      "BLB (prov.)": {
+        "pada_ambang_terkunci": 0.765,
+        "pada_0.10": 0.921,
+        "maksimum_kurva": 0.937
+      },
+      "Blast": {
+        "pada_ambang_terkunci": 0.854,
+        "pada_0.10": 0.88,
+        "maksimum_kurva": 0.88
+      },
+      "Brown spot": {
+        "pada_ambang_terkunci": 0.869,
+        "pada_0.10": 0.892,
+        "maksimum_kurva": 0.894
+      },
+      "Sehat/tdk terdeteksi": {
+        "pada_ambang_terkunci": 0.856,
+        "pada_0.10": 0.585,
+        "maksimum_kurva": 0.996
+      },
+      "Semua citra": {
+        "pada_ambang_terkunci": 0.831,
+        "pada_0.10": 0.822,
+        "maksimum_kurva": 0.842
+      }
+    },
+    "val|yolo11n": {
+      "BLB (prov.)": {
+        "pada_ambang_terkunci": 0.797,
+        "pada_0.10": 0.914,
+        "maksimum_kurva": 0.932
+      },
+      "Blast": {
+        "pada_ambang_terkunci": 0.791,
+        "pada_0.10": 0.824,
+        "maksimum_kurva": 0.824
+      },
+      "Brown spot": {
+        "pada_ambang_terkunci": 0.91,
+        "pada_0.10": 0.924,
+        "maksimum_kurva": 0.925
+      },
+      "Sehat/tdk terdeteksi": {
+        "pada_ambang_terkunci": 0.872,
+        "pada_0.10": 0.715,
+        "maksimum_kurva": 0.984
+      },
+      "Semua citra": {
+        "pada_ambang_terkunci": 0.844,
+        "pada_0.10": 0.851,
+        "maksimum_kurva": 0.855
+      }
+    },
+    "val|yolov8s": {
+      "BLB (prov.)": {
+        "pada_ambang_terkunci": 0.759,
+        "pada_0.10": 0.897,
+        "maksimum_kurva": 0.913
+      },
+      "Blast": {
+        "pada_ambang_terkunci": 0.86,
+        "pada_0.10": 0.878,
+        "maksimum_kurva": 0.878
+      },
+      "Brown spot": {
+        "pada_ambang_terkunci": 0.881,
+        "pada_0.10": 0.908,
+        "maksimum_kurva": 0.909
+      },
+      "Sehat/tdk terdeteksi": {
+        "pada_ambang_terkunci": 0.879,
+        "pada_0.10": 0.653,
+        "maksimum_kurva": 0.981
+      },
+      "Semua citra": {
+        "pada_ambang_terkunci": 0.839,
+        "pada_0.10": 0.835,
+        "maksimum_kurva": 0.851
+      }
+    },
+    "val|yolo11s": {
+      "BLB (prov.)": {
+        "pada_ambang_terkunci": 0.774,
+        "pada_0.10": 0.89,
+        "maksimum_kurva": 0.908
+      },
+      "Blast": {
+        "pada_ambang_terkunci": 0.857,
+        "pada_0.10": 0.868,
+        "maksimum_kurva": 0.868
+      },
+      "Brown spot": {
+        "pada_ambang_terkunci": 0.885,
+        "pada_0.10": 0.909,
+        "maksimum_kurva": 0.91
+      },
+      "Sehat/tdk terdeteksi": {
+        "pada_ambang_terkunci": 0.891,
+        "pada_0.10": 0.728,
+        "maksimum_kurva": 0.993
+      },
+      "Semua citra": {
+        "pada_ambang_terkunci": 0.847,
+        "pada_0.10": 0.85,
+        "maksimum_kurva": 0.863
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+path: D:/TELKOM/SKRIPSI/rice_yolo/data/derived/prov_v7_deploy
+train: images/train
+val: images/val_cek
+names:
+  0: leaf_blast
+  1: brown_spot
+  2: bacterial_leaf_blight
+dataset_name: prov_v7_deploy
+run_prefix: v7_
+provisional: true
+provisional_sources:
+- ds1_provisional
+induk_dataset: prov_v7
+induk_manifest_sha256: b467d8c894cffbf6e749af114b699af5847b6129d4a39f6784afd7cf2457ffe8
+manifest_sha256: 7606a8a6a3cb606ec74edf401fdea4e67126435821f1451873f28cb8e2749baf
+frozen: true
+catatan: 'data latih model web: train+val+test prov_v7, background 10%; tanpa test_new_session;
+  val_cek = subset train (tidak bermakna)'

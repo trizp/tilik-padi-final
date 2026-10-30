@@ -1,0 +1,99 @@
+{
+  "dibuat": "2026-10-14T13:00:24",
+  "model_dijalankan": false,
+  "kriteria_lolos": "SIFT residual val+test+tns < 1% (k=200, inlier>=21 tanpa sebaran, sama dengan v7) DAN 0 kembar yang melibatkan gambar baru DAN audit waktu +-5 dtk = 0 DAN 0 kembar langsung train baru vs ds3/aditia/luar cakupan ds4",
+  "sift_k200": {
+    "val": {
+      "gambar": 1431,
+      "punya_kembar_train": 3,
+      "persen": 0.21,
+      "kembar_dengan_train_BARU": 0,
+      "gambar_uji_baru_berkembar": 0
+    },
+    "test": {
+      "gambar": 629,
+      "punya_kembar_train": 1,
+      "persen": 0.159,
+      "kembar_dengan_train_BARU": 0,
+      "gambar_uji_baru_berkembar": 0
+    },
+    "test_new_session": {
+      "gambar": 299,
+      "punya_kembar_train": 0,
+      "persen": 0.0,
+      "kembar_dengan_train_BARU": 0,
+      "gambar_uji_baru_berkembar": 0
+    }
+  },
+  "sift_residual_persen_total": 0.17,
+  "waktu_ds4": {
+    "+-5dtk": {
+      "val": 0,
+      "test": 0,
+      "test_new_session": 0
+    },
+    "+-5dtk_Tungro": {
+      "val": 0,
+      "test": 0,
+      "test_new_session": 0
+    },
+    "+-10dtk": {
+      "val": 110,
+      "test": 79,
+      "test_new_session": 0
+    },
+    "+-10dtk_Tungro": {
+      "val": 23,
+      "test": 18,
+      "test_new_session": 0
+    }
+  },
+  "lintas_set_uji": {
+    "ds3": {
+      "gambar": 240,
+      "train_baru": {
+        "phash": 0,
+        "emb": 0,
+        "sift": 0,
+        "gambar_uji_berkembar": 0
+      },
+      "semua_train": {
+        "phash": 0,
+        "emb": 0,
+        "sift": 0,
+        "gambar_uji_berkembar": 0
+      }
+    },
+    "aditia": {
+      "gambar": 1500,
+      "train_baru": {
+        "phash": 0,
+        "emb": 0,
+        "sift": 0,
+        "gambar_uji_berkembar": 0
+      },
+      "semua_train": {
+        "phash": 0,
+        "emb": 0,
+        "sift": 0,
+        "gambar_uji_berkembar": 0
+      }
+    },
+    "luar_cakupan_ds4": {
+      "gambar": 1709,
+      "train_baru": {
+        "phash": 0,
+        "emb": 0,
+        "sift": 0,
+        "gambar_uji_berkembar": 0
+      },
+      "semua_train": {
+        "phash": 0,
+        "emb": 0,
+        "sift": 0,
+        "gambar_uji_berkembar": 0
+      }
+    }
+  },
+  "LOLOS": true
+}

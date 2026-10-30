@@ -1,0 +1,33 @@
+{
+ "LABEL": "ANALISIS VAL; latar hitam (0,0,0) sebagai uji kepekaan warna isian",
+ "per_run": {
+  "v7_final_prov_yolov8s_s0": {
+   "akurasi": 0.7491,
+   "confusion": {
+    "brown_spot->bacterial_leaf_blight": 1,
+    "brown_spot->brown_spot": 308,
+    "brown_spot->leaf_blast": 3,
+    "brown_spot->sehat_atau_tidak_terdeteksi": 18,
+    "leaf_blast->bacterial_leaf_blight": 11,
+    "leaf_blast->brown_spot": 123,
+    "leaf_blast->leaf_blast": 71,
+    "leaf_blast->sehat_atau_tidak_terdeteksi": 17,
+    "sehat_atau_tidak_terdeteksi->brown_spot": 44,
+    "sehat_atau_tidak_terdeteksi->leaf_blast": 1,
+    "sehat_atau_tidak_terdeteksi->sehat_atau_tidak_terdeteksi": 272
+   }
+  },
+  "v7_final_prov_yolo11s_s0": {
+   "akurasi": 0.6617,
+   "confusion": {
+    "brown_spot->brown_spot": 296,
+    "brown_spot->sehat_atau_tidak_terdeteksi": 34,
+    "leaf_blast->brown_spot": 206,
+    "leaf_blast->leaf_blast": 2,
+    "leaf_blast->sehat_atau_tidak_terdeteksi": 14,
+    "sehat_atau_tidak_terdeteksi->brown_spot": 40,
+    "sehat_atau_tidak_terdeteksi->sehat_atau_tidak_terdeteksi": 277
+   }
+  }
+ }
+}

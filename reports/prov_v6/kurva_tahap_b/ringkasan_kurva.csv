@@ -1,0 +1,9 @@
+run,kelas,n_epoch,mAP50_95_maks,epoch_maks,epoch_capai_95,epoch_stabil_95,epoch_capai_99,epoch_stabil_99,mAP50_95_ep100,mAP50_95_maks_s.d._ep100,mAP50_95_ep150,mAP50_ep100,mAP50_ep150
+prov_v6_yolov8n_s0,SEMUA,150,0.1723,66,48,,66,,0.157,0.1723,0.1572,0.3826,0.3843
+prov_v6_yolov8n_s0,bacterial_leaf_blight (provisional),150,0.2495,66,60,,66,,0.2176,0.2495,0.2127,0.5044,0.5044
+prov_v6_yolov8n_s0,brown_spot,150,0.1797,35,22,,22,,0.1664,0.1797,0.1703,0.3936,0.4034
+prov_v6_yolov8n_s0,leaf_blast,150,0.0964,53,25,,49,,0.087,0.0964,0.0885,0.2497,0.2451
+prov_v6_yolo11n_s0,SEMUA,150,0.175,61,56,,57,,0.162,0.175,0.1562,0.4044,0.3852
+prov_v6_yolo11n_s0,bacterial_leaf_blight (provisional),150,0.2385,58,57,,58,,0.2076,0.2385,0.2006,0.513,0.4712
+prov_v6_yolo11n_s0,brown_spot,150,0.1848,40,28,,40,,0.173,0.1848,0.1687,0.4259,0.4177
+prov_v6_yolo11n_s0,leaf_blast,150,0.1133,80,49,,80,,0.1053,0.1133,0.0993,0.2743,0.2667

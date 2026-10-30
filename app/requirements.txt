@@ -1,0 +1,7 @@
+# Paket aplikasi (tanpa torch dan ultralytics). Versi dikunci sesuai yang diuji (Python 3.12).
+streamlit==1.65.0
+onnxruntime==1.31.0
+numpy==2.5.4
+pillow==12.3.0
+pyyaml==6.0.3
+opencv-python-headless==5.0.0.93   # pasca-proses masker pemisah daun (alur v9); versi headless tanpa GUI

@@ -1,0 +1,44 @@
+{
+  "ds2_BLB_Original": 180,
+  "ds3_blight": 80,
+  "ds2_dengan_kembar_ds1": 112,
+  "ds2_bersih_ds1_dan_ds4": 68,
+  "ds2_dengan_kembar_ds1_bila_pakai_filter_sebaran_15%": 111,
+  "kriteria": "kembar = SIFT inlier >= 21 (tanpa syarat sebaran; konservatif), k=100 tetangga embedding per himpunan pembanding",
+  "kelompok_independen": {
+    "ds2": {
+      "gambar_bersih": 68,
+      "kelompok": 34,
+      "gambar_dalam_kelompok_yang_berisi_kembar_ds1": 37,
+      "kelompok_bersih_transitif": 21
+    },
+    "ds3": {
+      "gambar_bersih": 80,
+      "kelompok": 80,
+      "gambar_dalam_kelompok_yang_berisi_kembar_ds1": 0,
+      "kelompok_bersih_transitif": 80
+    }
+  },
+  "kelompok_independen_gabungan": 114,
+  "prioritas_1_(satu per kelompok)": 114,
+  "ds3_dengan_kembar_ds1": 0,
+  "ds3_bersih_ds1_dan_ds4": 80,
+  "ds2_kembar_ds4": 0,
+  "ds3_kembar_ds4": 0,
+  "dalam_daftar_bersih_status_ds2/ds3_tidak_bersih": {
+    "ds2": {
+      "tidak_bersih_ds2": 52,
+      "tidak_bersih_ds3": 0
+    },
+    "ds3": {
+      "tidak_bersih_ds2": 0,
+      "tidak_bersih_ds3": 0
+    }
+  },
+  "grup_kandidat_dalam_daftar_bersih": 114,
+  "ds2_kembar_ds1_menurut_split_kembar_di_prov_v4": {
+    "train": 67,
+    "val": 26,
+    "test": 15
+  }
+}

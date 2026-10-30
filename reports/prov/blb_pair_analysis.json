@@ -1,0 +1,922 @@
+{
+  "1_pasangan": {
+    "A": {
+      "audit": "#01",
+      "file": "r6k_test_img_blb_42_JPG_jpg.rf.4a193871d752cecac7002fc476c732f9.jpg",
+      "split": "train",
+      "grup": "8670",
+      "ukuran_grup": 2,
+      "ukuran_px": [
+        587,
+        587
+      ],
+      "kepadatan_bintik_putih": 0.00936
+    },
+    "B": {
+      "audit": "#09",
+      "file": "r6k_train_img_blb_42_JPG_jpg.rf.ae8e44003accf2e0f3d502cb1099c8df.jpg",
+      "split": "val",
+      "grup": "9079",
+      "ukuran_grup": 10,
+      "ukuran_px": [
+        587,
+        587
+      ],
+      "kepadatan_bintik_putih": 0.0
+    },
+    "phash": {
+      "h16|none": {
+        "jarak_dihedral": 42,
+        "varian": 0,
+        "jarak_varian0": 42,
+        "bit": 256,
+        "frak": 0.1641,
+        "<=ambang": false
+      },
+      "h8|none": {
+        "jarak_dihedral": 6,
+        "varian": 0,
+        "jarak_varian0": 6,
+        "bit": 64,
+        "frak": 0.0938,
+        "<=ambang": false
+      },
+      "h16|median3": {
+        "jarak_dihedral": 42,
+        "varian": 0,
+        "jarak_varian0": 42,
+        "bit": 256,
+        "frak": 0.1641,
+        "<=ambang": false
+      },
+      "h8|median3": {
+        "jarak_dihedral": 6,
+        "varian": 0,
+        "jarak_varian0": 6,
+        "bit": 64,
+        "frak": 0.0938,
+        "<=ambang": false
+      },
+      "h16|median5": {
+        "jarak_dihedral": 42,
+        "varian": 0,
+        "jarak_varian0": 42,
+        "bit": 256,
+        "frak": 0.1641,
+        "<=ambang": false
+      },
+      "h8|median5": {
+        "jarak_dihedral": 6,
+        "varian": 0,
+        "jarak_varian0": 6,
+        "bit": 64,
+        "frak": 0.0938,
+        "<=ambang": false
+      },
+      "h16|resize50": {
+        "jarak_dihedral": 38,
+        "varian": 0,
+        "jarak_varian0": 38,
+        "bit": 256,
+        "frak": 0.1484,
+        "<=ambang": false
+      },
+      "h8|resize50": {
+        "jarak_dihedral": 6,
+        "varian": 0,
+        "jarak_varian0": 6,
+        "bit": 64,
+        "frak": 0.0938,
+        "<=ambang": false
+      },
+      "h16|resize128": {
+        "jarak_dihedral": 40,
+        "varian": 0,
+        "jarak_varian0": 40,
+        "bit": 256,
+        "frak": 0.1562,
+        "<=ambang": false
+      },
+      "h8|resize128": {
+        "jarak_dihedral": 6,
+        "varian": 0,
+        "jarak_varian0": 6,
+        "bit": 64,
+        "frak": 0.0938,
+        "<=ambang": false
+      },
+      "h16|median5+resize50": {
+        "jarak_dihedral": 42,
+        "varian": 0,
+        "jarak_varian0": 42,
+        "bit": 256,
+        "frak": 0.1641,
+        "<=ambang": false
+      },
+      "h8|median5+resize50": {
+        "jarak_dihedral": 6,
+        "varian": 0,
+        "jarak_varian0": 6,
+        "bit": 64,
+        "frak": 0.0938,
+        "<=ambang": false
+      },
+      "h16|median3+resize128": {
+        "jarak_dihedral": 42,
+        "varian": 0,
+        "jarak_varian0": 42,
+        "bit": 256,
+        "frak": 0.1641,
+        "<=ambang": false
+      },
+      "h8|median3+resize128": {
+        "jarak_dihedral": 6,
+        "varian": 0,
+        "jarak_varian0": 6,
+        "bit": 64,
+        "frak": 0.0938,
+        "<=ambang": false
+      }
+    },
+    "cosine": {
+      "raw": 0.8434,
+      "median3": 0.9287,
+      "median5": 0.9327,
+      "ambang": 0.97
+    },
+    "nama_dasar_roboflow": {
+      "A": "r6k_test_img_blb_42_JPG_jpg",
+      "B": "r6k_train_img_blb_42_JPG_jpg"
+    },
+    "anggota_grup_A": [
+      "r6k_test_img_blb_42_JPG_jpg.rf.4a193871d752cecac",
+      "r6k_test_img_blb_42_JPG_jpg.rf.d538374d98c840d0e"
+    ],
+    "anggota_grup_B": [
+      "r6k_train_img_blb_42_JPG_jpg.rf.10a812910d1b498b",
+      "r6k_train_img_blb_42_JPG_jpg.rf.2acb5b2787c70d55",
+      "r6k_train_img_blb_42_JPG_jpg.rf.33592f2e7e017e22",
+      "r6k_train_img_blb_42_JPG_jpg.rf.a0716c060ceb33bc",
+      "r6k_train_img_blb_42_JPG_jpg.rf.b03c69eb097ba1f0",
+      "r6k_train_img_blb_42_JPG_jpg.rf.be7f55bc5cf63a76",
+      "r6k_train_img_blb_42_JPG_jpg.rf.d0e6ab10b775769a",
+      "r6k_train_img_blb_42_JPG_jpg.rf.f7329d8fef8e37cf",
+      "r6k_train_img_blb_42_JPG_jpg.rf.ae8e44003accf2e0",
+      "r6k_train_img_blb_42_JPG_jpg.rf.fc09df556473b851"
+    ],
+    "split_asli_ds1": {
+      "A": "train",
+      "B": "val"
+    }
+  },
+  "2_kontrol_sintetis": {
+    "n_gambar": 100,
+    "kepadatan": [
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05
+    ],
+    "hasil": {
+      "p=0.002": {
+        "phash16|none|<=14": 1.0,
+        "phash16|none|jarak_median": 2.0,
+        "phash16|median3|<=14": 1.0,
+        "phash16|median3|jarak_median": 0.0,
+        "phash16|median5|<=14": 1.0,
+        "phash16|median5|jarak_median": 0.0,
+        "embedding|raw|>=0.97": 0.85,
+        "embedding|raw|cos_median": 0.9913,
+        "embedding|median3|>=0.97": 1.0,
+        "embedding|median3|cos_median": 1.0
+      },
+      "p=0.005": {
+        "phash16|none|<=14": 0.99,
+        "phash16|none|jarak_median": 2.0,
+        "phash16|median3|<=14": 1.0,
+        "phash16|median3|jarak_median": 0.0,
+        "phash16|median5|<=14": 1.0,
+        "phash16|median5|jarak_median": 0.0,
+        "embedding|raw|>=0.97": 0.65,
+        "embedding|raw|cos_median": 0.9836,
+        "embedding|median3|>=0.97": 1.0,
+        "embedding|median3|cos_median": 0.9999
+      },
+      "p=0.01": {
+        "phash16|none|<=14": 0.99,
+        "phash16|none|jarak_median": 2.0,
+        "phash16|median3|<=14": 1.0,
+        "phash16|median3|jarak_median": 0.0,
+        "phash16|median5|<=14": 1.0,
+        "phash16|median5|jarak_median": 0.0,
+        "embedding|raw|>=0.97": 0.45,
+        "embedding|raw|cos_median": 0.9647,
+        "embedding|median3|>=0.97": 1.0,
+        "embedding|median3|cos_median": 0.9999
+      },
+      "p=0.02": {
+        "phash16|none|<=14": 0.96,
+        "phash16|none|jarak_median": 2.0,
+        "phash16|median3|<=14": 1.0,
+        "phash16|median3|jarak_median": 0.0,
+        "phash16|median5|<=14": 1.0,
+        "phash16|median5|jarak_median": 0.0,
+        "embedding|raw|>=0.97": 0.25,
+        "embedding|raw|cos_median": 0.9428,
+        "embedding|median3|>=0.97": 0.99,
+        "embedding|median3|cos_median": 0.9997
+      },
+      "p=0.05": {
+        "phash16|none|<=14": 0.96,
+        "phash16|none|jarak_median": 4.0,
+        "phash16|median3|<=14": 1.0,
+        "phash16|median3|jarak_median": 0.0,
+        "phash16|median5|<=14": 1.0,
+        "phash16|median5|jarak_median": 0.0,
+        "embedding|raw|>=0.97": 0.03,
+        "embedding|raw|cos_median": 0.8901,
+        "embedding|median3|>=0.97": 0.99,
+        "embedding|median3|cos_median": 0.9988
+      }
+    },
+    "catatan": "kepadatan = fraksi piksel yang diganti (setengah putih, setengah hitam)"
+  },
+  "3_id": {
+    "gambar_BLB": 1986,
+    "dengan_ID_terparse": 1738,
+    "tanpa_ID": 248,
+    "tanpa_ID_contoh_bentuk": {
+      "rls_train_aug_N_N_jpg": 191,
+      "rls_test_aug_N_N_jpg": 28,
+      "rls_val_aug_N_N_jpg": 22,
+      "rls_train_IMG_N_N_jpg": 4,
+      "rls_test_IMG_N_N_jpg": 2
+    },
+    "keluarga": {
+      "blight/orig": 448,
+      "blight/rotated": 443,
+      "img_blb": 847
+    },
+    "awalan": {
+      "r6k_test": 164,
+      "r6k_train": 1414,
+      "r6k_val": 160
+    },
+    "ext": {
+      "jpg": 729,
+      "PNG": 100,
+      "JPG": 472,
+      "png": 29,
+      "jpeg": 408
+    },
+    "statistik": {
+      "K1 (fam,id) [orig+rotated digabung]": {
+        "ID_unik": 180,
+        "ID_dengan_>1_gambar": 176,
+        "ID_di_>1_split": 41,
+        "kombinasi_split": {
+          "train+val": 26,
+          "test+train": 12,
+          "test+val": 3
+        },
+        "gambar_pada_ID_lintas_split": 498,
+        "ID_dengan_>1_awalan": 145,
+        "ID_>1_awalan_tapi_1_split": 105
+      },
+      "K2 (fam,kind,id)": {
+        "ID_unik": 223,
+        "ID_dengan_>1_gambar": 216,
+        "ID_di_>1_split": 38,
+        "kombinasi_split": {
+          "train+val": 25,
+          "test+train": 10,
+          "test+val": 3
+        },
+        "gambar_pada_ID_lintas_split": 338,
+        "ID_dengan_>1_awalan": 170,
+        "ID_>1_awalan_tapi_1_split": 132
+      },
+      "K3 (fam,id,ext)": {
+        "ID_unik": 182,
+        "ID_dengan_>1_gambar": 177,
+        "ID_di_>1_split": 40,
+        "kombinasi_split": {
+          "train+val": 26,
+          "test+train": 11,
+          "test+val": 3
+        },
+        "gambar_pada_ID_lintas_split": 488,
+        "ID_dengan_>1_awalan": 146,
+        "ID_>1_awalan_tapi_1_split": 106
+      }
+    }
+  },
+  "4_hipotesis": {
+    "pasangan_ID_kembar_lintas_split_train_val": 780,
+    "kriteria": "jelas sama: min(phash16 raw, phash16 median5) <= 14 ATAU max(cos raw, cos median3) >= 0.97; jelas berbeda: min phash > 60 DAN cos < 0.85; selain itu meragukan",
+    "lintas_split_train_val": {
+      "n": 30,
+      "jelas sama": 0,
+      "jelas berbeda": 13,
+      "meragukan": 17,
+      "d16_raw_median": 106.0,
+      "cos_raw_median": 0.7648999999999999
+    },
+    "pembanding_lintas_awalan_train_train": {
+      "n": 30,
+      "jelas sama": 4,
+      "jelas berbeda": 7,
+      "meragukan": 19,
+      "d16_raw_median": 71.0,
+      "cos_raw_median": 0.8311
+    },
+    "kontrol_negatif_ID_berbeda": {
+      "n": 30,
+      "jelas sama": 0,
+      "jelas berbeda": 30,
+      "meragukan": 0,
+      "d16_raw_median": 114.0,
+      "cos_raw_median": 0.4306
+    },
+    "per_tipe_lintas_split": {
+      "blight/orig-orig": {
+        "meragukan": 4
+      },
+      "blight/orig-rotated": {
+        "jelas berbeda": 4,
+        "meragukan": 2
+      },
+      "blight/orig-rotated (ext beda)": {
+        "jelas berbeda": 3
+      },
+      "blight/rotated-orig": {
+        "jelas berbeda": 4
+      },
+      "blight/rotated-rotated": {
+        "meragukan": 4
+      },
+      "img_blb/---": {
+        "meragukan": 7,
+        "jelas berbeda": 2
+      }
+    },
+    "30_pasangan": [
+      {
+        "a": "r6k_test_blight_rotated_089_jpg.rf.79847fdb2a65168d809c9a3f2",
+        "b": "r6k_train_blight_orig_089_jpg.rf.86eab96179ad4bebd4c2639c6c1",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/rotated-orig",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 114,
+        "d16_median5": 114,
+        "cos_raw": 0.7537,
+        "cos_median3": 0.7554,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_test_img_blb_42_JPG_jpg.rf.4a193871d752cecac7002fc476c73",
+        "b": "r6k_train_img_blb_42_JPG_jpg.rf.fc09df556473b851fc7030dbef04",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "img_blb/---",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 88,
+        "d16_median5": 84,
+        "cos_raw": 0.9392,
+        "cos_median3": 0.9428,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_train_blight_orig_093_jpg.rf.432d5225dd27728decdac18dadd",
+        "b": "r6k_test_blight_orig_093_jpg.rf.f9c193e3496b82ff9cfccb42074d",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-orig",
+        "awalan": "r6k_train~r6k_test",
+        "d16_raw": 116,
+        "d16_median5": 114,
+        "cos_raw": 0.8795,
+        "cos_median3": 0.8756,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_train_blight_rotated_092_jpg.rf.2d38083ac8a9b9831f098de0",
+        "b": "r6k_train_blight_orig_092_jpg.rf.3ef0e2b931bb46a6a9ab086cac9",
+        "a_split": "val",
+        "b_split": "train",
+        "tipe": "blight/rotated-orig",
+        "awalan": "r6k_train~r6k_train",
+        "d16_raw": 106,
+        "d16_median5": 108,
+        "cos_raw": 0.632,
+        "cos_median3": 0.7085,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_test_blight_rotated_074_JPG_jpg.rf.db72b5a13d0d3346882af",
+        "b": "r6k_train_blight_orig_074_JPG_jpg.rf.e812c97c8345dff14ba2a49",
+        "a_split": "val",
+        "b_split": "train",
+        "tipe": "blight/rotated-orig",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 102,
+        "d16_median5": 104,
+        "cos_raw": 0.6485,
+        "cos_median3": 0.784,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_test_img_blb_66_jpeg_jpg.rf.eefcd256ca309d6a0bc32049c8f1",
+        "b": "r6k_train_img_blb_66_jpeg_jpg.rf.f20676f60ce388e580f5cc4e8f7",
+        "a_split": "val",
+        "b_split": "train",
+        "tipe": "img_blb/---",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 114,
+        "d16_median5": 118,
+        "cos_raw": 0.7857,
+        "cos_median3": 0.875,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_train_blight_rotated_089_jpg.rf.6e75588da6955a27c1ddd55a",
+        "b": "r6k_train_blight_orig_089_jpg.rf.16debb4ade8639cd84d0edcfd81",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/rotated-orig",
+        "awalan": "r6k_train~r6k_train",
+        "d16_raw": 114,
+        "d16_median5": 114,
+        "cos_raw": 0.6797,
+        "cos_median3": 0.7511,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_train_img_blb_66_jpeg_jpg.rf.e307d27baba48525741d6b31d30",
+        "b": "r6k_test_img_blb_66_jpeg_jpg.rf.eefcd256ca309d6a0bc32049c8f1",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "img_blb/---",
+        "awalan": "r6k_train~r6k_test",
+        "d16_raw": 76,
+        "d16_median5": 78,
+        "cos_raw": 0.6689,
+        "cos_median3": 0.7779,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_train_blight_orig_007_JPG_jpg.rf.85551f93281eef1c8e0e36b",
+        "b": "r6k_train_blight_rotated_007_jpg.rf.4ee52c59a73f0e0c1f4d0f7f",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-rotated (ext beda)",
+        "awalan": "r6k_train~r6k_train",
+        "d16_raw": 108,
+        "d16_median5": 106,
+        "cos_raw": 0.6687,
+        "cos_median3": 0.6181,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_train_blight_orig_089_jpg.rf.6554b0eae4e1ba6a5d66bc796a5",
+        "b": "r6k_train_blight_rotated_089_jpg.rf.e0ca757dcb8a882256cacae3",
+        "a_split": "val",
+        "b_split": "train",
+        "tipe": "blight/orig-rotated",
+        "awalan": "r6k_train~r6k_train",
+        "d16_raw": 116,
+        "d16_median5": 116,
+        "cos_raw": 0.7947,
+        "cos_median3": 0.8204,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_train_blight_orig_007_JPG_jpg.rf.25334bf86a1c0f8a62be014",
+        "b": "r6k_train_blight_rotated_007_jpg.rf.6104178d6e2a9761bcbbeee7",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-rotated (ext beda)",
+        "awalan": "r6k_train~r6k_train",
+        "d16_raw": 112,
+        "d16_median5": 112,
+        "cos_raw": 0.5842,
+        "cos_median3": 0.6426,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_train_blight_orig_007_JPG_jpg.rf.ac37e0cf48f4c5886f1153f",
+        "b": "r6k_train_blight_rotated_007_jpg.rf.4ee52c59a73f0e0c1f4d0f7f",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-rotated (ext beda)",
+        "awalan": "r6k_train~r6k_train",
+        "d16_raw": 114,
+        "d16_median5": 114,
+        "cos_raw": 0.6284,
+        "cos_median3": 0.5863,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_test_blight_rotated_020_PNG_jpg.rf.ad33112157f38d0038d70",
+        "b": "r6k_train_blight_rotated_020_PNG_jpg.rf.a430beb921cc46db0289",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/rotated-rotated",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 110,
+        "d16_median5": 108,
+        "cos_raw": 0.8373,
+        "cos_median3": 0.8791,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_test_blight_orig_004_PNG_jpg.rf.6e415576939be74bed77060d",
+        "b": "r6k_val_blight_rotated_004_PNG_jpg.rf.693d6f98baa367f540efcb",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-rotated",
+        "awalan": "r6k_test~r6k_val",
+        "d16_raw": 106,
+        "d16_median5": 102,
+        "cos_raw": 0.7522,
+        "cos_median3": 0.8525,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_train_blight_orig_004_PNG_jpg.rf.102db4e7b5a6f03fbd79251",
+        "b": "r6k_val_blight_rotated_004_PNG_jpg.rf.f1b6215542e6b0f666d6b6",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-rotated",
+        "awalan": "r6k_train~r6k_val",
+        "d16_raw": 98,
+        "d16_median5": 104,
+        "cos_raw": 0.9399,
+        "cos_median3": 0.949,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_train_blight_orig_076_jpg.rf.f547fc47baaf15dd8db572a7bd8",
+        "b": "r6k_train_blight_rotated_076_jpg.rf.232c62064609902c0e193560",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-rotated",
+        "awalan": "r6k_train~r6k_train",
+        "d16_raw": 112,
+        "d16_median5": 116,
+        "cos_raw": 0.3714,
+        "cos_median3": 0.2898,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_train_blight_orig_092_jpg.rf.58e86e210a382bbe98de6dfd842",
+        "b": "r6k_train_blight_rotated_092_jpg.rf.e310a351d337cf114bccff61",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-rotated",
+        "awalan": "r6k_train~r6k_train",
+        "d16_raw": 104,
+        "d16_median5": 106,
+        "cos_raw": 0.4777,
+        "cos_median3": 0.4952,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_test_img_blb_42_JPG_jpg.rf.d538374d98c840d0e1c7226811a65",
+        "b": "r6k_train_img_blb_42_JPG_jpg.rf.ae8e44003accf2e0f3d502cb1099",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "img_blb/---",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 38,
+        "d16_median5": 16,
+        "cos_raw": 0.8312,
+        "cos_median3": 0.9348,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_test_blight_orig_021_jpg.rf.cec52623bf96a5552c8e69b2d46b",
+        "b": "r6k_val_blight_orig_021_jpg.rf.c0e0671e5db14d76862668e77696e",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-orig",
+        "awalan": "r6k_test~r6k_val",
+        "d16_raw": 64,
+        "d16_median5": 64,
+        "cos_raw": 0.9062,
+        "cos_median3": 0.9141,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_test_blight_orig_055_jpg.rf.af7281c7231f0d6df85fd2d95984",
+        "b": "r6k_train_blight_orig_055_jpg.rf.1a62bc526f4e898ba97474b65a4",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-orig",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 110,
+        "d16_median5": 114,
+        "cos_raw": 0.8428,
+        "cos_median3": 0.8969,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_test_img_blb_169_jpeg_jpg.rf.c2386fec793875e261f969f1232",
+        "b": "r6k_train_img_blb_169_jpeg_jpg.rf.3666c456181fca8379a75ce970",
+        "a_split": "val",
+        "b_split": "train",
+        "tipe": "img_blb/---",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 114,
+        "d16_median5": 112,
+        "cos_raw": 0.8897,
+        "cos_median3": 0.8173,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_test_blight_rotated_020_PNG_jpg.rf.ad33112157f38d0038d70",
+        "b": "r6k_train_blight_rotated_020_PNG_jpg.rf.558b8f29d1fe3eace95a",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/rotated-rotated",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 102,
+        "d16_median5": 100,
+        "cos_raw": 0.8981,
+        "cos_median3": 0.9015,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_test_blight_rotated_020_PNG_jpg.rf.ad33112157f38d0038d70",
+        "b": "r6k_train_blight_rotated_020_PNG_jpg.rf.6522546798e33ff7ea14",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/rotated-rotated",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 120,
+        "d16_median5": 124,
+        "cos_raw": 0.8126,
+        "cos_median3": 0.8818,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_train_blight_orig_093_jpg.rf.cf2eae818c7cc42e70471bb44bd",
+        "b": "r6k_test_blight_orig_093_jpg.rf.f9c193e3496b82ff9cfccb42074d",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-orig",
+        "awalan": "r6k_train~r6k_test",
+        "d16_raw": 102,
+        "d16_median5": 106,
+        "cos_raw": 0.7656,
+        "cos_median3": 0.8923,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_train_blight_rotated_004_PNG_jpg.rf.9aa2f30c7a246b617042",
+        "b": "r6k_val_blight_rotated_004_PNG_jpg.rf.a0d9a5148a35e7d4fcb157",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/rotated-rotated",
+        "awalan": "r6k_train~r6k_val",
+        "d16_raw": 92,
+        "d16_median5": 96,
+        "cos_raw": 0.7642,
+        "cos_median3": 0.9435,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_test_img_blb_44_JPG_jpg.rf.5c6b34354a97902410cfd6f75b535",
+        "b": "r6k_train_img_blb_44_JPG_jpg.rf.c8f3147f0c60ae8eadf2007009cd",
+        "a_split": "val",
+        "b_split": "train",
+        "tipe": "img_blb/---",
+        "awalan": "r6k_test~r6k_train",
+        "d16_raw": 110,
+        "d16_median5": 102,
+        "cos_raw": 0.8638,
+        "cos_median3": 0.949,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_val_img_blb_100_jpeg_jpg.rf.dd8da2ac7ec014b0853ec04d9113",
+        "b": "r6k_train_img_blb_100_jpeg_jpg.rf.083051dc9e0586b965547fbd9c",
+        "a_split": "val",
+        "b_split": "train",
+        "tipe": "img_blb/---",
+        "awalan": "r6k_val~r6k_train",
+        "d16_raw": 74,
+        "d16_median5": 72,
+        "cos_raw": 0.6222,
+        "cos_median3": 0.7148,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_train_img_blb_150_jpeg_jpg.rf.9d77df662c64d2d2d8438b8b37",
+        "b": "r6k_val_img_blb_150_jpeg_jpg.rf.67ee477364331f00bb132f6779e1",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "img_blb/---",
+        "awalan": "r6k_train~r6k_val",
+        "d16_raw": 88,
+        "d16_median5": 92,
+        "cos_raw": 0.9161,
+        "cos_median3": 0.907,
+        "kategori": "meragukan"
+      },
+      {
+        "a": "r6k_train_blight_orig_092_jpg.rf.c163575a9080cbc8c2654780754",
+        "b": "r6k_train_blight_rotated_092_jpg.rf.b8f1d0b65b11c8d894a46f50",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "blight/orig-rotated",
+        "awalan": "r6k_train~r6k_train",
+        "d16_raw": 104,
+        "d16_median5": 104,
+        "cos_raw": 0.6589,
+        "cos_median3": 0.7448,
+        "kategori": "jelas berbeda"
+      },
+      {
+        "a": "r6k_train_img_blb_47_JPG_jpg.rf.010b48495076c29ff21139f796e6",
+        "b": "r6k_val_img_blb_47_JPG_jpg.rf.a83341cc8e51a19e8392e06f67a67a",
+        "a_split": "train",
+        "b_split": "val",
+        "tipe": "img_blb/---",
+        "awalan": "r6k_train~r6k_val",
+        "d16_raw": 86,
+        "d16_median5": 80,
+        "cos_raw": 0.762,
+        "cos_median3": 0.9081,
+        "kategori": "meragukan"
+      }
+    ],
+    "montase": [
+      {
+        "no": 1,
+        "a": "r6k_train_img_blb_47_JPG_jpg.rf.010b48495076c29ff21139f796e6",
+        "b": "r6k_val_img_blb_47_JPG_jpg.rf.a83341cc8e51a19e8392e06f67a67a",
+        "kategori": "meragukan"
+      },
+      {
+        "no": 2,
+        "a": "r6k_test_img_blb_66_jpeg_jpg.rf.eefcd256ca309d6a0bc32049c8f1",
+        "b": "r6k_train_img_blb_66_jpeg_jpg.rf.f20676f60ce388e580f5cc4e8f7",
+        "kategori": "meragukan"
+      },
+      {
+        "no": 3,
+        "a": "r6k_train_blight_orig_093_jpg.rf.cf2eae818c7cc42e70471bb44bd",
+        "b": "r6k_test_blight_orig_093_jpg.rf.f9c193e3496b82ff9cfccb42074d",
+        "kategori": "meragukan"
+      },
+      {
+        "no": 4,
+        "a": "r6k_test_blight_orig_021_jpg.rf.cec52623bf96a5552c8e69b2d46b",
+        "b": "r6k_val_blight_orig_021_jpg.rf.c0e0671e5db14d76862668e77696e",
+        "kategori": "meragukan"
+      },
+      {
+        "no": 5,
+        "a": "r6k_test_blight_rotated_089_jpg.rf.79847fdb2a65168d809c9a3f2",
+        "b": "r6k_train_blight_orig_089_jpg.rf.86eab96179ad4bebd4c2639c6c1",
+        "kategori": "jelas berbeda"
+      },
+      {
+        "no": 6,
+        "a": "r6k_train_blight_orig_007_JPG_jpg.rf.ac37e0cf48f4c5886f1153f",
+        "b": "r6k_train_blight_rotated_007_jpg.rf.4ee52c59a73f0e0c1f4d0f7f",
+        "kategori": "jelas berbeda"
+      },
+      {
+        "no": 7,
+        "a": "r6k_train_blight_orig_076_jpg.rf.f547fc47baaf15dd8db572a7bd8",
+        "b": "r6k_train_blight_rotated_076_jpg.rf.232c62064609902c0e193560",
+        "kategori": "jelas berbeda"
+      },
+      {
+        "no": 8,
+        "a": "r6k_train_blight_orig_092_jpg.rf.58e86e210a382bbe98de6dfd842",
+        "b": "r6k_train_blight_rotated_092_jpg.rf.e310a351d337cf114bccff61",
+        "kategori": "jelas berbeda"
+      },
+      {
+        "no": 9,
+        "a": "r6k_test_blight_rotated_020_PNG_jpg.rf.ad33112157f38d0038d70",
+        "b": "r6k_train_blight_rotated_020_PNG_jpg.rf.a430beb921cc46db0289",
+        "kategori": "meragukan"
+      },
+      {
+        "no": 10,
+        "a": "r6k_train_img_blb_66_jpeg_jpg.rf.e307d27baba48525741d6b31d30",
+        "b": "r6k_test_img_blb_66_jpeg_jpg.rf.eefcd256ca309d6a0bc32049c8f1",
+        "kategori": "jelas berbeda"
+      }
+    ]
+  },
+  "5_dampak": {
+    "n_ID_kembar_total": 1558,
+    "n_ID_kembar_terverifikasi_piksel_train_val": 183,
+    "n_pasangan_piksel_median5_train_val": 1431,
+    "hasil": [
+      {
+        "aturan": "R0 grup saat ini (phash14 + embedding0.97 + nama dasar Roboflow)",
+        "n_gambar": 1738,
+        "n_grup": 279,
+        "grup_terbesar": 30,
+        "grup_>1_gambar": 189,
+        "val_dengan_saudara_di_train": 0,
+        "test_dengan_saudara_di_train": 0
+      },
+      {
+        "aturan": "R1 + ID kembar (fam,id) lintas awalan [metadata, termasuk test]",
+        "n_gambar": 1738,
+        "n_grup": 160,
+        "grup_terbesar": 69,
+        "grup_>1_gambar": 157,
+        "val_dengan_saudara_di_train": 110,
+        "test_dengan_saudara_di_train": 52
+      },
+      {
+        "aturan": "R2 + ID kembar dengan ext sama (fam,id,ext) [metadata, termasuk test]",
+        "n_gambar": 1738,
+        "n_grup": 162,
+        "grup_terbesar": 67,
+        "grup_>1_gambar": 158,
+        "val_dengan_saudara_di_train": 110,
+        "test_dengan_saudara_di_train": 50
+      },
+      {
+        "aturan": "R0' (train+val saja) grup saat ini",
+        "n_gambar": 1565,
+        "n_grup": 250,
+        "grup_terbesar": 30,
+        "grup_>1_gambar": 169,
+        "val_dengan_saudara_di_train": 0,
+        "test_dengan_saudara_di_train": 0
+      },
+      {
+        "aturan": "R3 + ID kembar yang terverifikasi piksel (phash16<=14 raw/median5 atau cos>=0.97) [train+val]",
+        "n_gambar": 1565,
+        "n_grup": 249,
+        "grup_terbesar": 30,
+        "grup_>1_gambar": 169,
+        "val_dengan_saudara_di_train": 0,
+        "test_dengan_saudara_di_train": 0
+      },
+      {
+        "aturan": "R4 + pasangan piksel saja: phash16 median5 dihedral<=14, tanpa ID [train+val]",
+        "n_gambar": 1565,
+        "n_grup": 247,
+        "grup_terbesar": 30,
+        "grup_>1_gambar": 168,
+        "val_dengan_saudara_di_train": 10,
+        "test_dengan_saudara_di_train": 0
+      },
+      {
+        "aturan": "R5 = R3 + R4 [train+val]",
+        "n_gambar": 1565,
+        "n_grup": 247,
+        "grup_terbesar": 30,
+        "grup_>1_gambar": 168,
+        "val_dengan_saudara_di_train": 10,
+        "test_dengan_saudara_di_train": 0
+      }
+    ],
+    "catatan": "R1/R2 menghitung test lewat metadata nama file saja; R3-R5 hanya train+val karena piksel test tidak dibuka."
+  },
+  "6_ds1_vs_ds4_ds2": {
+    "brown_spot": {
+      "gambar_ds1": 1972,
+      "dengan_ID_terparse": 1554,
+      "ID_unik": 89,
+      "ds4_val_gambar_kelas_sama": 432,
+      "ds4_val_ID_angka_sama": 18,
+      "ds4_test_gambar_kelas_sama": 216,
+      "ds4_test_ID_angka_sama": 8,
+      "ds2_val_gambar_(background)": 25,
+      "ds2_val_ID_angka_sama": 11,
+      "ds2_test_gambar_(background)": 13,
+      "ds2_test_ID_angka_sama": 6
+    },
+    "leaf_blast": {
+      "gambar_ds1": 412,
+      "dengan_ID_terparse": 0,
+      "ID_unik": 0,
+      "ds4_val_gambar_kelas_sama": 264,
+      "ds4_val_ID_angka_sama": 0,
+      "ds4_test_gambar_kelas_sama": 131,
+      "ds4_test_ID_angka_sama": 0,
+      "ds2_val_gambar_(background)": 25,
+      "ds2_val_ID_angka_sama": 0,
+      "ds2_test_gambar_(background)": 13,
+      "ds2_test_ID_angka_sama": 0
+    },
+    "pemeriksaan_piksel_val_ds1_brown_vs_ds4_val_brown": {
+      "pasangan_ID_angka_sama": 273,
+      "terdeteksi_duplikat": 0
+    }
+  }
+}

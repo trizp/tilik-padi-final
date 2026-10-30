@@ -1,0 +1,20 @@
+path: D:/TELKOM/SKRIPSI/rice_yolo/data/processed/prov_v7_randsplit
+train: images/train
+val: images/val
+test: images/test
+test_new_session: images/test_new_session
+names:
+  0: leaf_blast
+  1: brown_spot
+  2: bacterial_leaf_blight
+dataset_name: prov_v7_randsplit
+run_prefix: v7_randsplit_
+provisional: true
+provisional_sources:
+- ds1_provisional
+seed: 42
+induk_dataset: prov_v7
+induk_manifest_sha256: b467d8c894cffbf6e749af114b699af5847b6129d4a39f6784afd7cf2457ffe8
+manifest_sha256: 1a269346106c8a3e23753989575ba0c074011c3a093e4599b890c1d5fd67173e
+frozen: true
+pembagian_dari: prov_v6_randsplit (manifest 9e841c17...)

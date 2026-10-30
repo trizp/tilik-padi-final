@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\caption{Dataset Splits: Images/Groups per Class}
+\begin{center}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Class} & \textbf{Train} & \textbf{Val} & \textbf{Test} & \textbf{New session} \\
+\hline
+Blast & 1244/316 & 222/84 & 111/48 & 96/62 \\
+Brown spot & 3450/419 & 330/74 & 165/43 & 147/71 \\
+BLB$^{\mathrm{a}}$ & 1401/145 & 390/41 & 195/21 & 0/0 \\
+Healthy$^{\mathrm{b}}$ & 677/288 & 317/107 & 158/58 & 56/35 \\
+\hline
+Total & 6772/1041 & 1259/245 & 629/125 & 299/133 \\
+\hline
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Cells: images/groups. Groups contain near-duplicate and burst images and never cross splits. $^{\mathrm{a}}$Provisional, single source. $^{\mathrm{b}}$Background images without boxes. A group may contain images of more than one class, so class groups do not sum to the total, which counts distinct groups.}
+\label{tab:data}
+\end{center}
+\end{table}

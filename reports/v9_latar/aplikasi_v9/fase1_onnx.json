@@ -1,0 +1,29 @@
+{
+ "tau": 0.35,
+ "onnx": "runs\\v9_pemisah_daun_yolov8n_seg\\weights\\best.onnx",
+ "ukuran_MB": 12.67,
+ "kesetaraan_onnx_vs_pt_20_val": {
+  "iou_rata2": 0.9949,
+  "iou_min": 0.984,
+  "cadangan_sama": "20/20"
+ },
+ "cpu": {
+  "semua inti": {
+   "rss_awal_MB": 32.9,
+   "rss_model_dimuat_MB": 74.4,
+   "rss_puncak_MB": 90.2,
+   "ms_median": 69.0,
+   "ms_maks": 85.0,
+   "n": 20
+  },
+  "2 thread": {
+   "rss_awal_MB": 33.0,
+   "rss_model_dimuat_MB": 73.3,
+   "rss_puncak_MB": 90.0,
+   "ms_median": 98.6,
+   "ms_maks": 108.6,
+   "n": 20
+  }
+ },
+ "catatan": "waktu = letterbox + inferensi ONNX Runtime CPU + pasca-proses numpy + aturan pemilih daun (tanpa baca berkas); 20 foto VAL setelah 1 pemanasan; proses baru tanpa GPU"
+}

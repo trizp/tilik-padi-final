@@ -1,0 +1,7 @@
+# requirements-ekspor.lock - paket TAMBAHAN untuk ekspor/uji ONNX model web (dipasang 2026-10-13).
+# Tidak mengubah paket di requirements.lock (diff pip freeze: hanya penambahan).
+flatbuffers==25.12.19
+ml_dtypes==0.6.0
+onnx==1.23.2
+onnxruntime==1.31.0
+onnxslim==0.1.98

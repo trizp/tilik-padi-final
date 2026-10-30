@@ -1,0 +1,4 @@
+ANALISIS POST-HOC (dibuat setelah test v7 dibuka).
+Tujuan: memahami sensitivitas akurasi diagnosis per kelas terhadap ambang confidence.
+TIDAK dipakai untuk memilih model, mengganti ambang terkunci (runs/<run>/ambang_diagnosis.json), atau mengganti angka utama
+di tabel/ dan RINGKASAN_HASIL.md. Diagnosis dihitung ulang dari berkas per citra evaluate.py; model tidak dijalankan ulang.

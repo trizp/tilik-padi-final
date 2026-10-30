@@ -1,0 +1,34 @@
+{
+  "dataset_name": "prov_v9_deploy",
+  "dibuat": "2026-10-20T15:42:02",
+  "frozen": true,
+  "manifest_sha256": "b3933172aba72d52e860385e4070e213e97382c721d0637a18cb441fcf652de6",
+  "aturan": "KEPUTUSAN_PROYEK.md 2026-10-20 (fase 4 aplikasi v9; resep model aplikasi v7)",
+  "pool_train_val_test": 7991,
+  "penyakit": 6889,
+  "background_sebelum": 1102,
+  "cap_background": 765,
+  "background_dipangkas": 337,
+  "background_sesudah": 765,
+  "background_dipertahankan_per_sumber": {
+    "ds4": 608,
+    "ds2": 157
+  },
+  "gambar_latih": 7654,
+  "persen_background": 9.99,
+  "per_sumber_kelas": {
+    "ds1|brown_spot": 1911,
+    "ds1|leaf_blast": 354,
+    "ds1_provisional|bacterial_leaf_blight": 1510,
+    "ds2|background": 157,
+    "ds4|background": 608,
+    "ds4|brown_spot": 1965,
+    "ds4|leaf_blast": 1149
+  },
+  "asal_split_prov_v9": {
+    "train": 6086,
+    "test": 538,
+    "val": 1030
+  },
+  "val_cek": "100 gambar dari train (hanya agar validasi epoch terakhir Ultralytics berjalan)"
+}

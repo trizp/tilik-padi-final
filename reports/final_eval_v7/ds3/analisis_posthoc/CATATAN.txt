@@ -1,0 +1,2 @@
+ANALISIS POST-HOC ds3 (2026-10-14). Tidak mengubah model, ambang, atau angka utama; tidak dipakai menyetel apa pun.
+Model dijalankan ulang pada foto ds3 hanya untuk menggambar kotak (montase) dan mengukur ukuran kotak prediksi.

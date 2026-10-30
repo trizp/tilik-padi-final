@@ -1,0 +1,53 @@
+{
+  "catatan": "benchmark CPU batch 1, 100 gambar VAL prov_v7, warmup 20, fungsi evaluate.benchmark; sebelum test v7 dibuka",
+  "hasil": [
+    {
+      "model": "yolo11s",
+      "seed": 0,
+      "cpu_ms_median": 79.43,
+      "cpu_ms_rata2": 80.07,
+      "fps": 12.6,
+      "perangkat": "CPU Intel64 Family 6 Model 154 Stepping 3, GenuineIntel (8 thread)"
+    },
+    {
+      "model": "yolo11s",
+      "seed": 1,
+      "cpu_ms_median": 80.94,
+      "cpu_ms_rata2": 81.33,
+      "fps": 12.4,
+      "perangkat": "CPU Intel64 Family 6 Model 154 Stepping 3, GenuineIntel (8 thread)"
+    },
+    {
+      "model": "yolo11s",
+      "seed": 2,
+      "cpu_ms_median": 84.95,
+      "cpu_ms_rata2": 84.38,
+      "fps": 11.8,
+      "perangkat": "CPU Intel64 Family 6 Model 154 Stepping 3, GenuineIntel (8 thread)"
+    },
+    {
+      "model": "yolov8s",
+      "seed": 0,
+      "cpu_ms_median": 99.48,
+      "cpu_ms_rata2": 99.59,
+      "fps": 10.1,
+      "perangkat": "CPU Intel64 Family 6 Model 154 Stepping 3, GenuineIntel (8 thread)"
+    },
+    {
+      "model": "yolov8s",
+      "seed": 1,
+      "cpu_ms_median": 102.94,
+      "cpu_ms_rata2": 101.79,
+      "fps": 9.7,
+      "perangkat": "CPU Intel64 Family 6 Model 154 Stepping 3, GenuineIntel (8 thread)"
+    },
+    {
+      "model": "yolov8s",
+      "seed": 2,
+      "cpu_ms_median": 102.84,
+      "cpu_ms_rata2": 102.5,
+      "fps": 9.7,
+      "perangkat": "CPU Intel64 Family 6 Model 154 Stepping 3, GenuineIntel (8 thread)"
+    }
+  ]
+}

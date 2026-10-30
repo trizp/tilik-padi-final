@@ -1,0 +1,6 @@
+uji,split,sumber_uji,train,sumber_train,inlier
+ds4_brown-spot-1373_4da54f12.jpg,test,ds4,ds4_brown-spot-1371_8e88d39b.jpg,ds4,41
+ds4_brown-spot-1373_4da54f12.jpg,test,ds4,ds4_brown-spot-1369_e007b1f9.jpg,ds4,62
+ds1_provisional_rls-train-aug-0-1238-jpg-rf-158f352e6fec_e2d0a0c1.jpg,val,ds1_provisional,ds1_provisional_rls-train-aug-0-6198-jpg-rf-ca848a81b7c0_9b0d5872.jpg,ds1_provisional,21
+ds1_provisional_rls-train-aug-0-1313-jpg-rf-649a5a221529_806caf63.jpg,val,ds1_provisional,ds1_provisional_rls-train-aug-0-1368-jpg-rf-33b024e59817_d6c488ba.jpg,ds1_provisional,28
+ds1_provisional_rls-train-aug-0-1313-jpg-rf-3a13488aa864_acd93896.jpg,val,ds1_provisional,ds1_provisional_rls-train-aug-0-1368-jpg-rf-33b024e59817_d6c488ba.jpg,ds1_provisional,22

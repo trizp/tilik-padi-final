@@ -1,0 +1,13 @@
+﻿Model,Penyakit (ds4),Foto,% salah alarm,% ditebak Blast,% ditebak Brown spot,% ditebak BLB (prov.)
+YOLOv8n,Leaf smut,724,87.3 ± 2.9,28.5 ± 3.3,58.7 ± 5.1,0.1 ± 0.0
+YOLOv8n,Rice Tungro,2244,75.6 ± 6.1,35.6 ± 1.7,37.2 ± 3.3,2.8 ± 1.8
+YOLOv8n,Sheath blight,1722,28.2 ± 9.7,8.6 ± 1.1,10.5 ± 2.5,9.1 ± 6.6
+YOLO11n,Leaf smut,724,87.5 ± 1.1,17.9 ± 1.9,69.6 ± 3.0,0.0 ± 0.0
+YOLO11n,Rice Tungro,2244,77.7 ± 2.0,34.3 ± 3.8,39.7 ± 2.6,3.7 ± 0.9
+YOLO11n,Sheath blight,1722,22.2 ± 3.4,6.4 ± 2.0,10.3 ± 1.7,5.4 ± 3.1
+YOLOv8s,Leaf smut,724,85.4 ± 3.3,23.0 ± 4.4,62.2 ± 1.2,0.1 ± 0.2
+YOLOv8s,Rice Tungro,2244,78.0 ± 3.8,36.2 ± 2.9,38.4 ± 0.5,3.4 ± 1.2
+YOLOv8s,Sheath blight,1722,31.4 ± 7.1,8.7 ± 2.8,11.1 ± 2.9,11.6 ± 6.5
+YOLO11s,Leaf smut,724,86.0 ± 5.3,23.3 ± 3.1,62.7 ± 5.8,0.0 ± 0.1
+YOLO11s,Rice Tungro,2244,76.2 ± 11.4,37.4 ± 2.8,36.5 ± 8.0,2.4 ± 1.5
+YOLO11s,Sheath blight,1722,20.6 ± 11.0,6.3 ± 1.4,12.4 ± 9.1,1.9 ± 1.0

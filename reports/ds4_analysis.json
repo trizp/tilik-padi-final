@@ -1,0 +1,218 @@
+{
+  "ds4_labels": {
+    "Blast": {
+      "images_original": 1326,
+      "label_files": 1326,
+      "empty_label_files": 1,
+      "images_2plus_classes": 0,
+      "class_ids_in_labels": {
+        "0": 4844
+      },
+      "boxes_per_image_mean": 3.65,
+      "mean_box_w_pct": 5.86,
+      "mean_box_h_pct": 7.05,
+      "n_boxes": 4844,
+      "mean_area_pct": 0.477,
+      "median_area_pct": 0.304,
+      "p10_area_pct": 0.113,
+      "p90_area_pct": 0.983,
+      "share_below_1pct": 0.903,
+      "share_below_10pct": 1.0
+    },
+    "Brown spot": {
+      "images_original": 2178,
+      "label_files": 2178,
+      "empty_label_files": 0,
+      "images_2plus_classes": 0,
+      "class_ids_in_labels": {
+        "1": 9352
+      },
+      "boxes_per_image_mean": 4.29,
+      "mean_box_w_pct": 5.24,
+      "mean_box_h_pct": 7.16,
+      "n_boxes": 9352,
+      "mean_area_pct": 0.437,
+      "median_area_pct": 0.283,
+      "p10_area_pct": 0.154,
+      "p90_area_pct": 0.685,
+      "share_below_1pct": 0.953,
+      "share_below_10pct": 0.998
+    },
+    "Leaf smut": {
+      "images_original": 724,
+      "label_files": 724,
+      "empty_label_files": 0,
+      "images_2plus_classes": 0,
+      "class_ids_in_labels": {
+        "2": 1501
+      },
+      "boxes_per_image_mean": 2.07,
+      "mean_box_w_pct": 6.47,
+      "mean_box_h_pct": 6.94,
+      "n_boxes": 1501,
+      "mean_area_pct": 0.492,
+      "median_area_pct": 0.362,
+      "p10_area_pct": 0.133,
+      "p90_area_pct": 0.951,
+      "share_below_1pct": 0.911,
+      "share_below_10pct": 1.0
+    },
+    "Rice Tungro": {
+      "images_original": 2244,
+      "label_files": 2244,
+      "empty_label_files": 0,
+      "images_2plus_classes": 0,
+      "class_ids_in_labels": {
+        "3": 3156
+      },
+      "boxes_per_image_mean": 1.41,
+      "mean_box_w_pct": 29.78,
+      "mean_box_h_pct": 53.57,
+      "n_boxes": 3156,
+      "mean_area_pct": 12.617,
+      "median_area_pct": 9.939,
+      "p10_area_pct": 2.77,
+      "p90_area_pct": 27.041,
+      "share_below_1pct": 0.02,
+      "share_below_10pct": 0.502
+    },
+    "Sheath blight": {
+      "images_original": 1722,
+      "label_files": 1722,
+      "empty_label_files": 0,
+      "images_2plus_classes": 0,
+      "class_ids_in_labels": {
+        "4": 2607
+      },
+      "boxes_per_image_mean": 1.51,
+      "mean_box_w_pct": 29.3,
+      "mean_box_h_pct": 49.53,
+      "n_boxes": 2607,
+      "mean_area_pct": 15.275,
+      "median_area_pct": 11.27,
+      "p10_area_pct": 0.462,
+      "p90_area_pct": 36.03,
+      "share_below_1pct": 0.156,
+      "share_below_10pct": 0.478
+    },
+    "Healthy": {
+      "images_original": 1575,
+      "catatan": "tanpa file label (gambar sehat)"
+    }
+  },
+  "ds1_labels_target_classes": {
+    "bacterial_leaf_blight": {
+      "images": 2000,
+      "boxes_per_image_mean": 1.18,
+      "n_boxes": 2353,
+      "mean_area_pct": 26.607,
+      "median_area_pct": 21.814,
+      "p10_area_pct": 6.303,
+      "p90_area_pct": 56.541,
+      "share_below_1pct": 0.012,
+      "share_below_10pct": 0.186
+    },
+    "brown_spot": {
+      "images": 2000,
+      "boxes_per_image_mean": 7.63,
+      "n_boxes": 15257,
+      "mean_area_pct": 2.518,
+      "median_area_pct": 0.399,
+      "p10_area_pct": 0.093,
+      "p90_area_pct": 3.379,
+      "share_below_1pct": 0.733,
+      "share_below_10pct": 0.939
+    },
+    "leaf_blast": {
+      "images": 449,
+      "boxes_per_image_mean": 1.7,
+      "n_boxes": 763,
+      "mean_area_pct": 25.654,
+      "median_area_pct": 24.206,
+      "p10_area_pct": 5.805,
+      "p90_area_pct": 45.926,
+      "share_below_1pct": 0.038,
+      "share_below_10pct": 0.155
+    }
+  },
+  "overlap_phash": {
+    "ds4_vs_ds1": {
+      "asli": {
+        "<=0": 0,
+        "<=5": 0,
+        "<=10": 0,
+        "total": 9769
+      },
+      "flip_horizontal": {
+        "<=0": 0,
+        "<=5": 0,
+        "<=10": 0,
+        "total": 9769
+      },
+      "asli_atau_flip": {
+        "<=0": 0,
+        "<=5": 0,
+        "<=10": 0,
+        "total": 9769
+      },
+      "per_kelas_ds4_dekat(<=10)": {},
+      "median_jarak_terdekat": 96.0
+    },
+    "ds4_vs_ds2": {
+      "asli": {
+        "<=0": 0,
+        "<=5": 0,
+        "<=10": 0,
+        "total": 9769
+      },
+      "flip_horizontal": {
+        "<=0": 0,
+        "<=5": 0,
+        "<=10": 0,
+        "total": 9769
+      },
+      "asli_atau_flip": {
+        "<=0": 0,
+        "<=5": 0,
+        "<=10": 0,
+        "total": 9769
+      },
+      "per_kelas_ds4_dekat(<=10)": {},
+      "median_jarak_terdekat": 98.0
+    },
+    "ds4_internal": {
+      "asli": {
+        "<=0": 80,
+        "<=5": 92,
+        "<=10": 196,
+        "total": 9769
+      },
+      "asli_atau_flip": {
+        "<=0": 80,
+        "<=5": 92,
+        "<=10": 196,
+        "total": 9769
+      },
+      "per_kelas(<=10)": {
+        "Blast": 25,
+        "Brown spot": 44,
+        "Healthy": 3,
+        "Leaf smut": 14,
+        "Rice Tungro": 47,
+        "Sheath blight": 63
+      }
+    },
+    "ds1_internal_baseline": {
+      "asli": {
+        "<=0": 1473,
+        "<=5": 1785,
+        "<=10": 2207,
+        "total": 8667
+      }
+    }
+  },
+  "phash": {
+    "hash_size": 16,
+    "dup_threshold": 10
+  }
+}

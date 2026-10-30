@@ -1,0 +1,30 @@
+\begin{table}[!t]
+\centering
+\caption{Selisih YOLO11 − YOLOv8 (rata-rata 3 seed), IK 95\% bootstrap berpasangan per kelompok foto pada citra uji yang sama.}
+\label{tab:v8_vs_v11}
+\footnotesize
+\begin{tabular}{lccccc}
+\hline
+\textbf{Pasangan} & \textbf{Set} & \textbf{Metrik} & \textbf{Selisih} & \textbf{IK95} & \textbf{Memuat nol} \\
+\hline
+YOLO11n − YOLOv8n & Test (semua) & mAP50\_95 & +0.002 & [-0.020, +0.025] & ya \\
+YOLO11n − YOLOv8n & Test (semua) & mAP50 & +0.004 & [-0.047, +0.055] & ya \\
+YOLO11n − YOLOv8n & Test (semua) & akurasi & +0.015 & [-0.028, +0.055] & ya \\
+YOLO11n − YOLOv8n & Test bersih (tanpa BLB prov.) & mAP50\_95 & +0.003 & [-0.020, +0.025] & ya \\
+YOLO11n − YOLOv8n & Test bersih (tanpa BLB prov.) & mAP50 & +0.006 & [-0.034, +0.049] & ya \\
+YOLO11n − YOLOv8n & Test bersih (tanpa BLB prov.) & akurasi & +0.015 & [-0.038, +0.079] & ya \\
+YOLO11n − YOLOv8n & Test sesi baru & mAP50\_95 & +0.005 & [+0.001, +0.013] & tidak \\
+YOLO11n − YOLOv8n & Test sesi baru & mAP50 & +0.013 & [+0.003, +0.031] & tidak \\
+YOLO11n − YOLOv8n & Test sesi baru & akurasi & +0.144 & [+0.107, +0.182] & tidak \\
+YOLO11s − YOLOv8s & Test (semua) & mAP50\_95 & +0.025 & [+0.006, +0.041] & tidak \\
+YOLO11s − YOLOv8s & Test (semua) & mAP50 & +0.041 & [-0.005, +0.079] & ya \\
+YOLO11s − YOLOv8s & Test (semua) & akurasi & +0.046 & [+0.022, +0.071] & tidak \\
+YOLO11s − YOLOv8s & Test bersih (tanpa BLB prov.) & mAP50\_95 & +0.033 & [+0.012, +0.048] & tidak \\
+YOLO11s − YOLOv8s & Test bersih (tanpa BLB prov.) & mAP50 & +0.072 & [+0.031, +0.101] & tidak \\
+YOLO11s − YOLOv8s & Test bersih (tanpa BLB prov.) & akurasi & +0.078 & [+0.056, +0.109] & tidak \\
+YOLO11s − YOLOv8s & Test sesi baru & mAP50\_95 & +0.001 & [-0.002, +0.006] & ya \\
+YOLO11s − YOLOv8s & Test sesi baru & mAP50 & +0.003 & [-0.002, +0.011] & ya \\
+YOLO11s − YOLOv8s & Test sesi baru & akurasi & +0.168 & [+0.132, +0.206] & tidak \\
+\hline
+\end{tabular}
+\end{table}

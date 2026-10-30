@@ -1,0 +1,18 @@
+\begin{table}[!t]
+\centering
+\caption{Dengan vs tanpa latar pada Test sesi baru (irisan foto prov\\_v7 dan prov\\_v9; rata-rata $\pm$ simpangan baku 3 seed; IK 95\% bootstrap per kelompok foto).}
+\label{tab:v9_2x2_test_new_session}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llcccccc}
+\hline
+\textbf{Model} & \textbf{Kondisi} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{IK95 mAP50-95} & \textbf{Akurasi diagnosis} & \textbf{IK95 Akurasi diagnosis} & \textbf{Recall diagnosis Blast} \\
+\hline
+YOLOv8s & Dengan latar (v7, foto asli) & 0.546 $\pm$ 0.017 & 0.244 $\pm$ 0.007 & [0.218, 0.279] & 0.692 $\pm$ 0.034 & [0.632, 0.755] & 0.926 $\pm$ 0.011 \\
+YOLOv8s & Tanpa latar (v9, foto tanpa latar) & 0.540 $\pm$ 0.018 & 0.238 $\pm$ 0.006 & [0.212, 0.274] & 0.711 $\pm$ 0.005 & [0.648, 0.774] & 0.926 $\pm$ 0.021 \\
+YOLO11s & Dengan latar (v7, foto asli) & 0.587 $\pm$ 0.014 & 0.260 $\pm$ 0.012 & [0.230, 0.300] & 0.753 $\pm$ 0.026 & [0.691, 0.813] & 0.915 $\pm$ 0.032 \\
+YOLO11s & Tanpa latar (v9, foto tanpa latar) & 0.603 $\pm$ 0.035 & 0.266 $\pm$ 0.013 & [0.239, 0.304] & 0.739 $\pm$ 0.026 & [0.683, 0.791] & 0.918 $\pm$ 0.027 \\
+\hline
+\end{tabular}
+\\[2pt]\parbox{\columnwidth}{\scriptsize Dengan latar = model v7 pada foto asli; tanpa latar = model v9 pada foto tanpa latar (SAM2 + aturan v2). PROVISIONAL.}
+\end{table}

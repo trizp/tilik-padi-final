@@ -1,0 +1,327 @@
+\documentclass[conference,a4paper]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{url}
+
+% ---------------------------------------------------------------
+% Penanda draf. Cari "\todo" sebelum submit; semuanya harus hilang.
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+% Semua gambar disimpan di folder figures/.
+\graphicspath{{figures/}}
+% \figorbox{berkas}{tinggi kotak pengganti}{keterangan}:
+% menampilkan figures/<berkas> bila sudah ada; bila belum, kotak pengganti.
+\newcommand{\figorbox}[3]{\IfFileExists{figures/#1}{\includegraphics[width=\linewidth]{#1}}{\fbox{\parbox[c][#2][c]{0.95\linewidth}{\centering\footnotesize Missing figures/\detokenize{#1}\\#3}}}}
+% ---------------------------------------------------------------
+
+\begin{document}
+
+\title{YOLOv8 Versus YOLO11 for Rice Leaf Disease Detection: Leakage-Free Evaluation and Background Dependence}
+
+\author{
+    \IEEEauthorblockN{Tristan Satria Perdana Hermawan}
+    \IEEEauthorblockA{\textit{School of Computing} \\
+    \textit{Telkom University}\\
+    Bandung, Indonesia \\
+    tristan@student.telkomuniversity.ac.id}
+    \and
+    \IEEEauthorblockN{Putu Harry Gunawan}
+    \IEEEauthorblockA{\textit{School of Computing} \\
+    \textit{Telkom University}\\
+    Bandung, Indonesia \\
+    phgunawan@telkomuniversity.ac.id}
+}
+
+\maketitle
+
+\begin{abstract}
+Deep learning detectors for rice leaf disease often report high accuracy, yet many results come from random splits in which near-duplicate images appear in both training and test sets. This study compares YOLOv8 and YOLO11 for detecting leaf blast, brown spot, and bacterial leaf blight under an evaluation protocol designed to prevent such leakage. Near-duplicate and burst images were grouped before splitting, and a separate capture session was held out as an additional test set. Four variants were each trained with three seeds and compared with group-level bootstrap confidence intervals. A random split inflated mAP50-95 by about 0.11 relative to the held-out session, whereas the leakage-free split did not. On leakage-free data, YOLO11s reached the highest diagnosis accuracy of 78.2 percent, slightly above YOLOv8s at 75.0 percent. To examine what the detectors rely on, the image background was removed with a promptable segmentation model. When tested on leaf-only images, YOLO11s lost most of its ability to recognize leaf blast, with recall dropping by 0.74, while YOLOv8s dropped by 0.27. Retraining on leaf-only images restored performance on field photographs for both models and narrowed the gap between them. These findings suggest that part of the advantage of YOLO11 comes from context outside the leaf.
+\end{abstract}
+
+\begin{IEEEkeywords}
+deep learning, object detection, rice leaf disease, YOLOv8, YOLO11, data leakage, background dependence, domain shift
+\end{IEEEkeywords}
+
+% ===============================================================
+\section{Introduction}
+% ===============================================================
+
+Indonesia is one of the largest agrarian countries in the world, and agriculture remains central to its food security and economy. Rice is the staple food for most Indonesians and one of the most widely cultivated cereal crops globally \cite{sethy2020}. Its productivity, however, is persistently threatened by plant diseases. Leaf blast, brown spot, and bacterial leaf blight are among the diseases most frequently encountered in the field, and each can reduce yield substantially if it is not identified and treated in time.
+
+Fast and accurate diagnosis is the starting point of effective disease management. In practice, diagnosis still depends heavily on agricultural experts, whose number is limited and whose presence is uneven across farming regions. Farmers may therefore wait a long time before receiving a diagnosis, and the visual similarity of many leaf symptoms makes the task difficult even for trained observers \cite{ferentinos2018}. Low-cost tools that can help farmers recognize diseases from a simple photograph would make such information far more accessible.
+
+Advances in deep learning have changed what is possible in this area. Convolutional neural networks can identify plant diseases from leaf images with accuracy that, in controlled settings, approaches that of human experts \cite{mohanty2016,ferentinos2018}. Among object detectors, the You Only Look Once (YOLO) family is attractive for practical use because it detects objects in a single pass and runs quickly on modest hardware \cite{redmon2016}. The most recent release, YOLO11, introduces C3k2 blocks and a spatial attention module called C2PSA, yet it shares much of its overall design with YOLOv8 \cite{hidayatullah2025,khanam2024}. This raises a simple but practical question: is the newer model actually better for rice disease detection, or does YOLOv8 remain just as competitive?
+
+Previous studies on rice disease range from convolutional networks that recognize a single disease such as blast \cite{liang2019}, to Faster R-CNN pipelines for several diseases \cite{zhou2019}, to transfer learning models for rice leaf disease classification \cite{altabaji2024}. Many report high scores, but two issues make such numbers hard to interpret. First, public datasets often contain augmented copies and near-identical photographs of the same leaf; when images are split at random, these copies land on both sides of the split and the test set no longer measures generalization \cite{barz2020,kapoor2023}. Second, deep networks may exploit shortcuts such as image background rather than the lesion itself \cite{geirhos2020,noyan2022}, and can therefore fail when the same disease is photographed under different conditions.
+
+This paper addresses both issues in a direct comparison of YOLOv8 and YOLO11. The main contributions are as follows:
+\begin{enumerate}
+\item A leakage-free evaluation protocol for rice leaf disease detection that groups near-duplicate and burst images before splitting and adds a held-out capture session as a second test set. We quantify how much a conventional random split inflates the reported scores.
+\item A controlled comparison of YOLOv8 and YOLO11 (nano and small variants, three seeds each) with group-level bootstrap confidence intervals and paired differences.
+\item A background-dependence analysis in which detectors are trained and tested with and without image background, showing that YOLO11 relies considerably more on context outside the leaf than YOLOv8.
+\end{enumerate}
+
+Section~II reviews related work, Sections~III and IV describe the data and methods, Section~V reports the results, and Sections~VI and VII discuss and conclude.
+
+% ===============================================================
+\section{Related Work}
+% ===============================================================
+
+YOLO frames detection as a single regression from pixels to boxes and class probabilities \cite{redmon2016}. YOLOv8 introduced an anchor-free head with C2f blocks \cite{ultralytics_v8}, while YOLO11 replaced C2f with C3k2 blocks and added C2PSA, a partial self-attention module intended to strengthen spatial context, with fewer parameters \cite{ultralytics_11,khanam2024,hidayatullah2025}.
+
+Data leakage occurs when information from the test set is available during training and leads to optimistic estimates \cite{kapoor2023}; near-duplicate images are a common source of it \cite{barz2020}. In plant pathology, background cues in PlantVillage alone allow above-chance classification \cite{noyan2022}, an instance of the broader shortcut-learning problem \cite{geirhos2020,xiao2021}. Promptable segmentation models such as SAM and SAM~2 \cite{kirillov2023,ravi2024} make it possible to remove the background without altering the leaf, which offers a controlled way to test this kind of dependence.
+
+% ===============================================================
+\section{Data and Leakage-Free Protocol}
+% ===============================================================
+
+\subsection{Data Sources}
+We combined four public sources. The main source was RiceLeafDiseaseBD (version~3) \cite{ds4}, a collection of field photographs from Bangladesh with bounding boxes for individual blast and brown spot lesions. A Kaggle dataset \cite{ds1} contributed box-annotated images of all three diseases; its blast and brown spot images were used for training only, while it is the sole source of bacterial leaf blight (BLB) images in every split. Healthy leaves from the main source and from a second Kaggle dataset \cite{ds2} were used only as background images without labels, so that the detector learns that a healthy leaf contains no lesion. A fourth dataset of detached Indonesian rice leaves photographed on white paper \cite{ds3} was reserved as an external test set and never used for training or model selection.
+
+All images were inspected before use. We found that 931 images in the main source had their pixels stored in an orientation that no longer matched the box coordinates. Of these, 930 were rotated losslessly with \texttt{jpegtran} and one was corrected through its EXIF orientation tag; in every case, the correction matched the orientation of the annotated preview images supplied with the dataset. Class labels were taken from the class folders, because the class-ID table in the dataset documentation swaps blast and brown spot relative to the label files. Models retrained on the corrected data reached 52--70\% higher mAP50-95 on the test set than identical models trained before the correction (about 62\% on average), which shows how sensitive results can be to such details. Because all BLB images came from a single, heavily augmented source, BLB results are reported separately as provisional throughout this paper.
+
+\subsection{Grouping Near-Duplicates}
+To prevent leakage, images were grouped before any split was made. Two images were linked if they met any of the following criteria: a perceptual hash match under any of the eight rotations and reflections; a cosine similarity of at least 0.97 between DINOv2 embeddings \cite{oquab2024}; at least 21 RANSAC-verified SIFT matches \cite{lowe2004} among the 100 nearest neighbors; a shared base filename indicating an augmented copy; or a capture time within five seconds in the same session, which identifies burst shots of the same leaf. Linked images were merged into connected groups.
+
+\subsection{Splits}
+Groups, rather than individual images, were assigned to training, validation, and test sets in a 70:20:10 ratio. In addition, one complete capture session from the main source (recorded within a single hour) was removed before splitting and kept as a \emph{new-session} test set. Because no image from this session, nor any near-duplicate of it, appears in training, it provides a realistic estimate of performance on photographs taken on a different occasion. Table~\ref{tab:data} summarizes the splits; no group appears in more than one split.
+
+\begin{table}[htbp]
+\caption{Dataset Splits: Images/Groups per Class}
+\begin{center}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Class} & \textbf{Train} & \textbf{Val} & \textbf{Test} & \textbf{New session} \\
+\hline
+Blast & 1244/316 & 222/84 & 111/48 & 96/62 \\
+Brown spot & 3450/419 & 330/74 & 165/43 & 147/71 \\
+BLB$^{\mathrm{a}}$ & 1401/145 & 390/41 & 195/21 & 0/0 \\
+Healthy$^{\mathrm{b}}$ & 677/288 & 317/107 & 158/58 & 56/35 \\
+\hline
+Total & 6772/1041 & 1259/245 & 629/125 & 299/133 \\
+\hline
+\end{tabular}
+\par\vspace{2pt}
+\parbox{\linewidth}{\scriptsize Values are images/groups. A group may contain images of more than one class, so per-class group counts do not add up to the total. $^{\mathrm{a}}$Provisional, single source. $^{\mathrm{b}}$Background images without boxes.}
+\label{tab:data}
+\end{center}
+\end{table}
+
+The labels of the external set were verified independently by two raters in two rounds. Agreement was moderate (Cohen's kappa 0.43), and only the 70 images accepted by both raters were used as the main external test set.
+
+% ===============================================================
+\section{Methods}
+% ===============================================================
+
+\subsection{Models and Training}
+We trained YOLOv8n, YOLO11n, YOLOv8s, and YOLO11s from COCO-pretrained weights \cite{lin2014} using the Ultralytics framework \cite{ultralytics_v8,ultralytics_11}. Each model was trained with three seeds (0, 1, 2) for 100 epochs at an input size of 640 pixels and a batch size of 8, with default augmentation, on a laptop GPU (NVIDIA RTX 3050 Ti, 4 GB). The checkpoint with the best validation fitness was retained. Checkpoint selection used a clean validation subset of 869 images containing blast, brown spot, and background only, so that the provisional BLB labels would not influence model selection.
+
+\subsection{Metrics}
+Detection quality was measured with precision (P), recall (R), F1, mAP50, and mAP50-95. Because a farmer ultimately needs one answer per photograph, we also computed an image-level \emph{diagnosis accuracy}. The diagnosis of an image is the class of its highest-confidence box if that confidence exceeds a threshold $\tau$, and ``no disease detected'' otherwise. For each model, $\tau$ was chosen to maximize diagnosis accuracy on the validation set and locked before any test set was opened.
+
+\subsection{Statistical Analysis}
+Each test set was evaluated exactly once. Ninety-five percent confidence intervals (CIs) were obtained with 1000 bootstrap resamples drawn at the level of image groups rather than individual images, so that correlated photographs of the same leaf are not counted as independent evidence \cite{efron1993}. Differences between YOLO11 and YOLOv8 were computed on the same resamples (paired), and a difference is called meaningful only when its CI excludes zero.
+
+\subsection{Random-Split Comparison}
+To measure the effect of leakage, YOLOv8n and YOLO11n were also trained on a conventional random 70:20:10 split of the same images, ignoring groups. For both protocols, we compared the score on the protocol's own test set with the score on the shared new-session test set. A small gap indicates that the test set estimates performance on new photographs honestly.
+
+\subsection{Background Removal}
+To test how much the detectors rely on context outside the leaf, we created a second version of the dataset in which the background was removed. SAM~2.1 \cite{ravi2024} was run in automatic mode, and a fixed rule selected the largest vegetation mask covering the image center. Importantly, the rule never used the lesion labels, so the same procedure can be applied to unlabeled photographs. Pixels outside the mask were replaced with uniform gray (114, 114, 114). When no convincing leaf mask was found, the original image was kept unchanged as a fallback. Boxes with less than half of their area inside the mask were removed, and images that lost all boxes were excluded (626 images, mostly BLB); 50 healthy training images were also removed at random to keep the share of background images at 10\%, as in the original data. Group membership and split assignment were otherwise identical to the original data.
+
+Fig.~\ref{fig:examples} shows typical results.
+
+\begin{figure}[htbp]
+\centering
+\figorbox{fig_leaf_examples.png}{3.2cm}{Original (top) and leaf-only (bottom) validation images}
+\caption{Examples of background removal on validation images (top: original; bottom: leaf-only). Images from RiceLeafDiseaseBD \cite{ds4}, CC BY 4.0.}
+\label{fig:examples}
+\end{figure}
+
+The quality of the masks was checked manually on 50 randomly chosen validation images that had not been used to design the selection rule. On field photographs from the main source, 37 of 38 masks were judged correct (97.4\%; Wilson 95\% CI \cite{wilson1927} 86.5--99.5\%). On BLB images, which are often close-ups held by hand, only 4 of 12 were correct.
+
+YOLOv8s and YOLO11s were retrained on the background-removed data with the same recipe and seeds. This yields a $2\times2$ design: each model trained with background (original) or without background (leaf-only). Every trained model was then evaluated on both versions of the test images. All comparisons in this part use the intersection of images present in both versions (432 test images and 292 new-session images).
+
+% ===============================================================
+\section{Results}
+% ===============================================================
+
+\subsection{Effect of Data Leakage}
+Table~\ref{tab:leak} shows how far each test set overestimates performance on the new session. Under the random split, 76--92\% of test images had a near-duplicate in the training set, depending on how strictly duplicates are defined. As a result, mAP50-95 on the random test set exceeded new-session performance by 0.106 to 0.119. Under the leakage-free protocol, the corresponding gap was only 0.007 to 0.025. Put simply, the random split made the detectors look about 40\% better than they actually were on new photographs.
+
+\begin{table}[htbp]
+\caption{Gap Between Test Score and New-Session Score}
+\begin{center}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|l|l|c|c|}
+\hline
+\textbf{Split} & \textbf{Model} & \textbf{$\Delta$mAP50-95} & \textbf{$\Delta$Accuracy} \\
+\hline
+Leakage-free & YOLOv8n & 0.025 & 0.058 \\
+Leakage-free & YOLO11n & 0.007 & $-$0.026 \\
+Leakage-free & YOLOv8s & 0.009 & 0.061 \\
+Leakage-free & YOLO11s & 0.016 & 0.033 \\
+\hline
+Random & YOLOv8n & 0.119 & 0.107 \\
+Random & YOLO11n & 0.106 & 0.054 \\
+\hline
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Leakage-free: mean of three seeds. Random split: one seed.}
+\label{tab:leak}
+\end{center}
+\end{table}
+
+\subsection{YOLOv8 versus YOLO11}
+Table~\ref{tab:main} reports the main results on leakage-free data. YOLO11s achieved the highest diagnosis accuracy on the test set (0.782), followed by YOLOv8n and YOLOv8s (both 0.750). On the new session, YOLO11n performed best (0.764). Across both test sets, YOLO11 produced higher mAP values than YOLOv8 of the same size.
+
+\begin{table*}[htbp]
+\caption{Main Results on Leakage-Free Data (Mean over Three Seeds, $\pm$ Standard Deviation, BLB Excluded)}
+\begin{center}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{P} & \textbf{R} & \textbf{F1} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Accuracy} & \textbf{Params (M)} & \textbf{GFLOPs} & \textbf{CPU (ms)} \\
+\hline
+\multicolumn{10}{|l|}{\textit{Test set (434 images)}} \\
+\hline
+YOLOv8n & 0.576 & 0.599 & 0.587 & 0.580 & 0.253 $\pm$ 0.005 & 0.750 $\pm$ 0.008 & 3.01 & 8.1 & 34.6 \\
+YOLO11n & 0.593 & 0.654 & 0.622 & 0.627 & 0.276 $\pm$ 0.011 & 0.737 $\pm$ 0.020 & 2.58 & 6.4 & 33.7 \\
+YOLOv8s & 0.559 & 0.632 & 0.593 & 0.575 & 0.249 $\pm$ 0.003 & 0.750 $\pm$ 0.003 & 11.13 & 28.4 & 95.1 \\
+YOLO11s & 0.626 & 0.633 & 0.629 & 0.627 & 0.273 $\pm$ 0.003 & 0.782 $\pm$ 0.014 & 9.41 & 21.4 & 83.4 \\
+\hline
+\multicolumn{10}{|l|}{\textit{New-session test set (299 images)}} \\
+\hline
+YOLOv8n & 0.470 & 0.586 & 0.521 & 0.520 & 0.228 $\pm$ 0.020 & 0.692 $\pm$ 0.038 & -- & -- & -- \\
+YOLO11n & 0.565 & 0.636 & 0.599 & 0.602 & 0.269 $\pm$ 0.007 & 0.764 $\pm$ 0.008 & -- & -- & -- \\
+YOLOv8s & 0.498 & 0.597 & 0.543 & 0.540 & 0.241 $\pm$ 0.007 & 0.689 $\pm$ 0.035 & -- & -- & -- \\
+YOLO11s & 0.524 & 0.632 & 0.573 & 0.581 & 0.257 $\pm$ 0.011 & 0.749 $\pm$ 0.023 & -- & -- & -- \\
+\hline
+\end{tabular}
+\par\vspace{2pt}{\scriptsize P, R, F1, and mAP refer to lesion detection; accuracy refers to image-level diagnosis. CPU latency at batch size 1, FP32, 640 pixels.}
+\label{tab:main}
+\end{center}
+\end{table*}
+
+Table~\ref{tab:paired} lists the paired differences. Seven of the eight comparisons favor YOLO11 with CIs that exclude zero. The only exception is diagnosis accuracy for the nano variants on the test set, where the two models are indistinguishable. The advantage of YOLO11 is therefore consistent but modest: 0.02 to 0.04 in mAP50-95 and 3 to 7 percentage points in diagnosis accuracy where it is meaningful. YOLO11 also has fewer parameters and, for the small variant, lower CPU latency.
+
+\begin{table}[htbp]
+\caption{Paired Differences, YOLO11 Minus YOLOv8 (95\% CI)}
+\begin{center}
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{|l|l|c|c|}
+\hline
+\textbf{Pair} & \textbf{Set} & \textbf{$\Delta$mAP50-95} & \textbf{$\Delta$Accuracy} \\
+\hline
+n & Test & +0.023 [0.007, 0.045] & $-$0.013 [$-$0.060, 0.038]$^{\mathrm{a}}$ \\
+n & New & +0.041 [0.026, 0.054] & +0.071 [0.036, 0.113] \\
+s & Test & +0.024 [0.010, 0.038] & +0.031 [0.014, 0.054] \\
+s & New & +0.017 [0.005, 0.028] & +0.060 [0.027, 0.092] \\
+\hline
+\end{tabular}
+\par\vspace{2pt}{\scriptsize $^{\mathrm{a}}$Interval includes zero.}
+\label{tab:paired}
+\end{center}
+\end{table}
+
+The most frequent diagnostic errors were confusion between blast and brown spot and healthy leaves labeled as brown spot (about one in four). For the provisional BLB class, diagnostic precision was close to 1.0 but recall only about 0.7.
+
+\subsection{Background Dependence}
+Table~\ref{tab:bg} presents the $2\times2$ experiment on the test set. When the background was removed from the test images, the original YOLOv8s lost 0.052 in mAP50-95 and its blast recall fell from 0.787 to 0.514. The original YOLO11s was affected far more severely: mAP50-95 fell by 0.157, diagnosis accuracy by 0.117, and blast recall collapsed from 0.847 to 0.108. Most of the lost blast images were diagnosed as brown spot. The difference in sensitivity between the two models was meaningful on both test sets (for blast recall, $-0.465$ [$-0.543$, $-0.371$] on the test set and $-0.447$ [$-0.528$, $-0.375$] on the new session).
+
+\begin{table}[htbp]
+\caption{Background Dependence on the Test Set (432 Images, Mean of Three Seeds)}
+\begin{center}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|l|l|c|c|c|}
+\hline
+\textbf{Train} & \textbf{Test} & \textbf{mAP50-95} & \textbf{Acc.} & \textbf{Blast R} \\
+\hline
+\multicolumn{5}{|l|}{\textit{YOLOv8s}} \\
+\hline
+Original & Original & 0.249 & 0.751 & 0.787 \\
+Original & Leaf-only & 0.197 & 0.754 & 0.514 \\
+Leaf-only & Leaf-only & 0.253 & 0.767 & 0.802 \\
+Leaf-only & Original & 0.226 & 0.755 & 0.781 \\
+\hline
+\multicolumn{5}{|l|}{\textit{YOLO11s}} \\
+\hline
+Original & Original & 0.273 & 0.782 & 0.847 \\
+Original & Leaf-only & 0.116 & 0.665 & 0.108 \\
+Leaf-only & Leaf-only & 0.277 & 0.789 & 0.796 \\
+Leaf-only & Original & 0.224 & 0.745 & 0.787 \\
+\hline
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Blast R: image-level diagnosis recall for blast.}
+\label{tab:bg}
+\end{center}
+\end{table}
+
+Retraining on leaf-only images removed most of this gap. Both models trained without background matched their original counterparts on field photographs, with all differences in mAP50-95 and accuracy falling within their CIs. The one exception was a small but meaningful drop in blast recall for YOLO11s on the test set ($-0.051$ [$-0.108$, $-0.003$]). Without background, YOLO11s remained ahead of YOLOv8s in mAP50-95 (+0.025 [0.010, 0.046]), but its advantage in diagnosis accuracy (+0.022 [$-0.004$, 0.050]) and blast recall ($-0.006$ [$-0.039$, 0.025]) was no longer meaningful. Models trained on leaf-only images also lost some performance when tested on original photographs, although considerably less than in the opposite direction.
+
+Fig.~\ref{fig:bg} summarizes these results.
+
+\begin{figure}[htbp]
+\centering
+\figorbox{fig_background.png}{4cm}{Bar chart: mAP50-95, diagnosis accuracy, and blast recall per model and train/test condition}
+\caption{Effect of background removal on YOLOv8s and YOLO11s (test set, mean of three seeds, error bars show 95\% CI).}
+\label{fig:bg}
+\end{figure}
+
+\subsection{External Indonesian Images}
+On the external set of detached Indonesian leaves, all models trained on field photographs performed poorly, with diagnosis accuracy between 0.18 and 0.34 and blast recognized almost never. Table~\ref{tab:ext} compares the original and leaf-only versions of the small models. With background removal, the accuracy of YOLOv8s rose from 0.224 to 0.433 and its blast recall from 0.048 to 0.486. YOLO11s improved less (0.262 to 0.305, CI includes zero), and its BLB recall dropped. These figures should be read with caution: the external set is small, it had already been inspected before the background-removal experiment was designed, and accuracy remains far below that on field photographs.
+
+\begin{table}[htbp]
+\caption{External Indonesian Set (70 Images, Mean of Three Seeds)}
+\begin{center}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Condition} & \textbf{Accuracy} & \textbf{Blast R} & \textbf{BLB R} \\
+\hline
+\multicolumn{4}{|l|}{\textit{YOLOv8s}} \\
+\hline
+Original & 0.224 & 0.048 & 0.400 \\
+Leaf-only & 0.433 & 0.486 & 0.381 \\
+\hline
+\multicolumn{4}{|l|}{\textit{YOLO11s}} \\
+\hline
+Original & 0.262 & 0.000 & 0.524 \\
+Leaf-only & 0.305 & 0.362 & 0.248 \\
+\hline
+\end{tabular}
+\par\vspace{2pt}{\scriptsize Leaf-only: segmentation fell back to the original image for 2.9\% of photos.}
+\label{tab:ext}
+\end{center}
+\end{table}
+
+% ===============================================================
+\section{Discussion}
+% ===============================================================
+
+The results support three observations. First, evaluation protocol matters as much as model choice: the inflation caused by a random split (about 0.11 in mAP50-95) is several times larger than any difference between YOLOv8 and YOLO11 that we measured.
+
+Second, the advantage of YOLO11 on field photographs appears to depend partly on context outside the leaf. When that context was removed, YOLO11s almost stopped recognizing blast, while YOLOv8s retained much of its ability. Once both models were trained on leaf-only images, the gap in diagnosis narrowed to a difference that was no longer meaningful. A plausible explanation is the C2PSA attention module in YOLO11, which is designed to aggregate spatial context across the image. We emphasize that this remains a hypothesis: our experiment changes the input, not the architecture, and an ablation of C2PSA would be needed to confirm it.
+
+Third, removing the background did not cost accuracy on field photographs and improved results on detached leaves, particularly for YOLOv8s. A practical system that first isolates the leaf may therefore be more robust to varied photographs, provided the segmentation step is always applied, since leaf-only models performed worse on unsegmented images.
+
+\subsection{Limitations}
+Several limitations apply. The leaf-only experiment covered only the small variants. What we measured is the effect of the full pipeline, segmentation plus detection, and the leaf-only labels differ slightly because boxes outside the mask were removed. All BLB images came from a single augmented source, so BLB results are provisional and were excluded from conclusions about background. Training data came almost entirely from one country, and the external Indonesian set was small, had been inspected before the experiment, and was labeled by non-expert raters with moderate agreement. Finally, out-of-scope diseases such as tungro were frequently diagnosed as one of the three target classes.
+
+% ===============================================================
+\section{Conclusion}
+% ===============================================================
+
+This study compared YOLOv8 and YOLO11 for rice leaf disease detection under a leakage-free protocol. A conventional random split overstated performance by roughly 40\%, far more than the difference between the two architectures. On leakage-free data, YOLO11 was consistently but only slightly more accurate than YOLOv8. Removing the image background revealed that much of this advantage came from context outside the leaf: YOLO11 nearly lost its ability to recognize leaf blast, whereas YOLOv8 was considerably more robust. Training on leaf-only images restored performance for both models and improved YOLOv8s on photographs from a different domain. Future work should collect field photographs from Indonesia with expert-verified labels, extend the background experiment to all model sizes, obtain BLB data from multiple sources, and test whether removing the C2PSA module reduces the reliance of YOLO11 on background context.
+
+\section*{Acknowledgment}
+The authors thank the creators of RiceLeafDiseaseBD and the contributors of the Kaggle datasets used in this study for making their images publicly available, and the two volunteers who verified the labels of the external Indonesian test set. The authors also thank the School of Computing, Telkom University, for its academic support. The authors used Claude to assist with English language editing, grammar correction, and improvements in sentence clarity. All scientific claims, experimental results, interpretations, and conclusions were reviewed and verified by the authors, who take full responsibility for the content of this paper.
+
+
+% ===============================================================
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,87 @@
+{
+  "LABEL": "POST-HOC (tidak dipakai menyetel apa pun)",
+  "model": "v7_deploy_yolo11s_s2 (last.pt)",
+  "ambang": 0.35,
+  "t_rendah": 0.29,
+  "tungro_80": {
+    "n": 80,
+    "tingkat": {
+      "terdeteksi": 76,
+      "kemungkinan": 4
+    },
+    "kelas_teratas_pada_terdeteksi_atau_kemungkinan": {
+      "bacterial_leaf_blight": 80
+    },
+    "diagnosis_ambang_0.35": {
+      "bacterial_leaf_blight": 76,
+      "sehat_atau_tidak_terdeteksi": 4
+    }
+  },
+  "uji_utama|bacterial_leaf_blight": {
+    "n": 35,
+    "tingkat": {
+      "terdeteksi": 35
+    },
+    "kelas_teratas_pada_terdeteksi_atau_kemungkinan": {
+      "bacterial_leaf_blight": 35
+    },
+    "diagnosis_ambang_0.35": {
+      "bacterial_leaf_blight": 35
+    }
+  },
+  "uji_utama|leaf_blast": {
+    "n": 35,
+    "tingkat": {
+      "terdeteksi": 29,
+      "tidak terdeteksi": 3,
+      "kemungkinan": 3
+    },
+    "kelas_teratas_pada_terdeteksi_atau_kemungkinan": {
+      "bacterial_leaf_blight": 20,
+      "leaf_blast": 6,
+      "brown_spot": 6
+    },
+    "diagnosis_ambang_0.35": {
+      "bacterial_leaf_blight": 18,
+      "leaf_blast": 6,
+      "sehat_atau_tidak_terdeteksi": 6,
+      "brown_spot": 5
+    }
+  },
+  "tambahan_160|bacterial_leaf_blight": {
+    "n": 80,
+    "tingkat": {
+      "terdeteksi": 71,
+      "kemungkinan": 5,
+      "tidak terdeteksi": 4
+    },
+    "kelas_teratas_pada_terdeteksi_atau_kemungkinan": {
+      "bacterial_leaf_blight": 75,
+      "leaf_blast": 1
+    },
+    "diagnosis_ambang_0.35": {
+      "bacterial_leaf_blight": 70,
+      "sehat_atau_tidak_terdeteksi": 9,
+      "leaf_blast": 1
+    }
+  },
+  "tambahan_160|leaf_blast": {
+    "n": 80,
+    "tingkat": {
+      "kemungkinan": 9,
+      "terdeteksi": 58,
+      "tidak terdeteksi": 13
+    },
+    "kelas_teratas_pada_terdeteksi_atau_kemungkinan": {
+      "bacterial_leaf_blight": 42,
+      "leaf_blast": 13,
+      "brown_spot": 12
+    },
+    "diagnosis_ambang_0.35": {
+      "sehat_atau_tidak_terdeteksi": 22,
+      "leaf_blast": 12,
+      "bacterial_leaf_blight": 36,
+      "brown_spot": 10
+    }
+  }
+}

@@ -1,0 +1,97 @@
+0 8959
+500 8959
+1500 8959
+2000 8959
+2500 8959
+3000 8959
+3500 8959
+4000 8959
+4500 8959
+5000 8959
+5500 8959
+7000 8959
+8500 8959
+{
+ "id_split_kelompok_kelas_sumber_identik_untuk_foto_tersisa": true,
+ "selisih": 0,
+ "foto_v7": 8959,
+ "foto_v9": 8283,
+ "foto_dikeluarkan": 676,
+ "dikeluarkan_semua_kotak_hilang_per_split_kelas": {
+  "train": {
+   "leaf_blast": 66,
+   "brown_spot": 67,
+   "bacterial_leaf_blight": 318
+  },
+  "val": {
+   "leaf_blast": 8,
+   "bacterial_leaf_blight": 113
+  },
+  "test": {
+   "brown_spot": 2,
+   "bacterial_leaf_blight": 45
+  },
+  "test_new_session": {
+   "leaf_blast": 2,
+   "brown_spot": 5
+  }
+ },
+ "dikeluarkan_pangkasan_background_train": 50,
+ "jumlah_per_split_kelas_v7": {
+  "train": {
+   "leaf_blast": 1244,
+   "brown_spot": 3450,
+   "background": 677,
+   "bacterial_leaf_blight": 1401
+  },
+  "val": {
+   "leaf_blast": 222,
+   "brown_spot": 330,
+   "background": 317,
+   "bacterial_leaf_blight": 390
+  },
+  "test": {
+   "leaf_blast": 111,
+   "brown_spot": 165,
+   "background": 158,
+   "bacterial_leaf_blight": 195
+  },
+  "test_new_session": {
+   "leaf_blast": 96,
+   "brown_spot": 147,
+   "background": 56
+  }
+ },
+ "jumlah_per_split_kelas_v9": {
+  "train": {
+   "leaf_blast": 1178,
+   "brown_spot": 3383,
+   "background": 627,
+   "bacterial_leaf_blight": 1083
+  },
+  "val": {
+   "leaf_blast": 214,
+   "brown_spot": 330,
+   "background": 317,
+   "bacterial_leaf_blight": 277
+  },
+  "test": {
+   "leaf_blast": 111,
+   "brown_spot": 163,
+   "background": 158,
+   "bacterial_leaf_blight": 150
+  },
+  "test_new_session": {
+   "leaf_blast": 94,
+   "brown_spot": 142,
+   "background": 56
+  }
+ },
+ "gambar_disk_sama_dengan_manifest": true,
+ "gambar_hilang": 0,
+ "cadangan_tidak_byte_identik_v7": 0,
+ "label_bukan_subset_baris_v7": 0,
+ "background_train_persen": 10.0,
+ "labels_sha256_v9": "817895606add12015ae3ed04caaad5abff8cefa89146ddb99a880d664107e58e",
+ "LOLOS": true
+}

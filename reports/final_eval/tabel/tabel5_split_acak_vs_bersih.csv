@@ -1,0 +1,9 @@
+﻿Model,Split latih,Set uji,mAP50,mAP50-95,IK95 mAP50-95,Akurasi diagnosis
+YOLOv8n,split acak,test acak (sendiri),0.728,0.452,"[0.427, 0.481]",0.897
+YOLOv8n,split acak,test sesi baru*,0.020,0.009,"[0.003, 0.023]",0.522
+YOLOv8n,split bersih (final s0),test bersih,0.391,0.154,"[0.095, 0.206]",0.712
+YOLOv8n,split bersih (final s0),test sesi baru*,0.016,0.006,"[0.002, 0.016]",0.421
+YOLO11n,split acak,test acak (sendiri),0.736,0.447,"[0.424, 0.476]",0.916
+YOLO11n,split acak,test sesi baru*,0.027,0.010,"[0.003, 0.027]",0.645
+YOLO11n,split bersih (final s0),test bersih,0.372,0.143,"[0.081, 0.196]",0.719
+YOLO11n,split bersih (final s0),test sesi baru*,0.028,0.011,"[0.003, 0.028]",0.619

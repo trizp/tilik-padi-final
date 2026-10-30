@@ -1,0 +1,26 @@
+{
+  "model": "v7_deploy_yolov8s_s2",
+  "checkpoint": "last.pt",
+  "sha256_pt": "8d329359a5b10f49eefb9a439df9c693ab9e4937f21bfc98960073fc36ba52e5",
+  "onnx": "runs\\v7_deploy_yolov8s_s2\\weights\\last.onnx",
+  "sha256_onnx": "9fad677bcb617764bbb8f4d598ff9f5657bbc796fffce188161aa8c98bfc480e",
+  "metadata_description": "Ultralytics YOLOv8s model trained on prov_v7_deploy",
+  "metadata_berisi_jalur_atau_nama_aplikasi": [],
+  "ukuran_MB": {
+    "pt": 21.48,
+    "onnx": 42.68
+  },
+  "versi": {
+    "onnxruntime": "1.31.0",
+    "onnx": "1.23.2"
+  },
+  "n_gambar": 20,
+  "kelas_teratas_identik": 20,
+  "selisih_conf_maks": 0.0,
+  "LOLOS": true,
+  "cpu_ms_median": {
+    "pt": 99.2,
+    "onnx": 69.3
+  },
+  "catatan": "CPU, batch 1, imgsz 640, conf 0,001, iou 0,7; 20 gambar val prov_v7 acak (seed 0), warmup 5; graf ONNX identik sebelum/sesudah ganti metadata"
+}

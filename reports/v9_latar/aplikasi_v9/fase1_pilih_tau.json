@@ -1,0 +1,121 @@
+{
+ "kriteria": "rata-rata IoU alur tertinggi pada VAL prov_v9 (1.138 foto); cadangan = masker penuh; seri -> tau terkecil",
+ "tau_terpilih": 0.35,
+ "n_foto": 1138,
+ "tabel": [
+  {
+   "tau": 0.05,
+   "rata2_iou_alur": 0.8839,
+   "median_iou_alur": 0.9901,
+   "cadangan": 56
+  },
+  {
+   "tau": 0.1,
+   "rata2_iou_alur": 0.8908,
+   "median_iou_alur": 0.9902,
+   "cadangan": 61
+  },
+  {
+   "tau": 0.15,
+   "rata2_iou_alur": 0.8966,
+   "median_iou_alur": 0.9902,
+   "cadangan": 64
+  },
+  {
+   "tau": 0.2,
+   "rata2_iou_alur": 0.8979,
+   "median_iou_alur": 0.9902,
+   "cadangan": 66
+  },
+  {
+   "tau": 0.25,
+   "rata2_iou_alur": 0.8987,
+   "median_iou_alur": 0.9902,
+   "cadangan": 67
+  },
+  {
+   "tau": 0.3,
+   "rata2_iou_alur": 0.8991,
+   "median_iou_alur": 0.9902,
+   "cadangan": 70
+  },
+  {
+   "tau": 0.35,
+   "rata2_iou_alur": 0.9,
+   "median_iou_alur": 0.9903,
+   "cadangan": 72
+  },
+  {
+   "tau": 0.4,
+   "rata2_iou_alur": 0.8999,
+   "median_iou_alur": 0.9903,
+   "cadangan": 74
+  },
+  {
+   "tau": 0.45,
+   "rata2_iou_alur": 0.898,
+   "median_iou_alur": 0.9903,
+   "cadangan": 79
+  },
+  {
+   "tau": 0.5,
+   "rata2_iou_alur": 0.8976,
+   "median_iou_alur": 0.9903,
+   "cadangan": 81
+  },
+  {
+   "tau": 0.55,
+   "rata2_iou_alur": 0.8957,
+   "median_iou_alur": 0.9903,
+   "cadangan": 85
+  },
+  {
+   "tau": 0.6,
+   "rata2_iou_alur": 0.894,
+   "median_iou_alur": 0.9903,
+   "cadangan": 91
+  },
+  {
+   "tau": 0.65,
+   "rata2_iou_alur": 0.8931,
+   "median_iou_alur": 0.9904,
+   "cadangan": 97
+  },
+  {
+   "tau": 0.7,
+   "rata2_iou_alur": 0.8932,
+   "median_iou_alur": 0.9904,
+   "cadangan": 105
+  },
+  {
+   "tau": 0.75,
+   "rata2_iou_alur": 0.8931,
+   "median_iou_alur": 0.9905,
+   "cadangan": 118
+  },
+  {
+   "tau": 0.8,
+   "rata2_iou_alur": 0.8901,
+   "median_iou_alur": 0.9907,
+   "cadangan": 139
+  },
+  {
+   "tau": 0.85,
+   "rata2_iou_alur": 0.8919,
+   "median_iou_alur": 0.9911,
+   "cadangan": 183
+  },
+  {
+   "tau": 0.9,
+   "rata2_iou_alur": 0.8539,
+   "median_iou_alur": 0.9913,
+   "cadangan": 275
+  },
+  {
+   "tau": 0.95,
+   "rata2_iou_alur": 0.5809,
+   "median_iou_alur": 0.4425,
+   "cadangan": 794
+  }
+ ]
+}

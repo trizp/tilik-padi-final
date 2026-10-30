@@ -1,0 +1,43 @@
+{
+  "alat": {
+    "jpegtran": "tools\\libjpeg-turbo\\jpegtran.exe",
+    "versi": "libjpeg-turbo version 3.2.0 (build 20260805)",
+    "sha256_jpegtran_exe": "784bdbe6716abd2963b0b81f747fcc99f8fd4e4bf907fb53812c43221c2d6c2f",
+    "sumber_paket": "conda-forge libjpeg-turbo-3.2.0-hfd05255_1.conda (sha256 df78ab4c...9b53)",
+    "perintah": "jpegtran -perfect -copy none -rotate <cw> -outfile <dst> <src>"
+  },
+  "n_ds4": 4435,
+  "aksi": {
+    "tag_exif_6_diterapkan": 1,
+    "diputar_lossless": 930,
+    "salin_byte_identik": 3504
+  },
+  "aksi_per_split": {
+    "train": {
+      "tag_exif_6_diterapkan": 1,
+      "diputar_lossless": 457,
+      "salin_byte_identik": 2411
+    },
+    "val": {
+      "diputar_lossless": 182,
+      "salin_byte_identik": 663
+    },
+    "test": {
+      "salin_byte_identik": 333,
+      "diputar_lossless": 89
+    },
+    "test_new_session": {
+      "diputar_lossless": 202,
+      "salin_byte_identik": 97
+    }
+  },
+  "foto_diubah": 931,
+  "tidak_identik_dengan_np_rot90": 931,
+  "selisih_piksel_maks": 4,
+  "masih_bertag_exif": 0,
+  "metadata_ikut_terbuang_pada_foto_diubah": {
+    "icc": 0,
+    "komentar": 0
+  },
+  "salinan_identik_sha_cocok": true
+}

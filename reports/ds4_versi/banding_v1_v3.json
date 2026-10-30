@@ -1,0 +1,17 @@
+{
+ "zip_v1_sha256": "ce1362d6441eac15bf64a9aed99d37be2418e5a6e653528b9298d56035914790",
+ "berkas_v1": 26158,
+ "berkas_v3": 26158,
+ "per_kategori": {
+  "foto asli | sama": 9769,
+  "foto bertanda (visual) | sama": 8194,
+  "label | berubah": 8194,
+  "lain | sama": 1
+ },
+ "foto_diputar_prov_v7": {
+  "jumlah": 931,
+  "status_v1_ke_v3": {
+   "foto sama; label berubah": 931
+  }
+ }
+}

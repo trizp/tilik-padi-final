@@ -1,0 +1,10 @@
+# Instal PyTorch (CUDA) SECARA TERPISAH dulu, lihat README.
+ultralytics>=8.3.0
+imagehash
+pillow
+pyyaml
+pandas
+numpy
+matplotlib
+kaggle
+openpyxl

@@ -1,0 +1,104 @@
+{
+  "kandidat": "kg_hadiur_ricespot",
+  "data_yaml": "data\\raw\\kandidat_v8\\kg_hadiur_ricespot\\RiceLeafAnnotatedDataset\\data.yaml",
+  "kelas": [
+    "Bacterial_Leaf_Blight",
+    "Brown_Spot",
+    "HealthyLeaf",
+    "Leaf_Blast",
+    "Leaf_Scald",
+    "Narrow_Brown_Leaf_Spot",
+    "Neck_Blast",
+    "Rice_Hispa"
+  ],
+  "gambar": 3567,
+  "per_split": {
+    "test": 400,
+    "train": 2767,
+    "valid": 400
+  },
+  "gambar_tanpa_label": 24,
+  "format_label": "campuran: 6237 baris poligon",
+  "gambar_per_kelas": {
+    "HealthyLeaf": 433,
+    "Leaf_Blast": 449,
+    "Brown_Spot": 451,
+    "Leaf_Scald": 456,
+    "Rice_Hispa": 431,
+    "Narrow_Brown_Leaf_Spot": 443,
+    "Bacterial_Leaf_Blight": 427,
+    "Neck_Blast": 453
+  },
+  "kotak_per_kelas": {
+    "HealthyLeaf": 821,
+    "Leaf_Blast": 763,
+    "Brown_Spot": 1403,
+    "Leaf_Scald": 564,
+    "Rice_Hispa": 933,
+    "Narrow_Brown_Leaf_Spot": 737,
+    "Bacterial_Leaf_Blight": 646,
+    "Neck_Blast": 951
+  },
+  "median_luas_kotak_persen_per_kelas": {
+    "HealthyLeaf": 12.597,
+    "Leaf_Blast": 3.112,
+    "Brown_Spot": 0.286,
+    "Leaf_Scald": 12.977,
+    "Rice_Hispa": 6.352,
+    "Narrow_Brown_Leaf_Spot": 12.193,
+    "Bacterial_Leaf_Blight": 18.393,
+    "Neck_Blast": 27.688
+  },
+  "acuan_median_luas_kotak_persen_prov_v7_train": {
+    "ds4|leaf_blast": 0.293,
+    "ds4|brown_spot": 0.277,
+    "ds1|bacterial_leaf_blight": 19.987,
+    "ds1|brown_spot": 0.35,
+    "ds1|leaf_blast": 3.146
+  },
+  "resolusi": {
+    "640x640": 3567
+  },
+  "jenis_foto": {
+    "daun di tanaman/lapangan": 3099,
+    "daun petik berlatar polos": 468
+  },
+  "jenis_foto_per_kelas": {
+    "HealthyLeaf": {
+      "daun di tanaman/lapangan": 433
+    },
+    "Leaf_Blast": {
+      "daun di tanaman/lapangan": 439,
+      "daun petik berlatar polos": 10
+    },
+    "Brown_Spot": {
+      "daun di tanaman/lapangan": 444,
+      "daun petik berlatar polos": 7
+    },
+    "Leaf_Scald": {
+      "daun di tanaman/lapangan": 426,
+      "daun petik berlatar polos": 30
+    },
+    "Rice_Hispa": {
+      "daun di tanaman/lapangan": 414,
+      "daun petik berlatar polos": 17
+    },
+    "Narrow_Brown_Leaf_Spot": {
+      "daun di tanaman/lapangan": 418,
+      "daun petik berlatar polos": 25
+    },
+    "Bacterial_Leaf_Blight": {
+      "daun di tanaman/lapangan": 427
+    },
+    "(tanpa label)": {
+      "daun di tanaman/lapangan": 24
+    },
+    "Neck_Blast": {
+      "daun di tanaman/lapangan": 74,
+      "daun petik berlatar polos": 379
+    }
+  },
+  "rata2_latar_terang_netral_persen": 6.9,
+  "rata2_piksel_hijau_persen": 66.5,
+  "rata2_kecerahan": 0.411
+}

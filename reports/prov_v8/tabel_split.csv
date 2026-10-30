@@ -1,0 +1,12 @@
+﻿kelas,sumber,train_gambar,train_grup,val_gambar,val_grup,test_gambar,test_grup,test_new_session_gambar,test_new_session_grup
+background,ds2,121,76,24,18,12,9,0,0
+background,ds4,556,212,293,89,146,49,56,35
+background,ds4_tungro,600,202,0,0,0,0,0,0
+bacterial_leaf_blight,ds1_provisional,1401,145,390,41,195,21,0,0
+brown_spot,daunpadi,372,325,85,81,0,0,0,0
+brown_spot,ds1,1970,194,0,0,0,0,0,0
+brown_spot,ds4,1480,225,330,74,165,43,147,71
+leaf_blast,daunpadi,353,317,87,78,0,0,0,0
+leaf_blast,ds1,411,67,0,0,0,0,0,0
+leaf_blast,ds4,833,249,222,84,111,48,96,62
+TOTAL,,8097,1817,1431,404,629,125,299,133

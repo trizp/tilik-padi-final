@@ -1,0 +1,28 @@
+{
+  "ds2_BLB_Original": 180,
+  "ds3_blight": 80,
+  "ds2_dengan_kembar_ds1": 103,
+  "ds2_bersih_ds1_dan_ds4": 77,
+  "ds2_dengan_kembar_ds1_bila_pakai_filter_sebaran_15%": 80,
+  "kriteria": "kembar = SIFT inlier >= 21 (tanpa syarat sebaran; konservatif), k=50 tetangga embedding",
+  "ds3_dengan_kembar_ds1": 0,
+  "ds3_bersih_ds1_dan_ds4": 80,
+  "ds2_kembar_ds4": 0,
+  "ds3_kembar_ds4": 0,
+  "dalam_daftar_bersih_status_ds2/ds3_tidak_bersih": {
+    "ds2": {
+      "tidak_bersih_ds2": 59,
+      "tidak_bersih_ds3": 0
+    },
+    "ds3": {
+      "tidak_bersih_ds2": 0,
+      "tidak_bersih_ds3": 0
+    }
+  },
+  "grup_kandidat_dalam_daftar_bersih": 117,
+  "ds2_kembar_ds1_menurut_split_kembar_di_prov_v3": {
+    "train": 78,
+    "val": 11,
+    "test": 11
+  }
+}

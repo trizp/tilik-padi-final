@@ -1,0 +1,93 @@
+{
+  "LABEL": "kualitas pemisahan daun pada ds3 (gambar saja, sebelum model dijalankan)",
+  "per_himpunan": {
+    "utama": {
+      "n": 70,
+      "cadangan": 2,
+      "persen_cadangan": 2.9,
+      "median_luas_masker_dipisah": 0.0807,
+      "per_folder": {
+        "blast": {
+          "n": 35,
+          "cadangan": 2,
+          "persen_cadangan": 5.7
+        },
+        "blight": {
+          "n": 35,
+          "cadangan": 0,
+          "persen_cadangan": 0.0
+        }
+      }
+    },
+    "tambahan": {
+      "n": 160,
+      "cadangan": 2,
+      "persen_cadangan": 1.2,
+      "median_luas_masker_dipisah": 0.081,
+      "per_folder": {
+        "blast": {
+          "n": 80,
+          "cadangan": 2,
+          "persen_cadangan": 2.5
+        },
+        "blight": {
+          "n": 80,
+          "cadangan": 0,
+          "persen_cadangan": 0.0
+        }
+      }
+    },
+    "tungro": {
+      "n": 80,
+      "cadangan": 4,
+      "persen_cadangan": 5.0,
+      "median_luas_masker_dipisah": 0.0727,
+      "per_folder": {
+        "tungro": {
+          "n": 80,
+          "cadangan": 4,
+          "persen_cadangan": 5.0
+        }
+      }
+    }
+  },
+  "per_folder": {
+    "blast": {
+      "n": 80,
+      "persen_cadangan": 2.5,
+      "median_luas_masker_dipisah": 0.0816
+    },
+    "blight": {
+      "n": 80,
+      "persen_cadangan": 0.0,
+      "median_luas_masker_dipisah": 0.0801
+    },
+    "tungro": {
+      "n": 80,
+      "persen_cadangan": 5.0,
+      "median_luas_masker_dipisah": 0.0727
+    }
+  },
+  "contoh_montase": [
+    "blast/IMG_0716.jpg",
+    "blast/IMG_0632.jpg",
+    "blast/IMG_0558.jpg",
+    "blast/IMG_0576.jpg",
+    "blast/IMG_0682.jpg",
+    "blast/IMG_0704.jpg",
+    "blast/IMG_0613.jpg",
+    "blight/IMG_0993.jpg",
+    "blight/IMG_0938.jpg",
+    "blight/IMG_1011.jpg",
+    "blight/IMG_0964.jpg",
+    "blight/IMG_0834.jpg",
+    "blight/IMG_1057.jpg",
+    "blight/IMG_1001.jpg",
+    "tungro/IMG_0887.jpg",
+    "tungro/IMG_0855.jpg",
+    "tungro/IMG_0906.jpg",
+    "tungro/IMG_0864.jpg",
+    "tungro/IMG_0615.jpg",
+    "tungro/IMG_0688.jpg"
+  ]
+}

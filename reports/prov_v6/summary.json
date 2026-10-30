@@ -1,0 +1,46 @@
+{
+  "seed": 42,
+  "n_images": 8959,
+  "leak_check": {
+    "val-train": {
+      "pairs_leq_thr": 0,
+      "min": 54.0,
+      "emb_max_cos": 0.9696,
+      "emb_pairs_ge_thr": 0
+    },
+    "test-train": {
+      "pairs_leq_thr": 0,
+      "min": 40.0,
+      "emb_max_cos": 0.9698,
+      "emb_pairs_ge_thr": 0
+    },
+    "test-val": {
+      "pairs_leq_thr": 0,
+      "min": 54.0,
+      "emb_max_cos": 0.969,
+      "emb_pairs_ge_thr": 0
+    },
+    "test_new_session-train": {
+      "pairs_leq_thr": 0,
+      "min": 80.0,
+      "emb_max_cos": 0.967,
+      "emb_pairs_ge_thr": 0
+    },
+    "test_new_session-val": {
+      "pairs_leq_thr": 0,
+      "min": 88.0,
+      "emb_max_cos": 0.9695,
+      "emb_pairs_ge_thr": 0
+    },
+    "test_new_session-test": {
+      "pairs_leq_thr": 0,
+      "min": 84.0,
+      "emb_max_cos": 0.9632,
+      "emb_pairs_ge_thr": 0
+    }
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "python": "3.12.3"
+  }
+}

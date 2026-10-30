@@ -1,0 +1,236 @@
+{
+  "1_bertanggal": [
+    {
+      "sumber": "ds1",
+      "foto_mentah": 8667,
+      "bertanggal_lama": 0,
+      "bertanggal_baru": 704,
+      "di_dataset_prov_v4": 4367,
+      "di_dataset_bertanggal_lama": 0,
+      "di_dataset_bertanggal_baru": 59
+    },
+    {
+      "sumber": "ds2",
+      "foto_mentah": 6889,
+      "bertanggal_lama": 0,
+      "bertanggal_baru": 0,
+      "di_dataset_prov_v4": 157,
+      "di_dataset_bertanggal_lama": 0,
+      "di_dataset_bertanggal_baru": 0
+    },
+    {
+      "sumber": "ds3",
+      "foto_mentah": 240,
+      "bertanggal_lama": 0,
+      "bertanggal_baru": 0,
+      "di_dataset_prov_v4": 0,
+      "di_dataset_bertanggal_lama": 0,
+      "di_dataset_bertanggal_baru": 0
+    },
+    {
+      "sumber": "ds4",
+      "foto_mentah": 9769,
+      "bertanggal_lama": 4903,
+      "bertanggal_baru": 9761,
+      "di_dataset_prov_v4": 4409,
+      "di_dataset_bertanggal_lama": 1825,
+      "di_dataset_bertanggal_baru": 4402
+    }
+  ],
+  "2_histogram": {
+    "ds4": {
+      "jeda_alami_detik(perkiraan)": 567.1,
+      "persen_selisih": {
+        "<= 0s": 26.5,
+        "<= 1s": 54.8,
+        "<= 2s": 64.0,
+        "<= 5s": 75.7,
+        "<= 10s": 83.5,
+        "<= 30s": 93.8,
+        "<= 60s": 97.2,
+        "<= 300s": 99.2,
+        "<= 3600s": 99.7
+      }
+    },
+    "ds1": {
+      "jeda_alami_detik(perkiraan)": 8.1,
+      "persen_selisih": {
+        "<= 0s": 58.6,
+        "<= 1s": 70.7,
+        "<= 2s": 74.1,
+        "<= 5s": 75.9,
+        "<= 10s": 75.9,
+        "<= 30s": 79.3,
+        "<= 60s": 82.8,
+        "<= 300s": 93.1,
+        "<= 3600s": 98.3
+      }
+    }
+  },
+  "3_tabel_jendela": [
+    {
+      "jendela_detik": 2,
+      "jumlah_grup": 2011,
+      "grup_terbesar": 116,
+      "grup_terbesar_ke2": 94,
+      "val_test_ds4_berbagi_grup_dengan_train": 411,
+      "val_test_ds1_BLB_berbagi_grup_dengan_train": 0,
+      "pasangan_BlastBrown_tertangkap": "401/611",
+      "persen_BlastBrown": 65.6,
+      "pasangan_SIFT_ds4_lain_tertangkap": "3495/4333",
+      "persen_ds4_lain": 80.7,
+      "pasangan_SIFT_ds1_tertangkap": "0/30",
+      "persen_ds1": 0.0,
+      "BlastBrown_tanpa_jam": 0
+    },
+    {
+      "jendela_detik": 5,
+      "jumlah_grup": 1589,
+      "grup_terbesar": 206,
+      "grup_terbesar_ke2": 139,
+      "val_test_ds4_berbagi_grup_dengan_train": 953,
+      "val_test_ds1_BLB_berbagi_grup_dengan_train": 0,
+      "pasangan_BlastBrown_tertangkap": "551/611",
+      "persen_BlastBrown": 90.2,
+      "pasangan_SIFT_ds4_lain_tertangkap": "4050/4333",
+      "persen_ds4_lain": 93.5,
+      "pasangan_SIFT_ds1_tertangkap": "30/30",
+      "persen_ds1": 100.0,
+      "BlastBrown_tanpa_jam": 0
+    },
+    {
+      "jendela_detik": 10,
+      "jumlah_grup": 1257,
+      "grup_terbesar": 325,
+      "grup_terbesar_ke2": 151,
+      "val_test_ds4_berbagi_grup_dengan_train": 1195,
+      "val_test_ds1_BLB_berbagi_grup_dengan_train": 0,
+      "pasangan_BlastBrown_tertangkap": "553/611",
+      "persen_BlastBrown": 90.5,
+      "pasangan_SIFT_ds4_lain_tertangkap": "4064/4333",
+      "persen_ds4_lain": 93.8,
+      "pasangan_SIFT_ds1_tertangkap": "30/30",
+      "persen_ds1": 100.0,
+      "BlastBrown_tanpa_jam": 0
+    },
+    {
+      "jendela_detik": 30,
+      "jumlah_grup": 814,
+      "grup_terbesar": 645,
+      "grup_terbesar_ke2": 395,
+      "val_test_ds4_berbagi_grup_dengan_train": 1390,
+      "val_test_ds1_BLB_berbagi_grup_dengan_train": 5,
+      "pasangan_BlastBrown_tertangkap": "583/611",
+      "persen_BlastBrown": 95.4,
+      "pasangan_SIFT_ds4_lain_tertangkap": "4240/4333",
+      "persen_ds4_lain": 97.9,
+      "pasangan_SIFT_ds1_tertangkap": "30/30",
+      "persen_ds1": 100.0,
+      "BlastBrown_tanpa_jam": 0
+    },
+    {
+      "jendela_detik": 3,
+      "jumlah_grup": 1839,
+      "grup_terbesar": 184,
+      "grup_terbesar_ke2": 134,
+      "val_test_ds4_berbagi_grup_dengan_train": 642,
+      "val_test_ds1_BLB_berbagi_grup_dengan_train": 0,
+      "pasangan_BlastBrown_tertangkap": "406/611",
+      "persen_BlastBrown": 66.4,
+      "pasangan_SIFT_ds4_lain_tertangkap": "3691/4333",
+      "persen_ds4_lain": 85.2,
+      "pasangan_SIFT_ds1_tertangkap": "0/30",
+      "persen_ds1": 0.0,
+      "BlastBrown_tanpa_jam": 0
+    },
+    {
+      "jendela_detik": 15,
+      "jumlah_grup": 1064,
+      "grup_terbesar": 383,
+      "grup_terbesar_ke2": 180,
+      "val_test_ds4_berbagi_grup_dengan_train": 1295,
+      "val_test_ds1_BLB_berbagi_grup_dengan_train": 5,
+      "pasangan_BlastBrown_tertangkap": "582/611",
+      "persen_BlastBrown": 95.3,
+      "pasangan_SIFT_ds4_lain_tertangkap": "4092/4333",
+      "persen_ds4_lain": 94.4,
+      "pasangan_SIFT_ds1_tertangkap": "30/30",
+      "persen_ds1": 100.0,
+      "BlastBrown_tanpa_jam": 0
+    },
+    {
+      "jendela_detik": 20,
+      "jumlah_grup": 948,
+      "grup_terbesar": 383,
+      "grup_terbesar_ke2": 199,
+      "val_test_ds4_berbagi_grup_dengan_train": 1347,
+      "val_test_ds1_BLB_berbagi_grup_dengan_train": 5,
+      "pasangan_BlastBrown_tertangkap": "583/611",
+      "persen_BlastBrown": 95.4,
+      "pasangan_SIFT_ds4_lain_tertangkap": "4122/4333",
+      "persen_ds4_lain": 95.1,
+      "pasangan_SIFT_ds1_tertangkap": "30/30",
+      "persen_ds1": 100.0,
+      "BlastBrown_tanpa_jam": 0
+    },
+    {
+      "jendela_detik": 60,
+      "jumlah_grup": 658,
+      "grup_terbesar": 676,
+      "grup_terbesar_ke2": 608,
+      "val_test_ds4_berbagi_grup_dengan_train": 1424,
+      "val_test_ds1_BLB_berbagi_grup_dengan_train": 5,
+      "pasangan_BlastBrown_tertangkap": "583/611",
+      "persen_BlastBrown": 95.4,
+      "pasangan_SIFT_ds4_lain_tertangkap": "4240/4333",
+      "persen_ds4_lain": 97.9,
+      "pasangan_SIFT_ds1_tertangkap": "30/30",
+      "persen_ds1": 100.0,
+      "BlastBrown_tanpa_jam": 0
+    }
+  ],
+  "3_catatan": {
+    "val_test_ds4_total": 1464,
+    "val_test_ds1_BLB_total": 585
+  },
+  "3_usulan": {
+    "memenuhi_95%": [
+      20,
+      30,
+      60
+    ],
+    "terkecil_dengan_grup_terbesar<100": null
+  },
+  "5_audit_waktu_prov_v4": {
+    "ds4_+-2s": {
+      "val_test": 1464,
+      "dengan_foto_train_dalam_jendela": 218,
+      "persen": 14.89
+    },
+    "ds4_+-10s": {
+      "val_test": 1464,
+      "dengan_foto_train_dalam_jendela": 980,
+      "persen": 66.94
+    },
+    "ds1_+-2s": {
+      "val_test": 585,
+      "dengan_foto_train_dalam_jendela": 0,
+      "persen": 0.0
+    },
+    "ds1_+-10s": {
+      "val_test": 585,
+      "dengan_foto_train_dalam_jendela": 0,
+      "persen": 0.0
+    },
+    "semua_+-2s": {
+      "val_test": 2085,
+      "dengan_foto_train_dalam_jendela": 218,
+      "persen": 10.46
+    },
+    "semua_+-10s": {
+      "val_test": 2085,
+      "dengan_foto_train_dalam_jendela": 980,
+      "persen": 47.0
+    }
+  }
+}

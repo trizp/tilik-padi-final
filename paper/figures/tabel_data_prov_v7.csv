@@ -1,0 +1,6 @@
+Kelas,train foto,train kelompok,val foto,val kelompok,test foto,test kelompok,test_new_session foto,test_new_session kelompok
+leaf_blast,1244,316,222,84,111,48,96,62
+brown_spot,3450,419,330,74,165,43,147,71
+bacterial_leaf_blight,1401,145,390,41,195,21,0,0
+background,677,288,317,107,158,58,56,35
+TOTAL (kelompok berbeda per split),6772,1041,1259,245,629,125,299,133

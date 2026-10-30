@@ -1,0 +1,39 @@
+[
+  {
+    "root": "data\\raw\\ds4\\images_labels\\RiceLeafDiseaseBD\\Annotated images ( visual with labels)",
+    "n_images": 8194,
+    "format": "KLASIFIKASI (folder per kelas) - TIDAK ADA bounding box",
+    "images_per_folder_per_split": {
+      "-": {
+        "visuals": 8194
+      }
+    },
+    "catatan": "Dataset ini tidak bisa langsung dipakai untuk YOLO detection; perlu anotasi bounding box, atau dipakai sebagai gambar Healthy/background.",
+    "corrupt_images": [],
+    "n_corrupt": 0,
+    "top_image_sizes": {
+      "1024x1024": 8194
+    }
+  },
+  {
+    "root": "data\\raw\\ds4\\images_labels\\RiceLeafDiseaseBD\\Original images",
+    "n_images": 9769,
+    "format": "KLASIFIKASI (folder per kelas) - TIDAK ADA bounding box",
+    "images_per_folder_per_split": {
+      "-": {
+        "Blast": 1326,
+        "Brown spot": 2178,
+        "Healthy": 1575,
+        "Leaf smut": 724,
+        "Rice Tungro": 2244,
+        "Sheath blight": 1722
+      }
+    },
+    "catatan": "Dataset ini tidak bisa langsung dipakai untuk YOLO detection; perlu anotasi bounding box, atau dipakai sebagai gambar Healthy/background.",
+    "corrupt_images": [],
+    "n_corrupt": 0,
+    "top_image_sizes": {
+      "1024x1024": 9769
+    }
+  }
+]

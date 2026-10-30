@@ -1,0 +1,51 @@
+{
+ "v7_final_prov_yolov8s_s0|asli": {
+  "brown_spot->brown_spot": 289,
+  "brown_spot->leaf_blast": 27,
+  "brown_spot->sehat_atau_tidak_terdeteksi": 14,
+  "leaf_blast->bacterial_leaf_blight": 1,
+  "leaf_blast->brown_spot": 27,
+  "leaf_blast->leaf_blast": 193,
+  "leaf_blast->sehat_atau_tidak_terdeteksi": 1,
+  "sehat_atau_tidak_terdeteksi->bacterial_leaf_blight": 2,
+  "sehat_atau_tidak_terdeteksi->brown_spot": 34,
+  "sehat_atau_tidak_terdeteksi->leaf_blast": 2,
+  "sehat_atau_tidak_terdeteksi->sehat_atau_tidak_terdeteksi": 279
+ },
+ "v7_final_prov_yolov8s_s0|tanpa": {
+  "brown_spot->brown_spot": 289,
+  "brown_spot->leaf_blast": 11,
+  "brown_spot->sehat_atau_tidak_terdeteksi": 30,
+  "leaf_blast->bacterial_leaf_blight": 12,
+  "leaf_blast->brown_spot": 67,
+  "leaf_blast->leaf_blast": 119,
+  "leaf_blast->sehat_atau_tidak_terdeteksi": 24,
+  "sehat_atau_tidak_terdeteksi->bacterial_leaf_blight": 1,
+  "sehat_atau_tidak_terdeteksi->brown_spot": 20,
+  "sehat_atau_tidak_terdeteksi->sehat_atau_tidak_terdeteksi": 296
+ },
+ "v7_final_prov_yolo11s_s0|asli": {
+  "brown_spot->brown_spot": 289,
+  "brown_spot->leaf_blast": 28,
+  "brown_spot->sehat_atau_tidak_terdeteksi": 13,
+  "leaf_blast->brown_spot": 28,
+  "leaf_blast->leaf_blast": 188,
+  "leaf_blast->sehat_atau_tidak_terdeteksi": 6,
+  "sehat_atau_tidak_terdeteksi->brown_spot": 28,
+  "sehat_atau_tidak_terdeteksi->leaf_blast": 4,
+  "sehat_atau_tidak_terdeteksi->sehat_atau_tidak_terdeteksi": 285
+ },
+ "v7_final_prov_yolo11s_s0|tanpa": {
+  "brown_spot->bacterial_leaf_blight": 1,
+  "brown_spot->brown_spot": 291,
+  "brown_spot->leaf_blast": 3,
+  "brown_spot->sehat_atau_tidak_terdeteksi": 35,
+  "leaf_blast->bacterial_leaf_blight": 11,
+  "leaf_blast->brown_spot": 144,
+  "leaf_blast->leaf_blast": 43,
+  "leaf_blast->sehat_atau_tidak_terdeteksi": 24,
+  "sehat_atau_tidak_terdeteksi->bacterial_leaf_blight": 1,
+  "sehat_atau_tidak_terdeteksi->brown_spot": 18,
+  "sehat_atau_tidak_terdeteksi->sehat_atau_tidak_terdeteksi": 298
+ }
+}

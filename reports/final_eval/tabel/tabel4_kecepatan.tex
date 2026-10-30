@@ -1,0 +1,16 @@
+\begin{table}[!t]
+\centering
+\caption{Kecepatan inferensi (batch 1, FP32, ujung ke ujung, imgsz 640; rata-rata $\pm$ simpangan baku 3 seed). GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU; CPU Intel64 Family 6 Model 154 Stepping 3, GenuineIntel (8 thread). Parameter dan GFLOPs setelah fuse.}
+\label{tab:kecepatan}
+\footnotesize
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Model} & \textbf{Parameter (juta)} & \textbf{GFLOPs} & \textbf{GPU ms (median)} & \textbf{GPU FPS} & \textbf{CPU ms (median)} & \textbf{CPU FPS} \\
+\hline
+YOLOv8n & 3.01 & 8.1 & 7.5 $\pm$ 1.8 & 137.0 $\pm$ 28.1 & 35.0 $\pm$ 1.3 & 28.6 $\pm$ 1.0 \\
+YOLO11n & 2.58 & 6.4 & 8.6 $\pm$ 2.4 & 122.1 $\pm$ 29.3 & 33.6 $\pm$ 1.2 & 29.8 $\pm$ 1.1 \\
+YOLOv8s & 11.13 & 28.4 & 12.0 $\pm$ 0.3 & 83.7 $\pm$ 2.4 & 92.3 $\pm$ 1.2 & 10.9 $\pm$ 0.2 \\
+YOLO11s & 9.41 & 21.4 & 11.3 $\pm$ 0.3 & 88.6 $\pm$ 2.4 & 79.6 $\pm$ 2.4 & 12.6 $\pm$ 0.4 \\
+\hline
+\end{tabular}
+\end{table}

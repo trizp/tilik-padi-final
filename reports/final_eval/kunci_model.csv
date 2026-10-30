@@ -1,0 +1,15 @@
+run,best_pt_sha256,ambang_diagnosis,dipilih_pada,akurasi_val_saat_dipilih,dikunci,torch,ultralytics,python,cuda
+final_prov_v6_yolov8n_s0,548f307caf3654c438b5bf20cd0a65cc7f0f6bcd5076df351db6d931470f2759,0.1,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7641,2026-10-09T22:45:04,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolov8n_s1,cae6bf4f90afabd2f83407234a14406672b7cc2c52d5442849a324853ab35431,0.1,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7411,2026-10-09T22:46:55,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolov8n_s2,d8701aec4533ef188aa8b373440d3dbd59a70a98b066b0722024725a35adcff3,0.07,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7491,2026-10-09T22:48:43,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolo11n_s0,99c2fd3e6c378863ef0ea870b4066c84890aaebeae900e0ba10d3195d6de4b47,0.08,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7871,2026-10-09T22:50:32,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolo11n_s1,b38351677e270ce09656c37ea98c5610a24ad1173349fbea52ce325acdb23afc,0.07,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7814,2026-10-09T22:52:21,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolo11n_s2,7ef589a06b9ba83d443456d7457ecbdb51aa9994ae0814aec0643186b0e9cbf9,0.07,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7917,2026-10-09T22:54:12,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolov8s_s0,335b0a7438434fb3efbbc6cb1171b9d5b551b130fd2ca3c07daff97711bcfe31,0.12,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7929,2026-10-09T22:56:27,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolov8s_s1,ef8328701280f95e9820acfdbac3930ad0f448bdc0db7f82f0c1bb6a87b9881d,0.08,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7503,2026-10-09T22:58:42,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolov8s_s2,fac46418f92ef281036233d52cdcf4e793e3d7aa1a6a9798f6c4746a1ce10938,0.07,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7606,2026-10-09T23:00:55,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolo11s_s0,ddd8dcdfa7eccddb12f6d8230b26fb1402e6a4d0568100a261536f2ac64df9b2,0.08,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.8124,2026-10-09T23:03:09,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolo11s_s1,68d6bf78bb74666327098ab2099a048b7be0f4c52a9f7568f1864c81b17adab1,0.04,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.7917,2026-10-09T23:05:22,2.14.1+cu130,8.4.171,3.12.3,13.0
+final_prov_v6_yolo11s_s2,e9bb04c331955e31ebe85be2d570ba630fea466381a1ae7e5600aac31b3a7cef,0.06,val bersih (869 citra; tanpa sumber ['ds1_provisional']),0.8124,2026-10-09T23:07:48,2.14.1+cu130,8.4.171,3.12.3,13.0
+randsplit_prov_v6_yolov8n_s0,4851bf44a383bff95818c8382cd0bed62c19b9fa06d570c2f88e242311f7c3f1,0.07,val dengan_background (1732 citra),0.8995,2026-10-09T23:10:24,2.14.1+cu130,8.4.171,3.12.3,13.0
+randsplit_prov_v6_yolo11n_s0,0d7607b0bfb1965ac4013397c620d450cec27695776afc39e673f4d7e19b9324,0.04,val dengan_background (1732 citra),0.9169,2026-10-09T23:12:32,2.14.1+cu130,8.4.171,3.12.3,13.0

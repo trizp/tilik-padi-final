@@ -1,0 +1,72 @@
+{
+  "1a_pasangan_ds4_di_xlsx": {
+    "n": 29,
+    "per_hubungan": {
+      "selisih>2s": 11,
+      "selisih<=2s": 17,
+      "foto_asli_sama": 1
+    },
+    "foto_asli_sama_atau_selisih<=2s": 18,
+    "per_kelompok_inlier": {
+      "inlier 21-100": {
+        "selisih>2s": 8,
+        "selisih<=2s": 2
+      },
+      "inlier>100": {
+        "selisih>2s": 3,
+        "selisih<=2s": 15,
+        "foto_asli_sama": 1
+      }
+    }
+  },
+  "1b_blast_brown_ds4": {
+    "pasangan_SIFT_diterima": 611,
+    "gambar_blast_unik": 182,
+    "gambar_brown_unik": 149,
+    "selisih_nomor_unik": 216,
+    "selisih_terbanyak": {
+      "211": 9,
+      "628": 8,
+      "631": 8,
+      "71": 8,
+      "215": 8,
+      "212": 8,
+      "210": 8,
+      "208": 8,
+      "627": 7,
+      "629": 7
+    },
+    "deret_konstan_>=3": 73,
+    "pasangan_dalam_deret_konstan": 290,
+    "persen_pasangan_dalam_deret": 47.5,
+    "hubungan_metadata_semua": {
+      "selisih>2s": 386,
+      "selisih<=2s": 225
+    },
+    "inlier>100_dalam_deret": 33,
+    "inlier>100_total": 105
+  },
+  "2_paket_buta": {
+    "n_pasangan": 24,
+    "per_kategori": {
+      "blast~brown inlier>100": 12,
+      "brown_spot~sehat": 6,
+      "blast~brown inlier 21-100": 6
+    },
+    "A_B_ditukar": 12,
+    "hubungan_metadata": {
+      "selisih<=2s": 15,
+      "selisih>2s": 9
+    },
+    "isi_expert_pack": [
+      "lembar_jawaban.xlsx",
+      "pair_01_A.jpg",
+      "pair_01_B.jpg",
+      "pair_02_A.jpg",
+      "pair_02_B.jpg",
+      "pair_03_A.jpg",
+      "..."
+    ],
+    "halaman_pdf": 25
+  }
+}

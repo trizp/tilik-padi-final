@@ -1,0 +1,6 @@
+ambang_sebaran,val_test_dengan_kembar_di_train,persen_val_test,tidak_tertangkap_karena_ambang,persen_tidak_tertangkap
+tanpa aturan (inlier>=21 saja),10,0.48,0,
+1%,10,0.48,0,0.0
+2%,10,0.48,0,0.0
+3%,10,0.48,0,0.0
+5%,10,0.48,1,0.048

@@ -1,0 +1,78 @@
+{
+  "dibuat": "2026-10-17T21:09:12",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "model": [
+    {
+      "run": "v9_final_prov_yolov8s_s0",
+      "best_pt_sha256": "efcd6d2526a677f0387f6446853e74430380c80e99c420151947c711926b1676",
+      "ambang_diagnosis": 0.31,
+      "dipilih_pada": "val bersih (861 citra; tanpa sumber ['ds1_provisional'])",
+      "akurasi_val_saat_dipilih": 0.8595,
+      "dikunci": "2026-10-17T20:58:11",
+      "torch": "2.14.1+cu130",
+      "ultralytics": "8.4.171",
+      "python": "3.12.3",
+      "cuda": "13.0"
+    },
+    {
+      "run": "v9_final_prov_yolov8s_s1",
+      "best_pt_sha256": "492d0aea14770eb0ffec306fd29253d10c619b1a50f5edf670bd7d96cf424e5d",
+      "ambang_diagnosis": 0.32,
+      "dipilih_pada": "val bersih (861 citra; tanpa sumber ['ds1_provisional'])",
+      "akurasi_val_saat_dipilih": 0.8734,
+      "dikunci": "2026-10-17T21:00:22",
+      "torch": "2.14.1+cu130",
+      "ultralytics": "8.4.171",
+      "python": "3.12.3",
+      "cuda": "13.0"
+    },
+    {
+      "run": "v9_final_prov_yolov8s_s2",
+      "best_pt_sha256": "361ca893a5b7be44fc6b70d79b9a594d44ae241098d57e9a5db54654402a08bf",
+      "ambang_diagnosis": 0.35,
+      "dipilih_pada": "val bersih (861 citra; tanpa sumber ['ds1_provisional'])",
+      "akurasi_val_saat_dipilih": 0.8641,
+      "dikunci": "2026-10-17T21:02:33",
+      "torch": "2.14.1+cu130",
+      "ultralytics": "8.4.171",
+      "python": "3.12.3",
+      "cuda": "13.0"
+    },
+    {
+      "run": "v9_final_prov_yolo11s_s0",
+      "best_pt_sha256": "9fc4ec7d864f0e4d52dca5d8a5a8bc1639f5c359a467a3649ffaa0f2274a31ef",
+      "ambang_diagnosis": 0.34,
+      "dipilih_pada": "val bersih (861 citra; tanpa sumber ['ds1_provisional'])",
+      "akurasi_val_saat_dipilih": 0.8815,
+      "dikunci": "2026-10-17T21:04:43",
+      "torch": "2.14.1+cu130",
+      "ultralytics": "8.4.171",
+      "python": "3.12.3",
+      "cuda": "13.0"
+    },
+    {
+      "run": "v9_final_prov_yolo11s_s1",
+      "best_pt_sha256": "c52f031854298e6c4998c3df61af5b544cb86ad0287ef2bc231920615ed457d4",
+      "ambang_diagnosis": 0.3,
+      "dipilih_pada": "val bersih (861 citra; tanpa sumber ['ds1_provisional'])",
+      "akurasi_val_saat_dipilih": 0.8513,
+      "dikunci": "2026-10-17T21:06:55",
+      "torch": "2.14.1+cu130",
+      "ultralytics": "8.4.171",
+      "python": "3.12.3",
+      "cuda": "13.0"
+    },
+    {
+      "run": "v9_final_prov_yolo11s_s2",
+      "best_pt_sha256": "0f90232ae4bd6ea7e076becc2e6565bcbc0a19c6fd4ebf3ebed9efcf64e8ca5e",
+      "ambang_diagnosis": 0.3,
+      "dipilih_pada": "val bersih (861 citra; tanpa sumber ['ds1_provisional'])",
+      "akurasi_val_saat_dipilih": 0.8548,
+      "dikunci": "2026-10-17T21:09:05",
+      "torch": "2.14.1+cu130",
+      "ultralytics": "8.4.171",
+      "python": "3.12.3",
+      "cuda": "13.0"
+    }
+  ]
+}

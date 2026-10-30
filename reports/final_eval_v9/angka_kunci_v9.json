@@ -1,0 +1,267 @@
+{
+  "bootstrap": {
+    "B": 1000,
+    "seed": 20261017,
+    "unit": "kelompok foto (group manifest prov_v7)"
+  },
+  "irisan": {
+    "Test bersih (tanpa BLB)": {
+      "foto_irisan": 432,
+      "kelompok": 104,
+      "foto_v7_asli": 434,
+      "foto_v7_tidak_di_v9": 2
+    },
+    "Test sesi baru": {
+      "foto_irisan": 292,
+      "kelompok": 129,
+      "foto_v7_asli": 299,
+      "foto_v7_tidak_di_v9": 7
+    },
+    "Test BLB provisional (terpisah)": {
+      "foto_irisan": 150,
+      "kelompok": 18,
+      "foto_v7_asli": 195,
+      "foto_v7_tidak_di_v9": 45
+    }
+  },
+  "verifikasi_selisih_maks_vs_resmi": 4.987193939776091e-05,
+  "rata2_3seed": {
+    "Test bersih (tanpa BLB)|v7_asli|yolov8s": {
+      "mAP50": 0.5742809876956029,
+      "mAP50_95": 0.2485099160765104,
+      "akurasi": 0.7507716049382717,
+      "recall_blast": 0.7867867867867867
+    },
+    "Test bersih (tanpa BLB)|v7_asli|yolo11s": {
+      "mAP50": 0.6269052947396745,
+      "mAP50_95": 0.27277434330544237,
+      "akurasi": 0.7824074074074074,
+      "recall_blast": 0.8468468468468467
+    },
+    "Test bersih (tanpa BLB)|v9_tanpa|yolov8s": {
+      "mAP50": 0.5877583280311377,
+      "mAP50_95": 0.2525256222879285,
+      "akurasi": 0.7669753086419752,
+      "recall_blast": 0.8018018018018017
+    },
+    "Test bersih (tanpa BLB)|v9_tanpa|yolo11s": {
+      "mAP50": 0.6363313432619239,
+      "mAP50_95": 0.2773912461362838,
+      "akurasi": 0.7885802469135802,
+      "recall_blast": 0.7957957957957958
+    },
+    "Test bersih (tanpa BLB)|v7_tanpa|yolov8s": {
+      "mAP50": 0.5044401292269861,
+      "mAP50_95": 0.19679284242014775,
+      "akurasi": 0.753858024691358,
+      "recall_blast": 0.5135135135135135
+    },
+    "Test bersih (tanpa BLB)|v7_tanpa|yolo11s": {
+      "mAP50": 0.3313019342440418,
+      "mAP50_95": 0.11584329049060764,
+      "akurasi": 0.6651234567901234,
+      "recall_blast": 0.10810810810810811
+    },
+    "Test bersih (tanpa BLB)|v9_asli|yolov8s": {
+      "mAP50": 0.5301371167101402,
+      "mAP50_95": 0.22632040969223352,
+      "akurasi": 0.7554012345679012,
+      "recall_blast": 0.7807807807807808
+    },
+    "Test bersih (tanpa BLB)|v9_asli|yolo11s": {
+      "mAP50": 0.5269340451134454,
+      "mAP50_95": 0.2235442353016712,
+      "akurasi": 0.7453703703703703,
+      "recall_blast": 0.7867867867867867
+    },
+    "Test sesi baru|v7_asli|yolov8s": {
+      "mAP50": 0.5458688644026636,
+      "mAP50_95": 0.24372180566454785,
+      "akurasi": 0.6917808219178082,
+      "recall_blast": 0.9255319148936171
+    },
+    "Test sesi baru|v7_asli|yolo11s": {
+      "mAP50": 0.5872220908487028,
+      "mAP50_95": 0.2598347459013668,
+      "akurasi": 0.7534246575342465,
+      "recall_blast": 0.9148936170212766
+    },
+    "Test sesi baru|v9_tanpa|yolov8s": {
+      "mAP50": 0.5396891943886444,
+      "mAP50_95": 0.23770938496245134,
+      "akurasi": 0.7111872146118722,
+      "recall_blast": 0.9255319148936169
+    },
+    "Test sesi baru|v9_tanpa|yolo11s": {
+      "mAP50": 0.6030199068871729,
+      "mAP50_95": 0.2661071277612778,
+      "akurasi": 0.7385844748858448,
+      "recall_blast": 0.9184397163120567
+    },
+    "Test sesi baru|v7_tanpa|yolov8s": {
+      "mAP50": 0.5511331130713044,
+      "mAP50_95": 0.23832005033910178,
+      "akurasi": 0.7374429223744293,
+      "recall_blast": 0.797872340425532
+    },
+    "Test sesi baru|v7_tanpa|yolo11s": {
+      "mAP50": 0.40877914092628514,
+      "mAP50_95": 0.16174410867697767,
+      "akurasi": 0.6689497716894977,
+      "recall_blast": 0.3404255319148936
+    },
+    "Test sesi baru|v9_asli|yolov8s": {
+      "mAP50": 0.47594482344149425,
+      "mAP50_95": 0.2037709574862495,
+      "akurasi": 0.6472602739726028,
+      "recall_blast": 0.8900709219858157
+    },
+    "Test sesi baru|v9_asli|yolo11s": {
+      "mAP50": 0.5233388303060077,
+      "mAP50_95": 0.21564531056275538,
+      "akurasi": 0.639269406392694,
+      "recall_blast": 0.9148936170212766
+    },
+    "Test BLB provisional (terpisah)|v7_asli|yolov8s": {
+      "mAP50": 0.33400445907127563,
+      "mAP50_95": 0.10285534502710098,
+      "akurasi": 0.6866666666666666,
+      "recall_blast": NaN
+    },
+    "Test BLB provisional (terpisah)|v7_asli|yolo11s": {
+      "mAP50": 0.3635332600168764,
+      "mAP50_95": 0.1155713638243246,
+      "akurasi": 0.7644444444444445,
+      "recall_blast": NaN
+    },
+    "Test BLB provisional (terpisah)|v9_tanpa|yolov8s": {
+      "mAP50": 0.41302106044228437,
+      "mAP50_95": 0.13640198280825924,
+      "akurasi": 0.6355555555555555,
+      "recall_blast": NaN
+    },
+    "Test BLB provisional (terpisah)|v9_tanpa|yolo11s": {
+      "mAP50": 0.45573948754807453,
+      "mAP50_95": 0.16738573882402016,
+      "akurasi": 0.7244444444444444,
+      "recall_blast": NaN
+    },
+    "Test BLB provisional (terpisah)|v7_tanpa|yolov8s": {
+      "mAP50": 0.31649805950154697,
+      "mAP50_95": 0.09487686992200543,
+      "akurasi": 0.5955555555555555,
+      "recall_blast": NaN
+    },
+    "Test BLB provisional (terpisah)|v7_tanpa|yolo11s": {
+      "mAP50": 0.3465672973869154,
+      "mAP50_95": 0.10992703220118867,
+      "akurasi": 0.748888888888889,
+      "recall_blast": NaN
+    },
+    "Test BLB provisional (terpisah)|v9_asli|yolov8s": {
+      "mAP50": 0.36562563986423563,
+      "mAP50_95": 0.11383712873893743,
+      "akurasi": 0.6755555555555556,
+      "recall_blast": NaN
+    },
+    "Test BLB provisional (terpisah)|v9_asli|yolo11s": {
+      "mAP50": 0.4461866730619008,
+      "mAP50_95": 0.1420891871592953,
+      "akurasi": 0.7200000000000001,
+      "recall_blast": NaN
+    }
+  },
+  "ds3": {
+    "utama|yolov8s|v7": {
+      "akurasi": 0.22380952380952382,
+      "R_Blast": 0.047619047619047616,
+      "R_BLB": 0.39999999999999997
+    },
+    "utama|yolov8s|v9": {
+      "akurasi": 0.43333333333333335,
+      "R_Blast": 0.4857142857142857,
+      "R_BLB": 0.38095238095238093
+    },
+    "utama|yolo11s|v7": {
+      "akurasi": 0.2619047619047619,
+      "R_Blast": 0.0,
+      "R_BLB": 0.5238095238095238
+    },
+    "utama|yolo11s|v9": {
+      "akurasi": 0.3047619047619048,
+      "R_Blast": 0.36190476190476195,
+      "R_BLB": 0.24761904761904763
+    },
+    "tambahan|yolov8s|v7": {
+      "akurasi": 0.225,
+      "R_Blast": 0.04583333333333334,
+      "R_BLB": 0.40416666666666673
+    },
+    "tambahan|yolov8s|v9": {
+      "akurasi": 0.375,
+      "R_Blast": 0.45416666666666666,
+      "R_BLB": 0.29583333333333334
+    },
+    "tambahan|yolo11s|v7": {
+      "akurasi": 0.22291666666666665,
+      "R_Blast": 0.0,
+      "R_BLB": 0.4458333333333333
+    },
+    "tambahan|yolo11s|v9": {
+      "akurasi": 0.25625000000000003,
+      "R_Blast": 0.3208333333333333,
+      "R_BLB": 0.19166666666666665
+    }
+  },
+  "ds3_cadangan": {
+    "utama": {
+      "n": 70,
+      "cadangan": 2,
+      "persen_cadangan": 2.9,
+      "median_luas_masker_dipisah": 0.0807,
+      "per_folder": {
+        "blast": {
+          "n": 35,
+          "cadangan": 2,
+          "persen_cadangan": 5.7
+        },
+        "blight": {
+          "n": 35,
+          "cadangan": 0,
+          "persen_cadangan": 0.0
+        }
+      }
+    },
+    "tambahan": {
+      "n": 160,
+      "cadangan": 2,
+      "persen_cadangan": 1.2,
+      "median_luas_masker_dipisah": 0.081,
+      "per_folder": {
+        "blast": {
+          "n": 80,
+          "cadangan": 2,
+          "persen_cadangan": 2.5
+        },
+        "blight": {
+          "n": 80,
+          "cadangan": 0,
+          "persen_cadangan": 0.0
+        }
+      }
+    },
+    "tungro": {
+      "n": 80,
+      "cadangan": 4,
+      "persen_cadangan": 5.0,
+      "median_luas_masker_dipisah": 0.0727,
+      "per_folder": {
+        "tungro": {
+          "n": 80,
+          "cadangan": 4,
+          "persen_cadangan": 5.0
+        }
+      }
+    }
+  }
+}

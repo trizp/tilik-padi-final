@@ -1,0 +1,19 @@
+\begin{table}[!t]
+\centering
+\caption{Ketepatan perkiraan: kinerja pada test split masing-masing dibanding test sesi baru (sesi pemotretan yang tidak pernah dilihat). Selisih = test - sesi baru; positif berarti test melebih-lebihkan.}
+\label{tab:ketepatan_perkiraan}
+\footnotesize
+\begin{tabular}{lcccccccc}
+\hline
+\textbf{Split latih} & \textbf{Model} & \textbf{mAP50-95 test tanpa BLB} & \textbf{mAP50-95 sesi baru} & \textbf{Selisih mAP50-95} & \textbf{Selisih akurasi} & \textbf{Akurasi seimbang test tanpa BLB} & \textbf{Akurasi seimbang sesi baru} & \textbf{Selisih akurasi seimbang} \\
+\hline
+split bersih (3 seed) & YOLOv8n & 0.253 $\pm$ 0.005 & 0.228 $\pm$ 0.020 & 0.025 $\pm$ 0.018 & 0.058 $\pm$ 0.038 & 0.757 $\pm$ 0.008 & 0.740 $\pm$ 0.027 & 0.018 $\pm$ 0.031 \\
+split bersih (3 seed) & YOLO11n & 0.276 $\pm$ 0.011 & 0.269 $\pm$ 0.007 & 0.007 $\pm$ 0.015 & -0.026 $\pm$ 0.023 & 0.731 $\pm$ 0.023 & 0.788 $\pm$ 0.018 & -0.057 $\pm$ 0.029 \\
+split bersih (3 seed) & YOLOv8s & 0.249 $\pm$ 0.004 & 0.241 $\pm$ 0.007 & 0.009 $\pm$ 0.004 & 0.061 $\pm$ 0.033 & 0.754 $\pm$ 0.003 & 0.745 $\pm$ 0.037 & 0.009 $\pm$ 0.038 \\
+split bersih (3 seed) & YOLO11s & 0.273 $\pm$ 0.003 & 0.257 $\pm$ 0.011 & 0.016 $\pm$ 0.008 & 0.033 $\pm$ 0.023 & 0.788 $\pm$ 0.011 & 0.799 $\pm$ 0.011 & -0.011 $\pm$ 0.013 \\
+split acak (1 seed) & YOLOv8n & 0.390 & 0.271 & 0.119 & 0.107 & 0.902 & 0.819 & 0.083 \\
+split acak (1 seed) & YOLO11n & 0.390 & 0.283 & 0.106 & 0.054 & 0.891 & 0.867 & 0.025 \\
+\hline
+\end{tabular}
+\\[2pt]\parbox{\columnwidth}{\scriptsize Test dibandingkan TANPA BLB provisional agar kelasnya sama dengan sesi baru (blast, brown spot, sehat). Akurasi seimbang = rata-rata recall per kelas (tidak dipengaruhi komposisi kelas); akurasi biasa dipengaruhi komposisi kelas. mAP adalah bukti utama. Angka dari evaluasi yang sudah ada. Split acak 1 seed. prov\_v7, PROVISIONAL.}
+\end{table}

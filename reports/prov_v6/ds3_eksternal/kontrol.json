@@ -1,0 +1,256 @@
+{
+  "kontrol_positif": {
+    "n": 24,
+    "terdeteksi": 23,
+    "rincian": [
+      {
+        "asli": "data/raw/ds3/blast/IMG_0448.jpg",
+        "perubahan": "A",
+        "phash": 98,
+        "cos": 0.9362,
+        "sift_inlier": 56,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blast/IMG_0448.jpg",
+        "perubahan": "B",
+        "phash": 68,
+        "cos": 0.8698,
+        "sift_inlier": 43,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blast/IMG_0566.jpg",
+        "perubahan": "A",
+        "phash": 82,
+        "cos": 0.9294,
+        "sift_inlier": 72,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blast/IMG_0566.jpg",
+        "perubahan": "B",
+        "phash": 48,
+        "cos": 0.9545,
+        "sift_inlier": 84,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blast/IMG_0630.jpg",
+        "perubahan": "A",
+        "phash": 92,
+        "cos": 0.9691,
+        "sift_inlier": 84,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blast/IMG_0630.jpg",
+        "perubahan": "B",
+        "phash": 48,
+        "cos": 0.9719,
+        "sift_inlier": 76,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blast/IMG_0682.jpg",
+        "perubahan": "A",
+        "phash": 102,
+        "cos": 0.9263,
+        "sift_inlier": 56,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blast/IMG_0682.jpg",
+        "perubahan": "B",
+        "phash": 40,
+        "cos": 0.9475,
+        "sift_inlier": 62,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blight/IMG_0834.jpg",
+        "perubahan": "A",
+        "phash": 118,
+        "cos": 0.9654,
+        "sift_inlier": 122,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blight/IMG_0834.jpg",
+        "perubahan": "B",
+        "phash": 84,
+        "cos": 0.923,
+        "sift_inlier": 125,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blight/IMG_0971.jpg",
+        "perubahan": "A",
+        "phash": 94,
+        "cos": 0.9248,
+        "sift_inlier": 68,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blight/IMG_0971.jpg",
+        "perubahan": "B",
+        "phash": 62,
+        "cos": 0.9312,
+        "sift_inlier": 79,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blight/IMG_1004.jpg",
+        "perubahan": "A",
+        "phash": 100,
+        "cos": 0.9224,
+        "sift_inlier": 24,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blight/IMG_1004.jpg",
+        "perubahan": "B",
+        "phash": 62,
+        "cos": 0.9639,
+        "sift_inlier": 30,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blight/IMG_1033.jpg",
+        "perubahan": "A",
+        "phash": 114,
+        "cos": 0.917,
+        "sift_inlier": 114,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/blight/IMG_1033.jpg",
+        "perubahan": "B",
+        "phash": 58,
+        "cos": 0.9701,
+        "sift_inlier": 134,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/tungro/IMG_0399.jpg",
+        "perubahan": "A",
+        "phash": 114,
+        "cos": 0.9698,
+        "sift_inlier": 17,
+        "terdeteksi": false
+      },
+      {
+        "asli": "data/raw/ds3/tungro/IMG_0399.jpg",
+        "perubahan": "B",
+        "phash": 72,
+        "cos": 0.9723,
+        "sift_inlier": 23,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/tungro/IMG_0832.jpg",
+        "perubahan": "A",
+        "phash": 118,
+        "cos": 0.941,
+        "sift_inlier": 142,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/tungro/IMG_0832.jpg",
+        "perubahan": "B",
+        "phash": 82,
+        "cos": 0.9363,
+        "sift_inlier": 151,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/tungro/IMG_0864.jpg",
+        "perubahan": "A",
+        "phash": 108,
+        "cos": 0.9407,
+        "sift_inlier": 32,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/tungro/IMG_0864.jpg",
+        "perubahan": "B",
+        "phash": 76,
+        "cos": 0.9211,
+        "sift_inlier": 31,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/tungro/IMG_0891.jpg",
+        "perubahan": "A",
+        "phash": 58,
+        "cos": 0.9445,
+        "sift_inlier": 74,
+        "terdeteksi": true
+      },
+      {
+        "asli": "data/raw/ds3/tungro/IMG_0891.jpg",
+        "perubahan": "B",
+        "phash": 28,
+        "cos": 0.9633,
+        "sift_inlier": 93,
+        "terdeteksi": true
+      }
+    ]
+  },
+  "tetangga_terdekat_ds3_ke_sumber": {
+    "ds1": {
+      "n_pembanding": 8667,
+      "cos_maks": {
+        "maks": 0.8804,
+        "p95": 0.84,
+        "ambang": 0.97
+      },
+      "phash_min": {
+        "min": 56,
+        "p5": 72.0,
+        "ambang": 14
+      },
+      "sift_inlier_maks_10_tetangga": {
+        "maks": 4,
+        "p95": 3.0,
+        "ambang": 21
+      }
+    },
+    "ds2": {
+      "n_pembanding": 1701,
+      "cos_maks": {
+        "maks": 0.8252,
+        "p95": 0.7873,
+        "ambang": 0.97
+      },
+      "phash_min": {
+        "min": 80,
+        "p5": 88.0,
+        "ambang": 14
+      },
+      "sift_inlier_maks_10_tetangga": {
+        "maks": 6,
+        "p95": 4.0,
+        "ambang": 21
+      }
+    },
+    "ds4": {
+      "n_pembanding": 9769,
+      "cos_maks": {
+        "maks": 0.8156,
+        "p95": 0.7521,
+        "ambang": 0.97
+      },
+      "phash_min": {
+        "min": 82,
+        "p5": 88.0,
+        "ambang": 14
+      },
+      "sift_inlier_maks_10_tetangga": {
+        "maks": 5,
+        "p95": 3.0,
+        "ambang": 21
+      }
+    }
+  }
+}

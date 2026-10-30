@@ -1,0 +1,206 @@
+{
+  "run": "v7_final_prov_yolov8s_s2",
+  "ambang_terdeteksi": 0.37,
+  "aturan": "batas terendah dalam [0,10; ambang) dengan proporsi sehat <= 25% di antara foto tidak terdeteksi yang menampilkan bercak berkeyakinan rendah",
+  "batas_terpilih": 0.35,
+  "fitur_aktif": true,
+  "n_val": 1259,
+  "n_sehat_val": 317,
+  "n_tidak_terdeteksi": 369,
+  "tabel": [
+    {
+      "batas": 0.1,
+      "sehat": 67,
+      "sakit": 68,
+      "sakit_kelas_bercak_benar": 57,
+      "proporsi_sehat_persen": 49.6
+    },
+    {
+      "batas": 0.11,
+      "sehat": 62,
+      "sakit": 65,
+      "sakit_kelas_bercak_benar": 54,
+      "proporsi_sehat_persen": 48.8
+    },
+    {
+      "batas": 0.12,
+      "sehat": 58,
+      "sakit": 62,
+      "sakit_kelas_bercak_benar": 51,
+      "proporsi_sehat_persen": 48.3
+    },
+    {
+      "batas": 0.13,
+      "sehat": 55,
+      "sakit": 62,
+      "sakit_kelas_bercak_benar": 51,
+      "proporsi_sehat_persen": 47.0
+    },
+    {
+      "batas": 0.14,
+      "sehat": 55,
+      "sakit": 57,
+      "sakit_kelas_bercak_benar": 47,
+      "proporsi_sehat_persen": 49.1
+    },
+    {
+      "batas": 0.15,
+      "sehat": 47,
+      "sakit": 56,
+      "sakit_kelas_bercak_benar": 46,
+      "proporsi_sehat_persen": 45.6
+    },
+    {
+      "batas": 0.16,
+      "sehat": 46,
+      "sakit": 55,
+      "sakit_kelas_bercak_benar": 45,
+      "proporsi_sehat_persen": 45.5
+    },
+    {
+      "batas": 0.17,
+      "sehat": 44,
+      "sakit": 53,
+      "sakit_kelas_bercak_benar": 43,
+      "proporsi_sehat_persen": 45.4
+    },
+    {
+      "batas": 0.18,
+      "sehat": 44,
+      "sakit": 50,
+      "sakit_kelas_bercak_benar": 40,
+      "proporsi_sehat_persen": 46.8
+    },
+    {
+      "batas": 0.19,
+      "sehat": 39,
+      "sakit": 49,
+      "sakit_kelas_bercak_benar": 39,
+      "proporsi_sehat_persen": 44.3
+    },
+    {
+      "batas": 0.2,
+      "sehat": 36,
+      "sakit": 49,
+      "sakit_kelas_bercak_benar": 39,
+      "proporsi_sehat_persen": 42.4
+    },
+    {
+      "batas": 0.21,
+      "sehat": 36,
+      "sakit": 48,
+      "sakit_kelas_bercak_benar": 38,
+      "proporsi_sehat_persen": 42.9
+    },
+    {
+      "batas": 0.22,
+      "sehat": 35,
+      "sakit": 45,
+      "sakit_kelas_bercak_benar": 36,
+      "proporsi_sehat_persen": 43.8
+    },
+    {
+      "batas": 0.23,
+      "sehat": 33,
+      "sakit": 44,
+      "sakit_kelas_bercak_benar": 35,
+      "proporsi_sehat_persen": 42.9
+    },
+    {
+      "batas": 0.24,
+      "sehat": 27,
+      "sakit": 44,
+      "sakit_kelas_bercak_benar": 35,
+      "proporsi_sehat_persen": 38.0
+    },
+    {
+      "batas": 0.25,
+      "sehat": 23,
+      "sakit": 43,
+      "sakit_kelas_bercak_benar": 34,
+      "proporsi_sehat_persen": 34.8
+    },
+    {
+      "batas": 0.26,
+      "sehat": 20,
+      "sakit": 42,
+      "sakit_kelas_bercak_benar": 33,
+      "proporsi_sehat_persen": 32.3
+    },
+    {
+      "batas": 0.27,
+      "sehat": 17,
+      "sakit": 40,
+      "sakit_kelas_bercak_benar": 31,
+      "proporsi_sehat_persen": 29.8
+    },
+    {
+      "batas": 0.28,
+      "sehat": 15,
+      "sakit": 38,
+      "sakit_kelas_bercak_benar": 29,
+      "proporsi_sehat_persen": 28.3
+    },
+    {
+      "batas": 0.29,
+      "sehat": 13,
+      "sakit": 36,
+      "sakit_kelas_bercak_benar": 27,
+      "proporsi_sehat_persen": 26.5
+    },
+    {
+      "batas": 0.3,
+      "sehat": 10,
+      "sakit": 29,
+      "sakit_kelas_bercak_benar": 21,
+      "proporsi_sehat_persen": 25.6
+    },
+    {
+      "batas": 0.31,
+      "sehat": 9,
+      "sakit": 24,
+      "sakit_kelas_bercak_benar": 18,
+      "proporsi_sehat_persen": 27.3
+    },
+    {
+      "batas": 0.32,
+      "sehat": 9,
+      "sakit": 23,
+      "sakit_kelas_bercak_benar": 17,
+      "proporsi_sehat_persen": 28.1
+    },
+    {
+      "batas": 0.33,
+      "sehat": 8,
+      "sakit": 16,
+      "sakit_kelas_bercak_benar": 11,
+      "proporsi_sehat_persen": 33.3
+    },
+    {
+      "batas": 0.34,
+      "sehat": 7,
+      "sakit": 13,
+      "sakit_kelas_bercak_benar": 8,
+      "proporsi_sehat_persen": 35.0
+    },
+    {
+      "batas": 0.35,
+      "sehat": 3,
+      "sakit": 11,
+      "sakit_kelas_bercak_benar": 7,
+      "proporsi_sehat_persen": 21.4
+    },
+    {
+      "batas": 0.36,
+      "sehat": 1,
+      "sakit": 6,
+      "sakit_kelas_bercak_benar": 5,
+      "proporsi_sehat_persen": 14.3
+    }
+  ],
+  "sumber": [
+    "runs/v7_final_prov_yolov8s_s2/ambang_diagnosis.json",
+    "runs/v7_final_prov_yolov8s_s2/eval_val/diagnosis_dengan_background_per_citra.csv"
+  ],
+  "catatan": "parameter TAMPILAN dari val, bukan ambang diagnosis; test, test_new_session, dan ds3 tidak dipakai"
+}

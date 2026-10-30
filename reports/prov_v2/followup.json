@@ -1,0 +1,455 @@
+{
+  "A_lintas_kelas": {
+    "total_pasangan>=21": 9693,
+    "lintas_kelas": 539,
+    "per_pasangan_kelas": {
+      "background~brown_spot": 48,
+      "background~leaf_blast": 20,
+      "bacterial_leaf_blight~brown_spot": 24,
+      "bacterial_leaf_blight~leaf_blast": 37,
+      "brown_spot~leaf_blast": 410
+    },
+    "per_pasangan_sumber": {
+      "ds1~ds1": 149,
+      "ds1~ds2": 8,
+      "ds4~ds4": 382
+    },
+    "inlier_median/p90/maks": [
+      33.0,
+      97.0,
+      255
+    ],
+    "gambar_unik_terlibat": 392,
+    "montase": [
+      {
+        "inlier": 255,
+        "a": "brown spot_615.jpg",
+        "b": "Healthy_983.jpg"
+      },
+      {
+        "inlier": 254,
+        "a": "brown spot_615.jpg",
+        "b": "Healthy_981.jpg"
+      },
+      {
+        "inlier": 239,
+        "a": "brown spot_615.jpg",
+        "b": "Healthy_982.jpg"
+      },
+      {
+        "inlier": 214,
+        "a": "blast_685.jpg",
+        "b": "brown spot_686.jpg"
+      },
+      {
+        "inlier": 26,
+        "a": "blast_805.jpg",
+        "b": "brown spot_849.jpg"
+      },
+      {
+        "inlier": 25,
+        "a": "blast_768.jpg",
+        "b": "brown spot_850.jpg"
+      },
+      {
+        "inlier": 23,
+        "a": "blast_777.jpg",
+        "b": "brown spot_847.jpg"
+      },
+      {
+        "inlier": 27,
+        "a": "rls_train_aug_0_746_jpg.rf.6bf681535d2dac8275595577b841cc7f.jpg",
+        "b": "Healthy_rice_leaf  (73).jpg"
+      }
+    ]
+  },
+  "B_sisa_audit": {
+    "n_pasangan": 4,
+    "detail": [
+      {
+        "split": "val",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1301.jpg",
+        "q_kelas": "brown_spot",
+        "q_sumber": "ds4",
+        "train_partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1310.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 31,
+        "skala": 0.933,
+        "rot": -7.0,
+        "rank_catatan": "di luar 30 kandidat grup bila partner tak berada dalam 30 tetangga"
+      },
+      {
+        "split": "val",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Healthy/Healthy_354.jpg",
+        "q_kelas": "background",
+        "q_sumber": "ds4",
+        "train_partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_390.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 22,
+        "skala": 1.012,
+        "rot": 0.4,
+        "rank_catatan": "di luar 30 kandidat grup bila partner tak berada dalam 30 tetangga"
+      },
+      {
+        "split": "test",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_735.jpg",
+        "q_kelas": "brown_spot",
+        "q_sumber": "ds4",
+        "train_partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_731.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 24,
+        "skala": 1.014,
+        "rot": 4.0,
+        "rank_catatan": "di luar 30 kandidat grup bila partner tak berada dalam 30 tetangga"
+      },
+      {
+        "split": "test",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Healthy/Healthy_221.jpg",
+        "q_kelas": "background",
+        "q_sumber": "ds4",
+        "train_partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_312.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 23,
+        "skala": 1.037,
+        "rot": 1.4,
+        "rank_catatan": "di luar 30 kandidat grup bila partner tak berada dalam 30 tetangga"
+      }
+    ]
+  },
+  "C_test_lama_dibuang": {
+    "n": 71,
+    "per_kelas_sumber": {
+      "background|ds4": 71
+    },
+    "per_kelas_sumber_masuk_test_baru": {
+      "background|ds2": 10,
+      "background|ds4": 145,
+      "bacterial_leaf_blight|ds1_provisional": 169,
+      "brown_spot|ds4": 195,
+      "leaf_blast|ds4": 114
+    }
+  },
+  "D_metadata_ds4": {
+    "kolom": [
+      "Class",
+      "Original_Filename",
+      "New_Filename",
+      "Original_Width_px",
+      "Original_Height_px",
+      "Original_FileSize_KB",
+      "Resized_Width_px",
+      "Resized_Height_px",
+      "Resized_FileSize_KB"
+    ],
+    "n_baris": 9769,
+    "Original_Filename_bertanggal_waktu (YYYYMMDD_HHMMSS)": {
+      "n": 4903,
+      "persen": 50.2
+    },
+    "pola_nama_asli_tanpa_tanggal": {
+      "IMGN.jpg": 2446,
+      "IMGN_N.jpg": 2412,
+      "N.jpg": 8
+    },
+    "rentang_waktu": [
+      "2025-04-01 10:52:39",
+      "2025-05-03 18:15:11"
+    ],
+    "tanggal_unik": 12,
+    "per_kelas_bertanggal": {
+      "Healthy": {
+        "n": 922,
+        "dari": "2025-04-01 10:52:56",
+        "sampai": "2025-05-03 17:56:31",
+        "tanggal_unik": 11
+      },
+      "Leaf smut": {
+        "n": 315,
+        "dari": "2025-04-12 17:11:40",
+        "sampai": "2025-05-03 17:08:16",
+        "tanggal_unik": 8
+      },
+      "Rice Tungro": {
+        "n": 955,
+        "dari": "2025-04-09 13:35:53",
+        "sampai": "2025-05-03 17:48:27",
+        "tanggal_unik": 9
+      },
+      "Sheath blight": {
+        "n": 1485,
+        "dari": "2025-04-09 13:31:55",
+        "sampai": "2025-05-03 18:15:11",
+        "tanggal_unik": 9
+      },
+      "blast": {
+        "n": 608,
+        "dari": "2025-04-01 10:52:39",
+        "sampai": "2025-05-03 17:02:04",
+        "tanggal_unik": 10
+      },
+      "brown spot": {
+        "n": 618,
+        "dari": "2025-04-20 13:16:01",
+        "sampai": "2025-05-03 17:02:09",
+        "tanggal_unik": 6
+      }
+    },
+    "gambar_per_tanggal_top8": {
+      "2025-05-03": 1964,
+      "2025-04-29": 1003,
+      "2025-04-30": 674,
+      "2025-04-26": 502,
+      "2025-04-25": 379,
+      "2025-04-23": 127,
+      "2025-04-09": 85,
+      "2025-04-20": 75
+    },
+    "Original_Filename_ganda": {
+      "n_baris": 18,
+      "contoh": [
+        [
+          "Sheath blight",
+          "20250409_133553.jpg",
+          "Sheath blight_3.jpg"
+        ],
+        [
+          "Rice Tungro",
+          "20250409_133553.jpg",
+          "Rice Tungro_1.jpg"
+        ],
+        [
+          "Rice Tungro",
+          "20250409_134145.jpg",
+          "Rice Tungro_2.jpg"
+        ],
+        [
+          "Sheath blight",
+          "20250409_134145.jpg",
+          "Sheath blight_10.jpg"
+        ],
+        [
+          "blast",
+          "20250409_134835.jpg",
+          "blast_1.jpg"
+        ],
+        [
+          "Sheath blight",
+          "20250409_134835.jpg",
+          "Sheath blight_22.jpg"
+        ],
+        [
+          "Rice Tungro",
+          "20250409_135036.jpg",
+          "Rice Tungro_3.jpg"
+        ],
+        [
+          "Sheath blight",
+          "20250409_135036.jpg",
+          "Sheath blight_25.jpg"
+        ],
+        [
+          "Rice Tungro",
+          "20250409_135242.jpg",
+          "Rice Tungro_4.jpg"
+        ],
+        [
+          "Sheath blight",
+          "20250409_135242.jpg",
+          "Sheath blight_29.jpg"
+        ],
+        [
+          "Rice Tungro",
+          "20250409_135530.jpg",
+          "Rice Tungro_5.jpg"
+        ],
+        [
+          "blast",
+          "20250409_135530.jpg",
+          "blast_2.jpg"
+        ],
+        [
+          "Rice Tungro",
+          "20250409_135537.jpg",
+          "Rice Tungro_6.jpg"
+        ],
+        [
+          "Sheath blight",
+          "20250409_135537.jpg",
+          "Sheath blight_35.jpg"
+        ],
+        [
+          "Healthy",
+          "20250412_171432.jpg",
+          "Healthy_10.jpg"
+        ],
+        [
+          "Sheath blight",
+          "20250412_171432.jpg",
+          "Sheath blight_75.jpg"
+        ],
+        [
+          "Healthy",
+          "20250425_175502.jpg",
+          "Healthy_48.jpg"
+        ],
+        [
+          "brown spot",
+          "20250425_175502.jpg",
+          "brown spot_68.jpg"
+        ]
+      ]
+    },
+    "dimensi_asli_kombinasi": {
+      "1600x1200": 5582,
+      "1200x1600": 3930,
+      "3060x4080": 106,
+      "1920x2560": 67,
+      "2448x3264": 41,
+      "3264x2448": 11,
+      "2560x1920": 10,
+      "4080x3060": 7,
+      "3472x4624": 5,
+      "3072x4080": 4,
+      "3468x4624": 2,
+      "1200x1073": 1,
+      "1200x1404": 1,
+      "4080x3072": 1
+    },
+    "ds4_di_manifest": {
+      "n": 4541,
+      "terpetakan_ke_metadata": 4541,
+      "dengan_epoch": 1821
+    },
+    "dimensi_per_split_ds4": {
+      "1200x1600": {
+        "train": 1510,
+        "test": 231,
+        "val": 548
+      },
+      "1600x1200": {
+        "val": 404,
+        "train": 1410,
+        "test": 244
+      },
+      "3060x4080": {
+        "train": 41,
+        "test": 13,
+        "val": 17
+      },
+      "1920x2560": {
+        "train": 30,
+        "val": 14,
+        "test": 5
+      },
+      "2448x3264": {
+        "val": 8,
+        "train": 29,
+        "test": 1
+      },
+      "3264x2448": {
+        "train": 6,
+        "test": 2,
+        "val": 3
+      },
+      "2560x1920": {
+        "val": 3,
+        "train": 3,
+        "test": 1
+      },
+      "4080x3060": {
+        "val": 4,
+        "train": 2
+      },
+      "3472x4624": {
+        "train": 3,
+        "test": 1,
+        "val": 1
+      },
+      "3072x4080": {
+        "val": 1,
+        "train": 1,
+        "test": 1
+      }
+    },
+    "tanggal_per_split_ds4": {
+      "val": {
+        "tanggal_unik": 12,
+        "tanggal_juga_ada_di_train": 12
+      },
+      "train": {
+        "tanggal_unik": 12,
+        "tanggal_juga_ada_di_train": 12
+      },
+      "test": {
+        "tanggal_unik": 11,
+        "tanggal_juga_ada_di_train": 11
+      }
+    },
+    "gambar_val/test_pada_tanggal_yang_juga_ada_di_train": {
+      "val": {
+        "gambar_bertanggal": 396,
+        "pada_tanggal_ada_di_train": 396
+      },
+      "test": {
+        "gambar_bertanggal": 216,
+        "pada_tanggal_ada_di_train": 216
+      }
+    },
+    "pengelompokan_waktu_(TIDAK diterapkan)": {
+      "selisih<=2s": {
+        "n_grup_waktu": 1278,
+        "grup_waktu_terbesar": 13,
+        "gambar_di_grup_waktu>1": 833,
+        "pasangan_SIFT_ds4_ditangkap": "65/110",
+        "gambar_val/test_sekelompok_dengan_train_bila_digabung_dengan_v2": {
+          "val": 122,
+          "test": 64
+        }
+      },
+      "selisih<=10s": {
+        "n_grup_waktu": 662,
+        "grup_waktu_terbesar": 25,
+        "gambar_di_grup_waktu>1": 1516,
+        "pasangan_SIFT_ds4_ditangkap": "108/110",
+        "gambar_val/test_sekelompok_dengan_train_bila_digabung_dengan_v2": {
+          "val": 286,
+          "test": 149
+        }
+      },
+      "selisih<=60s": {
+        "n_grup_waktu": 115,
+        "grup_waktu_terbesar": 150,
+        "gambar_di_grup_waktu>1": 1797,
+        "pasangan_SIFT_ds4_ditangkap": "110/110",
+        "gambar_val/test_sekelompok_dengan_train_bila_digabung_dengan_v2": {
+          "val": 382,
+          "test": 213
+        }
+      },
+      "selisih<=300s": {
+        "n_grup_waktu": 30,
+        "grup_waktu_terbesar": 282,
+        "gambar_di_grup_waktu>1": 1816,
+        "pasangan_SIFT_ds4_ditangkap": "110/110",
+        "gambar_val/test_sekelompok_dengan_train_bila_digabung_dengan_v2": {
+          "val": 390,
+          "test": 215
+        }
+      },
+      "selisih<=1800s": {
+        "n_grup_waktu": 14,
+        "grup_waktu_terbesar": 478,
+        "gambar_di_grup_waktu>1": 1820,
+        "pasangan_SIFT_ds4_ditangkap": "110/110",
+        "gambar_val/test_sekelompok_dengan_train_bila_digabung_dengan_v2": {
+          "val": 395,
+          "test": 216
+        }
+      }
+    }
+  }
+}

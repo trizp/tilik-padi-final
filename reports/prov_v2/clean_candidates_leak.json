@@ -1,0 +1,162 @@
+{
+  "ds2_BLB -> ds1_BLB": {
+    "kandidat": 5400,
+    "pasangan>=21": 217,
+    "gambar_query_terdampak": 99,
+    "gambar_target_terlibat": 128,
+    "inlier_maks": 56,
+    "inlier_p99": 36.0
+  },
+  "ds2_BLB -> ds4": {
+    "kandidat": 5400,
+    "pasangan>=21": 0,
+    "gambar_query_terdampak": 0,
+    "gambar_target_terlibat": 0,
+    "inlier_maks": 4,
+    "inlier_p99": 3.0
+  },
+  "ds3_blight -> ds1_BLB": {
+    "kandidat": 2400,
+    "pasangan>=21": 0,
+    "gambar_query_terdampak": 0,
+    "gambar_target_terlibat": 0,
+    "inlier_maks": 5,
+    "inlier_p99": 3.0
+  },
+  "ds3_blight -> ds4": {
+    "kandidat": 2400,
+    "pasangan>=21": 0,
+    "gambar_query_terdampak": 0,
+    "gambar_target_terlibat": 0,
+    "inlier_maks": 4,
+    "inlier_p99": 3.0
+  },
+  "ds2_BLB -> ds3_blight": {
+    "kandidat": 5400,
+    "pasangan>=21": 0,
+    "gambar_query_terdampak": 0,
+    "gambar_target_terlibat": 0,
+    "inlier_maks": 5,
+    "inlier_p99": 3.0
+  },
+  "ds3_blight -> ds2_BLB": {
+    "kandidat": 2400,
+    "pasangan>=21": 0,
+    "gambar_query_terdampak": 0,
+    "gambar_target_terlibat": 0,
+    "inlier_maks": 5,
+    "inlier_p99": 3.0
+  },
+  "ringkas": {
+    "ds2_BLB_terdampak_oleh_ds1/ds4": 99,
+    "ds3_blight_terdampak_oleh_ds1/ds4": 0,
+    "total_pasangan_terdeteksi": 217
+  },
+  "contoh": [
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (79).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_5093_jpg.rf.4aa5b63a1ef81a18f55157c72d43beab.jpg",
+      "inlier": 56,
+      "skala": 1.097,
+      "rot": 77.0
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (57).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_1226_jpg.rf.9e3a4c97f8b9807505d37c906f1f50ce.jpg",
+      "inlier": 54,
+      "skala": 1.068,
+      "rot": 81.5
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (163).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_4768_jpg.rf.6e4b72d30ab2580451785f7e4df60876.jpg",
+      "inlier": 51,
+      "skala": 1.1,
+      "rot": -2.4
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (79).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_5093_jpg.rf.e92c8798b152f9563d3d9e2d27c1318c.jpg",
+      "inlier": 51,
+      "skala": 1.095,
+      "rot": -102.9
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (51).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_334_jpg.rf.eea790e19eef19b2fc81ab201a1c7579.jpg",
+      "inlier": 50,
+      "skala": 1.067,
+      "rot": 90.8
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (57).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_1226_jpg.rf.95c8d7a49b3922d2cd04a8e408f57374.jpg",
+      "inlier": 50,
+      "skala": 1.151,
+      "rot": -90.6
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (20).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_4131_jpg.rf.c749afa159580732e8a8e3f2b7b222fd.jpg",
+      "inlier": 47,
+      "skala": 1.045,
+      "rot": 85.3
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (57).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_1226_jpg.rf.3aced64caeb133566c94a3cdc321123c.jpg",
+      "inlier": 47,
+      "skala": 1.076,
+      "rot": 99.1
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (87).jpg",
+      "target": "ds1_BLB:rls_test_aug_0_1501_jpg.rf.144bc947071f1468d6b80f2b46ba382a.jpg",
+      "inlier": 47,
+      "skala": 1.101,
+      "rot": -85.4
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (119).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_1121_jpg.rf.2ba8ee910b586ec2aa836cf82fa7c134.jpg",
+      "inlier": 46,
+      "skala": 1.069,
+      "rot": -85.7
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (141).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_1373_jpg.rf.80189fad8072bff8ddb5c164459c8ee2.jpg",
+      "inlier": 46,
+      "skala": 1.071,
+      "rot": 86.5
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (155).jpg",
+      "target": "ds1_BLB:rls_val_aug_0_68_jpg.rf.a8ac13c020af7ee0bc07b6bf18e18e35.jpg",
+      "inlier": 46,
+      "skala": 1.094,
+      "rot": -90.2
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (55).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_2349_jpg.rf.fa1161d987178ed5f67fb17ec5335e82.jpg",
+      "inlier": 46,
+      "skala": 1.072,
+      "rot": 85.3
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (141).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_1373_jpg.rf.032ecb1f173d1482ca2335c755109116.jpg",
+      "inlier": 45,
+      "skala": 1.072,
+      "rot": -93.8
+    },
+    {
+      "query": "ds2_BLB:Bacterial_leaf_Blight  (16).jpg",
+      "target": "ds1_BLB:rls_train_aug_0_3867_jpg.rf.bd97335ba512e586e8e0ffbbb6617158.jpg",
+      "inlier": 45,
+      "skala": 1.089,
+      "rot": 95.4
+    }
+  ]
+}

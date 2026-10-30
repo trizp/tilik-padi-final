@@ -1,0 +1,9 @@
+kelas,sumber,gambar,box,box_per_gambar,median_luas_pct,rata2_luas_pct,box_di_atas_1pct,box_dari_poligon_pct
+leaf_blast,*semua sumber*,1673,5245,3.14,0.36,1.718,18.4,13.1
+leaf_blast,ds1,411,697,1.7,3.146,9.761,72.2,98.4
+leaf_blast,ds4,1262,4548,3.6,0.309,0.486,10.1,0.0
+brown_spot,*semua sumber*,4092,24295,5.94,0.309,0.639,14.8,4.0
+brown_spot,ds1,1970,15153,7.69,0.35,0.76,21.0,6.5
+brown_spot,ds4,2122,9142,4.31,0.283,0.438,4.7,0.0
+bacterial_leaf_blight,*semua sumber*,1986,2337,1.18,21.268,25.971,97.6,15.6
+bacterial_leaf_blight,ds1_provisional,1986,2337,1.18,21.268,25.971,97.6,15.6

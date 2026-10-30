@@ -1,0 +1,87 @@
+{
+  "dibuat": "2026-10-14T12:41:37",
+  "model_dijalankan": false,
+  "simpul": {
+    "ds1": 8667,
+    "ds2": 1701,
+    "ds3": 240,
+    "ds4": 9769,
+    "aditia": 1500,
+    "daunpadi": 1999
+  },
+  "sisi": {
+    "waktu_5dtk": 38413,
+    "visual_baru": 10556,
+    "kelompok_v7": 7415
+  },
+  "rentang_sesi_tns": [
+    "2025-04-26T17:03:54",
+    "2025-04-26T18:15:31"
+  ],
+  "daunpadi": {
+    "gambar": 1999,
+    "dipakai": 897,
+    "alasan_tidak_dipakai": {
+      "bukan satu kelas Brownspot/leafblast": 996,
+      "bukan satu kelas Brownspot/leafblast;": 42,
+      "kelompok memuat ds1_tidak_di_v7:1": 33,
+      "kelompok memuat ds1_tidak_di_v7:10": 6,
+      "kelompok memuat ds1_tidak_di_v7:3": 5,
+      "kelompok memuat ds1_tidak_di_v7:20": 2,
+      "kelompok memuat ds1_tidak_di_v7:12": 3,
+      "kelompok memuat ds1_tidak_di_v7:2": 6,
+      "kelompok memuat ds1_tidak_di_v7:9": 2,
+      "kelompok memuat ds1_tidak_di_v7:7": 2,
+      "kelompok memuat ds1_tidak_di_v7:11": 1,
+      "kelompok memuat ds1_tidak_di_v7:5": 1,
+      "kelompok memuat ds1_tidak_di_v7:13": 2,
+      "kelompok memuat ds1_tidak_di_v7:8": 1
+    },
+    "dipakai_per_split_kelas": {
+      "train|brown_spot": 372,
+      "val|brown_spot": 85,
+      "train|leaf_blast": 353,
+      "val|leaf_blast": 87
+    },
+    "kelompok_per_split_kelas": {
+      "train|brown_spot": 325,
+      "train|leaf_blast": 317,
+      "val|brown_spot": 81,
+      "val|leaf_blast": 78
+    },
+    "kotak_per_split_kelas": {
+      "train|brown_spot": 1594,
+      "val|brown_spot": 368,
+      "train|leaf_blast": 775,
+      "val|leaf_blast": 194
+    },
+    "tanda_aug_piksel": 12
+  },
+  "tungro": {
+    "total": 2244,
+    "layak": 1003,
+    "dipilih": 600,
+    "kelompok_dipilih": 202,
+    "dipilih_sekelompok_dengan_v7_train": 284,
+    "alasan_tidak_layak": {
+      "ds4_luar_cakupan": 987,
+      "v7_test": 341,
+      "v7_val": 765,
+      "dalam rentang sesi test_new_session": 57,
+      "v7_test_new_session": 31
+    },
+    "tanda_aug_piksel_dipilih": 7
+  },
+  "luar_cakupan_ds4": {
+    "Leaf smut": {
+      "total": 724,
+      "masuk_daftar": 278,
+      "kelompok_masuk": 144
+    },
+    "Sheath blight": {
+      "total": 1722,
+      "masuk_daftar": 1431,
+      "kelompok_masuk": 490
+    }
+  }
+}

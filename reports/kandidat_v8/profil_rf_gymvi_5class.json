@@ -1,0 +1,78 @@
+{
+  "kandidat": "rf_gymvi_5class",
+  "data_yaml": "data\\raw\\kandidat_v8\\rf_gymvi_5class\\data.yaml",
+  "kelas": [
+    "blast",
+    "blight",
+    "brownspot",
+    "healthy",
+    "hispa"
+  ],
+  "gambar": 1584,
+  "per_split": {
+    "train": 1320,
+    "valid": 264
+  },
+  "gambar_tanpa_label": 0,
+  "format_label": "YOLO kotak",
+  "gambar_per_kelas": {
+    "blight": 330,
+    "blast": 330,
+    "brownspot": 330,
+    "hispa": 264,
+    "healthy": 330
+  },
+  "kotak_per_kelas": {
+    "blight": 585,
+    "blast": 792,
+    "brownspot": 1137,
+    "hispa": 708,
+    "healthy": 447
+  },
+  "median_luas_kotak_persen_per_kelas": {
+    "blight": 3.019,
+    "blast": 0.812,
+    "brownspot": 0.101,
+    "hispa": 0.294,
+    "healthy": 46.347
+  },
+  "acuan_median_luas_kotak_persen_prov_v7_train": {
+    "ds4|leaf_blast": 0.293,
+    "ds4|brown_spot": 0.277,
+    "ds1|bacterial_leaf_blight": 19.987,
+    "ds1|brown_spot": 0.35,
+    "ds1|leaf_blast": 3.146
+  },
+  "resolusi": {
+    "416x416": 1584
+  },
+  "jenis_foto": {
+    "daun petik berlatar polos": 1246,
+    "daun di tanaman/lapangan": 338
+  },
+  "jenis_foto_per_kelas": {
+    "blight": {
+      "daun petik berlatar polos": 189,
+      "daun di tanaman/lapangan": 141
+    },
+    "blast": {
+      "daun petik berlatar polos": 176,
+      "daun di tanaman/lapangan": 154
+    },
+    "brownspot": {
+      "daun petik berlatar polos": 318,
+      "daun di tanaman/lapangan": 12
+    },
+    "hispa": {
+      "daun petik berlatar polos": 257,
+      "daun di tanaman/lapangan": 7
+    },
+    "healthy": {
+      "daun petik berlatar polos": 306,
+      "daun di tanaman/lapangan": 24
+    }
+  },
+  "rata2_latar_terang_netral_persen": 59.4,
+  "rata2_piksel_hijau_persen": 4.9,
+  "rata2_kecerahan": 0.769
+}

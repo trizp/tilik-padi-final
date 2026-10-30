@@ -1,0 +1,17 @@
+\begin{table}[!t]
+\centering
+\caption{BLB provisional (ds1), dilaporkan terpisah dan tidak dipakai untuk kesimpulan tentang latar.}
+\label{tab:v9_blb}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llcccc}
+\hline
+\textbf{Model} & \textbf{Kondisi} & \textbf{mAP50-95} & \textbf{IK95 mAP50-95} & \textbf{R} & \textbf{Akurasi diagnosis} \\
+\hline
+YOLOv8s & Dengan latar (v7, foto asli) & 0.103 $\pm$ 0.011 & [0.058, 0.186] & 0.497 $\pm$ 0.047 & 0.687 $\pm$ 0.083 \\
+YOLOv8s & Tanpa latar (v9, foto tanpa latar) & 0.136 $\pm$ 0.021 & [0.078, 0.229] & 0.494 $\pm$ 0.052 & 0.636 $\pm$ 0.054 \\
+YOLO11s & Dengan latar (v7, foto asli) & 0.116 $\pm$ 0.048 & [0.061, 0.210] & 0.517 $\pm$ 0.057 & 0.764 $\pm$ 0.047 \\
+YOLO11s & Tanpa latar (v9, foto tanpa latar) & 0.167 $\pm$ 0.020 & [0.092, 0.275] & 0.557 $\pm$ 0.054 & 0.724 $\pm$ 0.067 \\
+\hline
+\end{tabular}
+\end{table}

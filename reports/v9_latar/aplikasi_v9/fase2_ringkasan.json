@@ -1,0 +1,80 @@
+{
+ "kriteria": "LAYAK bila penurunan akurasi diagnosis rata-rata 3 seed <= 0,02 DAN penurunan recall Blast <= 0,03 (alur SAM2 - alur seg)",
+ "per_run": [
+  {
+   "run": "v9_final_prov_yolov8s_s0",
+   "ambang": 0.31,
+   "akurasi_val_tersimpan": 0.8595,
+   "sam2_bersih_mAP50": 0.5454,
+   "sam2_bersih_mAP50_95": 0.2261,
+   "seg_bersih_mAP50": 0.5373,
+   "seg_bersih_mAP50_95": 0.2223,
+   "sam2_blb_mAP50": 0.3689,
+   "sam2_blb_mAP50_95": 0.1523,
+   "seg_blb_mAP50": 0.4241,
+   "seg_blb_mAP50_95": 0.1635,
+   "sam2_akurasi": 0.8595,
+   "sam2_recall_blast": 0.9112,
+   "n_diagnosis": 861,
+   "seg_akurasi": 0.8583,
+   "seg_recall_blast": 0.9065,
+   "reproduksi_mAP50_95_tersimpan": 0.2261
+  },
+  {
+   "run": "v9_final_prov_yolov8s_s1",
+   "ambang": 0.32,
+   "akurasi_val_tersimpan": 0.8734,
+   "sam2_bersih_mAP50": 0.5589,
+   "sam2_bersih_mAP50_95": 0.2257,
+   "seg_bersih_mAP50": 0.5491,
+   "seg_bersih_mAP50_95": 0.2221,
+   "sam2_blb_mAP50": 0.3866,
+   "sam2_blb_mAP50_95": 0.1511,
+   "seg_blb_mAP50": 0.3946,
+   "seg_blb_mAP50_95": 0.1511,
+   "sam2_akurasi": 0.8734,
+   "sam2_recall_blast": 0.8318,
+   "n_diagnosis": 861,
+   "seg_akurasi": 0.863,
+   "seg_recall_blast": 0.8084,
+   "reproduksi_mAP50_95_tersimpan": 0.2257
+  },
+  {
+   "run": "v9_final_prov_yolov8s_s2",
+   "ambang": 0.35,
+   "akurasi_val_tersimpan": 0.8641,
+   "sam2_bersih_mAP50": 0.5509,
+   "sam2_bersih_mAP50_95": 0.2282,
+   "seg_bersih_mAP50": 0.5393,
+   "seg_bersih_mAP50_95": 0.2239,
+   "sam2_blb_mAP50": 0.3681,
+   "sam2_blb_mAP50_95": 0.1577,
+   "seg_blb_mAP50": 0.4023,
+   "seg_blb_mAP50_95": 0.1533,
+   "sam2_akurasi": 0.8641,
+   "sam2_recall_blast": 0.7991,
+   "n_diagnosis": 861,
+   "seg_akurasi": 0.8641,
+   "seg_recall_blast": 0.7991,
+   "reproduksi_mAP50_95_tersimpan": 0.2282
+  }
+ ],
+ "rata2": {
+  "sam2_bersih_mAP50_95": 0.2267,
+  "seg_bersih_mAP50_95": 0.2228,
+  "sam2_akurasi": 0.8657,
+  "seg_akurasi": 0.8618,
+  "sam2_recall_blast": 0.8474,
+  "seg_recall_blast": 0.838,
+  "sam2_blb_mAP50_95": 0.1537,
+  "seg_blb_mAP50_95": 0.156
+ },
+ "penurunan_akurasi": 0.0039,
+ "penurunan_recall_blast": 0.0094,
+ "penurunan_mAP50_95": 0.0039,
+ "reproduksi_selisih_maks": {
+  "mAP50_95": 0.0,
+  "akurasi": 0.0
+ },
+ "LAYAK": true
+}

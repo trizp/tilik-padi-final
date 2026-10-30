@@ -1,0 +1,743 @@
+{
+  "bootstrap": {
+    "B": 1000,
+    "seed": 20261013,
+    "unit": "group_id ds3"
+  },
+  "utama": {
+    "foto": 70,
+    "kelompok": 68
+  },
+  "tambahan": {
+    "foto": 160,
+    "kelompok": 154
+  },
+  "tabel": {
+    "utama": {
+      "per_model": [
+        {
+          "Split latih": "bersih (3 seed)",
+          "Model": "YOLOv8n",
+          "Ambang": "0.27/0.36/0.34",
+          "Akurasi": "0.338 ± 0.150",
+          "IK95 akurasi": "[0.249, 0.433]",
+          "P BLB": "0.903 ± 0.168",
+          "R BLB": "0.667 ± 0.315",
+          "IK95 R BLB": "[0.576, 0.752]",
+          "F1 BLB": "0.714 ± 0.177",
+          "P Blast": "0.333 ± 0.577",
+          "R Blast": "0.010 ± 0.016",
+          "IK95 R Blast": "[0.000, 0.031]",
+          "F1 Blast": "0.019 ± 0.032"
+        },
+        {
+          "Split latih": "bersih (3 seed)",
+          "Model": "YOLO11n",
+          "Ambang": "0.33/0.33/0.33",
+          "Akurasi": "0.181 ± 0.166",
+          "IK95 akurasi": "[0.127, 0.243]",
+          "P BLB": "1.000 ± 0.000",
+          "R BLB": "0.352 ± 0.334",
+          "IK95 R BLB": "[0.275, 0.427]",
+          "F1 BLB": "0.462 ± 0.363",
+          "P Blast": "0.333 ± 0.577",
+          "R Blast": "0.010 ± 0.016",
+          "IK95 R Blast": "[0.000, 0.032]",
+          "F1 Blast": "0.019 ± 0.032"
+        },
+        {
+          "Split latih": "bersih (3 seed)",
+          "Model": "YOLOv8s",
+          "Ambang": "0.38/0.39/0.37",
+          "Akurasi": "0.224 ± 0.066",
+          "IK95 akurasi": "[0.152, 0.304]",
+          "P BLB": "0.934 ± 0.072",
+          "R BLB": "0.400 ± 0.076",
+          "IK95 R BLB": "[0.283, 0.513]",
+          "F1 BLB": "0.558 ± 0.077",
+          "P Blast": "0.433 ± 0.404",
+          "R Blast": "0.048 ± 0.059",
+          "IK95 R Blast": "[0.009, 0.102]",
+          "F1 Blast": "0.085 ± 0.103"
+        },
+        {
+          "Split latih": "bersih (3 seed)",
+          "Model": "YOLO11s",
+          "Ambang": "0.39/0.27/0.35",
+          "Akurasi": "0.262 ± 0.240",
+          "IK95 akurasi": "[0.198, 0.333]",
+          "P BLB": "0.667 ± 0.577",
+          "R BLB": "0.524 ± 0.480",
+          "IK95 R BLB": "[0.472, 0.578]",
+          "F1 BLB": "0.581 ± 0.513",
+          "P Blast": "0.000 ± 0.000",
+          "R Blast": "0.000 ± 0.000",
+          "IK95 R Blast": "[0.000, 0.000]",
+          "F1 Blast": "0.000 ± 0.000"
+        },
+        {
+          "Split latih": "acak (1 seed)",
+          "Model": "YOLOv8n",
+          "Ambang": "0.29",
+          "Akurasi": "0.486",
+          "IK95 akurasi": "[0.371, 0.614]",
+          "P BLB": "0.633",
+          "R BLB": "0.886",
+          "IK95 R BLB": "[0.769, 0.974]",
+          "F1 BLB": "0.738",
+          "P Blast": "0.750",
+          "R Blast": "0.086",
+          "IK95 R Blast": "[0.000, 0.206]",
+          "F1 Blast": "0.154"
+        },
+        {
+          "Split latih": "acak (1 seed)",
+          "Model": "YOLO11n",
+          "Ambang": "0.23",
+          "Akurasi": "0.500",
+          "IK95 akurasi": "[0.383, 0.618]",
+          "P BLB": "0.761",
+          "R BLB": "1.000",
+          "IK95 R BLB": "[1.000, 1.000]",
+          "F1 BLB": "0.864",
+          "P Blast": "0.000",
+          "R Blast": "0.000",
+          "IK95 R Blast": "[0.000, 0.000]",
+          "F1 Blast": "0.000"
+        }
+      ],
+      "confusion": [
+        {
+          "Model": "YOLOv8n",
+          "Label": "BLB",
+          "Diagnosis BLB": 70,
+          "Diagnosis Blast": 0,
+          "Diagnosis Brown spot": 1,
+          "Diagnosis Tidak terdeteksi": 34,
+          "Total (3 seed)": 105
+        },
+        {
+          "Model": "YOLOv8n",
+          "Label": "Blast",
+          "Diagnosis BLB": 14,
+          "Diagnosis Blast": 1,
+          "Diagnosis Brown spot": 82,
+          "Diagnosis Tidak terdeteksi": 8,
+          "Total (3 seed)": 105
+        },
+        {
+          "Model": "YOLO11n",
+          "Label": "BLB",
+          "Diagnosis BLB": 37,
+          "Diagnosis Blast": 0,
+          "Diagnosis Brown spot": 4,
+          "Diagnosis Tidak terdeteksi": 64,
+          "Total (3 seed)": 105
+        },
+        {
+          "Model": "YOLO11n",
+          "Label": "Blast",
+          "Diagnosis BLB": 0,
+          "Diagnosis Blast": 1,
+          "Diagnosis Brown spot": 91,
+          "Diagnosis Tidak terdeteksi": 13,
+          "Total (3 seed)": 105
+        },
+        {
+          "Model": "YOLOv8s",
+          "Label": "BLB",
+          "Diagnosis BLB": 42,
+          "Diagnosis Blast": 2,
+          "Diagnosis Brown spot": 7,
+          "Diagnosis Tidak terdeteksi": 54,
+          "Total (3 seed)": 105
+        },
+        {
+          "Model": "YOLOv8s",
+          "Label": "Blast",
+          "Diagnosis BLB": 3,
+          "Diagnosis Blast": 5,
+          "Diagnosis Brown spot": 83,
+          "Diagnosis Tidak terdeteksi": 14,
+          "Total (3 seed)": 105
+        },
+        {
+          "Model": "YOLO11s",
+          "Label": "BLB",
+          "Diagnosis BLB": 55,
+          "Diagnosis Blast": 0,
+          "Diagnosis Brown spot": 2,
+          "Diagnosis Tidak terdeteksi": 48,
+          "Total (3 seed)": 105
+        },
+        {
+          "Model": "YOLO11s",
+          "Label": "Blast",
+          "Diagnosis BLB": 0,
+          "Diagnosis Blast": 0,
+          "Diagnosis Brown spot": 89,
+          "Diagnosis Tidak terdeteksi": 16,
+          "Total (3 seed)": 105
+        },
+        {
+          "Model": "YOLOv8n (acak)",
+          "Label": "BLB",
+          "Diagnosis BLB": 31,
+          "Diagnosis Blast": 1,
+          "Diagnosis Brown spot": 0,
+          "Diagnosis Tidak terdeteksi": 3,
+          "Total (3 seed)": 35
+        },
+        {
+          "Model": "YOLOv8n (acak)",
+          "Label": "Blast",
+          "Diagnosis BLB": 18,
+          "Diagnosis Blast": 3,
+          "Diagnosis Brown spot": 11,
+          "Diagnosis Tidak terdeteksi": 3,
+          "Total (3 seed)": 35
+        },
+        {
+          "Model": "YOLO11n (acak)",
+          "Label": "BLB",
+          "Diagnosis BLB": 35,
+          "Diagnosis Blast": 0,
+          "Diagnosis Brown spot": 0,
+          "Diagnosis Tidak terdeteksi": 0,
+          "Total (3 seed)": 35
+        },
+        {
+          "Model": "YOLO11n (acak)",
+          "Label": "Blast",
+          "Diagnosis BLB": 11,
+          "Diagnosis Blast": 0,
+          "Diagnosis Brown spot": 19,
+          "Diagnosis Tidak terdeteksi": 5,
+          "Total (3 seed)": 35
+        }
+      ],
+      "perbandingan": [
+        {
+          "Perbandingan": "YOLO11n − YOLOv8n (rata-rata 3 seed, berpasangan)",
+          "Metrik": "akurasi",
+          "Selisih": "-0.157",
+          "IK95": "[-0.216, -0.099]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n − YOLOv8n (rata-rata 3 seed, berpasangan)",
+          "Metrik": "recall BLB",
+          "Selisih": "-0.314",
+          "IK95": "[-0.397, -0.225]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n − YOLOv8n (rata-rata 3 seed, berpasangan)",
+          "Metrik": "recall Blast",
+          "Selisih": "+0.000",
+          "IK95": "[-0.028, +0.027]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLO11s − YOLOv8s (rata-rata 3 seed, berpasangan)",
+          "Metrik": "akurasi",
+          "Selisih": "+0.038",
+          "IK95": "[-0.023, +0.108]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLO11s − YOLOv8s (rata-rata 3 seed, berpasangan)",
+          "Metrik": "recall BLB",
+          "Selisih": "+0.124",
+          "IK95": "[+0.011, +0.240]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11s − YOLOv8s (rata-rata 3 seed, berpasangan)",
+          "Metrik": "recall Blast",
+          "Selisih": "-0.048",
+          "IK95": "[-0.102, -0.009]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih s0",
+          "Metrik": "akurasi",
+          "Selisih": "+0.000",
+          "IK95": "[-0.085, +0.072]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih s0",
+          "Metrik": "recall BLB",
+          "Selisih": "-0.086",
+          "IK95": "[-0.212, +0.029]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih s0",
+          "Metrik": "recall Blast",
+          "Selisih": "+0.086",
+          "IK95": "[+0.000, +0.206]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "akurasi",
+          "Selisih": "+0.148",
+          "IK95": "[+0.070, +0.230]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "recall BLB",
+          "Selisih": "+0.219",
+          "IK95": "[+0.095, +0.343]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "recall Blast",
+          "Selisih": "+0.076",
+          "IK95": "[-0.009, +0.200]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih s0",
+          "Metrik": "akurasi",
+          "Selisih": "+0.471",
+          "IK95": "[+0.357, +0.588]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih s0",
+          "Metrik": "recall BLB",
+          "Selisih": "+0.943",
+          "IK95": "[+0.853, +1.000]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih s0",
+          "Metrik": "recall Blast",
+          "Selisih": "+0.000",
+          "IK95": "[+0.000, +0.000]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "akurasi",
+          "Selisih": "+0.319",
+          "IK95": "[+0.235, +0.406]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "recall BLB",
+          "Selisih": "+0.648",
+          "IK95": "[+0.573, +0.725]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "recall Blast",
+          "Selisih": "-0.010",
+          "IK95": "[-0.032, +0.000]",
+          "Memuat nol": "ya"
+        }
+      ]
+    },
+    "tambahan": {
+      "per_model": [
+        {
+          "Split latih": "bersih (3 seed)",
+          "Model": "YOLOv8n",
+          "Ambang": "0.27/0.36/0.34",
+          "Akurasi": "0.292 ± 0.181",
+          "IK95 akurasi": "[0.238, 0.344]",
+          "P BLB": "0.898 ± 0.135",
+          "R BLB": "0.575 ± 0.373",
+          "IK95 R BLB": "[0.517, 0.630]",
+          "F1 BLB": "0.633 ± 0.217",
+          "P Blast": "0.333 ± 0.577",
+          "R Blast": "0.008 ± 0.014",
+          "IK95 R Blast": "[0.000, 0.022]",
+          "F1 Blast": "0.016 ± 0.028"
+        },
+        {
+          "Split latih": "bersih (3 seed)",
+          "Model": "YOLO11n",
+          "Ambang": "0.33/0.33/0.33",
+          "Akurasi": "0.121 ± 0.085",
+          "IK95 akurasi": "[0.084, 0.156]",
+          "P BLB": "0.981 ± 0.032",
+          "R BLB": "0.237 ± 0.172",
+          "IK95 R BLB": "[0.175, 0.296]",
+          "F1 BLB": "0.360 ± 0.214",
+          "P Blast": "0.333 ± 0.577",
+          "R Blast": "0.004 ± 0.007",
+          "IK95 R Blast": "[0.000, 0.014]",
+          "F1 Blast": "0.008 ± 0.014"
+        },
+        {
+          "Split latih": "bersih (3 seed)",
+          "Model": "YOLOv8s",
+          "Ambang": "0.38/0.39/0.37",
+          "Akurasi": "0.225 ± 0.050",
+          "IK95 akurasi": "[0.173, 0.276]",
+          "P BLB": "0.906 ± 0.015",
+          "R BLB": "0.404 ± 0.059",
+          "IK95 R BLB": "[0.321, 0.488]",
+          "F1 BLB": "0.557 ± 0.059",
+          "P Blast": "0.279 ± 0.295",
+          "R Blast": "0.046 ± 0.069",
+          "IK95 R Blast": "[0.020, 0.077]",
+          "F1 Blast": "0.077 ± 0.113"
+        },
+        {
+          "Split latih": "bersih (3 seed)",
+          "Model": "YOLO11s",
+          "Ambang": "0.39/0.27/0.35",
+          "Akurasi": "0.223 ± 0.202",
+          "IK95 akurasi": "[0.174, 0.268]",
+          "P BLB": "0.949 ± 0.055",
+          "R BLB": "0.446 ± 0.404",
+          "IK95 R BLB": "[0.386, 0.498]",
+          "F1 BLB": "0.518 ± 0.442",
+          "P Blast": "0.000 ± 0.000",
+          "R Blast": "0.000 ± 0.000",
+          "IK95 R Blast": "[0.000, 0.000]",
+          "F1 Blast": "0.000 ± 0.000"
+        },
+        {
+          "Split latih": "acak (1 seed)",
+          "Model": "YOLOv8n",
+          "Ambang": "0.29",
+          "Akurasi": "0.481",
+          "IK95 akurasi": "[0.403, 0.556]",
+          "P BLB": "0.654",
+          "R BLB": "0.850",
+          "IK95 R BLB": "[0.765, 0.923]",
+          "F1 BLB": "0.739",
+          "P Blast": "0.818",
+          "R Blast": "0.113",
+          "IK95 R Blast": "[0.049, 0.181]",
+          "F1 Blast": "0.198"
+        },
+        {
+          "Split latih": "acak (1 seed)",
+          "Model": "YOLO11n",
+          "Ambang": "0.23",
+          "Akurasi": "0.469",
+          "IK95 akurasi": "[0.390, 0.544]",
+          "P BLB": "0.740",
+          "R BLB": "0.925",
+          "IK95 R BLB": "[0.862, 0.976]",
+          "F1 BLB": "0.822",
+          "P Blast": "0.500",
+          "R Blast": "0.013",
+          "IK95 R Blast": "[0.000, 0.042]",
+          "F1 Blast": "0.024"
+        }
+      ],
+      "confusion": [
+        {
+          "Model": "YOLOv8n",
+          "Label": "BLB",
+          "Diagnosis BLB": 138,
+          "Diagnosis Blast": 0,
+          "Diagnosis Brown spot": 10,
+          "Diagnosis Tidak terdeteksi": 92,
+          "Total (3 seed)": 240
+        },
+        {
+          "Model": "YOLOv8n",
+          "Label": "Blast",
+          "Diagnosis BLB": 29,
+          "Diagnosis Blast": 2,
+          "Diagnosis Brown spot": 187,
+          "Diagnosis Tidak terdeteksi": 22,
+          "Total (3 seed)": 240
+        },
+        {
+          "Model": "YOLO11n",
+          "Label": "BLB",
+          "Diagnosis BLB": 57,
+          "Diagnosis Blast": 3,
+          "Diagnosis Brown spot": 24,
+          "Diagnosis Tidak terdeteksi": 156,
+          "Total (3 seed)": 240
+        },
+        {
+          "Model": "YOLO11n",
+          "Label": "Blast",
+          "Diagnosis BLB": 2,
+          "Diagnosis Blast": 1,
+          "Diagnosis Brown spot": 194,
+          "Diagnosis Tidak terdeteksi": 43,
+          "Total (3 seed)": 240
+        },
+        {
+          "Model": "YOLOv8s",
+          "Label": "BLB",
+          "Diagnosis BLB": 97,
+          "Diagnosis Blast": 10,
+          "Diagnosis Brown spot": 20,
+          "Diagnosis Tidak terdeteksi": 113,
+          "Total (3 seed)": 240
+        },
+        {
+          "Model": "YOLOv8s",
+          "Label": "Blast",
+          "Diagnosis BLB": 10,
+          "Diagnosis Blast": 11,
+          "Diagnosis Brown spot": 191,
+          "Diagnosis Tidak terdeteksi": 28,
+          "Total (3 seed)": 240
+        },
+        {
+          "Model": "YOLO11s",
+          "Label": "BLB",
+          "Diagnosis BLB": 107,
+          "Diagnosis Blast": 1,
+          "Diagnosis Brown spot": 21,
+          "Diagnosis Tidak terdeteksi": 111,
+          "Total (3 seed)": 240
+        },
+        {
+          "Model": "YOLO11s",
+          "Label": "Blast",
+          "Diagnosis BLB": 8,
+          "Diagnosis Blast": 0,
+          "Diagnosis Brown spot": 198,
+          "Diagnosis Tidak terdeteksi": 34,
+          "Total (3 seed)": 240
+        },
+        {
+          "Model": "YOLOv8n (acak)",
+          "Label": "BLB",
+          "Diagnosis BLB": 68,
+          "Diagnosis Blast": 2,
+          "Diagnosis Brown spot": 0,
+          "Diagnosis Tidak terdeteksi": 10,
+          "Total (3 seed)": 80
+        },
+        {
+          "Model": "YOLOv8n (acak)",
+          "Label": "Blast",
+          "Diagnosis BLB": 36,
+          "Diagnosis Blast": 9,
+          "Diagnosis Brown spot": 29,
+          "Diagnosis Tidak terdeteksi": 6,
+          "Total (3 seed)": 80
+        },
+        {
+          "Model": "YOLO11n (acak)",
+          "Label": "BLB",
+          "Diagnosis BLB": 74,
+          "Diagnosis Blast": 1,
+          "Diagnosis Brown spot": 4,
+          "Diagnosis Tidak terdeteksi": 1,
+          "Total (3 seed)": 80
+        },
+        {
+          "Model": "YOLO11n (acak)",
+          "Label": "Blast",
+          "Diagnosis BLB": 26,
+          "Diagnosis Blast": 1,
+          "Diagnosis Brown spot": 44,
+          "Diagnosis Tidak terdeteksi": 9,
+          "Total (3 seed)": 80
+        }
+      ],
+      "perbandingan": [
+        {
+          "Perbandingan": "YOLO11n − YOLOv8n (rata-rata 3 seed, berpasangan)",
+          "Metrik": "akurasi",
+          "Selisih": "-0.171",
+          "IK95": "[-0.205, -0.135]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n − YOLOv8n (rata-rata 3 seed, berpasangan)",
+          "Metrik": "recall BLB",
+          "Selisih": "-0.338",
+          "IK95": "[-0.384, -0.290]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n − YOLOv8n (rata-rata 3 seed, berpasangan)",
+          "Metrik": "recall Blast",
+          "Selisih": "-0.004",
+          "IK95": "[-0.019, +0.009]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLO11s − YOLOv8s (rata-rata 3 seed, berpasangan)",
+          "Metrik": "akurasi",
+          "Selisih": "-0.002",
+          "IK95": "[-0.042, +0.038]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLO11s − YOLOv8s (rata-rata 3 seed, berpasangan)",
+          "Metrik": "recall BLB",
+          "Selisih": "+0.042",
+          "IK95": "[-0.033, +0.114]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLO11s − YOLOv8s (rata-rata 3 seed, berpasangan)",
+          "Metrik": "recall Blast",
+          "Selisih": "-0.046",
+          "IK95": "[-0.077, -0.020]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih s0",
+          "Metrik": "akurasi",
+          "Selisih": "-0.013",
+          "IK95": "[-0.071, +0.043]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih s0",
+          "Metrik": "recall BLB",
+          "Selisih": "-0.138",
+          "IK95": "[-0.225, -0.060]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih s0",
+          "Metrik": "recall Blast",
+          "Selisih": "+0.113",
+          "IK95": "[+0.049, +0.181]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "akurasi",
+          "Selisih": "+0.190",
+          "IK95": "[+0.132, +0.244]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "recall BLB",
+          "Selisih": "+0.275",
+          "IK95": "[+0.184, +0.361]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLOv8n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "recall Blast",
+          "Selisih": "+0.104",
+          "IK95": "[+0.041, +0.172]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih s0",
+          "Metrik": "akurasi",
+          "Selisih": "+0.425",
+          "IK95": "[+0.347, +0.500]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih s0",
+          "Metrik": "recall BLB",
+          "Selisih": "+0.838",
+          "IK95": "[+0.758, +0.912]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih s0",
+          "Metrik": "recall Blast",
+          "Selisih": "+0.013",
+          "IK95": "[+0.000, +0.042]",
+          "Memuat nol": "ya"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "akurasi",
+          "Selisih": "+0.348",
+          "IK95": "[+0.284, +0.414]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "recall BLB",
+          "Selisih": "+0.688",
+          "IK95": "[+0.622, +0.761]",
+          "Memuat nol": "tidak"
+        },
+        {
+          "Perbandingan": "YOLO11n acak − bersih (rata-rata 3 seed)",
+          "Metrik": "recall Blast",
+          "Selisih": "+0.008",
+          "IK95": "[-0.012, +0.040]",
+          "Memuat nol": "ya"
+        }
+      ]
+    },
+    "tungro": [
+      {
+        "Split latih": "bersih (3 seed)",
+        "Model": "YOLOv8n",
+        "Foto": 80,
+        "% didiagnosis penyakit": "79.6 ± 18.2",
+        "% BLB": "77.9 ± 19.6",
+        "% Blast": "0.0 ± 0.0",
+        "% Brown spot": "1.7 ± 1.4",
+        "% Tidak terdeteksi": "20.4 ± 18.2"
+      },
+      {
+        "Split latih": "bersih (3 seed)",
+        "Model": "YOLO11n",
+        "Foto": 80,
+        "% didiagnosis penyakit": "48.8 ± 29.1",
+        "% BLB": "44.6 ± 29.3",
+        "% Blast": "0.4 ± 0.7",
+        "% Brown spot": "3.8 ± 0.0",
+        "% Tidak terdeteksi": "51.2 ± 29.1"
+      },
+      {
+        "Split latih": "bersih (3 seed)",
+        "Model": "YOLOv8s",
+        "Foto": 80,
+        "% didiagnosis penyakit": "57.1 ± 8.3",
+        "% BLB": "49.6 ± 8.5",
+        "% Blast": "1.2 ± 2.2",
+        "% Brown spot": "6.2 ± 1.2",
+        "% Tidak terdeteksi": "42.9 ± 8.3"
+      },
+      {
+        "Split latih": "bersih (3 seed)",
+        "Model": "YOLO11s",
+        "Foto": 80,
+        "% didiagnosis penyakit": "50.0 ± 44.7",
+        "% BLB": "47.9 ± 43.6",
+        "% Blast": "0.0 ± 0.0",
+        "% Brown spot": "2.1 ± 1.4",
+        "% Tidak terdeteksi": "50.0 ± 44.7"
+      },
+      {
+        "Split latih": "acak (1 seed)",
+        "Model": "YOLOv8n",
+        "Foto": 80,
+        "% didiagnosis penyakit": "95.0",
+        "% BLB": "93.8",
+        "% Blast": "0.0",
+        "% Brown spot": "1.2",
+        "% Tidak terdeteksi": "5.0"
+      },
+      {
+        "Split latih": "acak (1 seed)",
+        "Model": "YOLO11n",
+        "Foto": 80,
+        "% didiagnosis penyakit": "97.5",
+        "% BLB": "97.5",
+        "% Blast": "0.0",
+        "% Brown spot": "0.0",
+        "% Tidak terdeteksi": "2.5"
+      }
+    ]
+  }
+}

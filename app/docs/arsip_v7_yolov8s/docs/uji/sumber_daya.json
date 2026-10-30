@@ -1,0 +1,18 @@
+{
+  "rss_server_siap_MB": 66.2,
+  "rss_diam_setelah_model_dimuat_MB": 150.3,
+  "rss_puncak_saat_memproses_MB": 240.5,
+  "rss_diam_setelah_11_foto_MB": 164.0,
+  "waktu_inti_ms_median_20_val": 119.0,
+  "waktu_inti_ms_maks_20_val": 138.8,
+  "waktu_inti_ms_median_foto_4000x3000": 288.1,
+  "waktu_ujung_ke_ujung_ms_median_val": 222.8,
+  "waktu_ujung_ke_ujung_ms_median_4000x3000": 391.0,
+  "mesin": {
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "inti_logis": 16,
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.12.3"
+  },
+  "catatan": "RSS = memori fisik proses streamlit + anaknya. Waktu inti = baca foto + inferensi ONNX + diagnosis + forward chaining + gambar kotak."
+}

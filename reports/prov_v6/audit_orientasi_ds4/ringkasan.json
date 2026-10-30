@@ -1,0 +1,55 @@
+{
+  "sumber_foto": "foto mentah ds4 (Original images)",
+  "pembacaan": "ImageOps.exif_transpose",
+  "definisi": "label_tidak_cocok = foto 'Original images' perlu diputar/dibalik agar sama dengan visual buatan penulis ds4 (tempat label dibuat)",
+  "per_split": {
+    "train": {
+      "ds4_gambar": 2869,
+      "ds4_berlabel": 2313,
+      "label_tidak_cocok": 457,
+      "persen_berlabel_tidak_cocok": 19.8,
+      "orientasi": {
+        "asli": 1856,
+        "rot90": 49,
+        "rot270": 407,
+        "rot180": 1
+      }
+    },
+    "val": {
+      "ds4_gambar": 845,
+      "ds4_berlabel": 552,
+      "label_tidak_cocok": 182,
+      "persen_berlabel_tidak_cocok": 33.0,
+      "orientasi": {
+        "rot270": 163,
+        "asli": 370,
+        "rot90": 19
+      }
+    },
+    "test": {
+      "ds4_gambar": 422,
+      "ds4_berlabel": 276,
+      "label_tidak_cocok": 89,
+      "persen_berlabel_tidak_cocok": 32.2,
+      "orientasi": {
+        "asli": 187,
+        "rot270": 77,
+        "rot90": 11,
+        "rot180": 1
+      }
+    },
+    "test_new_session": {
+      "ds4_gambar": 299,
+      "ds4_berlabel": 243,
+      "label_tidak_cocok": 202,
+      "persen_berlabel_tidak_cocok": 83.1,
+      "orientasi": {
+        "rot270": 175,
+        "rot90": 27,
+        "asli": 41
+      }
+    }
+  },
+  "jarak_terbaik_kedua_min_pada_tidak_cocok": 0.0717,
+  "selisih_terbaik_maks": 0.01
+}

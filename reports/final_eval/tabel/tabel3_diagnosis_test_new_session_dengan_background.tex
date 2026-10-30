@@ -1,0 +1,16 @@
+\begin{table}[!t]
+\centering
+\caption{Diagnosis per citra pada Test sesi baru (kelas kotak dengan confidence tertinggi; ambang dikunci pada val). Rata-rata $\pm$ simpangan baku 3 seed.}
+\label{tab:diagnosis_test_new_session_dengan_background}
+\footnotesize
+\begin{tabular}{lccccc}
+\hline
+\textbf{Model} & \textbf{Akurasi} & \textbf{IK95 akurasi} & \textbf{F1 Blast} & \textbf{F1 Brown spot} & \textbf{F1 Sehat/tdk terdeteksi} \\
+\hline
+YOLOv8n & 0.433 $\pm$ 0.078 & [0.384, 0.478] & 0.482 $\pm$ 0.160 & 0.421 $\pm$ 0.099 & 0.396 $\pm$ 0.026 \\
+YOLO11n & 0.576 $\pm$ 0.044 & [0.523, 0.624] & 0.677 $\pm$ 0.053 & 0.562 $\pm$ 0.055 & 0.490 $\pm$ 0.085 \\
+YOLOv8s & 0.460 $\pm$ 0.035 & [0.409, 0.509] & 0.498 $\pm$ 0.134 & 0.436 $\pm$ 0.106 & 0.442 $\pm$ 0.031 \\
+YOLO11s & 0.629 $\pm$ 0.104 & [0.582, 0.674] & 0.696 $\pm$ 0.081 & 0.567 $\pm$ 0.150 & 0.619 $\pm$ 0.094 \\
+\hline
+\end{tabular}
+\end{table}

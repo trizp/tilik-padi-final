@@ -1,0 +1,37 @@
+{
+ "foto_val": 1259,
+ "cadangan_aplikasi": 86,
+ "cadangan_acuan": 86,
+ "keputusan_cadangan_sama": 1255,
+ "beda": [
+  {
+   "foto": "ds1_provisional_r6k-train-blight-orig-023-jpg-rf-d8780d1_ef18f774.jpg",
+   "cadangan_aplikasi": true,
+   "cadangan_acuan": false
+  },
+  {
+   "foto": "ds1_provisional_r6k-train-blight-orig-044-jpg-rf-2d7d29d_33e90cb4.jpg",
+   "cadangan_aplikasi": true,
+   "cadangan_acuan": false
+  },
+  {
+   "foto": "ds1_provisional_r6k-train-img-blb-66-jpeg-jpg-rf-d1bd621_001af78a.jpg",
+   "cadangan_aplikasi": false,
+   "cadangan_acuan": true
+  },
+  {
+   "foto": "ds2_Healthy-rice-leaf-62_d88b6613.jpg",
+   "cadangan_aplikasi": false,
+   "cadangan_acuan": true
+  }
+ ],
+ "iou_masker": {
+  "n": 1171,
+  "median": 0.99504,
+  "minimum": 0.04076,
+  "persen_iou_ge_0_99": 86.51,
+  "persen_iou_ge_0_98": 97.78
+ },
+ "waktu_pisahkan_ms_median": 102.6,
+ "catatan": "Acuan = masker fase 1 (data/derived/v9_latar/seg_n_val; tau 0,35). Aplikasi membaca foto lewat PIL + koreksi EXIF + batas sisi 2048 px; acuan lewat cv2.imread pada resolusi asli."
+}

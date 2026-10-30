@@ -1,0 +1,24 @@
+{
+  "id_split_kelompok_kelas_sumber_identik": true,
+  "selisih_id_split": 0,
+  "jumlah_per_split_v6": {
+    "train": 6772,
+    "val": 1259,
+    "test": 629,
+    "test_new_session": 299
+  },
+  "jumlah_per_split_v7": {
+    "train": 6772,
+    "val": 1259,
+    "test": 629,
+    "test_new_session": 299
+  },
+  "gambar_hash_berubah": 931,
+  "berubah_semua_ds4_jpegtran": true,
+  "berubah_di_luar_daftar_jpegtran": 0,
+  "label_berbeda": 0,
+  "ds4_masih_bertag_exif_orientasi": 0,
+  "labels_sha256_v6": "3490cff1daa1acbe8a2994cc7413aaabf870acc121155259b05b90710a40c548",
+  "labels_sha256_v7": "3490cff1daa1acbe8a2994cc7413aaabf870acc121155259b05b90710a40c548",
+  "LOLOS": true
+}

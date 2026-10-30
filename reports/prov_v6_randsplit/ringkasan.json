@@ -1,0 +1,166 @@
+{
+  "dataset_name": "prov_v6_randsplit",
+  "dibuat": "2026-10-08T01:49:50",
+  "induk": {
+    "dataset": "prov_v6",
+    "manifest_sha256": "2963885f1119b684afa5996afbb291f49b8ed5baefd88bc44b398297698aa4d7"
+  },
+  "aturan": "gambar train+val+test prov_v6 dibagi ACAK PER GAMBAR (0.7, 0.2, 0.1) (seed 42), tanpa memperhatikan kelompok duplikat dan tanpa aturan train_only; background train dipangkas ke 10% (hanya ds4) seperti prov_v6; test_new_session disalin apa adanya dari prov_v6",
+  "seed": 42,
+  "pool_sebelum_pangkas": 8660,
+  "background_train": {
+    "max_frac": 0.1,
+    "train_penyakit": 5277,
+    "cap": 586,
+    "bg_train_sebelum": 785,
+    "dipangkas": 199,
+    "bg_train_sesudah": 586,
+    "sumber_prunable": [
+      "ds4"
+    ],
+    "dipertahankan_per_sumber": {
+      "ds4": 474,
+      "ds2": 112
+    }
+  },
+  "jumlah": {
+    "train": {
+      "leaf_blast": 1107,
+      "brown_spot": 2758,
+      "background": 586,
+      "bacterial_leaf_blight": 1412,
+      "TOTAL": 5863
+    },
+    "val": {
+      "bacterial_leaf_blight": 374,
+      "background": 249,
+      "brown_spot": 802,
+      "leaf_blast": 307,
+      "TOTAL": 1732
+    },
+    "test": {
+      "brown_spot": 385,
+      "leaf_blast": 163,
+      "bacterial_leaf_blight": 200,
+      "background": 118,
+      "TOTAL": 866
+    },
+    "test_new_session": {
+      "leaf_blast": 96,
+      "brown_spot": 147,
+      "background": 56,
+      "TOTAL": 299
+    }
+  },
+  "asal_split_prov_v6": {
+    "train": {
+      "test": 433,
+      "train": 4638,
+      "val": 792
+    },
+    "val": {
+      "test": 104,
+      "train": 1355,
+      "val": 273
+    },
+    "test": {
+      "test": 69,
+      "train": 653,
+      "val": 144
+    }
+  },
+  "kebocoran": {
+    "definisi": "gambar val/test acak yang kelompok prov_v6-nya (phash, embedding, nama dasar Roboflow, K4, SIFT, jendela waktu 5 dtk; kolom group) juga punya anggota di train acak",
+    "per_split": {
+      "val": {
+        "gambar": 1732,
+        "punya_kembar_di_train": 1596,
+        "persen": 92.1
+      },
+      "test": {
+        "gambar": 866,
+        "punya_kembar_di_train": 793,
+        "persen": 91.6
+      },
+      "val+test": {
+        "gambar": 2598,
+        "punya_kembar_di_train": 2389,
+        "persen": 92.0
+      }
+    },
+    "per_kelas": {
+      "val": {
+        "leaf_blast": {
+          "gambar": 307,
+          "punya_kembar_di_train": 273,
+          "persen": 88.9
+        },
+        "brown_spot": {
+          "gambar": 802,
+          "punya_kembar_di_train": 768,
+          "persen": 95.8
+        },
+        "bacterial_leaf_blight": {
+          "gambar": 374,
+          "punya_kembar_di_train": 369,
+          "persen": 98.7
+        },
+        "background": {
+          "gambar": 249,
+          "punya_kembar_di_train": 186,
+          "persen": 74.7
+        }
+      },
+      "test": {
+        "leaf_blast": {
+          "gambar": 163,
+          "punya_kembar_di_train": 138,
+          "persen": 84.7
+        },
+        "brown_spot": {
+          "gambar": 385,
+          "punya_kembar_di_train": 371,
+          "persen": 96.4
+        },
+        "bacterial_leaf_blight": {
+          "gambar": 200,
+          "punya_kembar_di_train": 193,
+          "persen": 96.5
+        },
+        "background": {
+          "gambar": 118,
+          "punya_kembar_di_train": 91,
+          "persen": 77.1
+        }
+      }
+    },
+    "per_sumber": {
+      "ds1": {
+        "gambar": 740,
+        "punya_kembar_di_train": 718,
+        "persen": 97.0
+      },
+      "ds1_provisional": {
+        "gambar": 574,
+        "punya_kembar_di_train": 562,
+        "persen": 97.9
+      },
+      "ds2": {
+        "gambar": 45,
+        "punya_kembar_di_train": 20,
+        "persen": 44.4
+      },
+      "ds4": {
+        "gambar": 1239,
+        "punya_kembar_di_train": 1089,
+        "persen": 87.9
+      }
+    },
+    "kelompok_terbelah_lintas_split": 698,
+    "kelompok_berisi_>1_gambar": 850,
+    "val_test_dari_sumber_train_only_prov_v6": 740,
+    "anggota_kelompok_test_new_session_di_train/val/test_acak": 0
+  },
+  "manifest_sha256": "9e841c178c06d4d56157e7f099fdc1c0646361d01992460db7df3146354a12ba",
+  "frozen": true
+}

@@ -1,0 +1,242 @@
+{
+  "LABEL": "uji coba VAL v7 (tanpa training)",
+  "contoh_montase": [
+    "ds4_blast-36_6fe86230.jpg",
+    "ds4_blast-127_1455563c.jpg",
+    "ds4_blast-608_d7f4e200.jpg",
+    "ds4_blast-731_c12de357.jpg",
+    "ds4_blast-852_b8e6a6aa.jpg",
+    "ds4_brown-spot-35_9e7f58f5.jpg",
+    "ds4_brown-spot-474_8f0f56be.jpg",
+    "ds4_brown-spot-1383_f25cde68.jpg",
+    "ds4_brown-spot-64_b7c6836b.jpg",
+    "ds4_brown-spot-313_7fd83d13.jpg",
+    "ds4_Healthy-321_44216b0d.jpg",
+    "ds4_Healthy-271_940ba0d5.jpg",
+    "ds4_Healthy-1027_ccf9f2b0.jpg",
+    "ds4_Healthy-1175_e9c51bc4.jpg",
+    "ds4_Healthy-470_ce3289e3.jpg",
+    "ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-4d38cd_783a64f4.jpg",
+    "ds1_provisional_r6k-val-img-blb-112-jpeg-jpg-rf-afeea35b_e644903d.jpg",
+    "ds1_provisional_r6k-train-blight-orig-044-jpg-rf-5babb03_edbb6eba.jpg",
+    "ds1_provisional_r6k-train-blight-orig-001-jpg-rf-34683e4_4bc05518.jpg",
+    "ds1_provisional_r6k-train-img-blb-133-jpeg-jpg-rf-8ce4f1_3f18efec.jpg"
+  ],
+  "metode": {
+    "rembg_u2net": {
+      "semua": {
+        "n_foto": 100,
+        "n_kotak": 233,
+        "persen_kotak_ge50": 56.7,
+        "persen_foto_terpotong_parah": 47.0,
+        "median_luas_masker_persen": 14.6,
+        "median_waktu_s": 0.313
+      },
+      "ds4 Blast": {
+        "n_foto": 30,
+        "n_kotak": 87,
+        "persen_kotak_ge50": 89.7,
+        "persen_foto_terpotong_parah": 23.3,
+        "median_luas_masker_persen": 22.2,
+        "median_waktu_s": 0.276
+      },
+      "ds4 Brown spot": {
+        "n_foto": 30,
+        "n_kotak": 125,
+        "persen_kotak_ge50": 38.4,
+        "persen_foto_terpotong_parah": 56.7,
+        "median_luas_masker_persen": 12.9,
+        "median_waktu_s": 0.317
+      },
+      "ds4 sehat": {
+        "n_foto": 20,
+        "n_kotak": 0,
+        "persen_kotak_ge50": null,
+        "persen_foto_terpotong_parah": 45.0,
+        "median_luas_masker_persen": 13.6,
+        "median_waktu_s": 0.327
+      },
+      "ds1 BLB": {
+        "n_foto": 20,
+        "n_kotak": 21,
+        "persen_kotak_ge50": 28.6,
+        "persen_foto_terpotong_parah": 70.0,
+        "median_luas_masker_persen": 13.0,
+        "median_waktu_s": 0.323
+      },
+      "perangkat": "CPU (onnxruntime)"
+    },
+    "rembg_isnet": {
+      "semua": {
+        "n_foto": 100,
+        "n_kotak": 233,
+        "persen_kotak_ge50": 26.2,
+        "persen_foto_terpotong_parah": 78.0,
+        "median_luas_masker_persen": 0.8,
+        "median_waktu_s": 0.924
+      },
+      "ds4 Blast": {
+        "n_foto": 30,
+        "n_kotak": 87,
+        "persen_kotak_ge50": 39.1,
+        "persen_foto_terpotong_parah": 66.7,
+        "median_luas_masker_persen": 0.6,
+        "median_waktu_s": 0.99
+      },
+      "ds4 Brown spot": {
+        "n_foto": 30,
+        "n_kotak": 125,
+        "persen_kotak_ge50": 20.0,
+        "persen_foto_terpotong_parah": 80.0,
+        "median_luas_masker_persen": 0.4,
+        "median_waktu_s": 0.922
+      },
+      "ds4 sehat": {
+        "n_foto": 20,
+        "n_kotak": 0,
+        "persen_kotak_ge50": null,
+        "persen_foto_terpotong_parah": 80.0,
+        "median_luas_masker_persen": 1.9,
+        "median_waktu_s": 0.94
+      },
+      "ds1 BLB": {
+        "n_foto": 20,
+        "n_kotak": 21,
+        "persen_kotak_ge50": 9.5,
+        "persen_foto_terpotong_parah": 90.0,
+        "median_luas_masker_persen": 0.6,
+        "median_waktu_s": 0.836
+      },
+      "perangkat": "CPU (onnxruntime)"
+    },
+    "sam2": {
+      "semua": {
+        "n_foto": 100,
+        "n_kotak": 233,
+        "persen_kotak_ge50": 87.1,
+        "persen_foto_terpotong_parah": 15.0,
+        "median_luas_masker_persen": 25.7,
+        "median_waktu_s": 1.442
+      },
+      "ds4 Blast": {
+        "n_foto": 30,
+        "n_kotak": 87,
+        "persen_kotak_ge50": 83.9,
+        "persen_foto_terpotong_parah": 10.0,
+        "median_luas_masker_persen": 25.8,
+        "median_waktu_s": 1.438
+      },
+      "ds4 Brown spot": {
+        "n_foto": 30,
+        "n_kotak": 125,
+        "persen_kotak_ge50": 97.6,
+        "persen_foto_terpotong_parah": 0.0,
+        "median_luas_masker_persen": 28.6,
+        "median_waktu_s": 1.452
+      },
+      "ds4 sehat": {
+        "n_foto": 20,
+        "n_kotak": 0,
+        "persen_kotak_ge50": null,
+        "persen_foto_terpotong_parah": 0.0,
+        "median_luas_masker_persen": 29.8,
+        "median_waktu_s": 1.457
+      },
+      "ds1 BLB": {
+        "n_foto": 20,
+        "n_kotak": 21,
+        "persen_kotak_ge50": 38.1,
+        "persen_foto_terpotong_parah": 60.0,
+        "median_luas_masker_persen": 9.9,
+        "median_waktu_s": 1.389
+      },
+      "perangkat": "GPU RTX 3050 Ti (SAM2)"
+    },
+    "sam2_v2": {
+      "semua": {
+        "n_foto": 100,
+        "n_kotak": 233,
+        "persen_kotak_ge50": 89.3,
+        "persen_foto_terpotong_parah": 9.0,
+        "median_luas_masker_persen": 28.4,
+        "median_waktu_s": 1.389
+      },
+      "ds4 Blast": {
+        "n_foto": 30,
+        "n_kotak": 87,
+        "persen_kotak_ge50": 86.2,
+        "persen_foto_terpotong_parah": 6.7,
+        "median_luas_masker_persen": 25.8,
+        "median_waktu_s": 1.384
+      },
+      "ds4 Brown spot": {
+        "n_foto": 30,
+        "n_kotak": 125,
+        "persen_kotak_ge50": 95.2,
+        "persen_foto_terpotong_parah": 3.3,
+        "median_luas_masker_persen": 28.6,
+        "median_waktu_s": 1.398
+      },
+      "ds4 sehat": {
+        "n_foto": 20,
+        "n_kotak": 0,
+        "persen_kotak_ge50": null,
+        "persen_foto_terpotong_parah": 0.0,
+        "median_luas_masker_persen": 29.8,
+        "median_waktu_s": 1.397
+      },
+      "ds1 BLB": {
+        "n_foto": 20,
+        "n_kotak": 21,
+        "persen_kotak_ge50": 66.7,
+        "persen_foto_terpotong_parah": 30.0,
+        "median_luas_masker_persen": 65.1,
+        "median_waktu_s": 1.344
+      },
+      "perangkat": "GPU RTX 3050 Ti (SAM2)"
+    },
+    "warna": {
+      "semua": {
+        "n_foto": 100,
+        "n_kotak": 233,
+        "persen_kotak_ge50": 97.0,
+        "persen_foto_terpotong_parah": 5.0,
+        "median_luas_masker_persen": 96.9,
+        "median_waktu_s": 0.007
+      },
+      "ds4 Blast": {
+        "n_foto": 30,
+        "n_kotak": 87,
+        "persen_kotak_ge50": 98.9,
+        "persen_foto_terpotong_parah": 0.0,
+        "median_luas_masker_persen": 99.2,
+        "median_waktu_s": 0.007
+      },
+      "ds4 Brown spot": {
+        "n_foto": 30,
+        "n_kotak": 125,
+        "persen_kotak_ge50": 100.0,
+        "persen_foto_terpotong_parah": 0.0,
+        "median_luas_masker_persen": 96.3,
+        "median_waktu_s": 0.007
+      },
+      "ds4 sehat": {
+        "n_foto": 20,
+        "n_kotak": 0,
+        "persen_kotak_ge50": null,
+        "persen_foto_terpotong_parah": 0.0,
+        "median_luas_masker_persen": 96.4,
+        "median_waktu_s": 0.007
+      },
+      "ds1 BLB": {
+        "n_foto": 20,
+        "n_kotak": 21,
+        "persen_kotak_ge50": 71.4,
+        "persen_foto_terpotong_parah": 25.0,
+        "median_luas_masker_persen": 90.0,
+        "median_waktu_s": 0.002
+      },
+      "perangkat": "CPU"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+path: D:/TELKOM/SKRIPSI/rice_yolo/data/processed/prov_v9
+train: images/train
+val: images/val
+test: images/test
+test_new_session: images/test_new_session
+names:
+  0: leaf_blast
+  1: brown_spot
+  2: bacterial_leaf_blight
+dataset_name: prov_v9
+run_prefix: v9_
+provisional: true
+provisional_sources:
+- ds1_provisional
+seed: 42
+grouping_rule_version: v5
+manifest_sha256: 7bfce9a84ce4e9456439e54a157fc452362940ac0dba8f0e13ecab6aaf8108c3
+frozen: true
+induk_dataset: prov_v7
+induk_manifest_sha256: b467d8c894cffbf6e749af114b699af5847b6129d4a39f6784afd7cf2457ffe8
+perbaikan: latar dihapus (SAM2.1-b otomatis + aturan v2 + cadangan, latar abu-abu
+  114, JPEG q95); kotak < 50% di daun dibuang; foto yang kehilangan semua kotak dikeluarkan;
+  ID/split/kelompok sama dengan prov_v7 untuk foto yang tersisa

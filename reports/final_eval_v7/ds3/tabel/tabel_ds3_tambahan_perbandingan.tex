@@ -1,0 +1,30 @@
+\begin{table}[!t]
+\centering
+\caption{Perbandingan berpasangan pada ds3 — Analisis tambahan (160 foto, label asli) (IK 95\% bootstrap per kelompok foto).}
+\label{tab:ds3_tambahan_banding}
+\footnotesize
+\begin{tabular}{lcccc}
+\hline
+\textbf{Perbandingan} & \textbf{Metrik} & \textbf{Selisih} & \textbf{IK95} & \textbf{Memuat nol} \\
+\hline
+YOLO11n − YOLOv8n (rata-rata 3 seed, berpasangan) & akurasi & -0.171 & [-0.205, -0.135] & tidak \\
+YOLO11n − YOLOv8n (rata-rata 3 seed, berpasangan) & recall BLB & -0.338 & [-0.384, -0.290] & tidak \\
+YOLO11n − YOLOv8n (rata-rata 3 seed, berpasangan) & recall Blast & -0.004 & [-0.019, +0.009] & ya \\
+YOLO11s − YOLOv8s (rata-rata 3 seed, berpasangan) & akurasi & -0.002 & [-0.042, +0.038] & ya \\
+YOLO11s − YOLOv8s (rata-rata 3 seed, berpasangan) & recall BLB & +0.042 & [-0.033, +0.114] & ya \\
+YOLO11s − YOLOv8s (rata-rata 3 seed, berpasangan) & recall Blast & -0.046 & [-0.077, -0.020] & tidak \\
+YOLOv8n acak − bersih s0 & akurasi & -0.013 & [-0.071, +0.043] & ya \\
+YOLOv8n acak − bersih s0 & recall BLB & -0.138 & [-0.225, -0.060] & tidak \\
+YOLOv8n acak − bersih s0 & recall Blast & +0.113 & [+0.049, +0.181] & tidak \\
+YOLOv8n acak − bersih (rata-rata 3 seed) & akurasi & +0.190 & [+0.132, +0.244] & tidak \\
+YOLOv8n acak − bersih (rata-rata 3 seed) & recall BLB & +0.275 & [+0.184, +0.361] & tidak \\
+YOLOv8n acak − bersih (rata-rata 3 seed) & recall Blast & +0.104 & [+0.041, +0.172] & tidak \\
+YOLO11n acak − bersih s0 & akurasi & +0.425 & [+0.347, +0.500] & tidak \\
+YOLO11n acak − bersih s0 & recall BLB & +0.838 & [+0.758, +0.912] & tidak \\
+YOLO11n acak − bersih s0 & recall Blast & +0.013 & [+0.000, +0.042] & ya \\
+YOLO11n acak − bersih (rata-rata 3 seed) & akurasi & +0.348 & [+0.284, +0.414] & tidak \\
+YOLO11n acak − bersih (rata-rata 3 seed) & recall BLB & +0.688 & [+0.622, +0.761] & tidak \\
+YOLO11n acak − bersih (rata-rata 3 seed) & recall Blast & +0.008 & [-0.012, +0.040] & ya \\
+\hline
+\end{tabular}
+\end{table}

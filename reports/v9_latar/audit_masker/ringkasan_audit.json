@@ -1,0 +1,134 @@
+{
+  "LABEL": "audit manusia (pemilik skripsi) atas 50 foto VAL acak di luar sampel tahap 0; SAM2 aturan v2",
+  "per_kelompok": {
+    "semua": {
+      "n": 50,
+      "baik": 41,
+      "salah_objek": 3,
+      "terpotong": 0,
+      "cadangan": 6,
+      "persen_baik": 82.0,
+      "IK95_baik_wilson": [
+        69.2,
+        90.2
+      ],
+      "persen_dipisah_baik_di_antara_yang_dipisah": 93.2
+    },
+    "ds4 (Blast, Brown spot, sehat)": {
+      "n": 38,
+      "baik": 37,
+      "salah_objek": 0,
+      "terpotong": 0,
+      "cadangan": 1,
+      "persen_baik": 97.4,
+      "IK95_baik_wilson": [
+        86.5,
+        99.5
+      ],
+      "persen_dipisah_baik_di_antara_yang_dipisah": 100.0
+    },
+    "ds1 BLB provisional": {
+      "n": 12,
+      "baik": 4,
+      "salah_objek": 3,
+      "terpotong": 0,
+      "cadangan": 5,
+      "persen_baik": 33.3,
+      "IK95_baik_wilson": [
+        13.8,
+        60.9
+      ],
+      "persen_dipisah_baik_di_antara_yang_dipisah": 57.1
+    },
+    "ds4 leaf_blast": {
+      "n": 11,
+      "baik": 11,
+      "salah_objek": 0,
+      "terpotong": 0,
+      "cadangan": 0,
+      "persen_baik": 100.0,
+      "IK95_baik_wilson": [
+        74.1,
+        100.0
+      ],
+      "persen_dipisah_baik_di_antara_yang_dipisah": 100.0
+    },
+    "ds4 brown_spot": {
+      "n": 5,
+      "baik": 5,
+      "salah_objek": 0,
+      "terpotong": 0,
+      "cadangan": 0,
+      "persen_baik": 100.0,
+      "IK95_baik_wilson": [
+        56.6,
+        100.0
+      ],
+      "persen_dipisah_baik_di_antara_yang_dipisah": 100.0
+    },
+    "ds4 background": {
+      "n": 22,
+      "baik": 21,
+      "salah_objek": 0,
+      "terpotong": 0,
+      "cadangan": 1,
+      "persen_baik": 95.5,
+      "IK95_baik_wilson": [
+        78.2,
+        99.2
+      ],
+      "persen_dipisah_baik_di_antara_yang_dipisah": 100.0
+    }
+  },
+  "tanda_cadangan_sistem_vs_penilai": {
+    "sistem tidak / penilai tidak": 43,
+    "sistem ya / penilai tidak": 1,
+    "sistem ya / penilai ya": 6
+  },
+  "ketidakcocokan_cadangan": [
+    {
+      "no": "24",
+      "berkas": "ds1_provisional_r6k-val-img-blb-126-jpeg-jpg-rf-ff3bc7d4_1b9482a0.jpg",
+      "sistem_cadangan": "ya",
+      "penilaian": "baik"
+    }
+  ],
+  "catatan_penilai": [
+    {
+      "no": "8",
+      "berkas": "ds1_provisional_r6k-train-blight-orig-031-jpg-rf-11b405f_d672c897.jpg",
+      "penilaian": "baik",
+      "catatan": "tapi blur"
+    },
+    {
+      "no": "21",
+      "berkas": "ds1_provisional_r6k-val-blight-rotated-044-jpg-rf-957a43_390bcd43.jpg",
+      "penilaian": "cadangan",
+      "catatan": "blur"
+    },
+    {
+      "no": "26",
+      "berkas": "ds1_provisional_r6k-train-blight-rotated-031-jpg-rf-b6ce_7ec411be.jpg",
+      "penilaian": "baik",
+      "catatan": "blur"
+    },
+    {
+      "no": "33",
+      "berkas": "ds1_provisional_r6k-train-blight-rotated-003-jpg-rf-ccd1_ac2c7b90.jpg",
+      "penilaian": "cadangan",
+      "catatan": "blur"
+    },
+    {
+      "no": "34",
+      "berkas": "ds1_provisional_r6k-train-blight-orig-046-jpg-rf-c7b5914_9a1d1177.jpg",
+      "penilaian": "cadangan",
+      "catatan": "blur"
+    }
+  ],
+  "salah_objek": [
+    "ds1_provisional_r6k-train-blight-rotated-023-jpg-rf-05dd_b51b03a3.jpg",
+    "ds1_provisional_r6k-train-blight-orig-023-jpg-rf-66dde28_c217ea86.jpg",
+    "ds1_provisional_r6k-train-blight-orig-023-jpg-rf-d2fe071_34d7400a.jpg"
+  ],
+  "terpotong": []
+}

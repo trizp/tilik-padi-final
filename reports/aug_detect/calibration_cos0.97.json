@@ -1,0 +1,164 @@
+{
+  "model": "dinov2_vits14",
+  "n_pool": 9684,
+  "a_nama_ds1": {
+    "n": 4449,
+    "ditandai": 4197,
+    "alasan": {
+      "versi_ganda_roboflow": 2660,
+      "kata:rotated": 443,
+      "kata:aug": 1094
+    }
+  },
+  "b_piksel_distribusi": {
+    "corner_black": {
+      "ds4_p1/p50/p99/p99.9": [
+        0.0,
+        0.0014,
+        0.1714,
+        0.3017
+      ],
+      "ds1_nama_aug_p1/p50/p99": [
+        0.0,
+        0.0,
+        0.9647
+      ],
+      "ds1_tanpa_tanda_p1/p50/p99": [
+        0.0,
+        0.0,
+        0.9456
+      ]
+    },
+    "border_black": {
+      "ds4_p1/p50/p99/p99.9": [
+        0.0,
+        0.0015,
+        0.0473,
+        0.1087
+      ],
+      "ds1_nama_aug_p1/p50/p99": [
+        0.0,
+        0.0,
+        0.6706
+      ],
+      "ds1_tanpa_tanda_p1/p50/p99": [
+        0.0,
+        0.0,
+        0.611
+      ]
+    },
+    "smear": {
+      "ds4_p1/p50/p99/p99.9": [
+        0.3406,
+        0.645,
+        0.9,
+        0.9584
+      ],
+      "ds1_nama_aug_p1/p50/p99": [
+        0.1515,
+        0.648,
+        1.202
+      ],
+      "ds1_tanpa_tanda_p1/p50/p99": [
+        0.2239,
+        0.7737,
+        1.2917
+      ]
+    }
+  },
+  "c_embedding_dim": 384,
+  "kontrol_positif_phash": {
+    "n_pasangan_phash<=10": 3337,
+    "cosine_p1/p5/p25/p50": [
+      0.8591,
+      0.9344,
+      0.9797,
+      0.9922
+    ],
+    "cosine_tanpa_rotasi_p1/p5/p50": [
+      0.7408,
+      0.8364,
+      0.9847
+    ]
+  },
+  "negatif_acak": {
+    "n": 399957,
+    "semua_p50/p99/p99.9/max": [
+      0.5825,
+      0.9079,
+      0.9401,
+      1.0001
+    ],
+    "kelas+sumber_sama_p50/p99/p99.9/max": [
+      0.6716,
+      0.9264,
+      0.9617,
+      1.0001
+    ]
+  },
+  "evaluasi": {
+    "cosine": 0.97,
+    "recall_pasangan_phash": 0.8331,
+    "recall_pasangan_phash_tanpa_rotasi90": 0.6164,
+    "fp_acak_semua": 0.000123,
+    "fp_acak_kelas_sumber_sama": 0.000667,
+    "sintetis": {
+      "rotasi_15_expand": {
+        "recall_embedding": 0.0,
+        "cosine_median": 0.895,
+        "recall_phash(<=14)": 0.0
+      },
+      "rotasi_-7": {
+        "recall_embedding": 0.027,
+        "cosine_median": 0.931,
+        "recall_phash(<=14)": 0.0
+      },
+      "crop_80%": {
+        "recall_embedding": 0.17,
+        "cosine_median": 0.935,
+        "recall_phash(<=14)": 0.0
+      },
+      "zoom_65%": {
+        "recall_embedding": 0.013,
+        "cosine_median": 0.897,
+        "recall_phash(<=14)": 0.0
+      },
+      "kecerahan_x1.4": {
+        "recall_embedding": 0.837,
+        "cosine_median": 0.989,
+        "recall_phash(<=14)": 0.713
+      },
+      "kecerahan_x0.6": {
+        "recall_embedding": 0.993,
+        "cosine_median": 0.997,
+        "recall_phash(<=14)": 1.0
+      },
+      "kontras_x1.5": {
+        "recall_embedding": 0.903,
+        "cosine_median": 0.989,
+        "recall_phash(<=14)": 0.977
+      },
+      "blur_r2": {
+        "recall_embedding": 0.903,
+        "cosine_median": 0.996,
+        "recall_phash(<=14)": 1.0
+      },
+      "flip_horizontal": {
+        "recall_embedding": 1.0,
+        "cosine_median": 1.0,
+        "recall_phash(<=14)": 1.0
+      },
+      "noise_sigma12": {
+        "recall_embedding": 0.83,
+        "cosine_median": 0.994,
+        "recall_phash(<=14)": 1.0
+      }
+    },
+    "grup_embedding_saja": {
+      "n_pasangan": 7587,
+      "n_grup": 6304,
+      "terbesar": 44,
+      "gambar_di_grup>1": 4678
+    }
+  }
+}

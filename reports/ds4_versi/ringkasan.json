@@ -1,0 +1,125 @@
+{
+ "versi": {
+  "V1": {
+   "publish_date": "2026-02-19T12:19:00.75Z",
+   "deskripsi_kotak": "RiceLeafDiseaseBD is a large-scale rice leaf disease dataset containing 9,769 high-resolution images (1024×1024 pixels) with 74,836 bounding box annotations",
+   "berkas": {
+    "Annotation Protocol.pdf": {
+     "size": 137333,
+     "sha256": "c3ad6752eb53472cac0b88a9a19d9ca4b7e900b78c198139a682f06b055c870c"
+    },
+    "Data Collection Pipeline.png": {
+     "size": 6331045,
+     "sha256": "4f002d18eeabd6d6e29cf18f16db4f5d48e7631a2df0253628702172d4ece3ee"
+    },
+    "Dataset folder Structure.png": {
+     "size": 4811090,
+     "sha256": "f24df29bb7393e08407615385d52b0aaf60e10e087437ef564e22325c16fd62a"
+    },
+    "README.md": {
+     "size": 8049,
+     "sha256": "515fa9cf3346e13310e17cc3bcafa3c18ac54a61297e540d7365c1fa32ef611b"
+    },
+    "RiceLeafDiseaseBD.zip": {
+     "size": 5633440816,
+     "sha256": "ce1362d6441eac15bf64a9aed99d37be2418e5a6e653528b9298d56035914790"
+    }
+   }
+  },
+  "V2": {
+   "publish_date": "2026-03-16T22:46:00.255Z",
+   "deskripsi_kotak": "RiceLeafDiseaseBD is a large-scale rice leaf disease dataset containing 9,769 high-resolution images (1024×1024 pixels) with 74,836 bounding box annotations",
+   "berkas": {
+    "Annotation Protocol.pdf": {
+     "size": 137333,
+     "sha256": "c3ad6752eb53472cac0b88a9a19d9ca4b7e900b78c198139a682f06b055c870c"
+    },
+    "Data Collection Pipeline.png": {
+     "size": 6331045,
+     "sha256": "4f002d18eeabd6d6e29cf18f16db4f5d48e7631a2df0253628702172d4ece3ee"
+    },
+    "Dataset folder Structure.png": {
+     "size": 4811090,
+     "sha256": "f24df29bb7393e08407615385d52b0aaf60e10e087437ef564e22325c16fd62a"
+    },
+    "Dataset metadata.xlsx": {
+     "size": 467612,
+     "sha256": "17d635b5b1f7ecee1c1fd2e907f8f02b9e4f21462b29b7ed35da3ea61d87ab41"
+    },
+    "README.md": {
+     "size": 8049,
+     "sha256": "515fa9cf3346e13310e17cc3bcafa3c18ac54a61297e540d7365c1fa32ef611b"
+    },
+    "RiceLeafDiseaseBD.zip": {
+     "size": 5633440816,
+     "sha256": "ce1362d6441eac15bf64a9aed99d37be2418e5a6e653528b9298d56035914790"
+    }
+   }
+  },
+  "V3": {
+   "publish_date": "2026-09-01T13:47:42.725Z",
+   "deskripsi_kotak": "RiceLeafDiseaseBD is a large-scale rice leaf disease dataset containing 9,769 high-resolution images (1024×1024 pixels) with 21,460 bounding box annotations",
+   "berkas": {
+    "Annotation_Protocol.pdf": {
+     "size": 174329,
+     "sha256": "5f5260ea4557876759b1776c2c31a1e64f7759412ebc2b6bf7b02d4183daeb98"
+    },
+    "Data Collection Pipeline.png": {
+     "size": 6331045,
+     "sha256": "4f002d18eeabd6d6e29cf18f16db4f5d48e7631a2df0253628702172d4ece3ee"
+    },
+    "Dataset folder Structure.png": {
+     "size": 1291649,
+     "sha256": "45c0752558196b96cf246bf7a0b2e3b6b81b6d5bd85b146edad4327ddfc01d5b"
+    },
+    "Dataset metadata.xlsx": {
+     "size": 467612,
+     "sha256": "17d635b5b1f7ecee1c1fd2e907f8f02b9e4f21462b29b7ed35da3ea61d87ab41"
+    },
+    "README.md": {
+     "size": 11997,
+     "sha256": "b9017ba297b8622c0b04b2bdd652dad92e9d1040635a6284aa1dc2c910c21bcf"
+    },
+    "RiceLeafDiseaseBD.zip": {
+     "size": 5632829086,
+     "sha256": "00999f0aa30d7063fe32befefd51317b9a7cb0f8fdf0ed1e1df165eebf47110e"
+    }
+   }
+  }
+ },
+ "dokumen_lokal_cocok": {
+  "Annotation_Protocol.pdf": [
+   "V3"
+  ],
+  "Data Collection Pipeline.png": [
+   "V1",
+   "V2",
+   "V3"
+  ],
+  "Dataset folder Structure.png": [
+   "V3"
+  ],
+  "Dataset metadata.xlsx": [
+   "V2",
+   "V3"
+  ],
+  "README.md": [
+   "V3"
+  ]
+ },
+ "zip_v3": {
+  "entri": 26182,
+  "berkas": 26158,
+  "sha256_zip": "00999f0aa30d7063fe32befefd51317b9a7cb0f8fdf0ed1e1df165eebf47110e"
+ },
+ "pencocokan_lokal_vs_zip_v3": {
+  "berkas_lokal": 26158,
+  "identik_crc32_dan_ukuran": 26158,
+  "isi_beda": 0,
+  "hanya_lokal": 0,
+  "hanya_di_zip_v3": 0,
+  "contoh_isi_beda": [],
+  "contoh_hanya_lokal": [],
+  "contoh_hanya_zip": []
+ }
+}

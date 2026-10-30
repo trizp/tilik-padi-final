@@ -1,0 +1,17 @@
+﻿Set,Model,conf,Gambar background,% gambar dengan FP,FP per gambar
+Test (semua),YOLOv8n,0.25,158,37.8 ± 5.4,0.705 ± 0.128
+Test (semua),YOLOv8n,0.5,158,8.9 ± 7.1,0.091 ± 0.075
+Test (semua),YOLO11n,0.25,158,37.6 ± 1.9,0.717 ± 0.019
+Test (semua),YOLO11n,0.5,158,13.9 ± 3.8,0.165 ± 0.046
+Test (semua),YOLOv8s,0.25,158,39.0 ± 1.3,0.766 ± 0.089
+Test (semua),YOLOv8s,0.5,158,15.8 ± 1.3,0.196 ± 0.029
+Test (semua),YOLO11s,0.25,158,35.4 ± 0.6,0.641 ± 0.047
+Test (semua),YOLO11s,0.5,158,12.9 ± 5.7,0.143 ± 0.071
+Test sesi baru,YOLOv8n,0.25,56,42.3 ± 7.4,0.679 ± 0.224
+Test sesi baru,YOLOv8n,0.5,56,4.8 ± 2.7,0.048 ± 0.027
+Test sesi baru,YOLO11n,0.25,56,28.6 ± 1.8,0.393 ± 0.047
+Test sesi baru,YOLO11n,0.5,56,2.4 ± 1.0,0.036 ± 0.018
+Test sesi baru,YOLOv8s,0.25,56,38.7 ± 1.0,0.530 ± 0.027
+Test sesi baru,YOLOv8s,0.5,56,7.7 ± 2.1,0.089 ± 0.036
+Test sesi baru,YOLO11s,0.25,56,20.8 ± 5.7,0.250 ± 0.054
+Test sesi baru,YOLO11s,0.5,56,3.0 ± 1.0,0.030 ± 0.010

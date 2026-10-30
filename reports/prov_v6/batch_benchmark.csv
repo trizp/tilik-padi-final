@@ -1,0 +1,9 @@
+model,batch_diminta,exit_code,batch_aktual,n_iterasi,vram_puncak_reserved_gb,vram_puncak_allocated_gb,gpu_terpakai_sebelum_run_gb,gpu_terpakai_puncak_gb,gpu_sisa_minimum_gb,gpu_util_median_persen,detik_epoch1_total,detik_epoch1_train,detik_epoch1_val,detik_per_iterasi_stabil,detik_train_stabil,perkiraan_100_epoch_jam_dari_epoch1,perkiraan_100_epoch_jam_train_stabil_plus_val
+yolov8n,8,0,8,847,1.309,1.026,0.87,2.197,1.803,85,94.0,71.0,23.1,0.0747,63.3,2.61,2.4
+yolo11n,8,0,8,847,1.574,1.176,0.77,2.474,1.526,81,102.1,76.7,25.4,0.0778,65.9,2.84,2.54
+yolov8s,8,0,8,847,2.551,1.811,0.762,3.427,0.573,92,145.2,121.3,23.9,0.1342,113.7,4.03,3.82
+yolo11s,8,0,8,847,2.168,2.042,0.76,3.068,0.932,92,148.3,123.0,25.4,0.1331,112.8,4.12,3.84
+yolov8n,16,0,16,424,2.25,1.929,0.77,3.097,0.903,90.0,86.4,63.6,22.8,0.1323,56.1,2.4,2.19
+yolo11n,16,0,16,424,2.408,2.186,0.76,3.302,0.698,89,90.9,68.2,22.7,0.1395,59.1,2.52,2.27
+yolov8s,16,0,16,424,3.785,3.365,0.764,3.943,0.057,99.0,244.6,217.2,27.4,0.4994,211.7,6.79,6.64
+yolo11s,16,0,16,424,4.02,3.837,0.623,3.934,0.066,100.0,354.7,328.9,25.8,0.7416,314.4,9.85,9.45

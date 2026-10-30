@@ -1,0 +1,19 @@
+\begin{table}[!t]
+\centering
+\caption{ds3 uji utama (70 foto; PEMBANDING, ds3 sudah terbuka): v7 pada foto asli vs v9 pada foto tanpa latar. Rata-rata $\pm$ simpangan baku 3 seed.}
+\label{tab:v9_ds3}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llcccccc}
+\hline
+\textbf{Model} & \textbf{Kondisi} & \textbf{Cadangan (tidak dipisah)} & \textbf{Akurasi} & \textbf{IK95 akurasi} & \textbf{R BLB} & \textbf{R Blast} & \textbf{IK95 R Blast} \\
+\hline
+YOLOv8s & v7 pada ds3 asli & - & 0.224 $\pm$ 0.066 & [0.155, 0.309] & 0.400 $\pm$ 0.076 & 0.048 $\pm$ 0.059 & [0.000, 0.103] \\
+YOLOv8s & v9 pada ds3 tanpa latar & 2.9\% & 0.433 $\pm$ 0.132 & [0.348, 0.523] & 0.381 $\pm$ 0.313 & 0.486 $\pm$ 0.049 & [0.324, 0.647] \\
+YOLOv8s & Selisih v9 $-$ v7 & - & +0.210 & [0.095, 0.329] & -0.019 & +0.438 & [0.284, 0.602] \\
+YOLO11s & v7 pada ds3 asli & - & 0.262 $\pm$ 0.240 & [0.192, 0.338] & 0.524 $\pm$ 0.480 & 0.000 $\pm$ 0.000 & [0.000, 0.000] \\
+YOLO11s & v9 pada ds3 tanpa latar & 2.9\% & 0.305 $\pm$ 0.092 & [0.222, 0.385] & 0.248 $\pm$ 0.162 & 0.362 $\pm$ 0.108 & [0.228, 0.500] \\
+YOLO11s & Selisih v9 $-$ v7 & - & +0.043 & [-0.073, 0.157] & -0.276 & +0.362 & [0.228, 0.500] \\
+\hline
+\end{tabular}
+\end{table}

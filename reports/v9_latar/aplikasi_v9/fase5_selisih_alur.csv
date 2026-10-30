@@ -1,0 +1,7 @@
+﻿Set,Selisih,mAP50-95,memuat nol (mAP50-95),akurasi,memuat nol (akurasi),recall Blast,memuat nol (recall Blast)
+Test bersih (tanpa BLB),Alur aplikasi − alur SAM2,"+0.000 [-0.004, 0.004]",ya,"-0.036 [-0.069, -0.013]",tidak,"+0.003 [0.000, 0.010]",ya
+Test bersih (tanpa BLB),Alur aplikasi − v7,"+0.004 [-0.016, 0.020]",ya,"-0.020 [-0.064, 0.019]",ya,"+0.018 [-0.046, 0.070]",ya
+Test sesi baru,Alur aplikasi − alur SAM2,"-0.002 [-0.008, 0.003]",ya,"-0.022 [-0.046, -0.003]",tidak,"-0.021 [-0.061, 0.000]",ya
+Test sesi baru,Alur aplikasi − v7,"-0.008 [-0.024, 0.007]",ya,"-0.002 [-0.041, 0.035]",ya,"-0.021 [-0.067, 0.015]",ya
+Test BLB provisional (terpisah),Alur aplikasi − alur SAM2,"-0.042 [-0.114, 0.002]",ya,"-0.238 [-0.405, -0.076]",tidak,-,-
+Test BLB provisional (terpisah),Alur aplikasi − v7,"-0.008 [-0.064, 0.025]",ya,"-0.289 [-0.444, -0.125]",tidak,-,-

@@ -1,0 +1,16 @@
+\begin{table}[!t]
+\centering
+\caption{Diagnosis per citra pada Test bersih (tanpa BLB prov.) (kelas kotak dengan confidence tertinggi; ambang dikunci pada val). Rata-rata $\pm$ simpangan baku 3 seed.}
+\label{tab:diagnosis_test_bersih}
+\footnotesize
+\begin{tabular}{lccccc}
+\hline
+\textbf{Model} & \textbf{Akurasi} & \textbf{IK95 akurasi} & \textbf{F1 Blast} & \textbf{F1 Brown spot} & \textbf{F1 Sehat/tdk terdeteksi} \\
+\hline
+YOLOv8n & 0.750 $\pm$ 0.008 & [0.678, 0.814] & 0.746 $\pm$ 0.004 & 0.717 $\pm$ 0.006 & 0.799 $\pm$ 0.024 \\
+YOLO11n & 0.737 $\pm$ 0.020 & [0.673, 0.799] & 0.725 $\pm$ 0.040 & 0.726 $\pm$ 0.025 & 0.766 $\pm$ 0.005 \\
+YOLOv8s & 0.750 $\pm$ 0.003 & [0.676, 0.818] & 0.739 $\pm$ 0.011 & 0.721 $\pm$ 0.007 & 0.797 $\pm$ 0.009 \\
+YOLO11s & 0.782 $\pm$ 0.014 & [0.711, 0.846] & 0.793 $\pm$ 0.007 & 0.758 $\pm$ 0.020 & 0.803 $\pm$ 0.020 \\
+\hline
+\end{tabular}
+\end{table}

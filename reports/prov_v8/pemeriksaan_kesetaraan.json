@@ -1,0 +1,29 @@
+{
+  "baris_v7_identik": true,
+  "selisih_baris_v7": 0,
+  "gambar_v7_berbeda": 0,
+  "label_v7_berbeda": 0,
+  "test_dan_tns_tidak_berubah": true,
+  "jumlah_per_split_v7": {
+    "train": 6772,
+    "val": 1259,
+    "test": 629,
+    "test_new_session": 299
+  },
+  "jumlah_per_split_v8": {
+    "train": 8097,
+    "val": 1431,
+    "test": 629,
+    "test_new_session": 299
+  },
+  "baris_baru": {
+    "train|daunpadi|brown_spot": 372,
+    "val|daunpadi|brown_spot": 85,
+    "train|daunpadi|leaf_blast": 353,
+    "val|daunpadi|leaf_blast": 87,
+    "train|ds4_tungro|background": 600
+  },
+  "kelompok_baru_lintas_split": 0,
+  "kotak_dikliping": 0,
+  "LOLOS": true
+}

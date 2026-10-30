@@ -1,0 +1,13 @@
+﻿Model,Label,Diagnosis BLB,Diagnosis Blast,Diagnosis Brown spot,Diagnosis Tidak terdeteksi,Total (3 seed)
+YOLOv8n,BLB,138,0,10,92,240
+YOLOv8n,Blast,29,2,187,22,240
+YOLO11n,BLB,57,3,24,156,240
+YOLO11n,Blast,2,1,194,43,240
+YOLOv8s,BLB,97,10,20,113,240
+YOLOv8s,Blast,10,11,191,28,240
+YOLO11s,BLB,107,1,21,111,240
+YOLO11s,Blast,8,0,198,34,240
+YOLOv8n (acak),BLB,68,2,0,10,80
+YOLOv8n (acak),Blast,36,9,29,6,80
+YOLO11n (acak),BLB,74,1,4,1,80
+YOLO11n (acak),Blast,26,1,44,9,80

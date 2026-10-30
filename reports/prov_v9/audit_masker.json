@@ -1,0 +1,115 @@
+{
+  "kotak_dibuang_per_split_sumber_kelas": {
+    "test_new_session|ds4|brown_spot": {
+      "kotak": 380,
+      "dibuang": 13,
+      "persen_dibuang": 3.4
+    },
+    "test_new_session|ds4|leaf_blast": {
+      "kotak": 227,
+      "dibuang": 12,
+      "persen_dibuang": 5.3
+    },
+    "test|ds1_provisional|bacterial_leaf_blight": {
+      "kotak": 203,
+      "dibuang": 45,
+      "persen_dibuang": 22.2
+    },
+    "test|ds4|brown_spot": {
+      "kotak": 680,
+      "dibuang": 10,
+      "persen_dibuang": 1.5
+    },
+    "test|ds4|leaf_blast": {
+      "kotak": 397,
+      "dibuang": 12,
+      "persen_dibuang": 3.0
+    },
+    "train|ds1_provisional|bacterial_leaf_blight": {
+      "kotak": 1681,
+      "dibuang": 359,
+      "persen_dibuang": 21.4
+    },
+    "train|ds1|brown_spot": {
+      "kotak": 15153,
+      "dibuang": 1172,
+      "persen_dibuang": 7.7
+    },
+    "train|ds1|leaf_blast": {
+      "kotak": 697,
+      "dibuang": 83,
+      "persen_dibuang": 11.9
+    },
+    "train|ds4|brown_spot": {
+      "kotak": 6649,
+      "dibuang": 179,
+      "persen_dibuang": 2.7
+    },
+    "train|ds4|leaf_blast": {
+      "kotak": 3128,
+      "dibuang": 89,
+      "persen_dibuang": 2.8
+    },
+    "val|ds1_provisional|bacterial_leaf_blight": {
+      "kotak": 453,
+      "dibuang": 133,
+      "persen_dibuang": 29.4
+    },
+    "val|ds4|brown_spot": {
+      "kotak": 1433,
+      "dibuang": 33,
+      "persen_dibuang": 2.3
+    },
+    "val|ds4|leaf_blast": {
+      "kotak": 796,
+      "dibuang": 58,
+      "persen_dibuang": 7.3
+    }
+  },
+  "cadangan_per_split_sumber_kelas": {
+    "test_new_session|ds4|background": "1/56",
+    "test_new_session|ds4|brown_spot": "6/142",
+    "test_new_session|ds4|leaf_blast": "2/94",
+    "test|ds1_provisional|bacterial_leaf_blight": "85/150",
+    "test|ds2|background": "6/12",
+    "test|ds4|background": "9/146",
+    "test|ds4|brown_spot": "0/163",
+    "test|ds4|leaf_blast": "1/111",
+    "train|ds1_provisional|bacterial_leaf_blight": "594/1083",
+    "train|ds1|brown_spot": "396/1911",
+    "train|ds1|leaf_blast": "104/354",
+    "train|ds2|background": "40/121",
+    "train|ds4|background": "14/506",
+    "train|ds4|brown_spot": "1/1472",
+    "train|ds4|leaf_blast": "21/824",
+    "val|ds1_provisional|bacterial_leaf_blight": "142/277",
+    "val|ds2|background": "4/24",
+    "val|ds4|background": "9/293",
+    "val|ds4|brown_spot": "1/330",
+    "val|ds4|leaf_blast": "2/214"
+  },
+  "median_luas_masker_per_split_sumber_kelas": {
+    "test_new_session|ds4|background": 0.3996,
+    "test_new_session|ds4|brown_spot": 0.3654,
+    "test_new_session|ds4|leaf_blast": 0.384,
+    "test|ds1_provisional|bacterial_leaf_blight": 1.0,
+    "test|ds2|background": 0.5958,
+    "test|ds4|background": 0.1978,
+    "test|ds4|brown_spot": 0.2805,
+    "test|ds4|leaf_blast": 0.326,
+    "train|ds1_provisional|bacterial_leaf_blight": 1.0,
+    "train|ds1|brown_spot": 0.7454,
+    "train|ds1|leaf_blast": 0.2255,
+    "train|ds2|background": 0.2749,
+    "train|ds4|background": 0.2599,
+    "train|ds4|brown_spot": 0.2532,
+    "train|ds4|leaf_blast": 0.2712,
+    "val|ds1_provisional|bacterial_leaf_blight": 1.0,
+    "val|ds2|background": 0.2305,
+    "val|ds4|background": 0.2957,
+    "val|ds4|brown_spot": 0.2579,
+    "val|ds4|leaf_blast": 0.2829
+  },
+  "lembar_audit_manusia": "reports/v9_latar/audit_masker/lembar_audit.html (50 foto VAL di luar sampel tahap 0)",
+  "LOLOS_statistik": true
+}

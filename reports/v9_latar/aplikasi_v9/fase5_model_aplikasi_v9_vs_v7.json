@@ -1,0 +1,51 @@
+{
+ "tns_v9": {
+  "mAP50": 0.602632246011585,
+  "mAP50_95": 0.27295703213429023,
+  "akurasi": 0.7636986301369864,
+  "akurasi_didiagnosis": 0.7852112676056338,
+  "recall_blast": 0.8829787234042553,
+  "foto": 292,
+  "cadangan": 8
+ },
+ "tns_v7": {
+  "mAP50": 0.6114742352629688,
+  "mAP50_95": 0.2789020946026066,
+  "akurasi": 0.8013698630136986,
+  "akurasi_didiagnosis": 0.8013698630136986,
+  "recall_blast": 0.8723404255319149,
+  "foto": 292,
+  "cadangan": 0
+ },
+ "ds3_utama_v9": {
+  "foto": 70,
+  "cadangan": 12,
+  "akurasi": 0.5285714285714286,
+  "akurasi_didiagnosis": 0.6379310344827587,
+  "recall_blast": 0.34285714285714286,
+  "recall_blb": 0.7142857142857143
+ },
+ "ds3_utama_v7": {
+  "foto": 70,
+  "cadangan": 0,
+  "akurasi": 0.4714285714285714,
+  "akurasi_didiagnosis": 0.4714285714285714,
+  "recall_blast": 0.0,
+  "recall_blb": 0.9428571428571428
+ },
+ "tungro_v9": {
+  "foto": 80,
+  "cadangan": 16,
+  "disebut_BLB": 55,
+  "persen_BLB_dari_semua": 68.8,
+  "persen_BLB_dari_yang_didiagnosis": 85.9
+ },
+ "tungro_v7": {
+  "foto": 80,
+  "cadangan": 0,
+  "disebut_BLB": 75,
+  "persen_BLB_dari_semua": 93.8,
+  "persen_BLB_dari_yang_didiagnosis": 93.8
+ },
+ "LABEL": "PEMBANDING, bukan hasil utama; model aplikasi v9 (alur aplikasi, ambang 0,36) vs model aplikasi v7 YOLOv8s (foto asli, ambang 0,37)"
+}

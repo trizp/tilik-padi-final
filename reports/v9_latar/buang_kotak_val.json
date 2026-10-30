@@ -1,0 +1,43 @@
+{
+  "per_kelas": {
+    "leaf_blast": {
+      "kotak": 796,
+      "dibuang": 58,
+      "persen_dibuang": 7.3
+    },
+    "brown_spot": {
+      "kotak": 1433,
+      "dibuang": 33,
+      "persen_dibuang": 2.3
+    },
+    "bacterial_leaf_blight": {
+      "kotak": 453,
+      "dibuang": 133,
+      "persen_dibuang": 29.4
+    }
+  },
+  "per_sumber_kelas": {
+    "ds4|leaf_blast": {
+      "kotak": 796,
+      "dibuang": 58,
+      "persen_dibuang": 7.3
+    },
+    "ds4|brown_spot": {
+      "kotak": 1433,
+      "dibuang": 33,
+      "persen_dibuang": 2.3
+    },
+    "ds1_provisional|bacterial_leaf_blight": {
+      "kotak": 453,
+      "dibuang": 133,
+      "persen_dibuang": 29.4
+    }
+  },
+  "cadangan_tidak_dipisah": 158,
+  "n_foto": 1259,
+  "foto_kehilangan_semua_kotak": {
+    "leaf_blast": 8,
+    "bacterial_leaf_blight": 113
+  },
+  "catatan": "VAL prov_v7, SAM2 aturan v2; buang-kotak = kotak dengan < 50% luas di dalam daun dibuang"
+}

@@ -1,0 +1,8 @@
+ds3,kelas_ds3,pembanding,berkas_pembanding,metode,phash_jarak,emb_cos,sift_inlier,di_prov_v6,kelas_di_prov_v6
+data/raw/ds3/blast/IMG_0547.jpg,blast,ds3|blast,data/raw/ds3/blast/IMG_0548.jpg,sift29,,,,-,
+data/raw/ds3/blast/IMG_0550.jpg,blast,ds3|blast,data/raw/ds3/blast/IMG_0551.jpg,sift23,,,,-,
+data/raw/ds3/blast/IMG_0557.jpg,blast,ds3|blast,data/raw/ds3/blast/IMG_0558.jpg,sift36,,,,-,
+data/raw/ds3/blast/IMG_0640.jpg,blast,ds3|blast,data/raw/ds3/blast/IMG_0641.jpg,sift37,,,,-,
+data/raw/ds3/blast/IMG_0647.jpg,blast,ds3|blast,data/raw/ds3/blast/IMG_0648.jpg,sift36,,,,-,
+data/raw/ds3/blast/IMG_0651.jpg,blast,ds3|blast,data/raw/ds3/blast/IMG_0652.jpg,sift76,,,,-,
+data/raw/ds3/tungro/IMG_0906.jpg,tungro,ds3|tungro,data/raw/ds3/tungro/IMG_0907.jpg,sift45,,,,-,

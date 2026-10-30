@@ -1,0 +1,77 @@
+{
+  "dibuat": "2026-10-08T01:07:14",
+  "kriteria": "phash<= 14 (8 varian dihedral) ATAU embedding cos>= 0.97 ATAU SIFT inlier>= 21 (tanpa syarat sebaran; k=100 per sumber|folder, ds1 k=200); kelompok internal ds3 k=50",
+  "pembanding": {
+    "ds1|semua": 8667,
+    "ds2|Bacterial Leaf Blight": 180,
+    "ds2|Brown Spot": 267,
+    "ds2|Healthy Rice Leaf": 157,
+    "ds2|Leaf Blast": 305,
+    "ds2|Leaf scald": 189,
+    "ds2|Narrow Brown Leaf Spot": 117,
+    "ds2|Rice Hispa": 215,
+    "ds2|Sheath Blight": 271,
+    "ds4|Blast": 1326,
+    "ds4|Brown spot": 2178,
+    "ds4|Healthy": 1575,
+    "ds4|Leaf smut": 724,
+    "ds4|Rice Tungro": 2244,
+    "ds4|Sheath blight": 1722
+  },
+  "model_dijalankan_pada_ds3": false,
+  "per_kelas": {
+    "blight": {
+      "kelas_target": "bacterial_leaf_blight",
+      "peran": "uji_eksternal",
+      "foto": 80,
+      "punya_kembar_luar": 0,
+      "kembar_per_sumber": {
+        "ds1": 0,
+        "ds2": 0,
+        "ds4": 0
+      },
+      "kembar_yang_ada_di_prov_v6": 0,
+      "dibuang_transitif": 0,
+      "grup_lintas_kelas": 0,
+      "bersih": 80,
+      "kelompok_bersih": 80,
+      "metode_kembar": {}
+    },
+    "blast": {
+      "kelas_target": "leaf_blast",
+      "peran": "uji_eksternal",
+      "foto": 80,
+      "punya_kembar_luar": 0,
+      "kembar_per_sumber": {
+        "ds1": 0,
+        "ds2": 0,
+        "ds4": 0
+      },
+      "kembar_yang_ada_di_prov_v6": 0,
+      "dibuang_transitif": 0,
+      "grup_lintas_kelas": 0,
+      "bersih": 80,
+      "kelompok_bersih": 74,
+      "metode_kembar": {}
+    },
+    "tungro": {
+      "kelas_target": "luar_cakupan",
+      "peran": "uji_luar_cakupan",
+      "foto": 80,
+      "punya_kembar_luar": 0,
+      "kembar_per_sumber": {
+        "ds1": 0,
+        "ds2": 0,
+        "ds4": 0
+      },
+      "kembar_yang_ada_di_prov_v6": 0,
+      "dibuang_transitif": 0,
+      "grup_lintas_kelas": 0,
+      "bersih": 80,
+      "kelompok_bersih": 79,
+      "metode_kembar": {}
+    }
+  },
+  "pasangan_internal_ds3": 7,
+  "kelompok_internal_ds3_ukuran>1": 7
+}

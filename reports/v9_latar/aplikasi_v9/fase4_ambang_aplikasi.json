@@ -1,0 +1,180 @@
+{
+  "LABEL": "ambang aplikasi v9 (VAL, alur aplikasi); dikunci SEBELUM fase 5",
+  "alur": "masker YOLOv8n-seg tau 0.35 + v9_final_prov_yolov8s_s2",
+  "dikunci": "2026-10-20T15:43:10",
+  "n_val": 1138,
+  "n_cadangan_tidak_dihitung": 72,
+  "n_dipakai": 1066,
+  "ambang_terdeteksi": 0.36,
+  "akurasi_val_bersih_saat_dipilih": 0.8662,
+  "f1_makro_val_bersih": 0.8643,
+  "n_val_bersih": 852,
+  "grid_ambang": "0.01..0.95",
+  "t_rendah": 0.3,
+  "tingkat_kemungkinan_kosong": false,
+  "persen_berpenyakit_ge_t_rendah": 90.62,
+  "persen_berpenyakit_ge_t_rendah_plus_0.01": 89.96,
+  "n_berpenyakit": 757,
+  "batas_tampil_bercak_rendah": null,
+  "bercak_rendah_aktif": false,
+  "tabel_batas_tampil": [
+    {
+      "batas": 0.1,
+      "sehat": 67,
+      "sakit": 79,
+      "proporsi_sehat_persen": 45.9
+    },
+    {
+      "batas": 0.11,
+      "sehat": 63,
+      "sakit": 78,
+      "proporsi_sehat_persen": 44.7
+    },
+    {
+      "batas": 0.12,
+      "sehat": 60,
+      "sakit": 78,
+      "proporsi_sehat_persen": 43.5
+    },
+    {
+      "batas": 0.13,
+      "sehat": 59,
+      "sakit": 78,
+      "proporsi_sehat_persen": 43.1
+    },
+    {
+      "batas": 0.14,
+      "sehat": 54,
+      "sakit": 78,
+      "proporsi_sehat_persen": 40.9
+    },
+    {
+      "batas": 0.15,
+      "sehat": 54,
+      "sakit": 75,
+      "proporsi_sehat_persen": 41.9
+    },
+    {
+      "batas": 0.16,
+      "sehat": 52,
+      "sakit": 73,
+      "proporsi_sehat_persen": 41.6
+    },
+    {
+      "batas": 0.17,
+      "sehat": 46,
+      "sakit": 72,
+      "proporsi_sehat_persen": 39.0
+    },
+    {
+      "batas": 0.18,
+      "sehat": 45,
+      "sakit": 66,
+      "proporsi_sehat_persen": 40.5
+    },
+    {
+      "batas": 0.19,
+      "sehat": 44,
+      "sakit": 64,
+      "proporsi_sehat_persen": 40.7
+    },
+    {
+      "batas": 0.2,
+      "sehat": 40,
+      "sakit": 60,
+      "proporsi_sehat_persen": 40.0
+    },
+    {
+      "batas": 0.21,
+      "sehat": 37,
+      "sakit": 58,
+      "proporsi_sehat_persen": 38.9
+    },
+    {
+      "batas": 0.22,
+      "sehat": 35,
+      "sakit": 56,
+      "proporsi_sehat_persen": 38.5
+    },
+    {
+      "batas": 0.23,
+      "sehat": 33,
+      "sakit": 53,
+      "proporsi_sehat_persen": 38.4
+    },
+    {
+      "batas": 0.24,
+      "sehat": 31,
+      "sakit": 53,
+      "proporsi_sehat_persen": 36.9
+    },
+    {
+      "batas": 0.25,
+      "sehat": 30,
+      "sakit": 48,
+      "proporsi_sehat_persen": 38.5
+    },
+    {
+      "batas": 0.26,
+      "sehat": 29,
+      "sakit": 42,
+      "proporsi_sehat_persen": 40.8
+    },
+    {
+      "batas": 0.27,
+      "sehat": 26,
+      "sakit": 38,
+      "proporsi_sehat_persen": 40.6
+    },
+    {
+      "batas": 0.28,
+      "sehat": 25,
+      "sakit": 36,
+      "proporsi_sehat_persen": 41.0
+    },
+    {
+      "batas": 0.29,
+      "sehat": 23,
+      "sakit": 33,
+      "proporsi_sehat_persen": 41.1
+    },
+    {
+      "batas": 0.3,
+      "sehat": 21,
+      "sakit": 26,
+      "proporsi_sehat_persen": 44.7
+    },
+    {
+      "batas": 0.31,
+      "sehat": 17,
+      "sakit": 21,
+      "proporsi_sehat_persen": 44.7
+    },
+    {
+      "batas": 0.32,
+      "sehat": 12,
+      "sakit": 17,
+      "proporsi_sehat_persen": 41.4
+    },
+    {
+      "batas": 0.33,
+      "sehat": 8,
+      "sakit": 9,
+      "proporsi_sehat_persen": 47.1
+    },
+    {
+      "batas": 0.34,
+      "sehat": 5,
+      "sakit": 3,
+      "proporsi_sehat_persen": 62.5
+    },
+    {
+      "batas": 0.35,
+      "sehat": 2,
+      "sakit": 1,
+      "proporsi_sehat_persen": 66.7
+    }
+  ],
+  "ambang_final_s2_alur_SAM2_pembanding": 0.35,
+  "catatan": "foto cadangan = diminta foto ulang (tidak didiagnosis), jadi tidak ikut pemilihan ambang; test/tns/ds3 tidak disentuh"
+}

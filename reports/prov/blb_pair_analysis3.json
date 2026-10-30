@@ -1,0 +1,111 @@
+{
+  "a_mengapa_lolos": {
+    "sift_inlier": 54,
+    "transformasi": {
+      "skala": 1.001,
+      "rotasi_derajat": 1.01,
+      "geser_px": [
+        3.9,
+        -5.2
+      ]
+    },
+    "kecerahan_rata2_std_A(#01)": [
+      122.5,
+      65.8
+    ],
+    "kecerahan_rata2_std_B(#09)": [
+      169.2,
+      66.7
+    ],
+    "phash16_dihedral": {
+      "asli": 38,
+      "setelah_equalize(histogram)": 56,
+      "setelah_grayscale+equalize": 62,
+      "setelah_median5+equalize": 46,
+      "A_disejajarkan_ke_B(asli)": 14,
+      "A_disejajarkan+median5+equalize": 30
+    },
+    "ambang_phash16": 14
+  },
+  "b_kunci_K4": {
+    "definisi": "sama (fam,kind,id,ext) DAN awalan berbeda; pasangan train/val",
+    "semua": {
+      "n": 2030,
+      "foto_sama": 2003,
+      "proporsi": 0.9867
+    },
+    "lintas_split": {
+      "n": 277,
+      "foto_sama": 273,
+      "proporsi": 0.9856
+    },
+    "per_keluarga": {
+      "blight": {
+        "n": 994,
+        "foto_sama": 982,
+        "proporsi": 0.9879
+      },
+      "img_blb": {
+        "n": 1036,
+        "foto_sama": 1021,
+        "proporsi": 0.9855
+      }
+    },
+    "per_awalan": {
+      "r6k_test~r6k_train": {
+        "n": 956,
+        "foto_sama": 939,
+        "proporsi": 0.9822
+      },
+      "r6k_test~r6k_val": {
+        "n": 119,
+        "foto_sama": 117,
+        "proporsi": 0.9832
+      },
+      "r6k_train~r6k_val": {
+        "n": 955,
+        "foto_sama": 947,
+        "proporsi": 0.9916
+      }
+    }
+  },
+  "c_dampak_train_val": [
+    {
+      "aturan": "R0 grup saat ini",
+      "n_grup": 401,
+      "grup_terbesar": 30,
+      "val_dengan_saudara_di_train": 0
+    },
+    {
+      "aturan": "R10 + kunci K4 (fam,kind,id,ext; lintas awalan), tanpa verifikasi",
+      "n_grup": 311,
+      "grup_terbesar": 33,
+      "val_dengan_saudara_di_train": 90
+    },
+    {
+      "aturan": "R11 + pasangan embedding>=0.88 terverifikasi SIFT (tanpa ID)",
+      "n_grup": 259,
+      "grup_terbesar": 40,
+      "val_dengan_saudara_di_train": 158
+    },
+    {
+      "aturan": "R12 = R10 + R11",
+      "n_grup": 251,
+      "grup_terbesar": 40,
+      "val_dengan_saudara_di_train": 161
+    }
+  ],
+  "c_test_metadata": {
+    "BLB_test": 198,
+    "dengan_ID_terparse": 173,
+    "test_dengan_kembar_K4_di_train_(metadata)": 36,
+    "...dan_lintas_awalan(aturan_K4)": 36,
+    "catatan": "hanya nama file; piksel test tidak dibuka. Presisi K4 pada train/val: lihat b_kunci_K4"
+  },
+  "d_poin6_ds1_brown_vs_ds4_val": {
+    "pasangan_ID_angka_sama": 273,
+    "inlier>=21": 0,
+    "inlier_maks": 3,
+    "inlier_median": 0.0
+  }
+}

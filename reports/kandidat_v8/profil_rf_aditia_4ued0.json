@@ -1,0 +1,59 @@
+{
+  "kandidat": "rf_aditia_4ued0",
+  "data_yaml": "data\\raw\\kandidat_v8\\rf_aditia_4ued0\\data.yaml",
+  "kelas": [
+    "Daun Padi Normal",
+    "Hawar Daun",
+    "Narrow Brown Spot"
+  ],
+  "gambar": 1500,
+  "per_split": {
+    "test": 150,
+    "train": 1050,
+    "valid": 300
+  },
+  "gambar_tanpa_label": 0,
+  "format_label": "YOLO kotak",
+  "gambar_per_kelas": {
+    "Narrow Brown Spot": 500,
+    "Daun Padi Normal": 500,
+    "Hawar Daun": 500
+  },
+  "kotak_per_kelas": {
+    "Narrow Brown Spot": 500,
+    "Daun Padi Normal": 500,
+    "Hawar Daun": 500
+  },
+  "median_luas_kotak_persen_per_kelas": {
+    "Narrow Brown Spot": 54.19,
+    "Daun Padi Normal": 69.228,
+    "Hawar Daun": 51.854
+  },
+  "acuan_median_luas_kotak_persen_prov_v7_train": {
+    "ds4|leaf_blast": 0.293,
+    "ds4|brown_spot": 0.277,
+    "ds1|bacterial_leaf_blight": 19.987,
+    "ds1|brown_spot": 0.35,
+    "ds1|leaf_blast": 3.146
+  },
+  "resolusi": {
+    "640x640": 1500
+  },
+  "jenis_foto": {
+    "daun petik berlatar polos": 1500
+  },
+  "jenis_foto_per_kelas": {
+    "Narrow Brown Spot": {
+      "daun petik berlatar polos": 500
+    },
+    "Daun Padi Normal": {
+      "daun petik berlatar polos": 500
+    },
+    "Hawar Daun": {
+      "daun petik berlatar polos": 500
+    }
+  },
+  "rata2_latar_terang_netral_persen": 80.5,
+  "rata2_piksel_hijau_persen": 3.5,
+  "rata2_kecerahan": 0.85
+}

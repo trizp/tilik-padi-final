@@ -1,0 +1,9 @@
+jendela_detik,jumlah_grup,grup_terbesar,grup_terbesar_ke2,val_test_ds4_berbagi_grup_dengan_train,val_test_ds1_BLB_berbagi_grup_dengan_train,pasangan_BlastBrown_tertangkap,persen_BlastBrown,pasangan_SIFT_ds4_lain_tertangkap,persen_ds4_lain,pasangan_SIFT_ds1_tertangkap,persen_ds1,BlastBrown_tanpa_jam
+2,2011,116,94,411,0,401/611,65.6,3495/4333,80.7,0/30,0.0,0
+5,1589,206,139,953,0,551/611,90.2,4050/4333,93.5,30/30,100.0,0
+10,1257,325,151,1195,0,553/611,90.5,4064/4333,93.8,30/30,100.0,0
+30,814,645,395,1390,5,583/611,95.4,4240/4333,97.9,30/30,100.0,0
+3,1839,184,134,642,0,406/611,66.4,3691/4333,85.2,0/30,0.0,0
+15,1064,383,180,1295,5,582/611,95.3,4092/4333,94.4,30/30,100.0,0
+20,948,383,199,1347,5,583/611,95.4,4122/4333,95.1,30/30,100.0,0
+60,658,676,608,1424,5,583/611,95.4,4240/4333,97.9,30/30,100.0,0

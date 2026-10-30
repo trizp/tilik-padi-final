@@ -1,0 +1,18 @@
+{
+ "test": {
+  "foto": 582,
+  "cadangan": 60
+ },
+ "test_new_session": {
+  "foto": 292,
+  "cadangan": 8
+ },
+ "ds3_utama": {
+  "foto": 70,
+  "cadangan": 12
+ },
+ "ds3_tungro": {
+  "foto": 80,
+  "cadangan": 16
+ }
+}

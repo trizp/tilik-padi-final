@@ -1,0 +1,66 @@
+{
+  "rf_gymvi_5class": {
+    "versi": "2",
+    "alasan": "tanpa augmentasi",
+    "gambar_versi": 1584,
+    "augmentasi": {},
+    "praproses": {
+      "auto-orient": true,
+      "resize": {
+        "format": "Stretch to",
+        "width": 416,
+        "height": 416
+      },
+      "remap": {
+        "labels": {
+          "0": {
+            "override": "blast"
+          },
+          "1": {
+            "override": "blight"
+          },
+          "2": {
+            "override": "brownspot"
+          },
+          "3": {
+            "override": "healthy"
+          },
+          "4": {
+            "override": "hispa"
+          }
+        }
+      }
+    },
+    "format": "yolov8 (ekspor Roboflow)"
+  },
+  "rf_aditia_4ued0": {
+    "versi": "8",
+    "alasan": "tanpa augmentasi",
+    "gambar_versi": 1500,
+    "augmentasi": {},
+    "praproses": {
+      "auto-orient": true,
+      "resize": {
+        "width": 640,
+        "format": "Stretch to",
+        "height": 640
+      }
+    },
+    "format": "yolov8 (ekspor Roboflow)"
+  },
+  "rf_daunpadi_b1cjw": {
+    "versi": "25",
+    "alasan": "tanpa augmentasi",
+    "gambar_versi": 1999,
+    "augmentasi": {},
+    "praproses": {
+      "auto-orient": true,
+      "resize": {
+        "format": "Stretch to",
+        "width": "640",
+        "height": "640"
+      }
+    },
+    "format": "yolov8 (ekspor Roboflow)"
+  }
+}

@@ -1,0 +1,18 @@
+source,reason,count
+ds1,duplikat_label_bertentangan,79
+ds1,memuat_kelas_di_luar_target,4216
+ds1,tanpa_label,2
+ds2,folder_tidak_dipakai:Bacterial Leaf Blight,180
+ds2,folder_tidak_dipakai:Brown Spot,267
+ds2,folder_tidak_dipakai:Leaf Blast,305
+ds2,folder_tidak_dipakai:Leaf scald,189
+ds2,folder_tidak_dipakai:Narrow Brown Leaf Spot,117
+ds2,folder_tidak_dipakai:Rice Hispa,215
+ds2,folder_tidak_dipakai:Sheath Blight,271
+ds2,path_dikecualikan:augmented,5188
+ds4,dipangkas_max_background_frac_train,535
+ds4,duplikat_label_bertentangan,2
+ds4,folder_tidak_dipakai:Leaf smut,724
+ds4,folder_tidak_dipakai:Rice Tungro,2244
+ds4,folder_tidak_dipakai:Sheath blight,1722
+ds4,label_kosong,1

@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "n_images": 9070,
+  "leak_check": {
+    "val-train": {
+      "pairs_leq_thr": 0,
+      "min": 16.0,
+      "emb_max_cos": 0.9699,
+      "emb_pairs_ge_thr": 0
+    },
+    "test-train": {
+      "pairs_leq_thr": 0,
+      "min": 20.0,
+      "emb_max_cos": 0.9698,
+      "emb_pairs_ge_thr": 0
+    },
+    "test-val": {
+      "pairs_leq_thr": 0,
+      "min": 16.0,
+      "emb_max_cos": 0.9689,
+      "emb_pairs_ge_thr": 0
+    }
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "python": "3.12.3"
+  }
+}

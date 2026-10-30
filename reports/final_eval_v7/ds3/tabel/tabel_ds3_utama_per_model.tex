@@ -1,0 +1,19 @@
+\begin{table}[!t]
+\centering
+\caption{Uji eksternal ds3 — Uji utama (70 foto, sesuai kedua penilai): diagnosis per citra dengan ambang terkunci tiap model (rata-rata $\pm$ simpangan baku 3 seed; IK 95\% bootstrap per kelompok foto).}
+\label{tab:ds3_utama}
+\footnotesize
+\begin{tabular}{lccccccc}
+\hline
+\textbf{Split latih} & \textbf{Model} & \textbf{Akurasi} & \textbf{IK95 akurasi} & \textbf{R BLB} & \textbf{F1 BLB} & \textbf{R Blast} & \textbf{F1 Blast} \\
+\hline
+bersih (3 seed) & YOLOv8n & 0.338 $\pm$ 0.150 & [0.249, 0.433] & 0.667 $\pm$ 0.315 & 0.714 $\pm$ 0.177 & 0.010 $\pm$ 0.016 & 0.019 $\pm$ 0.032 \\
+bersih (3 seed) & YOLO11n & 0.181 $\pm$ 0.166 & [0.127, 0.243] & 0.352 $\pm$ 0.334 & 0.462 $\pm$ 0.363 & 0.010 $\pm$ 0.016 & 0.019 $\pm$ 0.032 \\
+bersih (3 seed) & YOLOv8s & 0.224 $\pm$ 0.066 & [0.152, 0.304] & 0.400 $\pm$ 0.076 & 0.558 $\pm$ 0.077 & 0.048 $\pm$ 0.059 & 0.085 $\pm$ 0.103 \\
+bersih (3 seed) & YOLO11s & 0.262 $\pm$ 0.240 & [0.198, 0.333] & 0.524 $\pm$ 0.480 & 0.581 $\pm$ 0.513 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+acak (1 seed) & YOLOv8n & 0.486 & [0.371, 0.614] & 0.886 & 0.738 & 0.086 & 0.154 \\
+acak (1 seed) & YOLO11n & 0.500 & [0.383, 0.618] & 1.000 & 0.864 & 0.000 & 0.000 \\
+\hline
+\end{tabular}
+\\[2pt]\parbox{\columnwidth}{\scriptsize ds3: daun dipetik difoto di atas latar putih (berbeda dengan data latih foto lapangan). prov\_v7, BLB provisional.}
+\end{table}

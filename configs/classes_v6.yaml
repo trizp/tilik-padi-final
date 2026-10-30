@@ -1,0 +1,136 @@
+# ======================================================================
+# KONFIGURASI DATASET (dipakai scripts/prepare_dataset.py)
+# Versi PROVISIONAL: BLB masih dari ds1 (anotasi tingkat wilayah, bukan lesion-level).
+# Semua run dari konfigurasi ini diberi nama berawalan "prov_" dan TIDAK BOLEH
+# dipakai untuk tabel paper. Ganti sumber BLB setelah anotasi ulang ds2 selesai.
+# ======================================================================
+seed: 42
+
+dataset_name: prov_v6         # nama dataset hasil olahan (aturan pengelompokan v5)
+run_prefix: prov_v6_          # awalan nama run training (dibaca train.py); tetap berawalan prov_
+output_dir: data/processed/prov_v6
+compare_manifest: data/processed/prov_v5/manifest.csv   # untuk log perubahan split test
+report_dir: reports/prov_v6
+link_mode: hardlink           # hardlink = hemat disk (data mentah tidak berubah); copy = salin
+
+# Unit anotasi proyek = BERCAK (lesion-level), mengikuti ds4.
+disease_classes: [leaf_blast, brown_spot, bacterial_leaf_blight]
+
+# background : gambar sehat disimpan TANPA label (praktik standar deteksi objek)
+healthy_mode: background
+# Batas porsi gambar background pada TRAIN saja (val/test tidak diubah). Pangkasan diambil dari
+# background ds4 secara acak (seed tetap); background ds2 dipertahankan. null = tanpa batas.
+# Ultralytics menyarankan 0-10%.
+max_background_frac_train: 0.10
+background_prunable_sources: [ds4]   # ds2 dipertahankan seluruhnya
+
+split: {train: 0.70, val: 0.20, test: 0.10}
+
+# phash 16x16 = 256 bit. Jarak Hamming <= nilai ini pada salah satu dari 8 varian dihedral
+# (rotasi 0/90/180/270 x flip) dianggap duplikat dan dipaksa berada di split yang sama.
+# 14 dipilih setelah 10 menyisakan tetangga di jarak 11-14 antar split.
+hash_size: 16
+dup_threshold: 14
+
+# Kelas yang berasal dari sumber yang belum final diberi tag khusus di manifest/laporan/data.yaml.
+provisional_sources: [ds1_provisional]
+
+# Deteksi gambar hasil augmentasi (tanpa mengandalkan satu cara saja). Ambang diisi dari kalibrasi
+# scripts/aug_detect.py (lihat reports/aug_detect/). Gambar val/test (selain kelas exempt) harus
+# lolos semua detektor; kelas exempt tetap boleh ke val/test tetapi diberi flag aug_possible.
+augmentation:
+  enabled: true
+  embedding_sources: [ds1]           # flag (c) "punya saudara" hanya untuk sumber ini
+  name_sources: [ds1]                # pola nama file (a)
+  pixel_sources: [ds1, ds4, ds2]     # heuristik piksel (b)
+  exempt_classes: [bacterial_leaf_blight]
+  # Ambang piksel: false positive pada ds4 (dianggap non-augmentasi) 0.55% (lihat reports/aug_detect/).
+  pixel: {corner_black: 0.25, border_black: 0.08, smear: 0.25}
+  # Cosine 0.97: grup terbesar 39 gambar, 0 pasangan lintas sumber. Pada 0.95 terbentuk grup raksasa
+  # (2076 gambar) karena rantai kemiripan; embedding global lemah pada rotasi bebas/crop (lihat kalibrasi).
+  embedding: {cosine: 0.97, merge_groups: true}
+  roboflow_basename_groups: true     # versi Roboflow (.rf.<hash>) bernama dasar sama -> satu grup
+
+# Aturan pengelompokan v5 (kode aturan v5 di scripts/dedupe_rules.py): sama dengan v4, ditambah
+#   * SEMUA kelompok dibentuk pada himpunan lengkap SEBELUM foto karantina/duplikat bertentangan dibuang
+#   * jendela waktu GESER (semua pasangan <= 5 dtk)
+#   * anggota kelompok sesi test_new_session dari luar sesi DIBUANG
+#
+#   grup lama (phash, embedding 0.97, nama dasar Roboflow) + kunci ID K4 (ds1)
+#   + SIFT >= 21 inlier dan sebaran >= 2% pada K=100 tetangga embedding
+#   + jendela waktu berantai 5 detik untuk ds4 DAN ds1 (pembacaan jam diperbaiki) ; karantina 141 (warisan) + aturan
+#   + opsional: satu sesi pemotretan ds4 utuh disisihkan sebagai test_new_session
+grouping:
+  rule_version: v5
+  k4: true
+  sift: {enabled: true, knn: 100, min_inliers: 21, min_inlier_bbox_frac: 0.02}
+  time_window: {enabled: true, gap_s: 5, sources: [ds4, ds1], metadata: "data/raw/ds4/docs/Dataset metadata.xlsx"}
+  quarantine: {cross_class_min_inliers: 100, carry_over_csv: "reports/prov_v5/quarantine.csv"}
+  session_holdout: {enabled: true, gap_s: 600, min_frac: 0.05, max_frac: 0.10, required_classes: [leaf_blast, brown_spot, background]}
+  sibling_audit_knn: 200             # audit independen: HANYA gambar val/test(/test_new_session) dicari tetangganya (k=200)
+  audit_ignore_frac: true            # audit SIFT tanpa aturan sebaran (inlier >= 21 saja)
+  audit_time_windows: [5, 10]        # +-5 dtk harus 0; +-10 dtk hanya dilaporkan
+  audit_accept_pct: 1.0
+  freeze: true                       # bekukan bila SIFT residual < 1% DAN audit waktu +-5 dtk = 0
+
+sources:
+  # ---------- ds4: RiceLeafDiseaseBD (sumber utama Blast, Brown spot, Healthy) ----------
+  # Struktur: <images_dir>/<Folder>/x.jpg ; label: <labels_dir>/<Folder>/labels/x.txt
+  # Kelas ditentukan dari NAMA FOLDER (ID di file label diabaikan: tidak sama dengan README).
+  # Folder "Annotated images" HANYA dibaca file labelnya (gambarnya berkotak merah, tidak dipakai).
+  - name: ds4
+    type: yolo_folders
+    role: pool
+    images_dir: "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images"
+    labels_dir: "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Annotated images ( visual with labels)"
+    drop_empty_labels: true          # label kosong pada folder penyakit -> gambar dibuang
+    # nama folder (dinormalisasi: huruf kecil, non-alfanumerik -> "_") -> kelas target
+    # Folder yang tidak tercantum (leaf_smut, rice_tungro, sheath_blight) DIBUANG seluruhnya.
+    folder_map:
+      blast: leaf_blast
+      brown_spot: brown_spot
+      healthy: __background__
+
+  # ---------- ds1: hanya BLB (provisional) dan Brown spot (pelengkap) ----------
+  # Split asli ds1 DIABAIKAN (hasil augmentasi, ~25% duplikat internal); split dibuat ulang.
+  # Kelas Blast dan semua kelas lain (termasuk Healthy) dibuang: gambar yang memuat kelas
+  # di luar peta ini dibuang seluruhnya.
+  - name: ds1
+    type: yolo
+    role: pool
+    path: data/raw/ds1
+    keep_unlabeled: false
+    drop_unmapped_images: true
+    # ds1 berformat CAMPURAN: baris box (5 kolom) dan poligon/segmentasi (>= 7 kolom).
+    # Poligon dikonversi ke bbox pembatas (tanpa ini ~540 gambar BLB/Brown spot terbuang diam-diam).
+    polygon_to_bbox: true
+    map:
+      rice_bacterialleafblight: bacterial_leaf_blight
+      rice_brownspot: brown_spot
+      rice_leafblast: leaf_blast       # disertakan, tetapi HANYA di train (lihat train_only_classes)
+    # tag sumber per kelas target (default = nama sumber)
+    source_tag_by_class:
+      bacterial_leaf_blight: ds1_provisional
+    # Kelas dari sumber ini yang hanya boleh masuk TRAIN (val/test hanya dari ds4, non-augmentasi).
+    train_only_classes: [leaf_blast, brown_spot]
+
+  # ---------- ds2: hanya gambar Healthy sebagai background ----------
+  # Folder penyakit ds2 (termasuk Bacterial Leaf Blight) TIDAK dipakai di sini;
+  # BLB ds2 dipersiapkan untuk anotasi ulang (scripts/export_blb_for_annotation.py).
+  - name: ds2
+    type: classification
+    role: pool
+    path: data/raw/ds2
+    max_images: 800
+    max_side: 1024                   # perkecil gambar (resolusi asli sampai 4000x3000)
+    # ds2 punya cabang Original dan Augmented (Augmented = salinan hasil augmentasi dari Original).
+    # Augmentasi hanya boleh pada training -> cabang Augmented tidak dipakai.
+    exclude_path_contains: [Augmented]
+    folder_map:
+      healthy_rice_leaf: __background__
+
+  # ---------- ds3: DISIMPAN untuk external test (anotasi menyusul), tidak diproses ----------
+  - name: ds3
+    type: classification
+    role: external_test_reserved
+    path: data/raw/ds3

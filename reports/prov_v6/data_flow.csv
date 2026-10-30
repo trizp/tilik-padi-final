@@ -1,0 +1,36 @@
+sumber,kelas_asli,cabang,mentah,train,val,test,test_new_session,karantina,dibuang,dicadangkan,tidak_tercatat,alasan_dibuang,cakupan
+ds1,(tanpa label),-,2,0,0,0,0,0,2,0,0,tanpa file label: 2,
+ds1,BacterialLeafBlight,-,2000,1401,390,195,0,0,14,0,0,foto sama berlabel bertentangan (duplikat sungguhan): 14,target
+ds1,BrownSpot,-,2000,1970,0,0,0,2,28,0,0,foto sama berlabel bertentangan (duplikat sungguhan): 28,target
+ds1,Healthy,-,433,0,0,0,0,0,433,0,0,kelas di luar 3 kelas target: 433,target
+ds1,Hispa,-,431,0,0,0,0,0,431,0,0,kelas di luar 3 kelas target: 431,
+ds1,LeafBlast,-,449,411,0,0,0,1,37,0,0,foto sama berlabel bertentangan (duplikat sungguhan): 37,target
+ds1,LeafScald,-,456,0,0,0,0,0,456,0,0,kelas di luar 3 kelas target: 456,
+ds1,LeafSmut,-,2000,0,0,0,0,0,2000,0,0,kelas di luar 3 kelas target: 2000,
+ds1,NarrowBrownLeafSpot,-,443,0,0,0,0,0,443,0,0,kelas di luar 3 kelas target: 443,
+ds1,NeckBlast,-,453,0,0,0,0,0,453,0,0,kelas di luar 3 kelas target: 453,
+ds2,Bacterial Leaf Blight,Augmented,536,0,0,0,0,0,536,0,0,cabang Augmented tidak dipakai (augmentasi hanya boleh saat training): 536,
+ds2,Bacterial Leaf Blight,Original,180,0,0,0,0,0,180,0,0,folder/kelas di luar cakupan (tidak dipakai): 180,
+ds2,Brown Spot,Augmented,810,0,0,0,0,0,810,0,0,cabang Augmented tidak dipakai (augmentasi hanya boleh saat training): 810,
+ds2,Brown Spot,Original,267,0,0,0,0,0,267,0,0,folder/kelas di luar cakupan (tidak dipakai): 267,
+ds2,Healthy Rice Leaf,Augmented,511,0,0,0,0,0,511,0,0,cabang Augmented tidak dipakai (augmentasi hanya boleh saat training): 511,
+ds2,Healthy Rice Leaf,Original,157,121,24,12,0,0,0,0,0,,
+ds2,Leaf Blast,Augmented,929,0,0,0,0,0,929,0,0,cabang Augmented tidak dipakai (augmentasi hanya boleh saat training): 929,
+ds2,Leaf Blast,Original,305,0,0,0,0,0,305,0,0,folder/kelas di luar cakupan (tidak dipakai): 305,
+ds2,Leaf scald,Augmented,560,0,0,0,0,0,560,0,0,cabang Augmented tidak dipakai (augmentasi hanya boleh saat training): 560,
+ds2,Leaf scald,Original,189,0,0,0,0,0,189,0,0,folder/kelas di luar cakupan (tidak dipakai): 189,
+ds2,Narrow Brown Leaf Spot,Augmented,353,0,0,0,0,0,353,0,0,cabang Augmented tidak dipakai (augmentasi hanya boleh saat training): 353,
+ds2,Narrow Brown Leaf Spot,Original,117,0,0,0,0,0,117,0,0,folder/kelas di luar cakupan (tidak dipakai): 117,
+ds2,Rice Hispa,Augmented,664,0,0,0,0,0,664,0,0,cabang Augmented tidak dipakai (augmentasi hanya boleh saat training): 664,
+ds2,Rice Hispa,Original,215,0,0,0,0,0,215,0,0,folder/kelas di luar cakupan (tidak dipakai): 215,
+ds2,Sheath Blight,Augmented,825,0,0,0,0,0,825,0,0,cabang Augmented tidak dipakai (augmentasi hanya boleh saat training): 825,
+ds2,Sheath Blight,Original,271,0,0,0,0,0,271,0,0,folder/kelas di luar cakupan (tidak dipakai): 271,
+ds3,blast,-,80,0,0,0,0,0,0,80,0,,"dicadangkan: external test (ds3, belum diproses)"
+ds3,blight,-,80,0,0,0,0,0,0,80,0,,"dicadangkan: external test (ds3, belum diproses)"
+ds3,tungro,-,80,0,0,0,0,0,0,80,0,,"dicadangkan: external test (ds3, belum diproses)"
+ds4,Blast,-,1326,833,222,111,96,63,1,0,0,file label kosong pada folder penyakit: 1,target
+ds4,Brown spot,-,2178,1480,330,165,147,56,0,0,0,,target
+ds4,Healthy,-,1575,556,293,146,56,19,505,0,0,dipangkas agar background train 10%: 496; kelompok duplikat lintas sesi (anggota kelompok sesi test_new_session dari sesi lain): 9,target
+ds4,Leaf smut,-,724,0,0,0,0,0,724,0,0,folder/kelas di luar cakupan (tidak dipakai): 724,
+ds4,Rice Tungro,-,2244,0,0,0,0,0,2244,0,0,folder/kelas di luar cakupan (tidak dipakai): 2244,
+ds4,Sheath blight,-,1722,0,0,0,0,0,1722,0,0,folder/kelas di luar cakupan (tidak dipakai): 1722,

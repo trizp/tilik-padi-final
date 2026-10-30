@@ -1,0 +1,29 @@
+{
+  "model": "v7_deploy_yolo11s_s2",
+  "checkpoint": "last.pt",
+  "sha256_pt": "8d380436f52497377a70e9524413b7fb80623a1ee95d9041ee3d8cdbf18cd22f",
+  "onnx": "runs\\v7_deploy_yolo11s_s2\\weights\\last.onnx",
+  "sha256_onnx": "ed9862196f21ad685d9e08613f924ffe17c008927a3492019ac11a8038de35ff",
+  "ukuran_MB": {
+    "pt": 18.29,
+    "onnx": 36.17
+  },
+  "versi": {
+    "onnxruntime": "1.31.0",
+    "onnx": "1.23.2"
+  },
+  "n_gambar": 50,
+  "kelas_teratas_identik": 50,
+  "selisih_conf_maks": 0.0,
+  "selisih_conf_rata2": 0.0,
+  "LOLOS": true,
+  "cpu_ms_median": {
+    "pt": 88.9,
+    "onnx": 61.2
+  },
+  "cpu_ms_rata2": {
+    "pt": 89.4,
+    "onnx": 61.6
+  },
+  "catatan": "keduanya di CPU, batch 1, imgsz 640, conf 0,001, iou 0,7; 50 gambar val prov_v7 acak (seed 0), warmup 10; waktu = predict ujung ke ujung termasuk baca berkas"
+}

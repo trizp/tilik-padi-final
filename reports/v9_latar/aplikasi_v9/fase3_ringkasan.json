@@ -1,0 +1,81 @@
+{
+ "per_seed": [
+  {
+   "seed": 0,
+   "n_bersih": 861,
+   "n_cadangan": 9,
+   "akurasi_cadangan_v9_foto_asli": 1.0,
+   "akurasi_cadangan_a_v7": 1.0,
+   "akurasi_total_v9_foto_asli": 0.8583,
+   "akurasi_total_a_v7": 0.8583,
+   "akurasi_total_b_tidak_didiagnosis": 0.8479,
+   "akurasi_b_pada_yang_didiagnosis": 0.8568,
+   "cakupan_b": 0.9895
+  },
+  {
+   "seed": 1,
+   "n_bersih": 861,
+   "n_cadangan": 9,
+   "akurasi_cadangan_v9_foto_asli": 1.0,
+   "akurasi_cadangan_a_v7": 1.0,
+   "akurasi_total_v9_foto_asli": 0.863,
+   "akurasi_total_a_v7": 0.863,
+   "akurasi_total_b_tidak_didiagnosis": 0.8525,
+   "akurasi_b_pada_yang_didiagnosis": 0.8615,
+   "cakupan_b": 0.9895
+  },
+  {
+   "seed": 2,
+   "n_bersih": 861,
+   "n_cadangan": 9,
+   "akurasi_cadangan_v9_foto_asli": 0.8889,
+   "akurasi_cadangan_a_v7": 1.0,
+   "akurasi_total_v9_foto_asli": 0.8641,
+   "akurasi_total_a_v7": 0.8653,
+   "akurasi_total_b_tidak_didiagnosis": 0.8548,
+   "akurasi_b_pada_yang_didiagnosis": 0.8638,
+   "cakupan_b": 0.9895
+  }
+ ],
+ "rata2_3_seed": {
+  "akurasi_cadangan_v9_foto_asli": 0.963,
+  "akurasi_cadangan_a_v7": 1.0,
+  "akurasi_total_v9_foto_asli": 0.8618,
+  "akurasi_total_a_v7": 0.8622,
+  "akurasi_total_b_tidak_didiagnosis": 0.8517,
+  "akurasi_b_pada_yang_didiagnosis": 0.8607,
+  "cakupan_b": 0.9895
+ },
+ "cadangan_per_kelas_label": {
+  "sehat_atau_tidak_terdeteksi": 8,
+  "leaf_blast": 1
+ },
+ "ram_onnx_cpu": {
+  "pemisah daun + 1 detektor": {
+   "model": 2,
+   "rss_awal_MB": 44.2,
+   "rss_dimuat_MB": 115.1,
+   "rss_setelah_inferensi_MB": 121.3,
+   "rss_puncak_MB": 121.3
+  },
+  "pemisah daun + 2 detektor": {
+   "model": 3,
+   "rss_awal_MB": 44.1,
+   "rss_dimuat_MB": 163.2,
+   "rss_setelah_inferensi_MB": 166.7,
+   "rss_puncak_MB": 169.4
+  },
+  "1 detektor (aplikasi v7)": {
+   "model": 1,
+   "rss_awal_MB": 44.0,
+   "rss_dimuat_MB": 98.2,
+   "rss_setelah_inferensi_MB": 101.9,
+   "rss_puncak_MB": 101.9
+  }
+ },
+ "ukuran_berkas_MB": {
+  "pemisah_daun_onnx": 12.67,
+  "detektor_yolov8s_onnx": 42.68
+ },
+ "catatan": "subset bersih VAL prov_v9 (tanpa ds1_provisional); foto multi-kelas tidak dihitung; RAM = RSS proses Python + ONNX Runtime saja (tanpa Streamlit)"
+}

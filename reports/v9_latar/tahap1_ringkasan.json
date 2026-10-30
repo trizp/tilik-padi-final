@@ -1,0 +1,217 @@
+{
+  "LABEL": "ANALISIS VAL",
+  "reproduksi_selisih_maks": {
+    "mAP50_95": 0.0,
+    "akurasi": 0.0011999999999999789
+  },
+  "per_model": {
+    "yolov8n": {
+      "asli_bersih_mAP50": {
+        "rata2": 0.5572,
+        "std": 0.0125
+      },
+      "asli_bersih_mAP50_95": {
+        "rata2": 0.2275,
+        "std": 0.0046
+      },
+      "tanpa_bersih_mAP50": {
+        "rata2": 0.4193,
+        "std": 0.0119
+      },
+      "tanpa_bersih_mAP50_95": {
+        "rata2": 0.1584,
+        "std": 0.007
+      },
+      "tanpa_bersih_buang_mAP50": {
+        "rata2": 0.4392,
+        "std": 0.013
+      },
+      "tanpa_bersih_buang_mAP50_95": {
+        "rata2": 0.1657,
+        "std": 0.0074
+      },
+      "asli_semua_mAP50": {
+        "rata2": 0.5323,
+        "std": 0.0093
+      },
+      "asli_semua_mAP50_95": {
+        "rata2": 0.2158,
+        "std": 0.0049
+      },
+      "tanpa_semua_mAP50": {
+        "rata2": 0.4064,
+        "std": 0.0112
+      },
+      "tanpa_semua_mAP50_95": {
+        "rata2": 0.1586,
+        "std": 0.0072
+      },
+      "asli_bersih_akurasi": {
+        "rata2": 0.8604,
+        "std": 0.0048
+      },
+      "tanpa_bersih_akurasi": {
+        "rata2": 0.7771,
+        "std": 0.0125
+      },
+      "selisih_akurasi_tanpa_minus_asli": -0.0832,
+      "selisih_mAP50_95_tanpa_minus_asli": -0.0691
+    },
+    "yolo11n": {
+      "asli_bersih_mAP50": {
+        "rata2": 0.5956,
+        "std": 0.0038
+      },
+      "asli_bersih_mAP50_95": {
+        "rata2": 0.2457,
+        "std": 0.001
+      },
+      "tanpa_bersih_mAP50": {
+        "rata2": 0.3518,
+        "std": 0.0295
+      },
+      "tanpa_bersih_mAP50_95": {
+        "rata2": 0.1139,
+        "std": 0.0111
+      },
+      "tanpa_bersih_buang_mAP50": {
+        "rata2": 0.3678,
+        "std": 0.0304
+      },
+      "tanpa_bersih_buang_mAP50_95": {
+        "rata2": 0.1189,
+        "std": 0.0113
+      },
+      "asli_semua_mAP50": {
+        "rata2": 0.5695,
+        "std": 0.0054
+      },
+      "asli_semua_mAP50_95": {
+        "rata2": 0.2302,
+        "std": 0.0025
+      },
+      "tanpa_semua_mAP50": {
+        "rata2": 0.3707,
+        "std": 0.0271
+      },
+      "tanpa_semua_mAP50_95": {
+        "rata2": 0.1295,
+        "std": 0.0123
+      },
+      "asli_bersih_akurasi": {
+        "rata2": 0.8654,
+        "std": 0.0133
+      },
+      "tanpa_bersih_akurasi": {
+        "rata2": 0.7418,
+        "std": 0.032
+      },
+      "selisih_akurasi_tanpa_minus_asli": -0.1235,
+      "selisih_mAP50_95_tanpa_minus_asli": -0.1318
+    },
+    "yolov8s": {
+      "asli_bersih_mAP50": {
+        "rata2": 0.5636,
+        "std": 0.0021
+      },
+      "asli_bersih_mAP50_95": {
+        "rata2": 0.2315,
+        "std": 0.0013
+      },
+      "tanpa_bersih_mAP50": {
+        "rata2": 0.4642,
+        "std": 0.0128
+      },
+      "tanpa_bersih_mAP50_95": {
+        "rata2": 0.176,
+        "std": 0.0068
+      },
+      "tanpa_bersih_buang_mAP50": {
+        "rata2": 0.4857,
+        "std": 0.0136
+      },
+      "tanpa_bersih_buang_mAP50_95": {
+        "rata2": 0.184,
+        "std": 0.0071
+      },
+      "asli_semua_mAP50": {
+        "rata2": 0.5323,
+        "std": 0.0064
+      },
+      "asli_semua_mAP50_95": {
+        "rata2": 0.214,
+        "std": 0.0024
+      },
+      "tanpa_semua_mAP50": {
+        "rata2": 0.424,
+        "std": 0.0204
+      },
+      "tanpa_semua_mAP50_95": {
+        "rata2": 0.1621,
+        "std": 0.0089
+      },
+      "asli_bersih_akurasi": {
+        "rata2": 0.8749,
+        "std": 0.0058
+      },
+      "tanpa_bersih_akurasi": {
+        "rata2": 0.8074,
+        "std": 0.0078
+      },
+      "selisih_akurasi_tanpa_minus_asli": -0.0675,
+      "selisih_mAP50_95_tanpa_minus_asli": -0.0555
+    },
+    "yolo11s": {
+      "asli_bersih_mAP50": {
+        "rata2": 0.5992,
+        "std": 0.0068
+      },
+      "asli_bersih_mAP50_95": {
+        "rata2": 0.2465,
+        "std": 0.0013
+      },
+      "tanpa_bersih_mAP50": {
+        "rata2": 0.3342,
+        "std": 0.0248
+      },
+      "tanpa_bersih_mAP50_95": {
+        "rata2": 0.1126,
+        "std": 0.0139
+      },
+      "tanpa_bersih_buang_mAP50": {
+        "rata2": 0.3501,
+        "std": 0.0258
+      },
+      "tanpa_bersih_buang_mAP50_95": {
+        "rata2": 0.118,
+        "std": 0.0148
+      },
+      "asli_semua_mAP50": {
+        "rata2": 0.5675,
+        "std": 0.0192
+      },
+      "asli_semua_mAP50_95": {
+        "rata2": 0.2304,
+        "std": 0.0069
+      },
+      "tanpa_semua_mAP50": {
+        "rata2": 0.3514,
+        "std": 0.0256
+      },
+      "tanpa_semua_mAP50_95": {
+        "rata2": 0.1317,
+        "std": 0.0108
+      },
+      "asli_bersih_akurasi": {
+        "rata2": 0.88,
+        "std": 0.0074
+      },
+      "tanpa_bersih_akurasi": {
+        "rata2": 0.6966,
+        "std": 0.0473
+      },
+      "selisih_akurasi_tanpa_minus_asli": -0.1834,
+      "selisih_mAP50_95_tanpa_minus_asli": -0.1339
+    }
+  }
+}

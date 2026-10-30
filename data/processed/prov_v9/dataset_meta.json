@@ -1,0 +1,146 @@
+{
+  "dataset_name": "prov_v9",
+  "dibuat": "2026-10-17T01:56:57",
+  "manifest_sha256": "7bfce9a84ce4e9456439e54a157fc452362940ac0dba8f0e13ecab6aaf8108c3",
+  "grup_split_sha256": "d47a28afa6336112aa71f3832edb22fead4767dd0cf473f38ecee75ec3382dc4",
+  "grouping_rule_version": "v5",
+  "grouping_rule": "v4 = phash16 (8 varian dihedral) + embedding DINOv2-small (8 varian) + nama dasar Roboflow + kunci ID K4 (ds1) + SIFT (inlier minimum DAN sebaran kotak inlier minimum) pada K tetangga terdekat embedding (semua kelas dan sumber) + jendela waktu GESER per sumber (semua pasangan <= jendela) (ds4 dari Original_Filename, ds1 dari nama berkas; pemisah tanggal-jam opsional) + karantina pasangan lintas kelas berinlier tinggi. SEMUA kelompok dibentuk pada himpunan lengkap (termasuk foto karantina dan duplikat bertentangan) SEBELUM foto tersebut dibuang. NILAI PARAMETER: lihat bagian 'parameter' di dataset_meta.json.",
+  "parameter": {
+    "seed": 42,
+    "split": {
+      "train": 0.7,
+      "val": 0.2,
+      "test": 0.1
+    },
+    "hash_size": 16,
+    "dup_threshold": 14,
+    "embedding": {
+      "model": "dinov2_vits14 (torch.hub facebookresearch/dinov2)",
+      "cosine": 0.97,
+      "checkpoint_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    "sift": {
+      "nfeatures": 400,
+      "max_px": 512,
+      "ratio": 0.75,
+      "ransac_px": 4.0,
+      "min_inliers": 21,
+      "knn": 100,
+      "model": "similarity (estimateAffinePartial2D)",
+      "orientasi": "asli dan flip horizontal"
+    },
+    "k4": "ds1: (keluarga, jenis, ID, ekstensi) sama dan awalan berbeda",
+    "sift_min_inlier_bbox_frac": 0.02,
+    "jendela_waktu": {
+      "enabled": true,
+      "gap_s": 5,
+      "sources": [
+        "ds4",
+        "ds1"
+      ],
+      "metadata": "data/raw/ds4/docs/Dataset metadata.xlsx"
+    },
+    "karantina": {
+      "cross_class_min_inliers": 100,
+      "carry_over_csv": "reports/prov_v5/quarantine.csv"
+    },
+    "max_background_frac_train": 0.1,
+    "provisional_sources": [
+      "ds1_provisional"
+    ]
+  },
+  "jumlah": {
+    "train": 6772,
+    "val": 1259,
+    "test": 629,
+    "test_new_session": 299
+  },
+  "hash_berkas": {
+    "config": "89f776f7baad6e542a40dd92385c401c058940880584be82166067418a13762b",
+    "prepare_dataset.py": "86a5f674c8b237f0cb7ce2e308730c48ac4a6e44c1c12c06d8413479c58d1c73",
+    "dedupe_rules.py": "769c7360f363ae34882a893cb63d03a12fb6687aa1454198b4ccf903dd264817",
+    "aug_detect.py": "78132389f11ce054fe1952b16f0b0dbe63d9da30c1c468583f30368b159ac10d",
+    "inventory.py": "e0851604aafeb209ee00879c05db7f0ced041311d53b333f3f406b6b85c3a130"
+  },
+  "versi_library": {
+    "python": "3.12.3",
+    "numpy": "2.5.2",
+    "opencv": "5.0.0",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "torch": "2.14.1+cu130",
+    "ultralytics": "8.4.171",
+    "PIL": "12.3.0",
+    "imagehash": "4.3.2",
+    "yaml": "6.0.3"
+  },
+  "sumber_pipeline": {
+    "phash <= 14 (8 varian dihedral)": 3862,
+    "embedding cosine >= 0.97 (DINOv2-small, 8 varian dihedral)": 7587,
+    "nama dasar Roboflow sama (.rf.<hash>)": 3017,
+    "kunci ID K4 (fam,jenis,id,ekstensi; lintas awalan; ds1)": 5626,
+    "jendela waktu <= 5 s (ds4; tanggal-jam dari nama berkas asli)": 17539,
+    "SIFT >= 21 inlier dan sebaran >= 2% pada 100 tetangga embedding": 7149
+  },
+  "karantina": {
+    "jumlah_gambar": 141,
+    "berkas": "quarantine.csv"
+  },
+  "catatan": [
+    "Seluruh tanggal pemotretan ds4 pada val dan test juga ada di train (sesi pemotretan bersama); split berbasis grup tidak menahan sesi pemotretan, jadi val/test tidak mengukur generalisasi ke sesi/tanggal baru.",
+    "prov_v7: hanya piksel 931 foto ds4 diputar (lossless) agar cocok dengan label penulis ds4; selain itu identik dengan prov_v6 (ERRATA prov_v6: metrik kotak foto ds4 tidak valid).",
+    "prov_v9: latar dihapus; BLB (ds1_provisional) paling terdampak (banyak foto cadangan dan kotak dibuang); BLB dilaporkan terpisah dan tidak dipakai untuk kesimpulan tentang latar."
+  ],
+  "ds4_tanggal": {
+    "tanggal_unik": {
+      "train": 13,
+      "test": 12,
+      "val": 12,
+      "test_new_session": 1
+    },
+    "gambar_bertanggal": {
+      "train": 2866,
+      "test": 422,
+      "val": 843,
+      "test_new_session": 299
+    },
+    "semua_tanggal_val_test_ada_di_train": true
+  },
+  "frozen": true,
+  "freeze": {
+    "frozen": true,
+    "frozen_at": "2026-10-17T01:58:07",
+    "alasan_tidak_dibekukan": null,
+    "manifest_sha256": "7bfce9a84ce4e9456439e54a157fc452362940ac0dba8f0e13ecab6aaf8108c3",
+    "data_yaml_sha256": "a85b6b6856db81ed1e5827a1d5f1a0fee07fef96a1baa70138c37b03ab287b3f",
+    "labels_sha256": "817895606add12015ae3ed04caaad5abff8cefa89146ddb99a880d664107e58e",
+    "pemeriksaan": {
+      "kesetaraan": "reports/prov_v9/pemeriksaan_kesetaraan.json",
+      "audit_masker": "reports/prov_v9/audit_masker.json",
+      "verify_dataset": "reports/prov_v9/verify_dataset.log"
+    }
+  },
+  "induk": {
+    "dataset": "prov_v7",
+    "manifest_sha256": "b467d8c894cffbf6e749af114b699af5847b6129d4a39f6784afd7cf2457ffe8",
+    "grup_split_sha256": "d47a28afa6336112aa71f3832edb22fead4767dd0cf473f38ecee75ec3382dc4"
+  },
+  "perbaikan_orientasi": {
+    "alat": "jpegtran libjpeg-turbo 3.2.0 (tools/libjpeg-turbo)",
+    "foto_diubah": 931,
+    "rincian": "reports/prov_v7_prep/jpegtran_per_foto.csv",
+    "bukti_lossless": "reports/prov_v7_prep/jpegtran_bukti_lossless.json (bolak-balik identik bit 931/931)"
+  },
+  "latar_dihapus": {
+    "metode": "SAM2.1-b mode otomatis via ultralytics 8.4.171 (sam2.1_b.pt), grid 16x16, batch 16, aturan v2 + cadangan",
+    "skrip": "scripts/v9_latar/masker_sam2_warna.py; scripts/v9_latar/umum.py (pasca_proses)",
+    "masker": "data/derived/v9_latar/sam2_v2/masker_mentah",
+    "isian": [
+      114,
+      114,
+      114
+    ],
+    "jpeg_quality": 95,
+    "buang_kotak": "kotak < 50% luas di dalam masker dibuang",
+    "foto_dikeluarkan": "reports/prov_v9/foto_dikeluarkan.csv"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "n": 4435,
+  "aksi": {
+    "tag_exif_diterapkan_disimpan_ulang": 1,
+    "diputar_disimpan_ulang": 930,
+    "salin_byte_identik": 3504
+  },
+  "aksi_per_split": {
+    "train": {
+      "tag_exif_diterapkan_disimpan_ulang": 1,
+      "diputar_disimpan_ulang": 457,
+      "salin_byte_identik": 2411
+    },
+    "val": {
+      "diputar_disimpan_ulang": 182,
+      "salin_byte_identik": 663
+    },
+    "test": {
+      "salin_byte_identik": 333,
+      "diputar_disimpan_ulang": 89
+    },
+    "test_new_session": {
+      "diputar_disimpan_ulang": 202,
+      "salin_byte_identik": 97
+    }
+  },
+  "varian": {
+    "asli": 3505,
+    "rot90": 106,
+    "rot270": 822,
+    "rot180": 2
+  },
+  "masih_bertag_exif": 0,
+  "ukuran_berubah": 0,
+  "salinan_identik_sha_cocok": true
+}

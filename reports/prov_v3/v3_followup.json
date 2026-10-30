@@ -1,0 +1,318 @@
+{
+  "A_lintas_kelas": {
+    "n_ditampilkan": 30,
+    "inlier>100": 15,
+    "per_sumber": {
+      "ds1~ds1": 9,
+      "ds4~ds4": 21
+    },
+    "total_lintas_kelas_diterima": 603,
+    "total_inlier>100": 126,
+    "total_21-100": 477
+  },
+  "B_ditolak": {
+    "total_ditolak": 1866,
+    "inlier_median/p90/maks": [
+      30.0,
+      50.0,
+      98
+    ],
+    "frac_median": 0.105,
+    "per_sumber": {
+      "ds1~ds1": 1140,
+      "ds1~ds2": 8,
+      "ds2~ds2": 9,
+      "ds4~ds4": 709
+    },
+    "ditampilkan": [
+      {
+        "a": "rls_train_aug_0_8888_jpg.rf.c7e9da54db577593f40711b51f601ebf.jpg",
+        "b": "rls_train_aug_0_4236_jpg.rf.6cc9d4ed4e501e2a899aec2725fd193c.jpg",
+        "inlier": 50,
+        "frac": 0.1142
+      },
+      {
+        "a": "rls_train_aug_0_1081_jpg.rf.86e2e2d7155514a7441c41229ab3f1c2.jpg",
+        "b": "rls_train_aug_0_244_jpg.rf.0c2e6c0f4bce6287c8a6e601353f2817.jpg",
+        "inlier": 26,
+        "frac": 0.0724
+      },
+      {
+        "a": "r6k_test_brownspot_orig_011_jpg.rf.0d4dd1b220e5c8848fd74e342e038d49.jpg",
+        "b": "r6k_train_brownspot_orig_010_jpg.rf.2b0a1b6d8d57f50ec90ed8315dc9c730.jpg",
+        "inlier": 28,
+        "frac": 0.1098
+      },
+      {
+        "a": "rls_train_aug_0_450_jpg.rf.0d89014860358ec60962f4e5077bd0f7.jpg",
+        "b": "rls_train_aug_0_1068_jpg.rf.446ee10f18e83e780762a7121385db1d.jpg",
+        "inlier": 34,
+        "frac": 0.1329
+      },
+      {
+        "a": "blast_1027.jpg",
+        "b": "blast_1035.jpg",
+        "inlier": 47,
+        "frac": 0.0878
+      },
+      {
+        "a": "rls_train_aug_0_1010_jpg.rf.13e7b566bbf1e5b86a942e7a2592d047.jpg",
+        "b": "rls_val_aug_0_965_jpg.rf.7c0a5710f59061a0df8daca853e5b308.jpg",
+        "inlier": 22,
+        "frac": 0.0791
+      },
+      {
+        "a": "r6k_train_blight_rotated_023_jpg.rf.b8dd880dc6c761a29c8d2b68c86824f8.jpg",
+        "b": "r6k_train_img_blb_15_jpg.rf.e902c585cebc0a561ea5ae365be9b678.jpg",
+        "inlier": 21,
+        "frac": 0.0402
+      },
+      {
+        "a": "r6k_train_img_brown_49_jpg.rf.c09aa7d45196f28f6c0ab28b87fb6cf6.jpg",
+        "b": "r6k_train_img_brown_50_jpg.rf.1f18fd9b582b5e84199d4f4a82096762.jpg",
+        "inlier": 21,
+        "frac": 0.0723
+      },
+      {
+        "a": "r6k_test_img_brown_46_jpg.rf.efd453e1fbcfc1580e7c27aee398d089.jpg",
+        "b": "r6k_train_img_brown_22_jpg.rf.b20c11a442a15a8df98a0d9724994775.jpg",
+        "inlier": 42,
+        "frac": 0.1011
+      },
+      {
+        "a": "brown spot_842.jpg",
+        "b": "Healthy_1330.jpg",
+        "inlier": 22,
+        "frac": 0.0419
+      }
+    ]
+  },
+  "C_grup116_prov_v2": {
+    "ukuran_di_v2": 116,
+    "komposisi_v2": {
+      "leaf_blast|ds1": 67,
+      "brown_spot|ds1": 45,
+      "bacterial_leaf_blight|ds1_provisional": 4
+    },
+    "masih_ada_di_v3": 116,
+    "dikarantina_atau_dibuang": 0,
+    "terpecah_menjadi_grup_v3": 2,
+    "potongan_terbesar": [
+      [
+        "9376",
+        114
+      ],
+      [
+        "8495",
+        2
+      ]
+    ],
+    "ukuran_potongan": [
+      114,
+      2
+    ]
+  },
+  "C_grup_terbesar_v3": [
+    {
+      "ukuran": 114,
+      "komposisi": {
+        "leaf_blast|ds1": 65,
+        "brown_spot|ds1": 45,
+        "bacterial_leaf_blight|ds1_provisional": 4
+      },
+      "split": {
+        "train": 114
+      }
+    },
+    {
+      "ukuran": 66,
+      "komposisi": {
+        "bacterial_leaf_blight|ds1_provisional": 66
+      },
+      "split": {
+        "train": 66
+      }
+    },
+    {
+      "ukuran": 61,
+      "komposisi": {
+        "brown_spot|ds1": 53,
+        "leaf_blast|ds1": 8
+      },
+      "split": {
+        "train": 61
+      }
+    },
+    {
+      "ukuran": 43,
+      "komposisi": {
+        "brown_spot|ds4": 43
+      },
+      "split": {
+        "train": 43
+      }
+    },
+    {
+      "ukuran": 42,
+      "komposisi": {
+        "brown_spot|ds1": 42
+      },
+      "split": {
+        "train": 42
+      }
+    }
+  ],
+  "D_sisa_audit": {
+    "n_pasangan": 11,
+    "n_gambar_query": 11,
+    "inlier_median/maks": [
+      27.0,
+      57
+    ],
+    "detail": [
+      {
+        "pasangan_split": "val-train",
+        "query": "data/raw/ds1/rice/images/train/rls_train_aug_0_9624_jpg.rf.01a36de60e853c897dc089e4fe6ffa2a.jpg",
+        "q_kelas": "bacterial_leaf_blight",
+        "q_sumber": "ds1_provisional",
+        "partner": "data/raw/ds1/rice/images/val/rls_train_aug_0_7110_jpg.rf.285946cfbe46ed59c1415478319426cd.jpg",
+        "p_kelas": "leaf_blast",
+        "p_sumber": "ds1",
+        "inlier": 57,
+        "skala": 1.01,
+        "rot": 164.7,
+        "frac": 0.1582
+      },
+      {
+        "pasangan_split": "test-train",
+        "query": "data/raw/ds1/rice/images/train/rls_train_aug_0_8068_jpg.rf.8a2c2d7e93af71f679bad4dd33c12651.jpg",
+        "q_kelas": "bacterial_leaf_blight",
+        "q_sumber": "ds1_provisional",
+        "partner": "data/raw/ds1/rice/images/train/rls_val_aug_0_1118_jpg.rf.ce0a8c1149190dce02a6f219f95a7160.jpg",
+        "p_kelas": "bacterial_leaf_blight",
+        "p_sumber": "ds1_provisional",
+        "inlier": 32,
+        "skala": 1.03,
+        "rot": 6.0,
+        "frac": 0.1558
+      },
+      {
+        "pasangan_split": "test-val",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1465.jpg",
+        "q_kelas": "brown_spot",
+        "q_sumber": "ds4",
+        "partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1467.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 31,
+        "skala": 1.026,
+        "rot": 7.1,
+        "frac": 0.3581
+      },
+      {
+        "pasangan_split": "val-train",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_31.jpg",
+        "q_kelas": "brown_spot",
+        "q_sumber": "ds4",
+        "partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_34.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 30,
+        "skala": 1.0,
+        "rot": -1.1,
+        "frac": 0.1963
+      },
+      {
+        "pasangan_split": "test-val",
+        "query": "data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Healthy Rice Leaf/Healthy_rice_leaf  (49).jpg",
+        "q_kelas": "background",
+        "q_sumber": "ds2",
+        "partner": "data/raw/ds2/Rice Leaf Bacterial and Fungal Disease Dataset/Original/Original Images/Original Images/Healthy Rice Leaf/Healthy_rice_leaf  (43).jpg",
+        "p_kelas": "background",
+        "p_sumber": "ds2",
+        "inlier": 28,
+        "skala": 0.767,
+        "rot": -55.0,
+        "frac": 0.2864
+      },
+      {
+        "pasangan_split": "val-train",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1302.jpg",
+        "q_kelas": "brown_spot",
+        "q_sumber": "ds4",
+        "partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1310.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 27,
+        "skala": 0.955,
+        "rot": -6.0,
+        "frac": 0.2989
+      },
+      {
+        "pasangan_split": "val-train",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1552.jpg",
+        "q_kelas": "brown_spot",
+        "q_sumber": "ds4",
+        "partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1555.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 27,
+        "skala": 1.036,
+        "rot": -6.1,
+        "frac": 0.3063
+      },
+      {
+        "pasangan_split": "val-train",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Blast/blast_619.jpg",
+        "q_kelas": "leaf_blast",
+        "q_sumber": "ds4",
+        "partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Blast/blast_618.jpg",
+        "p_kelas": "leaf_blast",
+        "p_sumber": "ds4",
+        "inlier": 21,
+        "skala": 1.008,
+        "rot": -0.1,
+        "frac": 0.4007
+      },
+      {
+        "pasangan_split": "val-train",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1550.jpg",
+        "q_kelas": "brown_spot",
+        "q_sumber": "ds4",
+        "partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1554.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 21,
+        "skala": 1.056,
+        "rot": -5.0,
+        "frac": 0.2792
+      },
+      {
+        "pasangan_split": "val-train",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1551.jpg",
+        "q_kelas": "brown_spot",
+        "q_sumber": "ds4",
+        "partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Brown spot/brown spot_1555.jpg",
+        "p_kelas": "brown_spot",
+        "p_sumber": "ds4",
+        "inlier": 21,
+        "skala": 1.017,
+        "rot": -5.7,
+        "frac": 0.2942
+      },
+      {
+        "pasangan_split": "val-train",
+        "query": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Healthy/Healthy_1338.jpg",
+        "q_kelas": "background",
+        "q_sumber": "ds4",
+        "partner": "data/raw/ds4/images_labels/RiceLeafDiseaseBD/Original images/Blast/blast_827.jpg",
+        "p_kelas": "leaf_blast",
+        "p_sumber": "ds4",
+        "inlier": 21,
+        "skala": 0.9,
+        "rot": -3.8,
+        "frac": 0.3796
+      }
+    ]
+  }
+}

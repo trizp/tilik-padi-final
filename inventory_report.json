@@ -1,0 +1,170 @@
+[
+  {
+    "root": "data\\raw\\ds1",
+    "n_images": 8667,
+    "format": "YOLO (txt) - object detection",
+    "class_names_from_yaml": [
+      "Rice__BacterialLeafBlight",
+      "Rice__BrownSpot",
+      "Rice__Healthy",
+      "Rice__Hispa",
+      "Rice__LeafBlast",
+      "Rice__LeafScald",
+      "Rice__LeafSmut",
+      "Rice__NarrowBrownLeafSpot",
+      "Rice__NeckBlast"
+    ],
+    "yaml_file": "data\\raw\\ds1\\rice\\data.yaml",
+    "splits": {
+      "-": 2,
+      "train": 6935,
+      "val": 1730
+    },
+    "overall": {
+      "boxes_per_class": {
+        "0:Rice__BacterialLeafBlight": 2353,
+        "1:Rice__BrownSpot": 15257,
+        "2:Rice__Healthy": 821,
+        "3:Rice__Hispa": 933,
+        "4:Rice__LeafBlast": 763,
+        "5:Rice__LeafScald": 564,
+        "6:Rice__LeafSmut": 6386,
+        "7:Rice__NarrowBrownLeafSpot": 737,
+        "8:Rice__NeckBlast": 951
+      },
+      "images_per_class": {
+        "0:Rice__BacterialLeafBlight": 2000,
+        "1:Rice__BrownSpot": 2000,
+        "2:Rice__Healthy": 433,
+        "3:Rice__Hispa": 431,
+        "4:Rice__LeafBlast": 449,
+        "5:Rice__LeafScald": 456,
+        "6:Rice__LeafSmut": 2000,
+        "7:Rice__NarrowBrownLeafSpot": 443,
+        "8:Rice__NeckBlast": 453
+      },
+      "images_without_label_background": 2,
+      "images_with_2plus_classes": 0,
+      "multi_class_combinations": {}
+    },
+    "per_split": {
+      "-": {
+        "boxes_per_class": {},
+        "images_per_class": {},
+        "images_without_label_background": 2,
+        "images_with_2plus_classes": 0,
+        "multi_class_combinations": {}
+      },
+      "train": {
+        "boxes_per_class": {
+          "0:Rice__BacterialLeafBlight": 1876,
+          "1:Rice__BrownSpot": 12368,
+          "2:Rice__Healthy": 661,
+          "3:Rice__Hispa": 734,
+          "4:Rice__LeafBlast": 596,
+          "5:Rice__LeafScald": 446,
+          "6:Rice__LeafSmut": 5174,
+          "7:Rice__NarrowBrownLeafSpot": 567,
+          "8:Rice__NeckBlast": 771
+        },
+        "images_per_class": {
+          "0:Rice__BacterialLeafBlight": 1600,
+          "1:Rice__BrownSpot": 1600,
+          "2:Rice__Healthy": 347,
+          "3:Rice__Hispa": 345,
+          "4:Rice__LeafBlast": 360,
+          "5:Rice__LeafScald": 365,
+          "6:Rice__LeafSmut": 1600,
+          "7:Rice__NarrowBrownLeafSpot": 355,
+          "8:Rice__NeckBlast": 363
+        },
+        "images_without_label_background": 0,
+        "images_with_2plus_classes": 0,
+        "multi_class_combinations": {}
+      },
+      "val": {
+        "boxes_per_class": {
+          "0:Rice__BacterialLeafBlight": 477,
+          "1:Rice__BrownSpot": 2889,
+          "2:Rice__Healthy": 160,
+          "3:Rice__Hispa": 199,
+          "4:Rice__LeafBlast": 167,
+          "5:Rice__LeafScald": 118,
+          "6:Rice__LeafSmut": 1212,
+          "7:Rice__NarrowBrownLeafSpot": 170,
+          "8:Rice__NeckBlast": 180
+        },
+        "images_per_class": {
+          "0:Rice__BacterialLeafBlight": 400,
+          "1:Rice__BrownSpot": 400,
+          "2:Rice__Healthy": 86,
+          "3:Rice__Hispa": 86,
+          "4:Rice__LeafBlast": 89,
+          "5:Rice__LeafScald": 91,
+          "6:Rice__LeafSmut": 400,
+          "7:Rice__NarrowBrownLeafSpot": 88,
+          "8:Rice__NeckBlast": 90
+        },
+        "images_without_label_background": 0,
+        "images_with_2plus_classes": 0,
+        "multi_class_combinations": {}
+      }
+    },
+    "corrupt_images": [],
+    "n_corrupt": 0,
+    "top_image_sizes": {
+      "587x587": 5292,
+      "640x640": 3373,
+      "1200x800": 2
+    }
+  },
+  {
+    "root": "data\\raw\\ds2",
+    "n_images": 6889,
+    "format": "KLASIFIKASI (folder per kelas) - TIDAK ADA bounding box",
+    "images_per_folder_per_split": {
+      "-": {
+        "Bacterial Leaf Blight": 716,
+        "Brown Spot": 1077,
+        "Healthy Rice Leaf": 668,
+        "Leaf Blast": 1234,
+        "Leaf scald": 749,
+        "Narrow Brown Leaf Spot": 470,
+        "Rice Hispa": 879,
+        "Sheath Blight": 1096
+      }
+    },
+    "catatan": "Dataset ini tidak bisa langsung dipakai untuk YOLO detection; perlu anotasi bounding box, atau dipakai sebagai gambar Healthy/background.",
+    "corrupt_images": [],
+    "n_corrupt": 0,
+    "top_image_sizes": {
+      "1600x1200": 6341,
+      "4000x3000": 130,
+      "2160x3840": 73,
+      "3840x2160": 34,
+      "1600x720": 16
+    }
+  },
+  {
+    "root": "data\\raw\\ds3",
+    "n_images": 240,
+    "format": "KLASIFIKASI (folder per kelas) - TIDAK ADA bounding box",
+    "images_per_folder_per_split": {
+      "-": {
+        "blast": 80,
+        "blight": 80,
+        "tungro": 80
+      }
+    },
+    "catatan": "Dataset ini tidak bisa langsung dipakai untuk YOLO detection; perlu anotasi bounding box, atau dipakai sebagai gambar Healthy/background.",
+    "corrupt_images": [],
+    "n_corrupt": 0,
+    "top_image_sizes": {
+      "1440x1920": 144,
+      "1673x1920": 3,
+      "1524x1920": 2,
+      "1486x1920": 2,
+      "1456x1920": 2
+    }
+  }
+]

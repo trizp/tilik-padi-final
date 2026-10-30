@@ -1,0 +1,16 @@
+# lingkungan dan cache
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+
+# jangan unggah dataset, hasil training, atau foto uji
+data/
+runs/
+*.pt
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+docs/uji/pindai_val.csv

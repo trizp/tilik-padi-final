@@ -1,0 +1,21 @@
+no,kelompok,split,class,file,varian_diterapkan
+1,SEBELUMNYA TIDAK COCOK (rot270),test,brown_spot,ds4_brown-spot-264_7e91c4fe.jpg,rot270
+2,SEBELUMNYA TIDAK COCOK (rot270),test_new_session,leaf_blast,ds4_blast-256_78e99a42.jpg,rot270
+3,SEBELUMNYA TIDAK COCOK (rot270),train,brown_spot,ds4_brown-spot-407_e452fc3b.jpg,rot270
+4,SEBELUMNYA TIDAK COCOK (rot270),val,leaf_blast,ds4_blast-153_d4776038.jpg,rot270
+5,SEBELUMNYA TIDAK COCOK (rot270),test,leaf_blast,ds4_blast-514_5148f37c.jpg,rot270
+6,SEBELUMNYA TIDAK COCOK (rot270),test_new_session,leaf_blast,ds4_blast-285_4ddae156.jpg,rot270
+7,SEBELUMNYA TIDAK COCOK (rot270),train,leaf_blast,ds4_blast-533_e5288e8a.jpg,rot270
+8,SEBELUMNYA TIDAK COCOK (rot90),val,brown_spot,ds4_brown-spot-104_cfc03d5a.jpg,rot90
+9,SEBELUMNYA TIDAK COCOK (rot270),test,brown_spot,ds4_brown-spot-267_c33591a0.jpg,rot270
+10,SEBELUMNYA TIDAK COCOK (rot270),test_new_session,leaf_blast,ds4_blast-264_969d8f9f.jpg,rot270
+11,sudah cocok,test,brown_spot,ds4_brown-spot-766_16ed6ad3.jpg,asli
+12,sudah cocok,test_new_session,brown_spot,ds4_brown-spot-162_de1b79dc.jpg,asli
+13,sudah cocok,train,leaf_blast,ds4_blast-629_fc1066b8.jpg,asli
+14,sudah cocok,val,brown_spot,ds4_brown-spot-1378_c9505d30.jpg,asli
+15,sudah cocok,test,brown_spot,ds4_brown-spot-2174_61732c55.jpg,asli
+16,sudah cocok,test_new_session,leaf_blast,ds4_blast-259_d5e3b0fb.jpg,asli
+17,sudah cocok,train,brown_spot,ds4_brown-spot-612_469b9983.jpg,asli
+18,sudah cocok,val,brown_spot,ds4_brown-spot-460_7b4ef07b.jpg,asli
+19,sudah cocok,test,brown_spot,ds4_brown-spot-618_1befb954.jpg,asli
+20,sudah cocok,test_new_session,brown_spot,ds4_brown-spot-172_56a80d57.jpg,asli

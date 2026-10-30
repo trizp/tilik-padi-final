@@ -1,0 +1,21 @@
+\begin{table}[!t]
+\centering
+\caption{Split acak vs split bersih (YOLO n, seed 0).}
+\label{tab:split_acak}
+\footnotesize
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Model} & \textbf{Split latih} & \textbf{Set uji} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{IK95 mAP50-95} & \textbf{Akurasi diagnosis} \\
+\hline
+YOLOv8n & split acak & test acak (sendiri) & 0.728 & 0.452 & [0.427, 0.481] & 0.897 \\
+YOLOv8n & split acak & test sesi baru* & 0.020 & 0.009 & [0.003, 0.023] & 0.522 \\
+YOLOv8n & split bersih (final s0) & test bersih & 0.391 & 0.154 & [0.095, 0.206] & 0.712 \\
+YOLOv8n & split bersih (final s0) & test sesi baru* & 0.016 & 0.006 & [0.002, 0.016] & 0.421 \\
+YOLO11n & split acak & test acak (sendiri) & 0.736 & 0.447 & [0.424, 0.476] & 0.916 \\
+YOLO11n & split acak & test sesi baru* & 0.027 & 0.010 & [0.003, 0.027] & 0.645 \\
+YOLO11n & split bersih (final s0) & test bersih & 0.372 & 0.143 & [0.081, 0.196] & 0.719 \\
+YOLO11n & split bersih (final s0) & test sesi baru* & 0.028 & 0.011 & [0.003, 0.028] & 0.619 \\
+\hline
+\end{tabular}
+\\[2pt]\parbox{\columnwidth}{\scriptsize *Test sesi baru = satu-satunya set yang sebanding (sama untuk kedua model, tanpa kembaran di train mana pun). Kebocoran split acak (val+test): batas atas 92.0\% (kelompok berantai), batas bawah 76.9\% (kembaran langsung). Satu seed (s0).}
+\end{table}

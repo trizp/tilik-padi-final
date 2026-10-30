@@ -1,0 +1,25 @@
+\begin{table}[!t]
+\centering
+\caption{Per kelas pada test bersih (irisan; rata-rata $\pm$ simpangan baku 3 seed).}
+\label{tab:v9_per_kelas}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llcccccccc}
+\hline
+\textbf{Model} & \textbf{Kondisi} & \textbf{Kelas} & \textbf{AP50-95} & \textbf{P kotak} & \textbf{R kotak} & \textbf{F1 kotak} & \textbf{P diagnosis} & \textbf{R diagnosis} & \textbf{F1 diagnosis} \\
+\hline
+YOLOv8s & Dengan latar (v7, foto asli) & Blast & 0.215 $\pm$ 0.002 & 0.528 $\pm$ 0.016 & 0.556 $\pm$ 0.006 & 0.542 $\pm$ 0.009 & 0.698 $\pm$ 0.018 & 0.787 $\pm$ 0.038 & 0.739 $\pm$ 0.011 \\
+YOLOv8s & Dengan latar (v7, foto asli) & Brown spot & 0.282 $\pm$ 0.010 & 0.589 $\pm$ 0.007 & 0.706 $\pm$ 0.009 & 0.642 $\pm$ 0.006 & 0.680 $\pm$ 0.003 & 0.765 $\pm$ 0.013 & 0.720 $\pm$ 0.005 \\
+YOLOv8s & Dengan latar (v7, foto asli) & Sehat/tdk terdeteksi & - & - & - & - & 0.911 $\pm$ 0.018 & 0.711 $\pm$ 0.018 & 0.799 $\pm$ 0.009 \\
+YOLOv8s & Tanpa latar (v9, foto tanpa latar) & Blast & 0.221 $\pm$ 0.011 & 0.563 $\pm$ 0.023 & 0.533 $\pm$ 0.036 & 0.547 $\pm$ 0.011 & 0.729 $\pm$ 0.029 & 0.802 $\pm$ 0.032 & 0.763 $\pm$ 0.015 \\
+YOLOv8s & Tanpa latar (v9, foto tanpa latar) & Brown spot & 0.284 $\pm$ 0.014 & 0.591 $\pm$ 0.004 & 0.705 $\pm$ 0.034 & 0.643 $\pm$ 0.016 & 0.697 $\pm$ 0.008 & 0.783 $\pm$ 0.015 & 0.737 $\pm$ 0.004 \\
+YOLOv8s & Tanpa latar (v9, foto tanpa latar) & Sehat/tdk terdeteksi & - & - & - & - & 0.908 $\pm$ 0.028 & 0.726 $\pm$ 0.026 & 0.807 $\pm$ 0.025 \\
+YOLO11s & Dengan latar (v7, foto asli) & Blast & 0.237 $\pm$ 0.004 & 0.599 $\pm$ 0.029 & 0.570 $\pm$ 0.015 & 0.584 $\pm$ 0.009 & 0.747 $\pm$ 0.026 & 0.847 $\pm$ 0.018 & 0.793 $\pm$ 0.007 \\
+YOLO11s & Dengan latar (v7, foto asli) & Brown spot & 0.308 $\pm$ 0.003 & 0.653 $\pm$ 0.008 & 0.695 $\pm$ 0.021 & 0.673 $\pm$ 0.006 & 0.719 $\pm$ 0.010 & 0.802 $\pm$ 0.041 & 0.758 $\pm$ 0.020 \\
+YOLO11s & Dengan latar (v7, foto asli) & Sehat/tdk terdeteksi & - & - & - & - & 0.920 $\pm$ 0.057 & 0.717 $\pm$ 0.041 & 0.805 $\pm$ 0.020 \\
+YOLO11s & Tanpa latar (v9, foto tanpa latar) & Blast & 0.238 $\pm$ 0.011 & 0.583 $\pm$ 0.022 & 0.573 $\pm$ 0.017 & 0.578 $\pm$ 0.014 & 0.755 $\pm$ 0.009 & 0.796 $\pm$ 0.066 & 0.774 $\pm$ 0.032 \\
+YOLO11s & Tanpa latar (v9, foto tanpa latar) & Brown spot & 0.317 $\pm$ 0.006 & 0.626 $\pm$ 0.021 & 0.718 $\pm$ 0.014 & 0.669 $\pm$ 0.008 & 0.718 $\pm$ 0.027 & 0.820 $\pm$ 0.015 & 0.765 $\pm$ 0.009 \\
+YOLO11s & Tanpa latar (v9, foto tanpa latar) & Sehat/tdk terdeteksi & - & - & - & - & 0.926 $\pm$ 0.026 & 0.751 $\pm$ 0.029 & 0.829 $\pm$ 0.007 \\
+\hline
+\end{tabular}
+\end{table}

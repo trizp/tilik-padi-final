@@ -1,0 +1,96 @@
+# Konfigurasi aplikasi "Tilik Padi". Ubah nilai di sini tanpa mengubah kode.
+# AKTIF sejak 2026-10-20: alur v9 (KEPUTUSAN_PROYEK.md 2026-10-20, pilihan a). Pemisah daun YOLOv8n-seg memisahkan satu helai daun,
+# latar diganti abu, lalu detektor YOLOv8s v9 mencari bercak. Foto tanpa daun yang jelas tidak didiagnosis (pengguna diminta foto ulang).
+# Arsip: config_yolov8.yaml (aplikasi v7 YOLOv8s, aktif 2026-10-16 s.d. 2026-10-20) dan config_yolo11s_arsip.yaml (YOLO11s).
+
+model:
+  # Salinan runs/v9_deploy_yolov8s_s2/weights/last.onnx (YOLOv8s, 50 epoch pada prov_v9_deploy = train+val+test prov_v9, seed 2,
+  # last.pt). Metadata "description" netral ("Ultralytics YOLOv8s model trained on prov_v9_deploy"); ONNX vs .pt identik pada 20 foto val
+  # (reports/v9_latar/aplikasi_v9/fase4_onnx_model_aplikasi.json).
+  nama: YOLOv8s     # nama model yang ditampilkan di halaman Tentang
+  path: models/v9_deploy_yolov8s_s2.onnx
+  sha256: bdcbc52941c767ace4fd932e6512d6930d48b5713ca5416b0ddad19e8716d1d5
+  imgsz: 640
+  iou: 0.7           # sama dengan evaluasi skripsi
+  conf_min: 0.001    # kandidat kotak sebelum NMS (sama dengan evaluasi); tingkat ditentukan oleh ambang di bawah
+  max_det: 300
+  kelas: [leaf_blast, brown_spot, bacterial_leaf_blight]   # urutan = indeks kelas model
+
+pemisah_daun:
+  # Salinan runs/v9_pemisah_daun_yolov8n_seg/weights/best.onnx (YOLOv8n-seg, distilasi masker SAM2 pada data latih v9). Metadata
+  # "description" diganti teks netral, graf identik (reports/v9_latar/aplikasi_v9/fase6_model_aplikasi.json).
+  path: models/v9_pemisah_daun_yolov8n_seg.onnx
+  sha256: 4d4c040238ed0269acef60505c1a23d02cef65f1187d8e4ab92020aba1e5e4b1
+  tau: 0.35          # keyakinan minimum daun; dipilih di VAL (reports/v9_latar/aplikasi_v9/RINGKASAN_FASE1_3.md)
+
+ambang:
+  # Dikunci di VAL prov_v9 dengan alur aplikasi (pemisah daun + model final v9_final_prov_yolov8s_s2; foto cadangan tidak dihitung)
+  # SEBELUM evaluasi test (reports/v9_latar/aplikasi_v9/fase4_ambang_aplikasi.json). t_rendah: 90,62% foto val berpenyakit punya
+  # keyakinan teratas >= 0,30 (pada 0,31 hanya 89,96%), jadi tiga tingkat jawaban dipakai.
+  terdeteksi: 0.36
+  rendah: 0.30
+
+tampilan:
+  # Tampilan "bercak berkeyakinan rendah" NONAKTIF: di VAL tidak ada batas yang memenuhi syarat <= 25% foto sehat (terendah 36,9%).
+  # Kode fiturnya tetap ada; batas_bercak_rendah hanya dibaca bila fitur aktif.
+  bercak_rendah_aktif: false
+
+unggahan:
+  ukuran_maks_mb: 10
+  sisi_maks_proses: 2048   # foto lebih besar diperkecil dulu (hemat memori; model hanya melihat 640 px)
+  jenis: [jpg, jpeg, png]
+
+teks:
+  judul: Periksa daun padi dari foto
+  subjudul: Untuk blas daun, bercak cokelat, dan hawar daun bakteri.
+  catatan_unggah: JPG atau PNG, maksimal 10 MB
+  petunjuk_benar: Daun langsung di tanamannya. Satu helai daun memenuhi sebagian besar foto.
+  petunjuk_salah: Daun dipetik lalu diletakkan di atas kertas.
+  petunjuk_jarak_cahaya: Foto dari jarak sekitar 15-30 cm, dengan cahaya cukup tetapi tidak silau.
+  pesan_foto_ulang: >-
+    Daun tidak terlihat jelas pada foto ini. Foto ulang satu helai daun dari dekat sesuai petunjuk memotret.
+  peringatan_singkat: >-
+    Sistem ini hanya mengenali Blast, Brown spot, dan BLB. Penyakit lain dapat salah dikenali, dan ketepatannya pada foto
+    dari Indonesia masih terbatas. Hasil ini alat bantu, bukan pengganti penyuluh.
+
+# Hasil evaluasi alur aplikasi (ditampilkan di halaman Tentang). Angka apa adanya dari reports/v9_latar/aplikasi_v9/RINGKASAN_FASE4_5.md
+# (fase5_alur_aplikasi_final.csv, fase5_model_aplikasi_v9_vs_v7.json); setiap set dievaluasi sekali. Ubah hanya bila sumbernya berubah.
+hasil_evaluasi:
+  pengantar: >-
+    Angka berikut berasal dari pengujian skripsi pada foto yang tidak dipakai untuk melatih model penelitian (rata-rata tiga kali
+    pelatihan). Foto yang diminta foto ulang dihitung sebagai jawaban salah.
+  butir:
+    - >-
+      Foto uji utama (432 foto Blast, Brown spot, dan daun sehat): diagnosis benar 73,1%; 3,7% foto diminta foto ulang; pada foto yang
+      didiagnosis, benar 75,9%. Blast dikenali pada 80,5% foto Blast.
+    - >-
+      Foto dari sesi pemotretan yang tidak dipakai saat pelatihan (292 foto): benar 68,9%; 2,7% foto diminta foto ulang; pada foto yang
+      didiagnosis, benar 70,9%. Blast dikenali pada 90,4% foto Blast.
+    - >-
+      Foto BLB (150 foto; banyak berupa daun yang dipegang tangan atau dipotret sangat dekat): 29,3% foto diminta foto ulang; benar 39,8%
+      (56,3% pada foto yang didiagnosis).
+    - >-
+      Model yang dipakai aplikasi ini (dilatih dengan lebih banyak foto) pada 292 foto sesi pemotretan lain tadi: benar 76,4%; 8 foto
+      (2,7%) diminta foto ulang.
+    - >-
+      Daun petik dari Indonesia yang difoto di atas kertas (70 foto, model aplikasi): benar 52,9%; 17% foto diminta foto ulang. Daun
+      Tungro (80 foto, di luar cakupan): 69% disebut BLB dan 20% diminta foto ulang.
+
+# Atribusi data latih model (ditampilkan di halaman Tentang). Lisensi ds1 dan ds2 ditulis persis dari kolom lisensi metadata
+# Kaggle (kaggle datasets metadata, 2026-10-14); "unknown" ditulis sebagai "lisensi tidak dinyatakan oleh penyusun".
+sumber_data:
+  - nama: RiceLeafDiseaseBD
+    keterangan: >-
+      Foto lapangan daun padi sehat dan sakit dari Bangladesh, diambil dengan HP (sumber utama Blast, Brown spot, dan daun sehat).
+    sitasi: >-
+      Munna, M. M. H., Islam, T., Saha, S., dkk. (2026). RiceLeafDiseaseBD: A Field-Based Annotated Smartphone Image Dataset
+      of Healthy and Diseased Rice Leaves from Bangladesh. Mendeley Data, V3. doi:10.17632/86s4jzj2m4.3
+    lisensi: CC BY 4.0
+  - nama: RICE Leaf Diseases (Kaggle, yusufmurtaza01)
+    keterangan: Kumpulan foto berlabel kotak; sumber seluruh contoh BLB serta tambahan Blast dan Brown spot untuk pelatihan.
+    sitasi: https://www.kaggle.com/datasets/yusufmurtaza01/rice-leaf-diseases
+    lisensi: CC0-1.0
+  - nama: Rice Leaf Disease Dataset (Kaggle, soni535; berkas "Rice Leaf Bacterial and Fungal Disease Dataset")
+    keterangan: Hanya foto daun sehat yang dipakai, sebagai contoh tanpa penyakit.
+    sitasi: https://www.kaggle.com/datasets/soni535/rice-leaf-bacterial-and-fungal-disease
+    lisensi: lisensi tidak dinyatakan oleh penyusun

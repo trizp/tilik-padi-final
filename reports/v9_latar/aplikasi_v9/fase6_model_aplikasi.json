@@ -1,0 +1,19 @@
+{
+ "detektor": {
+  "asal": "runs\\v9_deploy_yolov8s_s2\\weights\\last.onnx",
+  "tujuan": "app\\models\\v9_deploy_yolov8s_s2.onnx",
+  "sha256": "bdcbc52941c767ace4fd932e6512d6930d48b5713ca5416b0ddad19e8716d1d5",
+  "metadata_berisi_jalur": [],
+  "ukuran_MB": 42.68
+ },
+ "pemisah_daun": {
+  "asal": "runs\\v9_pemisah_daun_yolov8n_seg\\weights\\best.onnx",
+  "sha256_asal": "9ed515e237efbc9401001ebf6581baed725077207646f7e74847f0a7de67b9e0",
+  "tujuan": "app\\models\\v9_pemisah_daun_yolov8n_seg.onnx",
+  "sha256": "4d4c040238ed0269acef60505c1a23d02cef65f1187d8e4ab92020aba1e5e4b1",
+  "metadata_description": "Ultralytics YOLOv8n-seg model trained on v9_daun_seg",
+  "graf_identik": true,
+  "metadata_berisi_jalur": [],
+  "ukuran_MB": 12.67
+ }
+}

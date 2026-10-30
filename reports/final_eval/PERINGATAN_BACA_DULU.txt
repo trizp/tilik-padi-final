@@ -1,0 +1,4 @@
+PERINGATAN (10 Okt 2026): label kotak ds4 tidak cocok dengan sebagian foto (foto "Original images" terputar 90 derajat
+terhadap gambar tempat label dibuat). Kotak tidak cocok: train 19,8%, val 33,0%, test 32,2%, test sesi baru 83,1% foto ds4
+berlabel. Semua metrik tingkat kotak (mAP/AP/P/R/F1) pada foto ds4 di folder ini TIDAK SAH dan tidak boleh masuk paper.
+Rincian: reports/prov_v6/audit_orientasi_ds4/ dan RINGKASAN_HASIL.md.

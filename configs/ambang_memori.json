@@ -1,0 +1,39 @@
+{
+  "puncak_terukur_gb": 19.3,
+  "arti": "kenaikan commit (memori virtual) sistem tertinggi akibat training = commit puncak - commit sebelum run; train.py menolak mulai bila memori virtual tersedia < puncak_terukur_gb + 5 GB (kecuali --abaikan-cek-memori)",
+  "sumber": "nilai tertinggi 2026-10-04: runs/prov_v6_yolov8n_960_s0 (100 epoch, fase train setelah worker val terbentuk; 1 epoch hanya 18.28 -> naik ~1 GB sepanjang run)",
+  "pengukuran_gb": {
+    "prov_v6_cekmemori_w2 (yolov8s 640 b8 w2)": {
+      "persiapan": 3.03,
+      "train": 8.4,
+      "val": 14.95,
+      "val_akhir": 13.57
+    },
+    "prov_v6_cekvram_yolov8n_960_b8": {
+      "persiapan": 2.96,
+      "train": 10.9,
+      "val": 17.23,
+      "val_akhir": 18.28
+    },
+    "prov_v6_cekvram_yolov8s_960_b8": {
+      "persiapan": 3.03,
+      "train": 12.19,
+      "val": 18.23,
+      "val_akhir": 18.58
+    },
+    "prov_v6_cekvram_yolov8s_960_b4": {
+      "persiapan": 2.96,
+      "train": 9.33,
+      "val": 16.2,
+      "val_akhir": 16.49
+    },
+    "prov_v6_yolov8n_960_s0 (100 epoch penuh)": {
+      "persiapan": 2.94,
+      "train": 19.3,
+      "val": 19.27,
+      "val_akhir": 18.86
+    }
+  },
+  "batas_memori_virtual_gb": 45.03,
+  "catatan": "pengukuran 1 epoch meremehkan puncak run panjang (~+1 GB dalam 100 epoch). Nilai 19.3 dipakai sebagai satu ambang untuk 640 dan 960."
+}

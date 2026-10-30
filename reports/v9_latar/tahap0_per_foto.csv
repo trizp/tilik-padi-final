@@ -1,0 +1,501 @@
+metode,berkas,stratum,n_kotak,kotak_ge50,retensi_luas_kotak,luas_masker,terpotong_parah,waktu_s
+rembg_u2net,ds4_blast-127_1455563c.jpg,ds4 Blast,2,2,1.0,0.268,False,0.2806
+rembg_u2net,ds4_blast-839_8a6c8034.jpg,ds4 Blast,2,2,1.0,0.3133,False,0.284
+rembg_u2net,ds4_blast-617_70a9fcf6.jpg,ds4 Blast,4,4,1.0,0.1481,False,0.2873
+rembg_u2net,ds4_blast-605_9c96831d.jpg,ds4 Blast,2,0,0.1218,0.0373,True,0.2684
+rembg_u2net,ds4_blast-690_8afa1b16.jpg,ds4 Blast,1,0,0.1293,0.0015,True,0.2638
+rembg_u2net,ds4_blast-731_c12de357.jpg,ds4 Blast,4,4,1.0,0.2363,False,0.2697
+rembg_u2net,ds4_blast-494_e5661767.jpg,ds4 Blast,3,3,1.0,0.3585,False,0.2673
+rembg_u2net,ds4_blast-614_03406485.jpg,ds4 Blast,4,4,1.0,0.1364,False,0.2706
+rembg_u2net,ds4_blast-36_6fe86230.jpg,ds4 Blast,1,1,0.7399,0.0056,True,0.2623
+rembg_u2net,ds4_blast-543_7af83772.jpg,ds4 Blast,7,7,0.9994,0.4217,False,0.2695
+rembg_u2net,ds4_blast-150_0c785c74.jpg,ds4 Blast,1,0,0.0,0.0028,True,0.2659
+rembg_u2net,ds4_blast-1130_5f436eb6.jpg,ds4 Blast,3,3,1.0,0.267,False,0.2996
+rembg_u2net,ds4_blast-81_7ec33a6c.jpg,ds4 Blast,4,4,1.0,0.2491,False,0.3033
+rembg_u2net,ds4_blast-624_351eef3c.jpg,ds4 Blast,1,1,1.0,0.2119,False,0.284
+rembg_u2net,ds4_blast-608_d7f4e200.jpg,ds4 Blast,2,2,1.0,0.177,False,0.2755
+rembg_u2net,ds4_blast-31_9e68d7ce.jpg,ds4 Blast,1,1,1.0,0.3208,False,0.2825
+rembg_u2net,ds4_blast-609_2f765d75.jpg,ds4 Blast,2,2,1.0,0.1798,False,0.2732
+rembg_u2net,ds4_blast-335_4eb3ac78.jpg,ds4 Blast,3,3,1.0,0.5565,False,0.2717
+rembg_u2net,ds4_blast-1119_1101b523.jpg,ds4 Blast,4,4,1.0,0.3632,False,0.2741
+rembg_u2net,ds4_blast-142_885554da.jpg,ds4 Blast,2,0,0.0,0.0043,True,0.274
+rembg_u2net,ds4_blast-967_21b44414.jpg,ds4 Blast,5,5,1.0,0.3034,False,0.2736
+rembg_u2net,ds4_blast-852_b8e6a6aa.jpg,ds4 Blast,3,3,1.0,0.2883,False,0.2762
+rembg_u2net,ds4_blast-679_662ef4bb.jpg,ds4 Blast,4,4,0.9937,0.1206,False,0.3008
+rembg_u2net,ds4_blast-847_acab31b8.jpg,ds4 Blast,2,2,1.0,0.3255,False,0.284
+rembg_u2net,ds4_blast-91_841cfba0.jpg,ds4 Blast,1,0,0.0,0.0,True,0.2944
+rembg_u2net,ds4_blast-681_f30e9520.jpg,ds4 Blast,5,5,0.9934,0.122,False,0.3012
+rembg_u2net,ds4_blast-683_8c6ba685.jpg,ds4 Blast,5,5,0.9979,0.1258,False,0.3113
+rembg_u2net,ds4_blast-688_f98586ca.jpg,ds4 Blast,2,0,0.0864,0.0012,True,0.2832
+rembg_u2net,ds4_blast-1120_38845f47.jpg,ds4 Blast,3,3,1.0,0.3655,False,0.2734
+rembg_u2net,ds4_blast-733_36107ce1.jpg,ds4 Blast,4,4,1.0,0.2312,False,0.2983
+rembg_u2net,ds4_brown-spot-104_cfc03d5a.jpg,ds4 Brown spot,2,2,1.0,0.3711,False,0.293
+rembg_u2net,ds4_brown-spot-955_5aebf94f.jpg,ds4 Brown spot,2,0,0.0,0.0015,True,0.2774
+rembg_u2net,ds4_brown-spot-594_75630f60.jpg,ds4 Brown spot,8,0,0.0,0.0082,True,0.2834
+rembg_u2net,ds4_brown-spot-35_9e7f58f5.jpg,ds4 Brown spot,2,2,1.0,0.2865,False,0.274
+rembg_u2net,ds4_brown-spot-729_99d6e28f.jpg,ds4 Brown spot,5,0,0.0,0.009,True,0.2858
+rembg_u2net,ds4_brown-spot-463_bc862db3.jpg,ds4 Brown spot,4,4,1.0,0.403,False,0.2795
+rembg_u2net,ds4_brown-spot-979_2b6d9f7f.jpg,ds4 Brown spot,4,2,0.5975,0.1055,False,0.2869
+rembg_u2net,ds4_brown-spot-975_95a393dd.jpg,ds4 Brown spot,5,0,0.0,0.0364,True,0.2945
+rembg_u2net,ds4_brown-spot-368_690a5a34.jpg,ds4 Brown spot,7,0,0.0,0.0248,True,0.3153
+rembg_u2net,ds4_brown-spot-950_5ecd4ba3.jpg,ds4 Brown spot,2,0,0.0134,0.0044,True,0.3494
+rembg_u2net,ds4_brown-spot-441_12fbdc99.jpg,ds4 Brown spot,5,0,0.0,0.0141,True,0.3183
+rembg_u2net,ds4_brown-spot-582_ecf960fe.jpg,ds4 Brown spot,6,0,0.0,0.2028,True,0.3271
+rembg_u2net,ds4_brown-spot-1374_236637d8.jpg,ds4 Brown spot,4,4,1.0,0.2582,False,0.3175
+rembg_u2net,ds4_brown-spot-507_c5bbd9bb.jpg,ds4 Brown spot,3,0,0.0,0.0081,True,0.3468
+rembg_u2net,ds4_brown-spot-976_e7ed7d68.jpg,ds4 Brown spot,4,3,0.8267,0.1539,False,0.3113
+rembg_u2net,ds4_brown-spot-474_8f0f56be.jpg,ds4 Brown spot,3,0,0.0,0.1992,True,0.3269
+rembg_u2net,ds4_brown-spot-313_7fd83d13.jpg,ds4 Brown spot,5,5,0.986,0.4569,False,0.3113
+rembg_u2net,ds4_brown-spot-1126_d1564afe.jpg,ds4 Brown spot,4,0,0.0,0.0029,True,0.3241
+rembg_u2net,ds4_brown-spot-646_17ee2dae.jpg,ds4 Brown spot,2,0,0.0,0.0108,True,0.3187
+rembg_u2net,ds4_brown-spot-956_7a369993.jpg,ds4 Brown spot,2,0,0.0192,0.002,True,0.3299
+rembg_u2net,ds4_brown-spot-1677_ff95f8ce.jpg,ds4 Brown spot,7,7,0.9612,0.2797,False,0.3174
+rembg_u2net,ds4_brown-spot-1109_495df0d9.jpg,ds4 Brown spot,6,6,1.0,0.2493,False,0.3338
+rembg_u2net,ds4_brown-spot-599_d852b7e4.jpg,ds4 Brown spot,3,3,1.0,0.3247,False,0.3513
+rembg_u2net,ds4_brown-spot-1673_03ed437c.jpg,ds4 Brown spot,9,0,0.0,0.0011,True,0.3304
+rembg_u2net,ds4_brown-spot-725_613e7b6f.jpg,ds4 Brown spot,2,2,1.0,0.3413,False,0.3952
+rembg_u2net,ds4_brown-spot-64_b7c6836b.jpg,ds4 Brown spot,3,1,0.3793,0.1533,True,0.3172
+rembg_u2net,ds4_brown-spot-281_44fa1aae.jpg,ds4 Brown spot,3,3,1.0,0.3637,False,0.3197
+rembg_u2net,ds4_brown-spot-1388_b645eb19.jpg,ds4 Brown spot,3,0,0.0,0.002,True,0.309
+rembg_u2net,ds4_brown-spot-1383_f25cde68.jpg,ds4 Brown spot,4,4,1.0,0.2898,False,0.3165
+rembg_u2net,ds4_brown-spot-1688_d36cd9d8.jpg,ds4 Brown spot,6,0,0.0,0.0637,True,0.3354
+rembg_u2net,ds4_Healthy-692_f90c5c0c.jpg,ds4 sehat,0,0,,0.1274,False,0.3283
+rembg_u2net,ds4_Healthy-729_677723d0.jpg,ds4 sehat,0,0,,0.0071,True,0.3193
+rembg_u2net,ds4_Healthy-1220_54ead4d7.jpg,ds4 sehat,0,0,,0.0021,True,0.3218
+rembg_u2net,ds4_Healthy-1129_c65abb3a.jpg,ds4 sehat,0,0,,0.1627,False,0.3164
+rembg_u2net,ds4_Healthy-376_1b69c4f1.jpg,ds4 sehat,0,0,,0.0064,True,0.3725
+rembg_u2net,ds4_Healthy-470_ce3289e3.jpg,ds4 sehat,0,0,,0.0108,True,0.3273
+rembg_u2net,ds4_Healthy-579_41d68292.jpg,ds4 sehat,0,0,,0.3589,False,0.357
+rembg_u2net,ds4_Healthy-1079_13067acf.jpg,ds4 sehat,0,0,,0.1733,False,0.3118
+rembg_u2net,ds4_Healthy-214_3029b1ff.jpg,ds4 sehat,0,0,,0.0021,True,0.3443
+rembg_u2net,ds4_Healthy-1183_056f6e29.jpg,ds4 sehat,0,0,,0.2378,False,0.3116
+rembg_u2net,ds4_Healthy-1175_e9c51bc4.jpg,ds4 sehat,0,0,,0.0439,True,0.341
+rembg_u2net,ds4_Healthy-130_e39d3e87.jpg,ds4 sehat,0,0,,0.3495,False,0.3134
+rembg_u2net,ds4_Healthy-256_2767b95a.jpg,ds4 sehat,0,0,,0.3705,False,0.2868
+rembg_u2net,ds4_Healthy-320_21cc8bd4.jpg,ds4 sehat,0,0,,0.3227,False,0.3222
+rembg_u2net,ds4_Healthy-1169_fa296ffc.jpg,ds4 sehat,0,0,,0.1833,False,0.3413
+rembg_u2net,ds4_Healthy-50_edfa4de6.jpg,ds4 sehat,0,0,,0.3058,False,0.3327
+rembg_u2net,ds4_Healthy-321_44216b0d.jpg,ds4 sehat,0,0,,0.0133,True,0.3692
+rembg_u2net,ds4_Healthy-1027_ccf9f2b0.jpg,ds4 sehat,0,0,,0.1444,False,0.3268
+rembg_u2net,ds4_Healthy-1033_54a1ba21.jpg,ds4 sehat,0,0,,0.0185,True,0.3276
+rembg_u2net,ds4_Healthy-271_940ba0d5.jpg,ds4 sehat,0,0,,0.022,True,0.3215
+rembg_u2net,ds1_provisional_r6k-train-blight-orig-023-jpg-rf-d8780d1_ef18f774.jpg,ds1 BLB,1,0,0.4417,0.1354,True,0.314
+rembg_u2net,ds1_provisional_r6k-train-img-blb-129-jpeg-jpg-rf-573c5a_80d35a13.jpg,ds1 BLB,1,0,0.0,0.3612,True,0.3204
+rembg_u2net,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-34683e4_4bc05518.jpg,ds1 BLB,1,0,0.0065,0.0107,True,0.3229
+rembg_u2net,ds1_provisional_r6k-train-img-blb-85-jpg-rf-e2b698139437_fd58c95f.jpg,ds1 BLB,2,0,0.2907,0.1435,True,0.3199
+rembg_u2net,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-7d47907_c7480d16.jpg,ds1 BLB,1,0,0.0028,0.0039,True,0.3565
+rembg_u2net,ds1_provisional_r6k-train-img-blb-133-jpeg-jpg-rf-8ce4f1_3f18efec.jpg,ds1 BLB,1,0,0.2153,0.1363,True,0.3129
+rembg_u2net,ds1_provisional_rls-train-aug-0-5093-jpg-rf-e92c8798b152_b97b3ecc.jpg,ds1 BLB,1,0,0.4799,0.0729,True,0.3294
+rembg_u2net,ds1_provisional_rls-train-aug-0-3080-jpg-rf-833dd04779c8_c0492d10.jpg,ds1 BLB,1,0,0.106,0.0607,True,0.2923
+rembg_u2net,ds1_provisional_rls-train-aug-0-354-jpg-rf-bb0137aecc564_0ff93609.jpg,ds1 BLB,1,1,0.5624,0.1497,False,0.3381
+rembg_u2net,ds1_provisional_r6k-train-blight-orig-046-jpg-rf-343cfe4_202547ac.jpg,ds1 BLB,1,0,0.0,0.0033,True,0.298
+rembg_u2net,ds1_provisional_r6k-train-img-blb-15-jpg-rf-81cf4d9ba2b9_651349c5.jpg,ds1 BLB,1,1,0.7211,0.4007,False,0.3433
+rembg_u2net,ds1_provisional_r6k-train-img-blb-59-jpg-rf-85e9418e4cc5_8d1e572a.jpg,ds1 BLB,1,0,0.0002,0.0001,True,0.2993
+rembg_u2net,ds1_provisional_r6k-train-blight-orig-044-jpg-rf-5babb03_edbb6eba.jpg,ds1 BLB,1,1,0.7948,0.6221,False,0.3326
+rembg_u2net,ds1_provisional_rls-train-aug-0-48-jpg-rf-574a47e7b5fa17_67b490f3.jpg,ds1 BLB,1,0,0.3429,0.1019,True,0.2973
+rembg_u2net,ds1_provisional_r6k-train-blight-rotated-023-jpg-rf-16f5_5cef2057.jpg,ds1 BLB,1,0,0.2746,0.1016,True,0.3237
+rembg_u2net,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-4d38cd_783a64f4.jpg,ds1 BLB,1,0,0.1861,0.1205,True,0.3108
+rembg_u2net,ds1_provisional_r6k-val-img-blb-112-jpeg-jpg-rf-afeea35b_e644903d.jpg,ds1 BLB,1,1,0.985,0.6391,False,0.3272
+rembg_u2net,ds1_provisional_r6k-train-blight-rotated-044-jpg-rf-3f48_524a83e4.jpg,ds1 BLB,1,1,0.8927,0.6178,False,0.385
+rembg_u2net,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-e8c30b_55a7f1a8.jpg,ds1 BLB,1,0,0.1821,0.1255,True,0.343
+rembg_u2net,ds1_provisional_r6k-train-img-blb-126-jpeg-jpg-rf-694ccd_a4cfb19c.jpg,ds1 BLB,1,1,0.9659,0.3026,False,0.3351
+rembg_isnet,ds4_blast-127_1455563c.jpg,ds4 Blast,2,0,0.0519,0.0019,True,1.1312
+rembg_isnet,ds4_blast-839_8a6c8034.jpg,ds4 Blast,2,0,0.0244,0.0003,True,1.0596
+rembg_isnet,ds4_blast-617_70a9fcf6.jpg,ds4 Blast,4,4,1.0,0.1499,False,1.1465
+rembg_isnet,ds4_blast-605_9c96831d.jpg,ds4 Blast,2,0,0.0,0.0002,True,0.9275
+rembg_isnet,ds4_blast-690_8afa1b16.jpg,ds4 Blast,1,0,0.2528,0.0054,True,1.0606
+rembg_isnet,ds4_blast-731_c12de357.jpg,ds4 Blast,4,4,1.0,0.2359,False,0.9156
+rembg_isnet,ds4_blast-494_e5661767.jpg,ds4 Blast,3,0,0.0,0.0805,True,1.0267
+rembg_isnet,ds4_blast-614_03406485.jpg,ds4 Blast,4,4,1.0,0.1422,False,0.8911
+rembg_isnet,ds4_blast-36_6fe86230.jpg,ds4 Blast,1,0,0.3458,0.0036,True,0.9011
+rembg_isnet,ds4_blast-543_7af83772.jpg,ds4 Blast,7,0,0.0072,0.0033,True,0.9509
+rembg_isnet,ds4_blast-150_0c785c74.jpg,ds4 Blast,1,0,0.147,0.0016,True,0.8299
+rembg_isnet,ds4_blast-1130_5f436eb6.jpg,ds4 Blast,3,0,0.3119,0.0037,True,0.9765
+rembg_isnet,ds4_blast-81_7ec33a6c.jpg,ds4 Blast,4,0,0.1563,0.0046,True,1.0259
+rembg_isnet,ds4_blast-624_351eef3c.jpg,ds4 Blast,1,1,1.0,0.204,False,0.9158
+rembg_isnet,ds4_blast-608_d7f4e200.jpg,ds4 Blast,2,2,1.0,0.1906,False,0.9806
+rembg_isnet,ds4_blast-31_9e68d7ce.jpg,ds4 Blast,1,0,0.4311,0.1014,True,1.0022
+rembg_isnet,ds4_blast-609_2f765d75.jpg,ds4 Blast,2,2,1.0,0.1809,False,0.9825
+rembg_isnet,ds4_blast-335_4eb3ac78.jpg,ds4 Blast,3,0,0.0741,0.0054,True,1.006
+rembg_isnet,ds4_blast-1119_1101b523.jpg,ds4 Blast,4,1,0.3574,0.0037,True,1.032
+rembg_isnet,ds4_blast-142_885554da.jpg,ds4 Blast,2,0,0.0,0.0046,True,0.9238
+rembg_isnet,ds4_blast-967_21b44414.jpg,ds4 Blast,5,0,0.1608,0.0072,True,1.0232
+rembg_isnet,ds4_blast-852_b8e6a6aa.jpg,ds4 Blast,3,0,0.0516,0.0004,True,0.9732
+rembg_isnet,ds4_blast-679_662ef4bb.jpg,ds4 Blast,4,4,0.996,0.1293,False,0.9977
+rembg_isnet,ds4_blast-847_acab31b8.jpg,ds4 Blast,2,0,0.0736,0.0017,True,1.0281
+rembg_isnet,ds4_blast-91_841cfba0.jpg,ds4 Blast,1,0,0.0,0.0128,True,0.9049
+rembg_isnet,ds4_blast-681_f30e9520.jpg,ds4 Blast,5,4,0.8552,0.0616,False,1.089
+rembg_isnet,ds4_blast-683_8c6ba685.jpg,ds4 Blast,5,4,0.8927,0.0659,False,0.9112
+rembg_isnet,ds4_blast-688_f98586ca.jpg,ds4 Blast,2,0,0.2283,0.006,True,1.0025
+rembg_isnet,ds4_blast-1120_38845f47.jpg,ds4 Blast,3,0,0.2397,0.0054,True,1.0115
+rembg_isnet,ds4_blast-733_36107ce1.jpg,ds4 Blast,4,4,1.0,0.2315,False,0.9788
+rembg_isnet,ds4_brown-spot-104_cfc03d5a.jpg,ds4 Brown spot,2,0,0.068,0.0015,True,0.9054
+rembg_isnet,ds4_brown-spot-955_5aebf94f.jpg,ds4 Brown spot,2,0,0.0,0.0045,True,0.9263
+rembg_isnet,ds4_brown-spot-594_75630f60.jpg,ds4 Brown spot,8,0,0.0,0.0873,True,0.9497
+rembg_isnet,ds4_brown-spot-35_9e7f58f5.jpg,ds4 Brown spot,2,0,0.2426,0.0249,True,0.8578
+rembg_isnet,ds4_brown-spot-729_99d6e28f.jpg,ds4 Brown spot,5,4,0.8741,0.2344,False,0.9144
+rembg_isnet,ds4_brown-spot-463_bc862db3.jpg,ds4 Brown spot,4,0,0.0,0.0935,True,0.9626
+rembg_isnet,ds4_brown-spot-979_2b6d9f7f.jpg,ds4 Brown spot,4,0,0.0386,0.0025,True,0.8674
+rembg_isnet,ds4_brown-spot-975_95a393dd.jpg,ds4 Brown spot,5,0,0.0,0.0018,True,1.0503
+rembg_isnet,ds4_brown-spot-368_690a5a34.jpg,ds4 Brown spot,7,0,0.0046,0.001,True,0.9163
+rembg_isnet,ds4_brown-spot-950_5ecd4ba3.jpg,ds4 Brown spot,2,0,0.0,0.0002,True,0.9724
+rembg_isnet,ds4_brown-spot-441_12fbdc99.jpg,ds4 Brown spot,5,3,0.3215,0.2404,True,0.9695
+rembg_isnet,ds4_brown-spot-582_ecf960fe.jpg,ds4 Brown spot,6,0,0.0154,0.0012,True,0.8314
+rembg_isnet,ds4_brown-spot-1374_236637d8.jpg,ds4 Brown spot,4,2,0.6825,0.0813,False,0.9927
+rembg_isnet,ds4_brown-spot-507_c5bbd9bb.jpg,ds4 Brown spot,3,3,0.964,0.2392,False,0.8686
+rembg_isnet,ds4_brown-spot-976_e7ed7d68.jpg,ds4 Brown spot,4,0,0.0541,0.0061,True,0.9176
+rembg_isnet,ds4_brown-spot-474_8f0f56be.jpg,ds4 Brown spot,3,0,0.0,0.041,True,0.9823
+rembg_isnet,ds4_brown-spot-313_7fd83d13.jpg,ds4 Brown spot,5,4,0.836,0.4336,False,0.876
+rembg_isnet,ds4_brown-spot-1126_d1564afe.jpg,ds4 Brown spot,4,0,0.0007,0.0002,True,0.9111
+rembg_isnet,ds4_brown-spot-646_17ee2dae.jpg,ds4 Brown spot,2,0,0.0,0.002,True,1.0859
+rembg_isnet,ds4_brown-spot-956_7a369993.jpg,ds4 Brown spot,2,0,0.0,0.0112,True,0.9007
+rembg_isnet,ds4_brown-spot-1677_ff95f8ce.jpg,ds4 Brown spot,7,0,0.0162,0.0011,True,0.9945
+rembg_isnet,ds4_brown-spot-1109_495df0d9.jpg,ds4 Brown spot,6,6,1.0,0.2346,False,0.8809
+rembg_isnet,ds4_brown-spot-599_d852b7e4.jpg,ds4 Brown spot,3,0,0.0566,0.0018,True,0.9422
+rembg_isnet,ds4_brown-spot-1673_03ed437c.jpg,ds4 Brown spot,9,0,0.005,0.003,True,0.9126
+rembg_isnet,ds4_brown-spot-725_613e7b6f.jpg,ds4 Brown spot,2,2,1.0,0.3738,False,1.0191
+rembg_isnet,ds4_brown-spot-64_b7c6836b.jpg,ds4 Brown spot,3,0,0.0185,0.0007,True,0.87
+rembg_isnet,ds4_brown-spot-281_44fa1aae.jpg,ds4 Brown spot,3,1,0.2893,0.0135,True,0.9319
+rembg_isnet,ds4_brown-spot-1388_b645eb19.jpg,ds4 Brown spot,3,0,0.1125,0.0012,True,0.9511
+rembg_isnet,ds4_brown-spot-1383_f25cde68.jpg,ds4 Brown spot,4,0,0.1043,0.0035,True,0.8756
+rembg_isnet,ds4_brown-spot-1688_d36cd9d8.jpg,ds4 Brown spot,6,0,0.0041,0.0001,True,0.9928
+rembg_isnet,ds4_Healthy-692_f90c5c0c.jpg,ds4 sehat,0,0,,0.0103,True,0.9095
+rembg_isnet,ds4_Healthy-729_677723d0.jpg,ds4 sehat,0,0,,0.0002,True,0.9233
+rembg_isnet,ds4_Healthy-1220_54ead4d7.jpg,ds4 sehat,0,0,,0.0286,True,0.9672
+rembg_isnet,ds4_Healthy-1129_c65abb3a.jpg,ds4 sehat,0,0,,0.1547,False,0.8445
+rembg_isnet,ds4_Healthy-376_1b69c4f1.jpg,ds4 sehat,0,0,,0.0003,True,1.0481
+rembg_isnet,ds4_Healthy-470_ce3289e3.jpg,ds4 sehat,0,0,,0.0231,True,0.9324
+rembg_isnet,ds4_Healthy-579_41d68292.jpg,ds4 sehat,0,0,,0.0086,True,1.0193
+rembg_isnet,ds4_Healthy-1079_13067acf.jpg,ds4 sehat,0,0,,0.1746,False,0.9196
+rembg_isnet,ds4_Healthy-214_3029b1ff.jpg,ds4 sehat,0,0,,0.0,True,1.0343
+rembg_isnet,ds4_Healthy-1183_056f6e29.jpg,ds4 sehat,0,0,,0.0005,True,0.8983
+rembg_isnet,ds4_Healthy-1175_e9c51bc4.jpg,ds4 sehat,0,0,,0.032,True,0.9142
+rembg_isnet,ds4_Healthy-130_e39d3e87.jpg,ds4 sehat,0,0,,0.0102,True,1.0266
+rembg_isnet,ds4_Healthy-256_2767b95a.jpg,ds4 sehat,0,0,,0.1082,False,1.0427
+rembg_isnet,ds4_Healthy-320_21cc8bd4.jpg,ds4 sehat,0,0,,0.3329,False,1.091
+rembg_isnet,ds4_Healthy-1169_fa296ffc.jpg,ds4 sehat,0,0,,0.0365,True,0.9937
+rembg_isnet,ds4_Healthy-50_edfa4de6.jpg,ds4 sehat,0,0,,0.0326,True,0.9483
+rembg_isnet,ds4_Healthy-321_44216b0d.jpg,ds4 sehat,0,0,,0.0098,True,0.8864
+rembg_isnet,ds4_Healthy-1027_ccf9f2b0.jpg,ds4 sehat,0,0,,0.0151,True,0.8917
+rembg_isnet,ds4_Healthy-1033_54a1ba21.jpg,ds4 sehat,0,0,,0.0336,True,1.1786
+rembg_isnet,ds4_Healthy-271_940ba0d5.jpg,ds4 sehat,0,0,,0.0,True,0.9205
+rembg_isnet,ds1_provisional_r6k-train-blight-orig-023-jpg-rf-d8780d1_ef18f774.jpg,ds1 BLB,1,0,0.0377,0.0116,True,0.8392
+rembg_isnet,ds1_provisional_r6k-train-img-blb-129-jpeg-jpg-rf-573c5a_80d35a13.jpg,ds1 BLB,1,0,0.0,0.0,True,0.8165
+rembg_isnet,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-34683e4_4bc05518.jpg,ds1 BLB,1,0,0.0,0.0,True,0.8309
+rembg_isnet,ds1_provisional_r6k-train-img-blb-85-jpg-rf-e2b698139437_fd58c95f.jpg,ds1 BLB,2,0,0.2756,0.1372,True,0.7954
+rembg_isnet,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-7d47907_c7480d16.jpg,ds1 BLB,1,0,0.0,0.0,True,0.8694
+rembg_isnet,ds1_provisional_r6k-train-img-blb-133-jpeg-jpg-rf-8ce4f1_3f18efec.jpg,ds1 BLB,1,0,0.0017,0.0008,True,0.8669
+rembg_isnet,ds1_provisional_rls-train-aug-0-5093-jpg-rf-e92c8798b152_b97b3ecc.jpg,ds1 BLB,1,0,0.4648,0.0691,True,0.834
+rembg_isnet,ds1_provisional_rls-train-aug-0-3080-jpg-rf-833dd04779c8_c0492d10.jpg,ds1 BLB,1,0,0.0511,0.0293,True,0.9334
+rembg_isnet,ds1_provisional_rls-train-aug-0-354-jpg-rf-bb0137aecc564_0ff93609.jpg,ds1 BLB,1,1,0.5496,0.1467,False,0.8126
+rembg_isnet,ds1_provisional_r6k-train-blight-orig-046-jpg-rf-343cfe4_202547ac.jpg,ds1 BLB,1,0,0.0,0.0,True,0.8861
+rembg_isnet,ds1_provisional_r6k-train-img-blb-15-jpg-rf-81cf4d9ba2b9_651349c5.jpg,ds1 BLB,1,0,0.3848,0.1643,True,0.8262
+rembg_isnet,ds1_provisional_r6k-train-img-blb-59-jpg-rf-85e9418e4cc5_8d1e572a.jpg,ds1 BLB,1,0,0.0001,0.0002,True,0.8071
+rembg_isnet,ds1_provisional_r6k-train-blight-orig-044-jpg-rf-5babb03_edbb6eba.jpg,ds1 BLB,1,0,0.0008,0.0006,True,0.8208
+rembg_isnet,ds1_provisional_rls-train-aug-0-48-jpg-rf-574a47e7b5fa17_67b490f3.jpg,ds1 BLB,1,0,0.0933,0.021,True,0.8188
+rembg_isnet,ds1_provisional_r6k-train-blight-rotated-023-jpg-rf-16f5_5cef2057.jpg,ds1 BLB,1,0,0.0035,0.0013,True,0.8275
+rembg_isnet,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-4d38cd_783a64f4.jpg,ds1 BLB,1,0,0.0088,0.0044,True,0.8381
+rembg_isnet,ds1_provisional_r6k-val-img-blb-112-jpeg-jpg-rf-afeea35b_e644903d.jpg,ds1 BLB,1,1,0.9268,0.6305,False,0.8493
+rembg_isnet,ds1_provisional_r6k-train-blight-rotated-044-jpg-rf-3f48_524a83e4.jpg,ds1 BLB,1,0,0.1316,0.0811,True,0.9125
+rembg_isnet,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-e8c30b_55a7f1a8.jpg,ds1 BLB,1,0,0.0153,0.0068,True,0.8458
+rembg_isnet,ds1_provisional_r6k-train-img-blb-126-jpeg-jpg-rf-694ccd_a4cfb19c.jpg,ds1 BLB,1,0,0.0,0.0002,True,0.876
+sam2,ds4_blast-127_1455563c.jpg,ds4 Blast,2,2,1.0,0.2652,False,3.3027
+sam2,ds4_blast-839_8a6c8034.jpg,ds4 Blast,2,2,1.0,0.3097,False,1.4425
+sam2,ds4_blast-617_70a9fcf6.jpg,ds4 Blast,4,4,1.0,0.1479,False,1.3677
+sam2,ds4_blast-605_9c96831d.jpg,ds4 Blast,2,2,1.0,0.3263,False,1.4279
+sam2,ds4_blast-690_8afa1b16.jpg,ds4 Blast,1,1,1.0,0.2538,False,1.4151
+sam2,ds4_blast-731_c12de357.jpg,ds4 Blast,4,0,0.0,0.7505,True,1.4275
+sam2,ds4_blast-494_e5661767.jpg,ds4 Blast,3,3,1.0,0.3552,False,1.4401
+sam2,ds4_blast-614_03406485.jpg,ds4 Blast,4,4,1.0,0.1355,False,1.4317
+sam2,ds4_blast-36_6fe86230.jpg,ds4 Blast,1,1,1.0,0.2829,False,1.4179
+sam2,ds4_blast-543_7af83772.jpg,ds4 Blast,7,2,0.25,0.2043,True,1.4091
+sam2,ds4_blast-150_0c785c74.jpg,ds4 Blast,1,1,1.0,0.2413,False,1.3982
+sam2,ds4_blast-1130_5f436eb6.jpg,ds4 Blast,3,3,1.0,0.2616,False,1.412
+sam2,ds4_blast-81_7ec33a6c.jpg,ds4 Blast,4,4,1.0,0.2447,False,1.4337
+sam2,ds4_blast-624_351eef3c.jpg,ds4 Blast,1,1,1.0,0.1926,False,1.4384
+sam2,ds4_blast-608_d7f4e200.jpg,ds4 Blast,2,2,1.0,0.175,False,1.436
+sam2,ds4_blast-31_9e68d7ce.jpg,ds4 Blast,1,1,1.0,0.3159,False,1.4934
+sam2,ds4_blast-609_2f765d75.jpg,ds4 Blast,2,2,1.0,0.1779,False,1.426
+sam2,ds4_blast-335_4eb3ac78.jpg,ds4 Blast,3,3,1.0,0.5495,False,1.5172
+sam2,ds4_blast-1119_1101b523.jpg,ds4 Blast,4,4,1.0,0.3578,False,1.4527
+sam2,ds4_blast-142_885554da.jpg,ds4 Blast,2,1,0.6686,0.1786,False,1.4482
+sam2,ds4_blast-967_21b44414.jpg,ds4 Blast,5,5,1.0,0.2989,False,1.4463
+sam2,ds4_blast-852_b8e6a6aa.jpg,ds4 Blast,3,3,0.9993,0.2835,False,1.441
+sam2,ds4_blast-679_662ef4bb.jpg,ds4 Blast,4,4,0.9882,0.1186,False,1.4733
+sam2,ds4_blast-847_acab31b8.jpg,ds4 Blast,2,2,1.0,0.3212,False,1.437
+sam2,ds4_blast-91_841cfba0.jpg,ds4 Blast,1,1,1.0,0.1928,False,1.4323
+sam2,ds4_blast-681_f30e9520.jpg,ds4 Blast,5,5,0.9778,0.1196,False,1.4384
+sam2,ds4_blast-683_8c6ba685.jpg,ds4 Blast,5,5,0.9913,0.1234,False,1.4692
+sam2,ds4_blast-688_f98586ca.jpg,ds4 Blast,2,2,1.0,0.248,False,1.4415
+sam2,ds4_blast-1120_38845f47.jpg,ds4 Blast,3,3,1.0,0.3619,False,1.453
+sam2,ds4_blast-733_36107ce1.jpg,ds4 Blast,4,0,0.0,0.7555,True,1.4818
+sam2,ds4_brown-spot-104_cfc03d5a.jpg,ds4 Brown spot,2,2,1.0,0.3563,False,1.4531
+sam2,ds4_brown-spot-955_5aebf94f.jpg,ds4 Brown spot,2,2,1.0,0.1436,False,1.4222
+sam2,ds4_brown-spot-594_75630f60.jpg,ds4 Brown spot,8,8,0.9966,0.3893,False,1.5055
+sam2,ds4_brown-spot-35_9e7f58f5.jpg,ds4 Brown spot,2,2,0.9979,0.2804,False,1.5108
+sam2,ds4_brown-spot-729_99d6e28f.jpg,ds4 Brown spot,5,5,1.0,0.2885,False,1.5263
+sam2,ds4_brown-spot-463_bc862db3.jpg,ds4 Brown spot,4,4,0.9962,0.3956,False,1.5461
+sam2,ds4_brown-spot-979_2b6d9f7f.jpg,ds4 Brown spot,4,4,0.9925,0.1926,False,1.4324
+sam2,ds4_brown-spot-975_95a393dd.jpg,ds4 Brown spot,5,5,0.9611,0.2135,False,1.4369
+sam2,ds4_brown-spot-368_690a5a34.jpg,ds4 Brown spot,7,7,0.9956,0.3581,False,1.4662
+sam2,ds4_brown-spot-950_5ecd4ba3.jpg,ds4 Brown spot,2,2,1.0,0.1426,False,1.5209
+sam2,ds4_brown-spot-441_12fbdc99.jpg,ds4 Brown spot,5,5,0.8967,0.38,False,1.5553
+sam2,ds4_brown-spot-582_ecf960fe.jpg,ds4 Brown spot,6,6,1.0,0.3003,False,1.5276
+sam2,ds4_brown-spot-1374_236637d8.jpg,ds4 Brown spot,4,4,1.0,0.2557,False,1.4436
+sam2,ds4_brown-spot-507_c5bbd9bb.jpg,ds4 Brown spot,3,3,0.9523,0.2333,False,1.4472
+sam2,ds4_brown-spot-976_e7ed7d68.jpg,ds4 Brown spot,4,4,0.9558,0.1971,False,1.437
+sam2,ds4_brown-spot-474_8f0f56be.jpg,ds4 Brown spot,3,3,1.0,0.4111,False,1.4835
+sam2,ds4_brown-spot-313_7fd83d13.jpg,ds4 Brown spot,5,5,0.9689,0.4516,False,1.4663
+sam2,ds4_brown-spot-1126_d1564afe.jpg,ds4 Brown spot,4,4,1.0,0.2315,False,1.4344
+sam2,ds4_brown-spot-646_17ee2dae.jpg,ds4 Brown spot,2,2,0.9752,0.1227,False,1.4285
+sam2,ds4_brown-spot-956_7a369993.jpg,ds4 Brown spot,2,2,1.0,0.1427,False,1.4435
+sam2,ds4_brown-spot-1677_ff95f8ce.jpg,ds4 Brown spot,7,7,0.9619,0.2574,False,1.4313
+sam2,ds4_brown-spot-1109_495df0d9.jpg,ds4 Brown spot,6,6,1.0,0.2302,False,1.4417
+sam2,ds4_brown-spot-599_d852b7e4.jpg,ds4 Brown spot,3,3,1.0,0.3192,False,1.4472
+sam2,ds4_brown-spot-1673_03ed437c.jpg,ds4 Brown spot,9,6,0.6254,0.1309,False,1.4451
+sam2,ds4_brown-spot-725_613e7b6f.jpg,ds4 Brown spot,2,2,1.0,0.3668,False,1.4709
+sam2,ds4_brown-spot-64_b7c6836b.jpg,ds4 Brown spot,3,3,0.8458,0.3373,False,1.4612
+sam2,ds4_brown-spot-281_44fa1aae.jpg,ds4 Brown spot,3,3,1.0,0.3596,False,1.4689
+sam2,ds4_brown-spot-1388_b645eb19.jpg,ds4 Brown spot,3,3,1.0,0.3001,False,1.4504
+sam2,ds4_brown-spot-1383_f25cde68.jpg,ds4 Brown spot,4,4,1.0,0.285,False,1.4482
+sam2,ds4_brown-spot-1688_d36cd9d8.jpg,ds4 Brown spot,6,6,0.9963,0.2879,False,1.4552
+sam2,ds4_Healthy-692_f90c5c0c.jpg,ds4 sehat,0,0,,0.3137,False,1.4636
+sam2,ds4_Healthy-729_677723d0.jpg,ds4 sehat,0,0,,0.3254,False,1.5073
+sam2,ds4_Healthy-1220_54ead4d7.jpg,ds4 sehat,0,0,,0.0853,False,1.4446
+sam2,ds4_Healthy-1129_c65abb3a.jpg,ds4 sehat,0,0,,0.1496,False,1.447
+sam2,ds4_Healthy-376_1b69c4f1.jpg,ds4 sehat,0,0,,0.372,False,1.4759
+sam2,ds4_Healthy-470_ce3289e3.jpg,ds4 sehat,0,0,,0.4129,False,1.4613
+sam2,ds4_Healthy-579_41d68292.jpg,ds4 sehat,0,0,,0.3471,False,1.4535
+sam2,ds4_Healthy-1079_13067acf.jpg,ds4 sehat,0,0,,0.1707,False,1.4688
+sam2,ds4_Healthy-214_3029b1ff.jpg,ds4 sehat,0,0,,0.4982,False,1.496
+sam2,ds4_Healthy-1183_056f6e29.jpg,ds4 sehat,0,0,,0.2338,False,1.4393
+sam2,ds4_Healthy-1175_e9c51bc4.jpg,ds4 sehat,0,0,,0.1773,False,1.4218
+sam2,ds4_Healthy-130_e39d3e87.jpg,ds4 sehat,0,0,,0.3386,False,1.4729
+sam2,ds4_Healthy-256_2767b95a.jpg,ds4 sehat,0,0,,0.3611,False,1.4263
+sam2,ds4_Healthy-320_21cc8bd4.jpg,ds4 sehat,0,0,,0.1768,False,1.4737
+sam2,ds4_Healthy-1169_fa296ffc.jpg,ds4 sehat,0,0,,0.1837,False,1.4411
+sam2,ds4_Healthy-50_edfa4de6.jpg,ds4 sehat,0,0,,0.2994,False,1.4326
+sam2,ds4_Healthy-321_44216b0d.jpg,ds4 sehat,0,0,,0.2973,False,1.5086
+sam2,ds4_Healthy-1027_ccf9f2b0.jpg,ds4 sehat,0,0,,0.1902,False,1.4403
+sam2,ds4_Healthy-1033_54a1ba21.jpg,ds4 sehat,0,0,,0.1739,False,1.4464
+sam2,ds4_Healthy-271_940ba0d5.jpg,ds4 sehat,0,0,,0.5008,False,1.4615
+sam2,ds1_provisional_r6k-train-blight-orig-023-jpg-rf-d8780d1_ef18f774.jpg,ds1 BLB,1,1,0.9919,0.948,False,1.483
+sam2,ds1_provisional_r6k-train-img-blb-129-jpeg-jpg-rf-573c5a_80d35a13.jpg,ds1 BLB,1,0,0.0,0.0,True,1.3612
+sam2,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-34683e4_4bc05518.jpg,ds1 BLB,1,0,0.0,0.0,True,1.3643
+sam2,ds1_provisional_r6k-train-img-blb-85-jpg-rf-e2b698139437_fd58c95f.jpg,ds1 BLB,2,0,0.1736,0.0791,True,1.4632
+sam2,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-7d47907_c7480d16.jpg,ds1 BLB,1,0,0.0,0.0,True,1.4027
+sam2,ds1_provisional_r6k-train-img-blb-133-jpeg-jpg-rf-8ce4f1_3f18efec.jpg,ds1 BLB,1,0,0.4613,0.2499,True,1.3767
+sam2,ds1_provisional_rls-train-aug-0-5093-jpg-rf-e92c8798b152_b97b3ecc.jpg,ds1 BLB,1,0,0.4873,0.0789,True,1.3722
+sam2,ds1_provisional_rls-train-aug-0-3080-jpg-rf-833dd04779c8_c0492d10.jpg,ds1 BLB,1,0,0.1635,0.0936,True,1.3788
+sam2,ds1_provisional_rls-train-aug-0-354-jpg-rf-bb0137aecc564_0ff93609.jpg,ds1 BLB,1,1,0.5652,0.15,False,1.3769
+sam2,ds1_provisional_r6k-train-blight-orig-046-jpg-rf-343cfe4_202547ac.jpg,ds1 BLB,1,0,0.0,0.0,True,1.4067
+sam2,ds1_provisional_r6k-train-img-blb-15-jpg-rf-81cf4d9ba2b9_651349c5.jpg,ds1 BLB,1,0,0.3904,0.1667,True,1.4041
+sam2,ds1_provisional_r6k-train-img-blb-59-jpg-rf-85e9418e4cc5_8d1e572a.jpg,ds1 BLB,1,0,0.0,0.0,True,1.3745
+sam2,ds1_provisional_r6k-train-blight-orig-044-jpg-rf-5babb03_edbb6eba.jpg,ds1 BLB,1,1,0.9762,0.935,False,1.4101
+sam2,ds1_provisional_rls-train-aug-0-48-jpg-rf-574a47e7b5fa17_67b490f3.jpg,ds1 BLB,1,0,0.3511,0.1044,True,1.3751
+sam2,ds1_provisional_r6k-train-blight-rotated-023-jpg-rf-16f5_5cef2057.jpg,ds1 BLB,1,1,0.9876,0.9273,False,1.4949
+sam2,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-4d38cd_783a64f4.jpg,ds1 BLB,1,0,0.0,0.0,True,1.3831
+sam2,ds1_provisional_r6k-val-img-blb-112-jpeg-jpg-rf-afeea35b_e644903d.jpg,ds1 BLB,1,1,0.5416,0.0869,False,1.4297
+sam2,ds1_provisional_r6k-train-blight-rotated-044-jpg-rf-3f48_524a83e4.jpg,ds1 BLB,1,1,0.836,0.5805,False,1.3947
+sam2,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-e8c30b_55a7f1a8.jpg,ds1 BLB,1,1,0.5445,0.7218,False,1.3809
+sam2,ds1_provisional_r6k-train-img-blb-126-jpeg-jpg-rf-694ccd_a4cfb19c.jpg,ds1 BLB,1,1,0.9612,0.299,False,1.4291
+sam2_v2,ds4_blast-127_1455563c.jpg,ds4 Blast,2,2,1.0,0.2652,False,3.2425
+sam2_v2,ds4_blast-839_8a6c8034.jpg,ds4 Blast,2,2,1.0,0.3097,False,1.4006
+sam2_v2,ds4_blast-617_70a9fcf6.jpg,ds4 Blast,4,4,1.0,0.1479,False,1.375
+sam2_v2,ds4_blast-605_9c96831d.jpg,ds4 Blast,2,2,1.0,0.3263,False,1.3734
+sam2_v2,ds4_blast-690_8afa1b16.jpg,ds4 Blast,1,1,1.0,0.2538,False,1.3986
+sam2_v2,ds4_blast-731_c12de357.jpg,ds4 Blast,4,0,0.0,0.7505,True,1.3957
+sam2_v2,ds4_blast-494_e5661767.jpg,ds4 Blast,3,3,1.0,0.3552,False,1.3825
+sam2_v2,ds4_blast-614_03406485.jpg,ds4 Blast,4,4,1.0,0.1355,False,1.3647
+sam2_v2,ds4_blast-36_6fe86230.jpg,ds4 Blast,1,1,1.0,0.2829,False,1.403
+sam2_v2,ds4_blast-543_7af83772.jpg,ds4 Blast,7,4,0.6314,0.1646,False,1.3854
+sam2_v2,ds4_blast-150_0c785c74.jpg,ds4 Blast,1,1,1.0,0.2413,False,1.3672
+sam2_v2,ds4_blast-1130_5f436eb6.jpg,ds4 Blast,3,3,1.0,0.2616,False,1.3878
+sam2_v2,ds4_blast-81_7ec33a6c.jpg,ds4 Blast,4,4,1.0,0.2447,False,1.3752
+sam2_v2,ds4_blast-624_351eef3c.jpg,ds4 Blast,1,1,1.0,0.1926,False,1.4049
+sam2_v2,ds4_blast-608_d7f4e200.jpg,ds4 Blast,2,2,1.0,0.175,False,1.3661
+sam2_v2,ds4_blast-31_9e68d7ce.jpg,ds4 Blast,1,1,1.0,0.316,False,1.4061
+sam2_v2,ds4_blast-609_2f765d75.jpg,ds4 Blast,2,2,1.0,0.178,False,1.3692
+sam2_v2,ds4_blast-335_4eb3ac78.jpg,ds4 Blast,3,3,1.0,0.5495,False,1.409
+sam2_v2,ds4_blast-1119_1101b523.jpg,ds4 Blast,4,4,1.0,0.3578,False,1.3877
+sam2_v2,ds4_blast-142_885554da.jpg,ds4 Blast,2,1,0.6686,0.1787,False,1.3773
+sam2_v2,ds4_blast-967_21b44414.jpg,ds4 Blast,5,5,1.0,0.2989,False,1.3892
+sam2_v2,ds4_blast-852_b8e6a6aa.jpg,ds4 Blast,3,3,0.9993,0.2835,False,1.3808
+sam2_v2,ds4_blast-679_662ef4bb.jpg,ds4 Blast,4,4,0.9882,0.1186,False,1.3783
+sam2_v2,ds4_blast-847_acab31b8.jpg,ds4 Blast,2,2,1.0,0.3212,False,1.3781
+sam2_v2,ds4_blast-91_841cfba0.jpg,ds4 Blast,1,1,1.0,0.1928,False,1.3696
+sam2_v2,ds4_blast-681_f30e9520.jpg,ds4 Blast,5,5,0.9778,0.1196,False,1.3751
+sam2_v2,ds4_blast-683_8c6ba685.jpg,ds4 Blast,5,5,0.9913,0.1234,False,1.395
+sam2_v2,ds4_blast-688_f98586ca.jpg,ds4 Blast,2,2,1.0,0.248,False,1.3801
+sam2_v2,ds4_blast-1120_38845f47.jpg,ds4 Blast,3,3,1.0,0.3619,False,1.4114
+sam2_v2,ds4_blast-733_36107ce1.jpg,ds4 Blast,4,0,0.0,0.7555,True,1.4534
+sam2_v2,ds4_brown-spot-104_cfc03d5a.jpg,ds4 Brown spot,2,2,1.0,0.3563,False,1.4042
+sam2_v2,ds4_brown-spot-955_5aebf94f.jpg,ds4 Brown spot,2,2,1.0,0.1436,False,1.3763
+sam2_v2,ds4_brown-spot-594_75630f60.jpg,ds4 Brown spot,8,8,0.9966,0.3893,False,1.4139
+sam2_v2,ds4_brown-spot-35_9e7f58f5.jpg,ds4 Brown spot,2,2,0.9979,0.2804,False,1.3941
+sam2_v2,ds4_brown-spot-729_99d6e28f.jpg,ds4 Brown spot,5,5,1.0,0.2885,False,1.3915
+sam2_v2,ds4_brown-spot-463_bc862db3.jpg,ds4 Brown spot,4,4,0.9962,0.3956,False,1.4026
+sam2_v2,ds4_brown-spot-979_2b6d9f7f.jpg,ds4 Brown spot,4,4,0.9925,0.1926,False,1.3632
+sam2_v2,ds4_brown-spot-975_95a393dd.jpg,ds4 Brown spot,5,5,0.9611,0.2135,False,1.3821
+sam2_v2,ds4_brown-spot-368_690a5a34.jpg,ds4 Brown spot,7,7,0.9956,0.3581,False,1.4012
+sam2_v2,ds4_brown-spot-950_5ecd4ba3.jpg,ds4 Brown spot,2,2,1.0,0.1426,False,1.3919
+sam2_v2,ds4_brown-spot-441_12fbdc99.jpg,ds4 Brown spot,5,5,0.8967,0.38,False,1.4156
+sam2_v2,ds4_brown-spot-582_ecf960fe.jpg,ds4 Brown spot,6,6,1.0,0.3003,False,1.4053
+sam2_v2,ds4_brown-spot-1374_236637d8.jpg,ds4 Brown spot,4,4,1.0,0.2557,False,1.5131
+sam2_v2,ds4_brown-spot-507_c5bbd9bb.jpg,ds4 Brown spot,3,3,0.9523,0.2333,False,1.4611
+sam2_v2,ds4_brown-spot-976_e7ed7d68.jpg,ds4 Brown spot,4,4,0.9558,0.1971,False,1.4539
+sam2_v2,ds4_brown-spot-474_8f0f56be.jpg,ds4 Brown spot,3,3,1.0,0.4111,False,1.4756
+sam2_v2,ds4_brown-spot-313_7fd83d13.jpg,ds4 Brown spot,5,5,0.9689,0.4516,False,1.4864
+sam2_v2,ds4_brown-spot-1126_d1564afe.jpg,ds4 Brown spot,4,4,1.0,0.2315,False,1.4317
+sam2_v2,ds4_brown-spot-646_17ee2dae.jpg,ds4 Brown spot,2,2,0.9752,0.1227,False,1.3787
+sam2_v2,ds4_brown-spot-956_7a369993.jpg,ds4 Brown spot,2,2,1.0,0.1423,False,1.3902
+sam2_v2,ds4_brown-spot-1677_ff95f8ce.jpg,ds4 Brown spot,7,7,0.9619,0.2574,False,1.4055
+sam2_v2,ds4_brown-spot-1109_495df0d9.jpg,ds4 Brown spot,6,6,1.0,0.2302,False,1.3682
+sam2_v2,ds4_brown-spot-599_d852b7e4.jpg,ds4 Brown spot,3,3,1.0,0.3192,False,1.3814
+sam2_v2,ds4_brown-spot-1673_03ed437c.jpg,ds4 Brown spot,9,3,0.3454,0.1287,True,1.3837
+sam2_v2,ds4_brown-spot-725_613e7b6f.jpg,ds4 Brown spot,2,2,1.0,0.3668,False,1.4131
+sam2_v2,ds4_brown-spot-64_b7c6836b.jpg,ds4 Brown spot,3,3,0.8458,0.3373,False,1.3935
+sam2_v2,ds4_brown-spot-281_44fa1aae.jpg,ds4 Brown spot,3,3,1.0,0.3596,False,1.4043
+sam2_v2,ds4_brown-spot-1388_b645eb19.jpg,ds4 Brown spot,3,3,1.0,0.3001,False,1.3898
+sam2_v2,ds4_brown-spot-1383_f25cde68.jpg,ds4 Brown spot,4,4,1.0,0.285,False,1.3939
+sam2_v2,ds4_brown-spot-1688_d36cd9d8.jpg,ds4 Brown spot,6,6,0.9963,0.2879,False,1.3845
+sam2_v2,ds4_Healthy-692_f90c5c0c.jpg,ds4 sehat,0,0,,0.3137,False,1.3984
+sam2_v2,ds4_Healthy-729_677723d0.jpg,ds4 sehat,0,0,,0.3281,False,1.4062
+sam2_v2,ds4_Healthy-1220_54ead4d7.jpg,ds4 sehat,0,0,,0.0853,False,1.4003
+sam2_v2,ds4_Healthy-1129_c65abb3a.jpg,ds4 sehat,0,0,,0.1496,False,1.389
+sam2_v2,ds4_Healthy-376_1b69c4f1.jpg,ds4 sehat,0,0,,0.372,False,1.3999
+sam2_v2,ds4_Healthy-470_ce3289e3.jpg,ds4 sehat,0,0,,0.4129,False,1.4398
+sam2_v2,ds4_Healthy-579_41d68292.jpg,ds4 sehat,0,0,,0.3471,False,1.3964
+sam2_v2,ds4_Healthy-1079_13067acf.jpg,ds4 sehat,0,0,,0.1707,False,1.3986
+sam2_v2,ds4_Healthy-214_3029b1ff.jpg,ds4 sehat,0,0,,0.4982,False,1.4267
+sam2_v2,ds4_Healthy-1183_056f6e29.jpg,ds4 sehat,0,0,,0.2338,False,1.3779
+sam2_v2,ds4_Healthy-1175_e9c51bc4.jpg,ds4 sehat,0,0,,0.1773,False,1.3665
+sam2_v2,ds4_Healthy-130_e39d3e87.jpg,ds4 sehat,0,0,,0.3386,False,1.3934
+sam2_v2,ds4_Healthy-256_2767b95a.jpg,ds4 sehat,0,0,,0.3611,False,1.3629
+sam2_v2,ds4_Healthy-320_21cc8bd4.jpg,ds4 sehat,0,0,,0.1768,False,1.4113
+sam2_v2,ds4_Healthy-1169_fa296ffc.jpg,ds4 sehat,0,0,,0.1837,False,1.3841
+sam2_v2,ds4_Healthy-50_edfa4de6.jpg,ds4 sehat,0,0,,0.2994,False,1.3727
+sam2_v2,ds4_Healthy-321_44216b0d.jpg,ds4 sehat,0,0,,0.2973,False,1.4343
+sam2_v2,ds4_Healthy-1027_ccf9f2b0.jpg,ds4 sehat,0,0,,0.1902,False,1.4089
+sam2_v2,ds4_Healthy-1033_54a1ba21.jpg,ds4 sehat,0,0,,0.1739,False,1.3724
+sam2_v2,ds4_Healthy-271_940ba0d5.jpg,ds4 sehat,0,0,,0.5008,False,1.3893
+sam2_v2,ds1_provisional_r6k-train-blight-orig-023-jpg-rf-d8780d1_ef18f774.jpg,ds1 BLB,1,1,0.9919,0.948,False,1.4466
+sam2_v2,ds1_provisional_r6k-train-img-blb-129-jpeg-jpg-rf-573c5a_80d35a13.jpg,ds1 BLB,1,1,1.0,1.0,False,1.3467
+sam2_v2,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-34683e4_4bc05518.jpg,ds1 BLB,1,1,1.0,1.0,False,1.3381
+sam2_v2,ds1_provisional_r6k-train-img-blb-85-jpg-rf-e2b698139437_fd58c95f.jpg,ds1 BLB,2,0,0.1736,0.0791,True,1.4215
+sam2_v2,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-7d47907_c7480d16.jpg,ds1 BLB,1,1,1.0,1.0,False,1.3588
+sam2_v2,ds1_provisional_r6k-train-img-blb-133-jpeg-jpg-rf-8ce4f1_3f18efec.jpg,ds1 BLB,1,0,0.4613,0.2499,True,1.3676
+sam2_v2,ds1_provisional_rls-train-aug-0-5093-jpg-rf-e92c8798b152_b97b3ecc.jpg,ds1 BLB,1,0,0.4873,0.0789,True,1.3589
+sam2_v2,ds1_provisional_rls-train-aug-0-3080-jpg-rf-833dd04779c8_c0492d10.jpg,ds1 BLB,1,0,0.1635,0.0936,True,1.3453
+sam2_v2,ds1_provisional_rls-train-aug-0-354-jpg-rf-bb0137aecc564_0ff93609.jpg,ds1 BLB,1,1,0.5652,0.15,False,1.3958
+sam2_v2,ds1_provisional_r6k-train-blight-orig-046-jpg-rf-343cfe4_202547ac.jpg,ds1 BLB,1,1,1.0,1.0,False,1.3337
+sam2_v2,ds1_provisional_r6k-train-img-blb-15-jpg-rf-81cf4d9ba2b9_651349c5.jpg,ds1 BLB,1,0,0.3904,0.1667,True,1.3429
+sam2_v2,ds1_provisional_r6k-train-img-blb-59-jpg-rf-85e9418e4cc5_8d1e572a.jpg,ds1 BLB,1,1,1.0,1.0,False,1.2552
+sam2_v2,ds1_provisional_r6k-train-blight-orig-044-jpg-rf-5babb03_edbb6eba.jpg,ds1 BLB,1,1,0.9762,0.935,False,1.2874
+sam2_v2,ds1_provisional_rls-train-aug-0-48-jpg-rf-574a47e7b5fa17_67b490f3.jpg,ds1 BLB,1,0,0.3511,0.1044,True,1.2588
+sam2_v2,ds1_provisional_r6k-train-blight-rotated-023-jpg-rf-16f5_5cef2057.jpg,ds1 BLB,1,1,0.9876,0.9273,False,1.3713
+sam2_v2,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-4d38cd_783a64f4.jpg,ds1 BLB,1,1,1.0,1.0,False,1.2683
+sam2_v2,ds1_provisional_r6k-val-img-blb-112-jpeg-jpg-rf-afeea35b_e644903d.jpg,ds1 BLB,1,1,0.5416,0.0869,False,1.307
+sam2_v2,ds1_provisional_r6k-train-blight-rotated-044-jpg-rf-3f48_524a83e4.jpg,ds1 BLB,1,1,0.836,0.5805,False,1.2785
+sam2_v2,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-e8c30b_55a7f1a8.jpg,ds1 BLB,1,1,0.5445,0.7218,False,1.2696
+sam2_v2,ds1_provisional_r6k-train-img-blb-126-jpeg-jpg-rf-694ccd_a4cfb19c.jpg,ds1 BLB,1,1,0.9612,0.299,False,1.346
+warna,ds4_blast-127_1455563c.jpg,ds4 Blast,2,2,1.0,0.9983,False,0.0187
+warna,ds4_blast-839_8a6c8034.jpg,ds4 Blast,2,2,1.0,0.8443,False,0.0076
+warna,ds4_blast-617_70a9fcf6.jpg,ds4 Blast,4,4,1.0,0.9941,False,0.007
+warna,ds4_blast-605_9c96831d.jpg,ds4 Blast,2,2,1.0,0.9983,False,0.0068
+warna,ds4_blast-690_8afa1b16.jpg,ds4 Blast,1,1,1.0,0.9938,False,0.0066
+warna,ds4_blast-731_c12de357.jpg,ds4 Blast,4,4,1.0,0.9572,False,0.0071
+warna,ds4_blast-494_e5661767.jpg,ds4 Blast,3,3,1.0,0.9983,False,0.0068
+warna,ds4_blast-614_03406485.jpg,ds4 Blast,4,4,1.0,0.9916,False,0.0067
+warna,ds4_blast-36_6fe86230.jpg,ds4 Blast,1,1,1.0,0.9914,False,0.0068
+warna,ds4_blast-543_7af83772.jpg,ds4 Blast,7,7,1.0,0.9972,False,0.0072
+warna,ds4_blast-150_0c785c74.jpg,ds4 Blast,1,1,1.0,0.9986,False,0.0066
+warna,ds4_blast-1130_5f436eb6.jpg,ds4 Blast,3,3,1.0,0.9974,False,0.008
+warna,ds4_blast-81_7ec33a6c.jpg,ds4 Blast,4,4,1.0,0.9877,False,0.0072
+warna,ds4_blast-624_351eef3c.jpg,ds4 Blast,1,1,1.0,0.9681,False,0.0067
+warna,ds4_blast-608_d7f4e200.jpg,ds4 Blast,2,2,1.0,0.9986,False,0.009
+warna,ds4_blast-31_9e68d7ce.jpg,ds4 Blast,1,1,1.0,0.9378,False,0.0073
+warna,ds4_blast-609_2f765d75.jpg,ds4 Blast,2,2,1.0,0.9984,False,0.0094
+warna,ds4_blast-335_4eb3ac78.jpg,ds4 Blast,3,3,1.0,0.958,False,0.0074
+warna,ds4_blast-1119_1101b523.jpg,ds4 Blast,4,4,1.0,0.9967,False,0.0068
+warna,ds4_blast-142_885554da.jpg,ds4 Blast,2,1,0.7472,0.8528,False,0.0066
+warna,ds4_blast-967_21b44414.jpg,ds4 Blast,5,5,1.0,0.998,False,0.007
+warna,ds4_blast-852_b8e6a6aa.jpg,ds4 Blast,3,3,1.0,0.7786,False,0.0073
+warna,ds4_blast-679_662ef4bb.jpg,ds4 Blast,4,4,1.0,0.9936,False,0.0066
+warna,ds4_blast-847_acab31b8.jpg,ds4 Blast,2,2,1.0,0.7959,False,0.0067
+warna,ds4_blast-91_841cfba0.jpg,ds4 Blast,1,1,1.0,0.9799,False,0.007
+warna,ds4_blast-681_f30e9520.jpg,ds4 Blast,5,5,1.0,0.9886,False,0.0071
+warna,ds4_blast-683_8c6ba685.jpg,ds4 Blast,5,5,1.0,0.9829,False,0.0072
+warna,ds4_blast-688_f98586ca.jpg,ds4 Blast,2,2,1.0,0.9945,False,0.0068
+warna,ds4_blast-1120_38845f47.jpg,ds4 Blast,3,3,1.0,0.9849,False,0.007
+warna,ds4_blast-733_36107ce1.jpg,ds4 Blast,4,4,1.0,0.9573,False,0.0069
+warna,ds4_brown-spot-104_cfc03d5a.jpg,ds4 Brown spot,2,2,1.0,0.7308,False,0.007
+warna,ds4_brown-spot-955_5aebf94f.jpg,ds4 Brown spot,2,2,1.0,0.9606,False,0.0071
+warna,ds4_brown-spot-594_75630f60.jpg,ds4 Brown spot,8,8,1.0,0.9525,False,0.0072
+warna,ds4_brown-spot-35_9e7f58f5.jpg,ds4 Brown spot,2,2,1.0,0.9962,False,0.0067
+warna,ds4_brown-spot-729_99d6e28f.jpg,ds4 Brown spot,5,5,1.0,0.9758,False,0.0067
+warna,ds4_brown-spot-463_bc862db3.jpg,ds4 Brown spot,4,4,1.0,0.9996,False,0.0071
+warna,ds4_brown-spot-979_2b6d9f7f.jpg,ds4 Brown spot,4,4,1.0,0.9729,False,0.0071
+warna,ds4_brown-spot-975_95a393dd.jpg,ds4 Brown spot,5,5,1.0,0.9581,False,0.007
+warna,ds4_brown-spot-368_690a5a34.jpg,ds4 Brown spot,7,7,0.9923,0.9882,False,0.007
+warna,ds4_brown-spot-950_5ecd4ba3.jpg,ds4 Brown spot,2,2,1.0,0.961,False,0.0071
+warna,ds4_brown-spot-441_12fbdc99.jpg,ds4 Brown spot,5,5,1.0,0.9972,False,0.0067
+warna,ds4_brown-spot-582_ecf960fe.jpg,ds4 Brown spot,6,6,0.9907,0.9989,False,0.0079
+warna,ds4_brown-spot-1374_236637d8.jpg,ds4 Brown spot,4,4,1.0,0.5206,False,0.0068
+warna,ds4_brown-spot-507_c5bbd9bb.jpg,ds4 Brown spot,3,3,1.0,0.9777,False,0.0068
+warna,ds4_brown-spot-976_e7ed7d68.jpg,ds4 Brown spot,4,4,1.0,0.9619,False,0.0068
+warna,ds4_brown-spot-474_8f0f56be.jpg,ds4 Brown spot,3,3,1.0,1.0,False,0.0066
+warna,ds4_brown-spot-313_7fd83d13.jpg,ds4 Brown spot,5,5,1.0,0.9855,False,0.0071
+warna,ds4_brown-spot-1126_d1564afe.jpg,ds4 Brown spot,4,4,1.0,0.9426,False,0.0067
+warna,ds4_brown-spot-646_17ee2dae.jpg,ds4 Brown spot,2,2,1.0,0.996,False,0.0067
+warna,ds4_brown-spot-956_7a369993.jpg,ds4 Brown spot,2,2,1.0,0.9642,False,0.0066
+warna,ds4_brown-spot-1677_ff95f8ce.jpg,ds4 Brown spot,7,7,1.0,0.9024,False,0.0068
+warna,ds4_brown-spot-1109_495df0d9.jpg,ds4 Brown spot,6,6,1.0,0.9818,False,0.0065
+warna,ds4_brown-spot-599_d852b7e4.jpg,ds4 Brown spot,3,3,1.0,0.9781,False,0.0068
+warna,ds4_brown-spot-1673_03ed437c.jpg,ds4 Brown spot,9,9,1.0,0.9103,False,0.0068
+warna,ds4_brown-spot-725_613e7b6f.jpg,ds4 Brown spot,2,2,1.0,0.9946,False,0.0066
+warna,ds4_brown-spot-64_b7c6836b.jpg,ds4 Brown spot,3,3,0.7974,0.9013,False,0.0067
+warna,ds4_brown-spot-281_44fa1aae.jpg,ds4 Brown spot,3,3,1.0,0.9581,False,0.0066
+warna,ds4_brown-spot-1388_b645eb19.jpg,ds4 Brown spot,3,3,1.0,0.3573,False,0.0071
+warna,ds4_brown-spot-1383_f25cde68.jpg,ds4 Brown spot,4,4,1.0,0.3309,False,0.0071
+warna,ds4_brown-spot-1688_d36cd9d8.jpg,ds4 Brown spot,6,6,1.0,0.8958,False,0.0069
+warna,ds4_Healthy-692_f90c5c0c.jpg,ds4 sehat,0,0,,0.9854,False,0.0069
+warna,ds4_Healthy-729_677723d0.jpg,ds4 sehat,0,0,,0.9892,False,0.0071
+warna,ds4_Healthy-1220_54ead4d7.jpg,ds4 sehat,0,0,,0.9996,False,0.0071
+warna,ds4_Healthy-1129_c65abb3a.jpg,ds4 sehat,0,0,,0.9588,False,0.0071
+warna,ds4_Healthy-376_1b69c4f1.jpg,ds4 sehat,0,0,,0.9861,False,0.0068
+warna,ds4_Healthy-470_ce3289e3.jpg,ds4 sehat,0,0,,0.7393,False,0.0068
+warna,ds4_Healthy-579_41d68292.jpg,ds4 sehat,0,0,,0.9983,False,0.0071
+warna,ds4_Healthy-1079_13067acf.jpg,ds4 sehat,0,0,,0.9795,False,0.0072
+warna,ds4_Healthy-214_3029b1ff.jpg,ds4 sehat,0,0,,0.9996,False,0.0073
+warna,ds4_Healthy-1183_056f6e29.jpg,ds4 sehat,0,0,,0.9504,False,0.0072
+warna,ds4_Healthy-1175_e9c51bc4.jpg,ds4 sehat,0,0,,0.9551,False,0.0067
+warna,ds4_Healthy-130_e39d3e87.jpg,ds4 sehat,0,0,,0.9993,False,0.0067
+warna,ds4_Healthy-256_2767b95a.jpg,ds4 sehat,0,0,,0.9567,False,0.0068
+warna,ds4_Healthy-320_21cc8bd4.jpg,ds4 sehat,0,0,,0.9697,False,0.007
+warna,ds4_Healthy-1169_fa296ffc.jpg,ds4 sehat,0,0,,0.9429,False,0.0073
+warna,ds4_Healthy-50_edfa4de6.jpg,ds4 sehat,0,0,,0.9006,False,0.0066
+warna,ds4_Healthy-321_44216b0d.jpg,ds4 sehat,0,0,,0.9452,False,0.0067
+warna,ds4_Healthy-1027_ccf9f2b0.jpg,ds4 sehat,0,0,,0.8031,False,0.007
+warna,ds4_Healthy-1033_54a1ba21.jpg,ds4 sehat,0,0,,0.9446,False,0.0072
+warna,ds4_Healthy-271_940ba0d5.jpg,ds4 sehat,0,0,,0.9728,False,0.0066
+warna,ds1_provisional_r6k-train-blight-orig-023-jpg-rf-d8780d1_ef18f774.jpg,ds1 BLB,1,1,0.9943,0.952,False,0.0024
+warna,ds1_provisional_r6k-train-img-blb-129-jpeg-jpg-rf-573c5a_80d35a13.jpg,ds1 BLB,1,0,0.0523,0.2219,True,0.0022
+warna,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-34683e4_4bc05518.jpg,ds1 BLB,1,1,1.0,1.0,False,0.0022
+warna,ds1_provisional_r6k-train-img-blb-85-jpg-rf-e2b698139437_fd58c95f.jpg,ds1 BLB,2,0,0.2723,0.1352,True,0.0022
+warna,ds1_provisional_r6k-train-blight-orig-001-jpg-rf-7d47907_c7480d16.jpg,ds1 BLB,1,0,0.3951,0.3421,True,0.0021
+warna,ds1_provisional_r6k-train-img-blb-133-jpeg-jpg-rf-8ce4f1_3f18efec.jpg,ds1 BLB,1,1,0.6779,0.3839,False,0.0021
+warna,ds1_provisional_rls-train-aug-0-5093-jpg-rf-e92c8798b152_b97b3ecc.jpg,ds1 BLB,1,1,0.9974,0.9826,False,0.0028
+warna,ds1_provisional_rls-train-aug-0-3080-jpg-rf-833dd04779c8_c0492d10.jpg,ds1 BLB,1,1,1.0,0.9892,False,0.0031
+warna,ds1_provisional_rls-train-aug-0-354-jpg-rf-bb0137aecc564_0ff93609.jpg,ds1 BLB,1,1,1.0,0.9937,False,0.0037
+warna,ds1_provisional_r6k-train-blight-orig-046-jpg-rf-343cfe4_202547ac.jpg,ds1 BLB,1,1,1.0,0.9183,False,0.0029
+warna,ds1_provisional_r6k-train-img-blb-15-jpg-rf-81cf4d9ba2b9_651349c5.jpg,ds1 BLB,1,0,0.3948,0.1839,True,0.0025
+warna,ds1_provisional_r6k-train-img-blb-59-jpg-rf-85e9418e4cc5_8d1e572a.jpg,ds1 BLB,1,0,0.1796,0.2682,True,0.0023
+warna,ds1_provisional_r6k-train-blight-orig-044-jpg-rf-5babb03_edbb6eba.jpg,ds1 BLB,1,1,0.9788,0.9384,False,0.0044
+warna,ds1_provisional_rls-train-aug-0-48-jpg-rf-574a47e7b5fa17_67b490f3.jpg,ds1 BLB,1,1,1.0,0.9988,False,0.0032
+warna,ds1_provisional_r6k-train-blight-rotated-023-jpg-rf-16f5_5cef2057.jpg,ds1 BLB,1,1,0.9913,0.9338,False,0.0022
+warna,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-4d38cd_783a64f4.jpg,ds1 BLB,1,1,0.9256,0.8822,False,0.0028
+warna,ds1_provisional_r6k-val-img-blb-112-jpeg-jpg-rf-afeea35b_e644903d.jpg,ds1 BLB,1,1,0.8725,0.7809,False,0.0025
+warna,ds1_provisional_r6k-train-blight-rotated-044-jpg-rf-3f48_524a83e4.jpg,ds1 BLB,1,1,1.0,0.9477,False,0.0022
+warna,ds1_provisional_r6k-train-img-blb-122-jpeg-jpg-rf-e8c30b_55a7f1a8.jpg,ds1 BLB,1,1,0.8632,0.7665,False,0.0021
+warna,ds1_provisional_r6k-train-img-blb-126-jpeg-jpg-rf-694ccd_a4cfb19c.jpg,ds1 BLB,1,1,0.9598,0.2965,False,0.0019

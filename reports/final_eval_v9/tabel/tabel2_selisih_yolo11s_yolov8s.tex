@@ -1,0 +1,21 @@
+\begin{table}[!t]
+\centering
+\caption{Selisih YOLO11s $-$ YOLOv8s berpasangan (rata-rata 3 seed; IK 95\% bootstrap per kelompok foto, resample sama).}
+\label{tab:v9_selisih}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llccc}
+\hline
+\textbf{Set} & \textbf{Kondisi} & \textbf{Selisih mAP50-95} & \textbf{Selisih akurasi} & \textbf{Selisih recall Blast} \\
+\hline
+Test bersih (tanpa BLB) & Dengan latar (v7, foto asli) & +0.024 [0.009, 0.037] & +0.032 [0.012, 0.050] & +0.060 [0.005, 0.106] \\
+Test bersih (tanpa BLB) & Tanpa latar (v9, foto tanpa latar) & +0.025 [0.010, 0.046] & +0.022 [-0.004, 0.050] & -0.006 [-0.039, 0.025] \\
+Test bersih (tanpa BLB) & Silang: v7 pada foto tanpa latar & -0.081 [-0.095, -0.062] & -0.089 [-0.148, -0.027] & -0.405 [-0.492, -0.326] \\
+Test bersih (tanpa BLB) & Silang: v9 pada foto asli & -0.003 [-0.029, 0.016] & -0.010 [-0.048, 0.023] & +0.006 [-0.057, 0.053] \\
+Test sesi baru & Dengan latar (v7, foto asli) & +0.016 [0.004, 0.029] & +0.062 [0.030, 0.095] & -0.011 [-0.045, 0.018] \\
+Test sesi baru & Tanpa latar (v9, foto tanpa latar) & +0.028 [0.017, 0.041] & +0.027 [-0.001, 0.056] & -0.007 [-0.037, 0.024] \\
+Test sesi baru & Silang: v7 pada foto tanpa latar & -0.077 [-0.102, -0.056] & -0.068 [-0.134, -0.008] & -0.457 [-0.533, -0.391] \\
+Test sesi baru & Silang: v9 pada foto asli & +0.012 [-0.001, 0.023] & -0.008 [-0.044, 0.025] & +0.025 [-0.004, 0.061] \\
+\hline
+\end{tabular}
+\end{table}

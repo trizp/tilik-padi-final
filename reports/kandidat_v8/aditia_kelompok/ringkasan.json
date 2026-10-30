@@ -1,0 +1,61 @@
+{
+  "dibuat": "2026-10-14T12:43:40",
+  "model_dijalankan": false,
+  "gambar": 1500,
+  "per_aturan": {
+    "waktu5": {
+      "Daun Padi Normal": 6,
+      "Hawar Daun": 11,
+      "Narrow Brown Spot": 88,
+      "kelompok_lintas_kelas": 0
+    },
+    "waktu5+phash": {
+      "Daun Padi Normal": 6,
+      "Hawar Daun": 11,
+      "Narrow Brown Spot": 81,
+      "kelompok_lintas_kelas": 0
+    },
+    "waktu5+phash+sift": {
+      "Daun Padi Normal": 6,
+      "Hawar Daun": 1,
+      "Narrow Brown Spot": 1,
+      "kelompok_lintas_kelas": 0
+    }
+  },
+  "waktu_per_kelas": {
+    "Daun Padi Normal": {
+      "gambar": 500,
+      "tanggal": [
+        "2023-11-16"
+      ],
+      "mulai": "2023-11-16T07:48:17",
+      "selesai": "2023-11-16T07:52:31",
+      "durasi_menit": 4.2,
+      "cap_waktu_unik": 162,
+      "jeda_median_dtk": 0.0
+    },
+    "Hawar Daun": {
+      "gambar": 500,
+      "tanggal": [
+        "2023-11-17"
+      ],
+      "mulai": "2023-11-17T08:56:56",
+      "selesai": "2023-11-17T09:07:22",
+      "durasi_menit": 10.4,
+      "cap_waktu_unik": 209,
+      "jeda_median_dtk": 0.0
+    },
+    "Narrow Brown Spot": {
+      "gambar": 500,
+      "tanggal": [
+        "2023-11-16"
+      ],
+      "mulai": "2023-11-16T07:16:00",
+      "selesai": "2023-11-16T07:41:23",
+      "durasi_menit": 25.4,
+      "cap_waktu_unik": 306,
+      "jeda_median_dtk": 1.0
+    }
+  },
+  "pasangan_sift_antar_kelompok_waktu5_phash": 13174
+}

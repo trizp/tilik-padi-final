@@ -1,0 +1,97 @@
+{
+  "model": "runs/final_prov_v6_yolo11s_s2/weights/best.pt",
+  "conf": 0.05,
+  "aturan": "jauh lebih cocok: skor non-0 terbaik >= skor 0 + 0.2 dan >= 0.3; tidak dapat dinilai: semua skor < 0.1",
+  "himpunan": {
+    "ds1_train": {
+      "bacterial_leaf_blight": {
+        "n": 1401,
+        "cocok_0_derajat_atau_tidak_jelas": 1395,
+        "tidak_dapat_dinilai": 2,
+        "jauh_lebih_cocok_rotasi_lain": 4,
+        "persen_rotasi_lain": 0.3,
+        "rotasi_terbaik_pada_yang_tertandai": {
+          "180": 4
+        }
+      },
+      "brown_spot": {
+        "n": 1970,
+        "cocok_0_derajat_atau_tidak_jelas": 1970,
+        "persen_rotasi_lain": 0.0,
+        "rotasi_terbaik_pada_yang_tertandai": {}
+      },
+      "leaf_blast": {
+        "n": 411,
+        "cocok_0_derajat_atau_tidak_jelas": 407,
+        "tidak_dapat_dinilai": 4,
+        "persen_rotasi_lain": 0.0,
+        "rotasi_terbaik_pada_yang_tertandai": {}
+      },
+      "SEMUA": {
+        "n": 3782,
+        "cocok_0_derajat_atau_tidak_jelas": 3772,
+        "tidak_dapat_dinilai": 6,
+        "jauh_lebih_cocok_rotasi_lain": 4,
+        "persen_rotasi_lain": 0.1,
+        "rotasi_terbaik_pada_yang_tertandai": {
+          "180": 4
+        }
+      }
+    },
+    "kontrol_ds4_fix": {
+      "brown_spot": {
+        "n": 131,
+        "cocok_0_derajat_atau_tidak_jelas": 131,
+        "persen_rotasi_lain": 0.0,
+        "rotasi_terbaik_pada_yang_tertandai": {}
+      },
+      "leaf_blast": {
+        "n": 69,
+        "cocok_0_derajat_atau_tidak_jelas": 69,
+        "persen_rotasi_lain": 0.0,
+        "rotasi_terbaik_pada_yang_tertandai": {}
+      },
+      "SEMUA": {
+        "n": 200,
+        "cocok_0_derajat_atau_tidak_jelas": 200,
+        "persen_rotasi_lain": 0.0,
+        "rotasi_terbaik_pada_yang_tertandai": {}
+      }
+    },
+    "kontrol_ds4_salah": {
+      "brown_spot": {
+        "n": 48,
+        "tidak_dapat_dinilai": 17,
+        "cocok_0_derajat_atau_tidak_jelas": 4,
+        "jauh_lebih_cocok_rotasi_lain": 27,
+        "persen_rotasi_lain": 56.2,
+        "rotasi_terbaik_pada_yang_tertandai": {
+          "90": 23,
+          "270": 4
+        }
+      },
+      "leaf_blast": {
+        "n": 52,
+        "jauh_lebih_cocok_rotasi_lain": 36,
+        "cocok_0_derajat_atau_tidak_jelas": 5,
+        "tidak_dapat_dinilai": 11,
+        "persen_rotasi_lain": 69.2,
+        "rotasi_terbaik_pada_yang_tertandai": {
+          "90": 32,
+          "270": 4
+        }
+      },
+      "SEMUA": {
+        "n": 100,
+        "tidak_dapat_dinilai": 28,
+        "jauh_lebih_cocok_rotasi_lain": 63,
+        "cocok_0_derajat_atau_tidak_jelas": 9,
+        "persen_rotasi_lain": 63.0,
+        "rotasi_terbaik_pada_yang_tertandai": {
+          "90": 55,
+          "270": 8
+        }
+      }
+    }
+  }
+}

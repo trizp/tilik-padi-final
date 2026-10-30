@@ -1,0 +1,24 @@
+path: D:/TELKOM/SKRIPSI/rice_yolo/data/derived/prov_v9_valsel
+train: D:/TELKOM/SKRIPSI/rice_yolo/data/processed/prov_v9/images/train
+val: images/val
+names:
+  0: leaf_blast
+  1: brown_spot
+  2: bacterial_leaf_blight
+dataset_name: prov_v9
+run_prefix: v9_
+provisional: true
+provisional_sources:
+- ds1_provisional
+manifest_sha256: 7bfce9a84ce4e9456439e54a157fc452362940ac0dba8f0e13ecab6aaf8108c3
+frozen: true
+induk_data: D:/TELKOM/SKRIPSI/rice_yolo/data/processed/prov_v9/data.yaml
+aturan_pemilihan_checkpoint: best.pt dipilih HANYA dari skor val bersih (fitness Ultralytics
+  = mAP50-95 rata-rata kelas berlabel) pada val tanpa gambar sumber provisional ['ds1_provisional'];
+  dataset beku tidak diubah (salinan di folder turunan); BLB val provisional dilaporkan
+  terpisah oleh evaluate.py.
+val_dikecualikan_sumber:
+- ds1_provisional
+val_kelas_berlabel:
+- brown_spot
+- leaf_blast

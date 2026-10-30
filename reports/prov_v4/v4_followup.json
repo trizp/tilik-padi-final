@@ -1,0 +1,180 @@
+{
+  "A_tergabung_karena_ambang_turun": {
+    "n_pasangan": 1961,
+    "inlier_median": 30.0,
+    "per_sumber": {
+      "ds1~ds1": 1199,
+      "ds1~ds2": 9,
+      "ds2~ds2": 8,
+      "ds4~ds4": 745
+    }
+  },
+  "B_tetap_ditolak": {
+    "n_pasangan": 188,
+    "inlier_median": 25.0,
+    "frac_median": 0.04085,
+    "per_sumber": {
+      "ds1~ds1": 133,
+      "ds2~ds2": 1,
+      "ds4~ds4": 54
+    }
+  },
+  "A_ditampilkan": [
+    {
+      "a": "blast_1004.jpg",
+      "b": "blast_1010.jpg",
+      "inlier": 32,
+      "sebaran": 0.0978
+    },
+    {
+      "a": "blast_1002.jpg",
+      "b": "brown spot_1255.jpg",
+      "inlier": 24,
+      "sebaran": 0.1014
+    },
+    {
+      "a": "rls_test_aug_0_390_jpg.rf.5d6b78bdad4e6898c403acf3befa073b.jpg",
+      "b": "rls_val_aug_0_813_jpg.rf.f4678c41ac39556690408887bd93e169.jpg",
+      "inlier": 28,
+      "sebaran": 0.1088
+    },
+    {
+      "a": "rls_train_aug_0_2227_jpg.rf.cfe1bad90f077335eed4c3fadd762432.jpg",
+      "b": "rls_train_20231006_165351_jpg.rf.6141338a5fb416dadeacfbf35198e0e7.jpg",
+      "inlier": 40,
+      "sebaran": 0.0807
+    },
+    {
+      "a": "blast_1006.jpg",
+      "b": "blast_1015.jpg",
+      "inlier": 35,
+      "sebaran": 0.1272
+    },
+    {
+      "a": "rls_train_aug_0_230_jpg.rf.10307fe384927ef094e0ea7f8e662bc0.jpg",
+      "b": "rls_train_aug_0_43_jpg.rf.2f602e2501e427bcbd63fad6d25adce9.jpg",
+      "inlier": 33,
+      "sebaran": 0.1003
+    },
+    {
+      "a": "brown spot_1890.jpg",
+      "b": "brown spot_1894.jpg",
+      "inlier": 33,
+      "sebaran": 0.0585
+    },
+    {
+      "a": "brown spot_1118.jpg",
+      "b": "brown spot_1123.jpg",
+      "inlier": 23,
+      "sebaran": 0.118
+    },
+    {
+      "a": "brown spot_35.jpg",
+      "b": "brown spot_36.jpg",
+      "inlier": 29,
+      "sebaran": 0.0746
+    },
+    {
+      "a": "r6k_train_img_blb_33_jpg.rf.0997795f29760fd9565dfefd2a16c17d.jpg",
+      "b": "r6k_train_img_blb_34_jpg.rf.b94d2d8dad22f11472ea01b772150eec.jpg",
+      "inlier": 48,
+      "sebaran": 0.091
+    }
+  ],
+  "B_ditampilkan": [
+    {
+      "a": "r6k_train_img_blb_86_jpg.rf.a2462a37122d900ca09d0a5251c43b0d.jpg",
+      "b": "r6k_train_img_blb_90_png_jpg.rf.53ca851585745d9ef2a1acb05a180cf1.jpg",
+      "inlier": 36,
+      "sebaran": 0.0059
+    },
+    {
+      "a": "blast_847.jpg",
+      "b": "Healthy_1360.jpg",
+      "inlier": 22,
+      "sebaran": 0.0453
+    },
+    {
+      "a": "brown spot_1125.jpg",
+      "b": "brown spot_1139.jpg",
+      "inlier": 23,
+      "sebaran": 0.0408
+    },
+    {
+      "a": "rls_train_aug_0_692_jpg.rf.c27bdf4dc97ae1c093aa1f623a4ee4f9.jpg",
+      "b": "rls_train_aug_0_697_jpg.rf.3e535f8505ff9bb34c3b69c9cb7a2380.jpg",
+      "inlier": 26,
+      "sebaran": 0.0468
+    },
+    {
+      "a": "r6k_train_img_blb_86_jpg.rf.a7c3045efecb9b2b33a54bb909998397.jpg",
+      "b": "r6k_train_img_blb_90_png_jpg.rf.47f55b9dad8c9b467e7b308f26da14f6.jpg",
+      "inlier": 36,
+      "sebaran": 0.0059
+    },
+    {
+      "a": "brown spot_1822.jpg",
+      "b": "brown spot_1935.jpg",
+      "inlier": 22,
+      "sebaran": 0.0475
+    },
+    {
+      "a": "brown spot_2072.jpg",
+      "b": "brown spot_2139.jpg",
+      "inlier": 25,
+      "sebaran": 0.0475
+    },
+    {
+      "a": "rls_test_aug_0_1209_jpg.rf.b33eb7f9b248f2c06fc39b7a26375563.jpg",
+      "b": "rls_train_aug_0_2871_jpg.rf.7e8324b22e3c14b354b25cd35aada3a1.jpg",
+      "inlier": 24,
+      "sebaran": 0.0396
+    },
+    {
+      "a": "r6k_test_img_blb_34_jpg.rf.3ad2d86a57220065a6494ab7674f5d41.jpg",
+      "b": "r6k_train_img_blb_33_jpg.rf.b05bc3515441db3b549604dbb13570c0.jpg",
+      "inlier": 44,
+      "sebaran": 0.0404
+    },
+    {
+      "a": "rls_train_aug_0_845_jpg.rf.ec42f0a2f5160610235e32a57303641f.jpg",
+      "b": "rls_train_aug_0_910_jpg.rf.b93799b60d0ee1b9839dd16ea680aa98.jpg",
+      "inlier": 27,
+      "sebaran": 0.0397
+    }
+  ],
+  "C_xlsx": {
+    "berkas": "reports\\prov_v4\\pasangan_lintas_kelas_untuk_pakar.xlsx",
+    "n_pasangan": 40,
+    "per_kelompok": {
+      "inlier 21-100": 20,
+      "inlier>100": 20
+    },
+    "per_sumber": {
+      "ds1~ds1": 11,
+      "ds4~ds4": 29
+    },
+    "per_pasangan_kelas": {
+      "bacterial_leaf_blight~brown_spot": 1,
+      "brown_spot~leaf_blast": 31,
+      "background~brown_spot": 6,
+      "bacterial_leaf_blight~leaf_blast": 2
+    },
+    "kolom": [
+      "no_pasangan",
+      "berkas_a",
+      "berkas_b",
+      "label_a_di_dataset",
+      "label_b_di_dataset",
+      "sumber_a",
+      "sumber_b",
+      "kecocokan_SIFT_inlier",
+      "kelompok_kecocokan",
+      "status_karantina_prov_v4",
+      "foto_a",
+      "foto_b",
+      "label_menurut_pakar",
+      "catatan_pakar"
+    ]
+  }
+}

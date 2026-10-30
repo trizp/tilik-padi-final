@@ -1,0 +1,64 @@
+# ARSIP aplikasi v7 YOLOv8s: config.yaml yang aktif 2026-10-16 s.d. 2026-10-20 (diganti alur v9, KEPUTUSAN_PROYEK.md 2026-10-20). Yang dipakai aplikasi adalah config.yaml.
+# AKTIF sejak 2026-10-16: model YOLOv8s (keputusan dospem, pilihan B; KEPUTUSAN_PROYEK.md). Alasannya kesesuaian dengan judul dan
+# rumusan masalah, BUKAN kinerja: YOLO11s lebih baik di semua pembanding. Konfigurasi YOLO11s diarsipkan di config_yolo11s_arsip.yaml.
+
+model:
+  # Salinan runs/v7_deploy_yolov8s_s2/weights/last.onnx (YOLOv8s, 60 epoch pada prov_v7_deploy, seed 2, last.pt).
+  # Metadata "description" sudah netral ("Ultralytics YOLOv8s model trained on prov_v7_deploy"); graf diverifikasi identik.
+  nama: YOLOv8s     # nama model yang ditampilkan di halaman Tentang
+  path: models/v7_deploy_yolov8s_s2.onnx
+  sha256: 9fad677bcb617764bbb8f4d598ff9f5657bbc796fffce188161aa8c98bfc480e
+  imgsz: 640
+  iou: 0.7           # sama dengan evaluasi skripsi
+  conf_min: 0.001    # kandidat kotak sebelum NMS (sama dengan evaluasi); tingkat ditentukan oleh ambang di bawah
+  max_det: 300
+  kelas: [leaf_blast, brown_spot, bacterial_leaf_blight]   # urutan = indeks kelas model
+
+ambang:
+  # Dikunci di VAL v7 dengan prosedur yang sama seperti YOLO11s, memakai model final v7_final_prov_yolov8s_s2
+  # (reports/final_eval_v7/aplikasi/tiga_tingkat_val_yolov8s.json). t_rendah = ambang terdeteksi: pada 0,37 sudah 90,13% foto val
+  # berpenyakit lolos, sedangkan pada 0,38 hanya 89,70% (< 90%). Akibatnya tingkat "kemungkinan" tidak dipakai (dua tingkat).
+  terdeteksi: 0.37
+  rendah: 0.37
+
+tampilan:
+  # Tampilan "bercak berkeyakinan rendah" DINONAKTIFKAN untuk YOLOv8s (KEPUTUSAN_PROYEK.md 2026-10-16): batas yang memenuhi syarat
+  # <= 25% foto sehat (VAL v7, model final v7_final_prov_yolov8s_s2) hanya 0,35, tampil pada 2 foto val dengan model aplikasi, dan
+  # sensitif terhadap beberapa foto; syarat 25% tidak dilonggarkan. Kode fiturnya tetap ada.
+  bercak_rendah_aktif: false
+  batas_bercak_rendah: 0.35   # hasil prosedur val (reports/final_eval_v7/aplikasi/batas_tampil_val_yolov8s.md); tidak dipakai saat nonaktif
+
+unggahan:
+  ukuran_maks_mb: 10
+  sisi_maks_proses: 2048   # foto lebih besar diperkecil dulu (hemat memori; model hanya melihat 640 px)
+  jenis: [jpg, jpeg, png]
+
+teks:
+  judul: Periksa daun padi dari foto
+  subjudul: Untuk blas daun, bercak cokelat, dan hawar daun bakteri.
+  catatan_unggah: JPG atau PNG, maksimal 10 MB
+  petunjuk_benar: Daun langsung di tanamannya. Satu helai daun memenuhi sebagian besar foto.
+  petunjuk_salah: Daun dipetik lalu diletakkan di atas kertas.
+  petunjuk_jarak_cahaya: Foto dari jarak sekitar 15-30 cm, dengan cahaya cukup tetapi tidak silau.
+  peringatan_singkat: >-
+    Sistem ini hanya mengenali Blast, Brown spot, dan BLB. Penyakit lain dapat salah dikenali, dan ketepatannya pada foto
+    dari Indonesia masih terbatas. Hasil ini alat bantu, bukan pengganti penyuluh.
+
+# Atribusi data latih model (ditampilkan di halaman Tentang). Lisensi ds1 dan ds2 ditulis persis dari kolom lisensi metadata
+# Kaggle (kaggle datasets metadata, 2026-10-14); "unknown" ditulis sebagai "lisensi tidak dinyatakan oleh penyusun".
+sumber_data:
+  - nama: RiceLeafDiseaseBD
+    keterangan: >-
+      Foto lapangan daun padi sehat dan sakit dari Bangladesh, diambil dengan HP (sumber utama Blast, Brown spot, dan daun sehat).
+    sitasi: >-
+      Munna, M. M. H., Islam, T., Saha, S., dkk. (2026). RiceLeafDiseaseBD: A Field-Based Annotated Smartphone Image Dataset
+      of Healthy and Diseased Rice Leaves from Bangladesh. Mendeley Data, V3. doi:10.17632/86s4jzj2m4.3
+    lisensi: CC BY 4.0
+  - nama: RICE Leaf Diseases (Kaggle, yusufmurtaza01)
+    keterangan: Kumpulan foto berlabel kotak; sumber seluruh contoh BLB serta tambahan Blast dan Brown spot untuk pelatihan.
+    sitasi: https://www.kaggle.com/datasets/yusufmurtaza01/rice-leaf-diseases
+    lisensi: CC0-1.0
+  - nama: Rice Leaf Disease Dataset (Kaggle, soni535; berkas "Rice Leaf Bacterial and Fungal Disease Dataset")
+    keterangan: Hanya foto daun sehat yang dipakai, sebagai contoh tanpa penyakit.
+    sitasi: https://www.kaggle.com/datasets/soni535/rice-leaf-bacterial-and-fungal-disease
+    lisensi: lisensi tidak dinyatakan oleh penyusun

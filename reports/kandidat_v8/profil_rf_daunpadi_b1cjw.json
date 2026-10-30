@@ -1,0 +1,63 @@
+{
+  "kandidat": "rf_daunpadi_b1cjw",
+  "data_yaml": "data\\raw\\kandidat_v8\\rf_daunpadi_b1cjw\\data.yaml",
+  "kelas": [
+    "Brownspot",
+    "Hispa",
+    "leafblast"
+  ],
+  "gambar": 1999,
+  "per_split": {
+    "test": 209,
+    "train": 1394,
+    "valid": 396
+  },
+  "gambar_tanpa_label": 0,
+  "format_label": "YOLO kotak",
+  "gambar_per_kelas": {
+    "Brownspot": 742,
+    "leafblast": 935,
+    "Hispa": 882
+  },
+  "kotak_per_kelas": {
+    "Brownspot": 2937,
+    "leafblast": 1871,
+    "Hispa": 5051
+  },
+  "median_luas_kotak_persen_per_kelas": {
+    "Brownspot": 0.07,
+    "leafblast": 0.075,
+    "Hispa": 0.066
+  },
+  "acuan_median_luas_kotak_persen_prov_v7_train": {
+    "ds4|leaf_blast": 0.293,
+    "ds4|brown_spot": 0.277,
+    "ds1|bacterial_leaf_blight": 19.987,
+    "ds1|brown_spot": 0.35,
+    "ds1|leaf_blast": 3.146
+  },
+  "resolusi": {
+    "640x640": 1999
+  },
+  "jenis_foto": {
+    "daun petik berlatar polos": 1882,
+    "daun di tanaman/lapangan": 117
+  },
+  "jenis_foto_per_kelas": {
+    "Brownspot": {
+      "daun petik berlatar polos": 726,
+      "daun di tanaman/lapangan": 16
+    },
+    "leafblast": {
+      "daun petik berlatar polos": 857,
+      "daun di tanaman/lapangan": 78
+    },
+    "Hispa": {
+      "daun petik berlatar polos": 824,
+      "daun di tanaman/lapangan": 58
+    }
+  },
+  "rata2_latar_terang_netral_persen": 73.3,
+  "rata2_piksel_hijau_persen": 9.5,
+  "rata2_kecerahan": 0.783
+}

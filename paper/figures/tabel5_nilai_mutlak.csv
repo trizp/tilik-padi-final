@@ -1,0 +1,9 @@
+model,train_test,mAP50-95,akurasi,recall_blast
+YOLOv8s,Orig/Orig,0.2485,0.7508,0.7868
+YOLOv8s,Orig/Leaf,0.1968,0.7539,0.5135
+YOLOv8s,Leaf/Leaf,0.2525,0.7670,0.8018
+YOLOv8s,Leaf/Orig,0.2263,0.7554,0.7808
+YOLO11s,Orig/Orig,0.2728,0.7824,0.8468
+YOLO11s,Orig/Leaf,0.1158,0.6651,0.1081
+YOLO11s,Leaf/Leaf,0.2774,0.7886,0.7958
+YOLO11s,Leaf/Orig,0.2235,0.7454,0.7868

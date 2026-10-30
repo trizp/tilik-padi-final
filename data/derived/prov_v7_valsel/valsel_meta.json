@@ -1,0 +1,31 @@
+{
+  "dibuat": "2026-10-10T02:57:19",
+  "induk_data": "D:\\TELKOM\\SKRIPSI\\rice_yolo\\data\\processed\\prov_v7\\data.yaml",
+  "manifest_sha256_induk": "b467d8c894cffbf6e749af114b699af5847b6129d4a39f6784afd7cf2457ffe8",
+  "aturan": "best.pt dipilih HANYA dari skor val bersih (fitness Ultralytics = mAP50-95 rata-rata kelas berlabel) pada val tanpa gambar sumber provisional ['ds1_provisional']; dataset beku tidak diubah (salinan di folder turunan); BLB val provisional dilaporkan terpisah oleh evaluate.py.",
+  "n_val_induk": 1259,
+  "n_val_bersih": 869,
+  "n_val_dikecualikan": 390,
+  "dikecualikan_per_sumber_kelas": {
+    "ds1_provisional|bacterial_leaf_blight": 390
+  },
+  "val_bersih_per_sumber_kelas": {
+    "ds4|leaf_blast": 222,
+    "ds4|brown_spot": 330,
+    "ds4|background": 293,
+    "ds2|background": 24
+  },
+  "val_bersih_instance_per_kelas": {
+    "leaf_blast": 796,
+    "brown_spot": 1433
+  },
+  "val_bersih_gambar_per_kelas": {
+    "leaf_blast": 222,
+    "brown_spot": 330
+  },
+  "val_bersih_gambar_background": 317,
+  "kelas_tanpa_label_di_val_bersih": [
+    "bacterial_leaf_blight"
+  ],
+  "sha256_daftar": "3cbfa4952e6fc28445a3834148d9fc1ceeaf9b02e497181a398361a630d90e81"
+}

@@ -1,0 +1,3 @@
+DIBEKUKAN 2026-10-10T02:57:31
+manifest_sha256=1a269346106c8a3e23753989575ba0c074011c3a093e4599b890c1d5fd67173e
+Pembanding split acak (pembagian = prov_v6_randsplit; berkas = prov_v7).

@@ -1,0 +1,194 @@
+/* Gaya di atas tema .streamlit/config.toml. Palet dan keputusan desain: docs/desain.md. */
+:root {
+  --padi: #2F6B3B; --air: #F3F6F2; --tinta: #1F2D24; --karat: #A4442A; --jerami: #C9A227; --langit: #4F6D8A;
+  --garis: #D5DED3;
+}
+
+/* sembunyikan elemen bawaan Streamlit yang tidak perlu */
+#MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"], [data-testid="stStatusWidget"],
+[data-testid="stAppDeployButton"], .stDeployButton, [data-testid="stHeader"] { display: none !important; }
+
+/* tanpa animasi otomatis */
+*, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+
+/* ---------- lebar halaman: satu kolom <= 720 px di bawah 1024 px; dua kolom sampai 1160 px di atasnya */
+[data-testid="stMainBlockContainer"], .block-container { max-width: 1160px; padding: 0.75rem 16px 3rem 16px; margin: 0 auto; }
+@media (max-width: 1023px) {
+  [data-testid="stMainBlockContainer"], .block-container { max-width: 720px; }
+  .st-key-tata_awal [data-testid="stHorizontalBlock"], .st-key-tata_hasil [data-testid="stHorizontalBlock"] { flex-wrap: wrap; }
+  .st-key-tata_awal [data-testid="stHorizontalBlock"] > [data-testid="stColumn"],
+  .st-key-tata_hasil [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] { flex: 1 1 100% !important; width: 100% !important; min-width: 100% !important; }
+}
+@media (max-width: 1023px) {
+  .st-key-tata_awal [data-testid="stHorizontalBlock"] { row-gap: 0 !important; }
+  /* di HP/tablet ilustrasi sudah tampil di samping potongan diperbesar tepat di atasnya; tidak diulang di bawah nama penyakit */
+  .hasil-ilustrasi.ada-potongan svg { display: none; }
+  .st-key-tata_awal [data-testid="stColumn"] [data-testid="stHorizontalBlock"] { row-gap: 0.75rem !important; }
+}
+[data-testid="stColumn"] [data-testid="stHorizontalBlock"] { row-gap: 0.75rem !important; }
+/* desktop: kolom kiri hanya foto dan potongan; ilustrasi tampil sekali di kolom kanan, di samping nama penyakit */
+@media (min-width: 1024px) {
+  .potongan figure.potongan-ilustrasi { display: none; }
+  .potongan figure.potongan-foto { flex: 0 1 300px; }
+  .hasil-baris { display: flex; align-items: center; gap: 20px; }
+  .hasil-baris .hasil-nama { flex: 1 1 auto; min-width: 0; }
+  .hasil-baris .hasil-ilustrasi { flex: 0 0 38%; margin-top: 0.4rem; }
+}
+/* tombol aksi bertumpuk penuh lebar di HP */
+@media (max-width: 639px) {
+  [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] { flex: 1 1 100% !important; width: 100% !important; min-width: 100% !important; }
+}
+
+[data-testid="stAppViewContainer"] p, [data-testid="stAppViewContainer"] li { font-size: 17px; line-height: 26px; color: var(--tinta); }
+.angka { font-variant-numeric: tabular-nums; }
+.st-key-gulir_atas, .st-key-gulir_hasil, .st-key-label_id { position: absolute !important; width: 0; height: 0; overflow: hidden; margin: 0 !important; }
+.st-key-gulir_atas iframe, .st-key-gulir_hasil iframe, .st-key-label_id iframe { height: 0 !important; }
+
+/* ---------- kepala: tanda kata + Tentang */
+.nav-atas { display: flex; justify-content: space-between; align-items: center; min-height: 52px;
+  border-bottom: 1px solid var(--garis); margin-bottom: 1.5rem; }
+.nav-atas a { color: var(--padi); font-size: 17px; font-weight: 600; text-decoration: none; padding: 10px 0; min-height: 44px;
+  display: inline-flex; align-items: center; gap: 8px; }
+.nav-atas a.merek { color: var(--tinta); font-weight: 700; font-size: 18px; }
+.nav-atas a[aria-current="page"]:not(.merek) { text-decoration: underline; text-underline-offset: 4px; }
+
+h1.judul { font-size: 30px; line-height: 36px; font-weight: 700; color: var(--tinta); margin: 0 0 0.4rem 0; padding: 0; letter-spacing: -0.01em; }
+.subjudul { margin: 0 0 1.25rem 0 !important; }
+.judul-lipat { font-weight: 600; margin-top: 0.25rem; }
+
+/* ---------- aksi: tombol kamera + uploader bergaya tombol (teks bawaan bahasa Inggris disembunyikan) */
+.stButton > button, [data-testid="stBaseButton-primary"], [data-testid="stBaseButton-secondary"] {
+  min-height: 56px; width: 100%; border-radius: 8px; box-shadow: none; }
+.stButton button p { color: inherit !important; font-size: 18px !important; font-weight: 700 !important; line-height: 24px !important; }
+[data-testid="stBaseButton-primary"] { background: var(--padi); border: 2px solid var(--padi); color: #FFFFFF; }
+[data-testid="stBaseButton-secondary"] { background: #FFFFFF; border: 2px solid var(--padi); color: var(--padi); }
+button:focus-visible, .nav-atas a:focus-visible, [data-testid="stFileUploaderDropzone"]:focus-within {
+  outline: 3px solid var(--tinta) !important; outline-offset: 2px; }
+
+[data-testid="stFileUploader"] > label { display: none; }
+[data-testid="stFileUploaderDropzone"] { padding: 0 !important; border: none !important; background: transparent !important;
+  min-height: 0 !important; display: block !important; }
+[data-testid="stFileUploaderDropzoneInstructions"] { display: none !important; }
+[data-testid="stFileUploaderDropzone"] > span { display: block; width: 100%; }
+/* tombol unggah: sebelum ada berkas = tombol "Upload" bawaan; sesudah ada berkas = tombol "Add files" bawaan */
+[data-testid="stFileUploaderDropzone"] button[data-testid="stBaseButton-secondary"],
+[data-testid="stFileUploaderDropzone"] button[data-testid="stBaseButton-borderlessIcon"] {
+  width: 100% !important; min-height: 56px; background: #FFFFFF !important; border: 2px solid var(--padi) !important;
+  border-radius: 8px; color: var(--padi) !important; display: flex; align-items: center; justify-content: center; }
+[data-testid="stFileUploaderDropzone"] button[data-testid="stBaseButton-secondary"] > div,
+[data-testid="stFileUploaderDropzone"] button[data-testid="stBaseButton-borderlessIcon"] > div { display: none !important; }
+[data-testid="stFileUploaderDropzone"] button[data-testid="stBaseButton-secondary"]::after { content: "Unggah foto"; font-size: 18px; font-weight: 700; line-height: 24px; }
+[data-testid="stFileUploaderDropzone"] button[data-testid="stBaseButton-borderlessIcon"]::after { content: "Unggah foto lain"; font-size: 18px; font-weight: 700; line-height: 24px; }
+/* chip nama berkas disembunyikan: foto sudah tampil di hasil; "Periksa foto lain" menghapusnya */
+[data-testid="stFileChips"] { display: block !important; }
+[data-testid="stFileChips"] > div { display: none !important; }     /* pembungkus chip; tombol "Unggah foto lain" bukan div */
+.catatan-unggah { font-size: 14px !important; line-height: 20px !important; margin: 0.35rem 0 0 0 !important; }
+
+[data-testid="stCameraInput"] { margin-top: 0.75rem; }
+/* teks tombol kamera diganti skrip ui.skrip_label (tanpa :has); bila skrip gagal, teks bawaan Streamlit tetap terlihat */
+[data-testid="stCameraInputButton"] { min-height: 48px; font-size: 17px !important; font-weight: 700; color: var(--padi) !important; }
+
+/* ---------- judul bagian */
+h2.judul-bagian, h3.judul-bagian { font-size: 20px !important; line-height: 28px !important; font-weight: 700; color: var(--tinta);
+  margin: 1.75rem 0 0.75rem 0; padding: 0; }
+
+/* ---------- tiga penyakit: potongan helai daun memanjang, tanpa kartu */
+.tiga-penyakit ul { list-style: none; padding: 0; margin: 0; }
+.tiga-penyakit li.penyakit { padding: 0.9rem 0 1rem 0; border-bottom: 1px solid var(--garis); margin: 0; }
+.tiga-penyakit li.penyakit:last-child { border-bottom: none; }
+svg.helai { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 0 0.4rem 0; }
+.penyakit-nama { font-weight: 700; margin: 0 !important; }
+.penyakit-nama .istilah { font-weight: 400; }
+.penyakit-patogen, .penyakit-ciri { font-size: 14px !important; line-height: 20px !important; margin: 0 !important; }
+@media (min-width: 1024px) { .tiga-penyakit { padding-top: 0.25rem; } .tiga-penyakit > h2.judul-bagian { margin-top: 0.4rem; } }
+
+/* ---------- petunjuk memotret: dua ilustrasi berdampingan */
+.petunjuk-dua { display: flex; gap: 12px; }
+.petunjuk-dua figure { flex: 1 1 0; margin: 0; }
+svg.petunjuk-gambar { display: block; width: 100%; height: auto; border-radius: 4px; }
+.petunjuk-dua figcaption { font-size: 14px; line-height: 20px; color: var(--tinta); margin-top: 0.4rem; }
+.petunjuk-dua figcaption strong { display: inline-flex; align-items: center; gap: 4px; }
+.petunjuk-dua figcaption svg { vertical-align: -3px; }
+.petunjuk-jarak { margin-top: 0.75rem !important; }
+
+/* ---------- foto hasil dan potongan diperbesar */
+.jangkar-hasil { scroll-margin-top: 8px; height: 1px; }
+[data-testid="stImage"] img { border: 1px solid var(--garis); border-radius: 4px; max-height: 560px; width: auto !important; max-width: 100%;
+  display: block; margin: 0; }
+[data-testid="stImageCaption"], [data-testid="stCaptionContainer"] { color: var(--tinta) !important; opacity: 1 !important;
+  font-size: 14px !important; text-align: left !important; }
+.potongan { display: flex; gap: 12px; margin: 0.75rem 0 0.5rem 0; align-items: flex-start; }
+.potongan figure { flex: 1 1 0; margin: 0; }
+.potongan img { width: 100%; height: auto; display: block; border: 1px solid var(--garis); border-radius: 4px; }
+.potongan svg.helai { margin-top: 30%; }
+.potongan figcaption { font-size: 14px; line-height: 20px; margin-top: 0.35rem; color: var(--tinta); }
+
+/* ---------- kepala hasil */
+.hasil-kepala { margin-top: 0.25rem; }
+.tingkat { display: inline-block; font-size: 15px; font-weight: 700; line-height: 20px; padding: 4px 10px; border-radius: 4px; }
+.tingkat-terdeteksi { background: var(--karat); color: #FFFFFF; }
+.tingkat-kemungkinan { background: var(--jerami); color: var(--tinta); }
+.tingkat-tidak_terdeteksi { background: var(--langit); color: #FFFFFF; }
+h2.nama-penyakit { font-size: 30px; line-height: 36px; font-weight: 700; color: var(--tinta); margin: 0.5rem 0 0.25rem 0; padding: 0; }
+.patogen, .patogen-polos { font-size: 14px !important; line-height: 20px !important; margin: 0 !important; }
+.hasil-ilustrasi { margin-top: 0.6rem; }
+.ciri-hasil { margin-top: 0.4rem !important; }
+.hasil-ilustrasi svg.helai { max-width: 360px; }
+.kemungkinan-lain { margin: 0.45rem 0 0 0 !important; }
+.kemungkinan-lain .utuh { white-space: nowrap; }
+.catatan-rendah { border-left: 4px dashed var(--tinta); padding: 0.1rem 0 0.1rem 0.8rem; margin: 0.5rem 0 0 0 !important; }
+
+/* ---------- cara membedakan blas daun dan bercak cokelat: dua ilustrasi diperbesar berdampingan */
+.beda { margin-top: 0.5rem; }
+.beda.dalam-lipatan { margin-top: 0; }
+.beda h3.judul-bagian { margin-top: 1.25rem; }
+.beda-dua { display: flex; gap: 12px; }
+.beda-dua figure { flex: 1 1 0; margin: 0; min-width: 0; }
+.beda-dua svg.helai { max-width: 100%; margin: 0 0 0.35rem 0; }
+.beda-dua figcaption { font-size: 14px; line-height: 20px; color: var(--tinta); }
+.beda-saran { margin-top: 0.6rem !important; }
+
+/* ---------- pita keyakinan */
+.pita { position: relative; margin: 1.25rem 0 0.25rem 0; }
+.pk-judul { margin: 0 0 0.5rem 0 !important; }
+.pk-judul strong { font-size: 17px; font-weight: 700; }
+.pk-label { display: flex; font-size: 14px; line-height: 20px; color: var(--tinta); margin-bottom: 10px; }
+.pk-zona-label { text-align: center; white-space: nowrap; }
+.pk-zona-label.aktif { font-weight: 700; }
+.pk-bar { position: relative; display: flex; height: 20px; margin: 4px 0 10px 0; }
+.pk-zona { height: 100%; opacity: 0.3; }
+.pk-zona.aktif { opacity: 1; }
+.pk-tidak_terdeteksi { background: var(--langit); border-radius: 4px 0 0 4px; }
+.pk-kemungkinan { background: var(--jerami); }
+.pk-terdeteksi { background: var(--karat); border-radius: 0 4px 4px 0; }
+.pk-penanda { position: absolute; top: -7px; width: 10px; height: 34px; margin-left: -5px; background: var(--tinta);
+  border: 2px solid #FFFFFF; border-radius: 3px; box-sizing: border-box; }
+
+/* ---------- saran */
+h4.kelompok-saran { font-size: 17px !important; line-height: 24px !important; font-weight: 700; color: var(--padi); margin: 0.9rem 0 0.35rem 0; padding: 0; }
+ul.saran, ol.saran { padding-left: 1.3rem; margin: 0; }
+ul.saran li, ol.saran li { margin-bottom: 0.45rem; }
+.catatan-tetap { margin: 0.9rem 0 0.25rem 0 !important; font-weight: 600; }
+.sumber-aturan { font-size: 14px !important; line-height: 20px !important; margin: 0.25rem 0 1rem 0 !important; }
+
+/* ---------- jejak dan lipatan */
+[data-testid="stExpander"] details { border: 1px solid var(--garis); border-radius: 4px; background: #FFFFFF; }
+[data-testid="stExpander"] summary { min-height: 48px; }
+[data-testid="stExpander"] summary p { font-size: 17px !important; font-weight: 600; }
+.jejak li { margin-bottom: 0.75rem; }
+.kecil { font-size: 14px; }
+.st-key-akhir_hasil { margin-top: 1.5rem; border-top: 1px solid var(--garis); padding-top: 1.25rem; max-width: 720px; }
+.st-key-akhir_hasil .stButton { max-width: 360px; }
+
+/* ---------- peringatan dan galat */
+.peringatan { border-left: 4px solid var(--langit); padding: 0.25rem 0 0.25rem 0.9rem; margin: 1.5rem 0 0.25rem 0; }
+.peringatan p { margin: 0 !important; }
+.pesan-salah { border-left: 4px solid var(--karat); background: #FFFFFF; padding: 0.75rem 0.9rem; margin: 1rem 0; }
+.pesan-salah p { margin: 0 !important; }
+[data-testid="stPageLink"] a { min-height: 44px; }
+[data-testid="stPageLink"] a p { color: var(--padi) !important; font-weight: 600; text-decoration: underline; }
+
+/* ---------- halaman Tentang */
+.tentang { max-width: 720px; }
+.tentang h2 { font-size: 20px; line-height: 28px; font-weight: 700; color: var(--tinta); margin: 1.75rem 0 0.5rem 0; padding: 0; }
+.tentang .sumber li { margin-bottom: 0.75rem; }

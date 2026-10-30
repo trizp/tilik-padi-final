@@ -1,0 +1,116 @@
+# Basis aturan Rule-Based System (forward chaining).
+#
+# Fakta awal dari hasil deteksi:  penyakit  (leaf_blast | brown_spot | bacterial_leaf_blight | tidak_ada)
+#                                 tingkat   (terdeteksi | kemungkinan | tidak_terdeteksi)
+#                                 keyakinan (0-1)
+# Bentuk aturan:
+#   jika:   daftar syarat yang SEMUA harus benar. Syarat = {fakta, op, nilai}; op: ==, !=, >=, <, ada
+#   maka:   fakta baru yang ditambahkan (boleh memakai {nama_fakta} untuk menyalin nilai fakta lain)
+#   saran:  butir rekomendasi. Butir aturan penyakit = {kelompok, teks}:
+#           S = Tindakan sekarang, P = Pencegahan musim berikutnya. Kata-kata butir R001-R003 PERSIS Tabel 3.1 proposal.
+#   alasan: kalimat untuk jejak "Mengapa sistem menyimpulkan ini"
+#
+# R004-R006 (kombinasi dua penyakit) TIDAK dipakai: aplikasi mendiagnosis satu penyakit per foto (keputusan dospem 2026-10-08).
+# Versi sebelumnya (slide 14 Proposal_TA_Tristan.pptx) diarsipkan di folder proyek skripsi (tidak ikut repositori).
+
+sumber_aturan: >-
+  Tabel 3.1 proposal (hlm. 18), dari Kementerian Pertanian RI. 2023. Teknik Mengendalikan Hama dan Penyakit Padi.
+  Pertanian Press, Jakarta.
+catatan_tetap: Gunakan pestisida sesuai dosis pada label dan anjuran penyuluh setempat.
+kelompok:
+  S: Tindakan sekarang
+  P: Pencegahan musim berikutnya
+
+aturan:
+  # ---- tahap 1: tingkat keyakinan -> status diagnosis
+  - id: D01
+    nama: Diagnosis diterima
+    jika:
+      - {fakta: tingkat, op: "==", nilai: terdeteksi}
+      - {fakta: penyakit, op: "!=", nilai: tidak_ada}
+    maka: {diagnosis: "{penyakit}"}
+    alasan: Tingkat keyakinan mencapai ambang terdeteksi, jadi penyakit hasil deteksi diterima sebagai diagnosis.
+
+  - id: K01
+    nama: Diagnosis belum pasti
+    jika:
+      - {fakta: tingkat, op: "==", nilai: kemungkinan}
+    maka: {dugaan: "{penyakit}", perlu_konfirmasi: ya}
+    alasan: Tingkat keyakinan berada di antara ambang bawah dan ambang terdeteksi, jadi hasilnya baru dugaan dan perlu dikonfirmasi.
+
+  - id: N01
+    nama: Tidak ada penyakit yang dikenali
+    jika:
+      - {fakta: tingkat, op: "==", nilai: tidak_terdeteksi}
+    maka: {perlu_foto_ulang: ya}
+    alasan: Tingkat keyakinan di bawah ambang bawah atau tidak ada bercak yang ditemukan, jadi sistem tidak menyimpulkan penyakit.
+
+  # ---- tahap 2: diagnosis -> tindakan khusus penyakit (Tabel 3.1 proposal)
+  - id: R001
+    nama: Penanganan blas daun (Leaf Blast)
+    jika:
+      - {fakta: diagnosis, op: "==", nilai: leaf_blast}
+    maka: {rekomendasi: khusus}
+    saran:
+      - {kelompok: P, teks: "Pemupukan berimbang, hindari pupuk N lebih dari 90 kg/Ha."}
+      - {kelompok: P, teks: "Tanam varietas tahan dan lakukan pergiliran varietas secara berkala."}
+      - {kelompok: P, teks: "Hindari penggunaan benih dari daerah endemis blas; lakukan perlakuan benih dengan fungisida."}
+      - {kelompok: P, teks: "Atur waktu tanam agar fase keluar malai tidak bertepatan dengan musim embun tinggi."}
+      - {kelompok: S, teks: "Bakar jerami dari pertanaman yang terinfeksi untuk mengurangi sumber inokulum."}
+      - {kelompok: S, teks: "Aplikasikan fungisida berbahan aktif: trisiklazol, isoprotiolan, heksakonazol, atau azoksistrobin + difenokonazol."}
+    sumber: Tabel 3.1 proposal (Kementerian Pertanian RI, 2023)
+    alasan: Diagnosis blas daun cocok dengan aturan R001.
+
+  - id: R002
+    nama: Penanganan hawar daun bakteri (Bacterial Leaf Blight)
+    jika:
+      - {fakta: diagnosis, op: "==", nilai: bacterial_leaf_blight}
+    maka: {rekomendasi: khusus}
+    saran:
+      - {kelompok: P, teks: "Tanam varietas yang tahan penyakit hawar daun bakteri."}
+      - {kelompok: S, teks: "Bersihkan tunggul dan jerami yang terinfeksi dari areal pertanaman."}
+      - {kelompok: P, teks: "Lakukan seleksi dan perlakuan benih menggunakan agens hayati sesuai anjuran."}
+      - {kelompok: P, teks: "Jika menggunakan kompos jerami, pastikan jerami sakit telah terdekomposisi sempurna sebelum tanam."}
+      - {kelompok: S, teks: "Aplikasikan agens hayati pada umur 14, 28, dan 42 HST di sore hari."}
+      - {kelompok: P, teks: "Gunakan pupuk N sesuai takaran anjuran."}
+    sumber: Tabel 3.1 proposal (Kementerian Pertanian RI, 2023)
+    alasan: Diagnosis hawar daun bakteri cocok dengan aturan R002.
+
+  - id: R003
+    nama: Penanganan bercak cokelat (Brown Spot)
+    jika:
+      - {fakta: diagnosis, op: "==", nilai: brown_spot}
+    maka: {rekomendasi: khusus}
+    saran:
+      - {kelompok: P, teks: "Gunakan benih bermutu, perbaiki tata air, dan lakukan pemupukan berimbang."}
+      - {kelompok: P, teks: "Sanitasi lahan dan pergiliran tanaman dengan tanaman bukan inang untuk mematikan patogen di dalam tanah."}
+      - {kelompok: P, teks: "Lakukan perlakuan benih dengan perendaman air panas yang dicampur fungisida."}
+      - {kelompok: P, teks: "Tanam varietas yang tahan atau toleran terhadap Brown Spot."}
+      - {kelompok: S, teks: "Aplikasikan fungisida berbahan aktif: difenokonazol, tebukonazol, heksakonazol, mankozeb, atau azoksistrobin + difenokonazol."}
+    sumber: Tabel 3.1 proposal (Kementerian Pertanian RI, 2023)
+    alasan: Diagnosis bercak cokelat cocok dengan aturan R003.
+
+  # ---- tahap 2: hasil belum pasti atau tidak ada -> tindakan umum (bukan obat khusus)
+  - id: K02
+    nama: Konfirmasi ke penyuluh dan pencegahan umum
+    jika:
+      - {fakta: perlu_konfirmasi, op: "==", nilai: ya}
+    maka: {rekomendasi: umum}
+    saran:
+      - Tunjukkan daun ini ke penyuluh pertanian atau petugas POPT untuk memastikan penyakitnya sebelum menyemprot obat.
+      - "Sambil menunggu, lakukan pencegahan umum: gunakan benih bermutu, perbaiki tata air, dan lakukan pemupukan berimbang."
+      - Anda juga bisa memotret ulang daun yang sama sesuai petunjuk memotret.
+    sumber: Pencegahan umum dari butir R003 (Tabel 3.1 proposal)
+    alasan: Dugaan belum pasti, jadi sistem menyarankan konfirmasi dan pencegahan umum, bukan obat khusus.
+
+  - id: N02
+    nama: Foto ulang atau tanyakan ke penyuluh
+    jika:
+      - {fakta: perlu_foto_ulang, op: "==", nilai: ya}
+    maka: {rekomendasi: umum}
+    saran:
+      - Bila daun tampak sakit, foto ulang satu helai daun sesuai petunjuk memotret.
+      - Bila tetap tidak terdeteksi, daun mungkin sehat atau terkena penyakit lain yang tidak dikenali sistem. Tanyakan ke penyuluh pertanian.
+      - "Lakukan pencegahan umum: gunakan benih bermutu, perbaiki tata air, dan lakukan pemupukan berimbang."
+    sumber: Pencegahan umum dari butir R003 (Tabel 3.1 proposal)
+    alasan: Tidak ada diagnosis, jadi sistem menyarankan foto ulang, konfirmasi, dan pencegahan umum.

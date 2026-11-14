@@ -1,0 +1,18 @@
+{
+  "v7_randsplit_prov_yolov8n_s1": {
+    "status": "selesai",
+    "selesai": "2026-11-14T01:44:16"
+  },
+  "v7_randsplit_prov_yolo11n_s1": {
+    "status": "selesai",
+    "selesai": "2026-11-14T01:44:16"
+  },
+  "v7_randsplit_prov_yolov8n_s2": {
+    "status": "selesai",
+    "selesai": "2026-11-14T01:44:16"
+  },
+  "v7_randsplit_prov_yolo11n_s2": {
+    "status": "selesai",
+    "selesai": "2026-11-14T02:08:31"
+  }
+}

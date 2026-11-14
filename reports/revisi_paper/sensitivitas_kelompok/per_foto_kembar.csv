@@ -1,0 +1,611 @@
+pengaturan,foto,split,kelas,sumber,kriteria,contoh_kriteria,contoh_kembaran_train,nilai
+"DINOv2 0,95",ds4_blast-1093_f9434588.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-708_ac873863.jpg,0.9521
+"DINOv2 0,95",ds4_blast-1094_c98742da.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9523
+"DINOv2 0,95",ds4_blast-1095_d070a887.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-708_ac873863.jpg,0.9538
+"DINOv2 0,95",ds4_blast-144_7147fe94.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-184_c4be1d0f.jpg,0.9585
+"DINOv2 0,95",ds4_blast-148_474802c5.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-151_81e2e41f.jpg,0.9514
+"DINOv2 0,95",ds4_blast-193_a52f6957.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-160_9cafea6f.jpg,0.9537
+"DINOv2 0,95",ds4_blast-366_78197a44.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-560_71326d8b.jpg,0.9563
+"DINOv2 0,95",ds4_blast-401_f2662ff6.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.957
+"DINOv2 0,95",ds4_blast-407_27606a5f.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-446_4e216d9b.jpg,0.9569
+"DINOv2 0,95",ds4_blast-408_a4b067a6.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-551_a2499d9f.jpg,0.9571
+"DINOv2 0,95",ds4_blast-421_dc569d9d.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-519_349915c5.jpg,0.9543
+"DINOv2 0,95",ds4_blast-440_5a867b0a.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-374_4b2aca8b.jpg,0.9557
+"DINOv2 0,95",ds4_blast-452_aa768a33.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-444_19963618.jpg,0.9518
+"DINOv2 0,95",ds4_blast-481_3e7edb57.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-415_6326eb12.jpg,0.9682
+"DINOv2 0,95",ds4_blast-505_3656e027.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-475_4b49d761.jpg,0.9595
+"DINOv2 0,95",ds4_blast-508_09c75f85.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-413_d44de1cb.jpg,0.9508
+"DINOv2 0,95",ds4_blast-510_66d73351.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-475_4b49d761.jpg,0.9567
+"DINOv2 0,95",ds4_blast-514_5148f37c.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-492_13a0d9c2.jpg,0.9581
+"DINOv2 0,95",ds4_blast-537_ad118814.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-475_4b49d761.jpg,0.9671
+"DINOv2 0,95",ds4_blast-538_3e420d18.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-586_754a72e4.jpg,0.9618
+"DINOv2 0,95",ds4_blast-541_6416faaf.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-558_851f148d.jpg,0.9531
+"DINOv2 0,95",ds4_blast-554_9b6304e8.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-475_4b49d761.jpg,0.952
+"DINOv2 0,95",ds4_blast-854_8aa4c762.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9539
+"DINOv2 0,95",ds4_brown-spot-101_21a1218b.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.9555
+"DINOv2 0,95",ds4_brown-spot-1698_84f9de6e.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1842_f5d847cc.jpg,0.9529
+"DINOv2 0,95",ds4_brown-spot-1699_9a97b817.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1913_22386214.jpg,0.9501
+"DINOv2 0,95",ds4_brown-spot-1704_6f735066.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-1269_e9cc677c.jpg,0.9502
+"DINOv2 0,95",ds4_brown-spot-1713_1d150e03.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1872_4a124257.jpg,0.9582
+"DINOv2 0,95",ds4_brown-spot-1714_6e4f31ef.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1872_4a124257.jpg,0.9557
+"DINOv2 0,95",ds4_brown-spot-1715_cf3e0777.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1872_4a124257.jpg,0.9545
+"DINOv2 0,95",ds4_brown-spot-2046_0a922bc5.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-1243_24cd1115.jpg,0.9533
+"DINOv2 0,95",ds4_brown-spot-2047_84104857.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-1243_24cd1115.jpg,0.9527
+"DINOv2 0,95",ds4_brown-spot-2048_4cec4f59.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-1243_24cd1115.jpg,0.9512
+"DINOv2 0,95",ds4_brown-spot-269_72162cd3.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-559_8db48946.jpg,0.9558
+"DINOv2 0,95",ds4_brown-spot-270_f025c596.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-347_7b51a241.jpg,0.9561
+"DINOv2 0,95",ds4_brown-spot-271_2fff578f.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-347_7b51a241.jpg,0.9553
+"DINOv2 0,95",ds4_brown-spot-296_c22c8498.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-549_da08b0a3.jpg,0.9624
+"DINOv2 0,95",ds4_brown-spot-297_c67ecaba.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-526_29f38857.jpg,0.9601
+"DINOv2 0,95",ds4_brown-spot-298_572c5490.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-306_acc7a72c.jpg,0.9531
+"DINOv2 0,95",ds4_brown-spot-299_763170c6.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9687
+"DINOv2 0,95",ds4_brown-spot-375_b880a4d1.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9599
+"DINOv2 0,95",ds4_brown-spot-376_fb40e02d.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-374_4b2aca8b.jpg,0.966
+"DINOv2 0,95",ds4_brown-spot-377_bb24eb5d.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9679
+"DINOv2 0,95",ds4_brown-spot-378_ad68ae82.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9595
+"DINOv2 0,95",ds4_brown-spot-399_a4055841.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-431_87f2dc4a.jpg,0.9612
+"DINOv2 0,95",ds4_brown-spot-432_54d0a151.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-330_593ab250.jpg,0.9667
+"DINOv2 0,95",ds4_brown-spot-433_4296f187.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-431_87f2dc4a.jpg,0.9672
+"DINOv2 0,95",ds4_brown-spot-458_7064688a.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9684
+"DINOv2 0,95",ds4_brown-spot-479_214f3c45.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-572_8c9188dc.jpg,0.9531
+"DINOv2 0,95",ds4_brown-spot-505_2da8f3e1.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.9688
+"DINOv2 0,95",ds4_brown-spot-506_8bf2ca0d.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-6_9bbf97f9.jpg,0.9523
+"DINOv2 0,95",ds4_brown-spot-527_a4e80e29.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-496_647d21b1.jpg,0.9604
+"DINOv2 0,95",ds4_brown-spot-528_6da19aca.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9665
+"DINOv2 0,95",ds4_brown-spot-529_62bc754a.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-332_58e65876.jpg,0.954
+"DINOv2 0,95",ds4_brown-spot-530_daf9dd7e.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-487_f466092d.jpg,0.9669
+"DINOv2 0,95",ds4_brown-spot-535_deb5c93d.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-558_851f148d.jpg,0.9602
+"DINOv2 0,95",ds4_brown-spot-553_4d9bbd22.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-488_5836cb0d.jpg,0.9561
+"DINOv2 0,95",ds4_brown-spot-554_caba1cbd.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-457_60f607ad.jpg,0.9669
+"DINOv2 0,95",ds4_brown-spot-555_fac85ac9.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-496_647d21b1.jpg,0.9675
+"DINOv2 0,95",ds4_brown-spot-556_b3ac9a0b.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-404_97bc12ae.jpg,0.9643
+"DINOv2 0,95",ds4_brown-spot-585_b41f9243.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-331_ae63f520.jpg,0.9643
+"DINOv2 0,95",ds4_brown-spot-73_a1cd5bd2.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-160_9cafea6f.jpg,0.9556
+"DINOv2 0,95",ds4_brown-spot-751_e59b9043.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-839_276b8d87.jpg,0.9541
+"DINOv2 0,95",ds4_brown-spot-753_bb12813a.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9524
+"DINOv2 0,95",ds4_brown-spot-755_6c3370b5.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1775_406a10e4.jpg,0.9519
+"DINOv2 0,95",ds4_brown-spot-759_d6ca782e.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-839_276b8d87.jpg,0.9548
+"DINOv2 0,95",ds4_brown-spot-76_41a87b31.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-170_155b62ea.jpg,0.9533
+"DINOv2 0,95",ds4_brown-spot-761_8131d1b5.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9513
+"DINOv2 0,95",ds4_brown-spot-762_7c1289d8.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9618
+"DINOv2 0,95",ds4_brown-spot-763_a8e4503c.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9529
+"DINOv2 0,95",ds4_brown-spot-764_d428c404.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-1349_f66c1600.jpg,0.954
+"DINOv2 0,95",ds4_brown-spot-84_42320904.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9516
+"DINOv2 0,95",ds4_brown-spot-856_bf5d9043.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-2118_7b5e8cbc.jpg,0.9613
+"DINOv2 0,95",ds4_brown-spot-859_b18ffc5b.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1788_1a27e870.jpg,0.9569
+"DINOv2 0,95",ds4_brown-spot-866_1c9c0eef.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-23_9661a032.jpg,0.9549
+"DINOv2 0,95",ds4_brown-spot-868_2b26e159.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-23_9661a032.jpg,0.9534
+"DINOv2 0,95",ds4_brown-spot-947_0ed5f31b.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-879_16cba576.jpg,0.9534
+"DINOv2 0,95",ds4_Healthy-10_7029d758.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-407_e452fc3b.jpg,0.9543
+"DINOv2 0,95",ds4_Healthy-132_92ffe6d9.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-156_bec29b20.jpg,0.9538
+"DINOv2 0,95",ds4_Healthy-1558_55766322.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-1547_e0cb2d35.jpg,0.953
+"DINOv2 0,95",ds4_Healthy-1560_1e8f9066.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-1559_1b4af6f6.jpg,0.9538
+"DINOv2 0,95",ds4_Healthy-1566_166ca18f.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-1570_328811cd.jpg,0.9662
+"DINOv2 0,95",ds4_Healthy-191_1aff1051.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-168_631ad6fb.jpg,0.955
+"DINOv2 0,95",ds4_Healthy-192_4be776e8.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-157_667859a2.jpg,0.9697
+"DINOv2 0,95",ds4_Healthy-193_ee77bb25.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-157_667859a2.jpg,0.9665
+"DINOv2 0,95",ds4_Healthy-207_6b920217.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-559_8db48946.jpg,0.9539
+"DINOv2 0,95",ds4_Healthy-221_e323cfaa.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-572_0bf21d2f.jpg,0.9561
+"DINOv2 0,95",ds4_Healthy-222_37c2f5de.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-659_db8097e2.jpg,0.9614
+"DINOv2 0,95",ds4_Healthy-223_b1aecc5e.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-565_1122989b.jpg,0.9601
+"DINOv2 0,95",ds4_Healthy-224_dcbd1a6d.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-565_1122989b.jpg,0.9659
+"DINOv2 0,95",ds4_Healthy-228_2643b6ca.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9517
+"DINOv2 0,95",ds4_Healthy-432_f7a726c8.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-449_5a026e91.jpg,0.9604
+"DINOv2 0,95",ds4_Healthy-464_9cde5f05.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-564_67925c88.jpg,0.9504
+"DINOv2 0,95",ds4_Healthy-54_3e947832.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-77_85d84353.jpg,0.9589
+"DINOv2 0,95",ds4_Healthy-596_14456c92.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-241_e2674898.jpg,0.9649
+"DINOv2 0,95",ds4_Healthy-597_280ce378.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-594_90404adb.jpg,0.9535
+"DINOv2 0,95",ds4_Healthy-598_dce43540.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-594_90404adb.jpg,0.9583
+"DINOv2 0,95",ds4_Healthy-599_1c10a04d.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-593_e527b310.jpg,0.9631
+"DINOv2 0,95",ds4_Healthy-616_ccbc8611.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-552_a689aa75.jpg,0.9578
+"DINOv2 0,95",ds4_Healthy-617_0b16f5a0.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-246_941cb8a1.jpg,0.9514
+"DINOv2 0,95",ds4_Healthy-618_0512c473.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-740_c91ae354.jpg,0.9586
+"DINOv2 0,95",ds4_Healthy-619_8f18bffc.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-246_941cb8a1.jpg,0.9606
+"DINOv2 0,95",ds4_Healthy-620_7e0b3f58.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-740_c91ae354.jpg,0.951
+"DINOv2 0,95",ds4_Healthy-621_8e99e2c1.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-594_90404adb.jpg,0.9574
+"DINOv2 0,95",ds4_Healthy-622_3faeaa64.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-78_8237be6a.jpg,0.9604
+"DINOv2 0,95",ds4_Healthy-633_7c3abc0d.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_blast-161_5c672d81.jpg,0.9599
+"DINOv2 0,95",ds4_Healthy-662_1780b4e0.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-664_9782429e.jpg,0.9644
+"DINOv2 0,95",ds4_Healthy-663_cd1d6855.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-664_9782429e.jpg,0.9659
+"DINOv2 0,95",ds4_Healthy-679_0aa8b1b9.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-414_69f9c94b.jpg,0.9562
+"DINOv2 0,95",ds4_Healthy-697_294a3344.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9618
+"DINOv2 0,95",ds4_Healthy-711_ae2cc0d0.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9625
+"DINOv2 0,95",ds4_Healthy-712_9c325c7d.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-714_80bfd521.jpg,0.9589
+"DINOv2 0,95",ds2_Healthy-rice-leaf-107_3e531808.jpg,test,background,ds2,dino_0.95,dino_0.95,ds2_Healthy-rice-leaf-125_667722c6.jpg,0.9641
+"DINOv2 0,95",ds2_Healthy-rice-leaf-147_23e0869f.jpg,test,background,ds2,dino_0.95,dino_0.95,ds2_Healthy-rice-leaf-148_ffbe6347.jpg,0.9504
+"DINOv2 0,95",ds2_Healthy-rice-leaf-155_4d7705ae.jpg,test,background,ds2,dino_0.95,dino_0.95,ds2_Healthy-rice-leaf-122_ec84feb5.jpg,0.9601
+"DINOv2 0,95",ds2_Healthy-rice-leaf-85_ca963026.jpg,test,background,ds2,dino_0.95,dino_0.95,ds2_Healthy-rice-leaf-88_90e62edd.jpg,0.9523
+"DINOv2 0,95",ds2_Healthy-rice-leaf-86_c395cbb4.jpg,test,background,ds2,dino_0.95,dino_0.95,ds2_Healthy-rice-leaf-88_90e62edd.jpg,0.9539
+"DINOv2 0,95",ds4_blast-197_133f5e4a.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.954
+"DINOv2 0,95",ds4_blast-202_7fdfd1fd.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-357_2d00ab58.jpg,0.9545
+"DINOv2 0,95",ds4_blast-210_b63c3c21.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-14_05da8bee.jpg,0.9513
+"DINOv2 0,95",ds4_blast-219_e8f9151e.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-408_49327232.jpg,0.9592
+"DINOv2 0,95",ds4_blast-220_4e0663ef.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-336_71751ab8.jpg,0.9567
+"DINOv2 0,95",ds4_blast-222_8acebe2b.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9591
+"DINOv2 0,95",ds4_blast-224_b4d74982.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9522
+"DINOv2 0,95",ds4_blast-228_fa32db11.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-357_5b694736.jpg,0.9518
+"DINOv2 0,95",ds4_blast-232_87d6c91c.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9566
+"DINOv2 0,95",ds4_blast-233_24ff1f86.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-468_2466d77d.jpg,0.9551
+"DINOv2 0,95",ds4_blast-254_24b20cee.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-375_6576dd82.jpg,0.9538
+"DINOv2 0,95",ds4_blast-256_78e99a42.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9631
+"DINOv2 0,95",ds4_blast-260_6511ed09.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-339_dbd20633.jpg,0.9525
+"DINOv2 0,95",ds4_blast-261_53066fae.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-350_3e169512.jpg,0.9529
+"DINOv2 0,95",ds4_blast-262_2c2e9f01.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-294_e0aac66a.jpg,0.9517
+"DINOv2 0,95",ds4_blast-263_f6e2f841.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-560_71326d8b.jpg,0.9553
+"DINOv2 0,95",ds4_blast-270_f7c94dbb.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-324_de210c2c.jpg,0.9601
+"DINOv2 0,95",ds4_blast-277_84fe672c.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-573_207ba126.jpg,0.9593
+"DINOv2 0,95",ds4_blast-288_a3e6cd1f.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-623_88bb0b16.jpg,0.9535
+"DINOv2 0,95",ds4_blast-289_61e913a3.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.9514
+"DINOv2 0,95",ds4_brown-spot-108_749ec940.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-349_4437ddcb.jpg,0.9554
+"DINOv2 0,95",ds4_brown-spot-112_e93fd14d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-341_143ff95f.jpg,0.9522
+"DINOv2 0,95",ds4_brown-spot-115_5bd1eceb.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-331_ae63f520.jpg,0.9602
+"DINOv2 0,95",ds4_brown-spot-119_f2fc3ed4.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9525
+"DINOv2 0,95",ds4_brown-spot-120_8023d9cc.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9567
+"DINOv2 0,95",ds4_brown-spot-122_e2ff06de.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-356_55b2f922.jpg,0.9541
+"DINOv2 0,95",ds4_brown-spot-124_bb82782b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.9517
+"DINOv2 0,95",ds4_brown-spot-130_a0031469.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-330_593ab250.jpg,0.9661
+"DINOv2 0,95",ds4_brown-spot-131_a979cd0b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-721_dc301d21.jpg,0.9569
+"DINOv2 0,95",ds4_brown-spot-132_68ef5c3f.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-323_de5c4e7d.jpg,0.9642
+"DINOv2 0,95",ds4_brown-spot-135_fec86b6b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-415_178c5d27.jpg,0.9606
+"DINOv2 0,95",ds4_brown-spot-137_cba914e3.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-103_b2ca84b0.jpg,0.9608
+"DINOv2 0,95",ds4_brown-spot-141_b528fe85.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-492_13a0d9c2.jpg,0.9513
+"DINOv2 0,95",ds4_brown-spot-143_f1ee367a.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-368_1f133855.jpg,0.9591
+"DINOv2 0,95",ds4_brown-spot-144_d538393f.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9503
+"DINOv2 0,95",ds4_brown-spot-147_4d0fccba.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-573_207ba126.jpg,0.9592
+"DINOv2 0,95",ds4_brown-spot-157_e00c2907.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-341_143ff95f.jpg,0.967
+"DINOv2 0,95",ds4_brown-spot-159_33702b68.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-349_4437ddcb.jpg,0.9514
+"DINOv2 0,95",ds4_brown-spot-162_de1b79dc.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-374_4b2aca8b.jpg,0.9546
+"DINOv2 0,95",ds4_brown-spot-165_d351921c.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9508
+"DINOv2 0,95",ds4_brown-spot-169_18673836.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9654
+"DINOv2 0,95",ds4_brown-spot-172_56a80d57.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-497_7963a7ac.jpg,0.9601
+"DINOv2 0,95",ds4_brown-spot-173_8e2bff9d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-184_c4be1d0f.jpg,0.955
+"DINOv2 0,95",ds4_brown-spot-175_f69d7132.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-55_45d004f3.jpg,0.9534
+"DINOv2 0,95",ds4_brown-spot-178_dfbbcdef.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-449_5a026e91.jpg,0.9553
+"DINOv2 0,95",ds4_brown-spot-179_8e8b2672.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-261_6cc5caac.jpg,0.965
+"DINOv2 0,95",ds4_brown-spot-180_1f5e6c27.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-567_92206135.jpg,0.9551
+"DINOv2 0,95",ds4_brown-spot-183_0f42f749.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-357_2d00ab58.jpg,0.9502
+"DINOv2 0,95",ds4_brown-spot-190_dd804f8d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-497_7963a7ac.jpg,0.9603
+"DINOv2 0,95",ds4_brown-spot-191_13b53c30.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-396_350f17bc.jpg,0.9543
+"DINOv2 0,95",ds4_brown-spot-194_1c818438.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.953
+"DINOv2 0,95",ds4_brown-spot-195_66d5bd61.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9573
+"DINOv2 0,95",ds4_brown-spot-198_48473f20.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.9636
+"DINOv2 0,95",ds4_brown-spot-199_a06d2f92.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-295_de91e791.jpg,0.9538
+"DINOv2 0,95",ds4_brown-spot-207_b4609f21.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9576
+"DINOv2 0,95",ds4_brown-spot-208_28aed07d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-311_a5d49d0f.jpg,0.9558
+"DINOv2 0,95",ds4_brown-spot-213_7c08d824.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-360_0d139f56.jpg,0.9522
+"DINOv2 0,95",ds4_brown-spot-214_578bc24f.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-624_2858fc27.jpg,0.9576
+"DINOv2 0,95",ds4_brown-spot-220_7974c4d5.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-332_58e65876.jpg,0.9536
+"DINOv2 0,95",ds4_brown-spot-221_7c5f20ec.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9501
+"DINOv2 0,95",ds4_brown-spot-227_eb8e72c8.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-356_55b2f922.jpg,0.9598
+"DINOv2 0,95",ds4_brown-spot-228_d3514cc0.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-357_2d00ab58.jpg,0.9634
+"DINOv2 0,95",ds4_brown-spot-231_2f80cdd2.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.9625
+"DINOv2 0,95",ds4_brown-spot-232_7f0ad871.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-332_58e65876.jpg,0.9635
+"DINOv2 0,95",ds4_brown-spot-233_5bb9f53e.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-295_de91e791.jpg,0.9622
+"DINOv2 0,95",ds4_brown-spot-234_e5f80754.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.9652
+"DINOv2 0,95",ds4_brown-spot-235_22d4f8ec.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.9613
+"DINOv2 0,95",ds4_brown-spot-236_0dfe4d00.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-363_21135de1.jpg,0.9606
+"DINOv2 0,95",ds4_brown-spot-237_9957337c.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-321_09a54d68.jpg,0.9512
+"DINOv2 0,95",ds4_brown-spot-238_1f7ad12b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-323_de5c4e7d.jpg,0.955
+"DINOv2 0,95",ds4_brown-spot-239_4d2d3dbb.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-89_7c48932e.jpg,0.9591
+"DINOv2 0,95",ds4_brown-spot-240_3082db7b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9515
+"DINOv2 0,95",ds4_brown-spot-241_2411110b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-538_82c86037.jpg,0.9552
+"DINOv2 0,95",ds4_brown-spot-243_deba0b8b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-341_143ff95f.jpg,0.9601
+"DINOv2 0,95",ds4_brown-spot-246_93f8dd14.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-571_0c0482c8.jpg,0.9638
+"DINOv2 0,95",ds4_brown-spot-247_410dc06b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-488_5836cb0d.jpg,0.9628
+"DINOv2 0,95",ds4_brown-spot-248_143add0d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-170_155b62ea.jpg,0.9553
+"DINOv2 0,95",ds4_Healthy-104_c6d1ff23.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-6_9bbf97f9.jpg,0.9512
+"DINOv2 0,95",ds4_Healthy-106_7af89f1d.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-564_67925c88.jpg,0.9542
+"DINOv2 0,95",ds4_Healthy-109_b73227e9.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-559_8db48946.jpg,0.9635
+"DINOv2 0,95",ds4_Healthy-111_892d7988.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-356_55b2f922.jpg,0.9577
+"DINOv2 0,95",ds4_Healthy-112_b6d0729c.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-356_55b2f922.jpg,0.9576
+"DINOv2 0,95",ds4_Healthy-114_006442dd.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-341_143ff95f.jpg,0.9543
+"DINOv2 0,95",ds4_Healthy-63_5770140b.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-562_27d0865e.jpg,0.9521
+"DINOv2 0,95",ds4_Healthy-66_10ac9701.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-562_27d0865e.jpg,0.9552
+"DINOv2 0,95",ds4_Healthy-86_b703eb40.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-340_9af59f2d.jpg,0.9577
+"DINOv2 0,95",ds4_Healthy-94_dc615875.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-295_de91e791.jpg,0.956
+"DINOv2 0,95",ds4_Healthy-95_59a7356b.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-415_178c5d27.jpg,0.9633
+"DINOv2 0,95",ds4_Healthy-97_9c08d142.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-538_82c86037.jpg,0.9582
+"DINOv2 0,95",ds4_Healthy-99_7574a546.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-553_3489a507.jpg,0.962
+SIFT 15 inlier,ds4_blast-148_474802c5.jpg,test,leaf_blast,ds4,sift_15,sift_15,ds4_blast-714_561b0755.jpg,18.0
+SIFT 15 inlier,ds4_blast-157_b367d0ee.jpg,test,leaf_blast,ds4,sift_15,sift_15,ds4_brown-spot-77_85d84353.jpg,15.0
+SIFT 15 inlier,ds4_brown-spot-73_a1cd5bd2.jpg,test,brown_spot,ds4,sift_15,sift_15,ds4_brown-spot-77_85d84353.jpg,18.0
+SIFT 15 inlier,ds2_Healthy-rice-leaf-11_d3fa3f50.jpg,test,background,ds2,sift_15,sift_15,ds2_Healthy-rice-leaf-13_7bc3f8bb.jpg,20.0
+SIFT 15 inlier,ds2_Healthy-rice-leaf-147_23e0869f.jpg,test,background,ds2,sift_15,sift_15,ds2_Healthy-rice-leaf-13_7bc3f8bb.jpg,19.0
+SIFT 15 inlier,ds2_Healthy-rice-leaf-65_d9eac6ed.jpg,test,background,ds2,sift_15,sift_15,ds2_Healthy-rice-leaf-17_44dfe128.jpg,20.0
+waktu 10 dtk,ds4_blast-1304_b21b0825.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_Healthy-1441_0e2c998c.jpg,6.0
+waktu 10 dtk,ds4_blast-1305_0c957475.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_Healthy-1441_0e2c998c.jpg,7.0
+waktu 10 dtk,ds4_blast-147_b220b7e7.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_brown-spot-697_76a7c4c9.jpg,10.0
+waktu 10 dtk,ds4_blast-157_b367d0ee.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,7.0
+waktu 10 dtk,ds4_blast-16_0ef9c361.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-17_f6052cf7.jpg,10.0
+waktu 10 dtk,ds4_blast-193_a52f6957.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+waktu 10 dtk,ds4_blast-362_52c227ac.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-361_027fa7b0.jpg,9.0
+waktu 10 dtk,ds4_blast-401_f2662ff6.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-400_561edd4e.jpg,8.0
+waktu 10 dtk,ds4_blast-481_3e7edb57.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_brown-spot-415_6326eb12.jpg,8.0
+waktu 10 dtk,ds4_blast-493_2cf6f44f.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-492_13a0d9c2.jpg,7.0
+waktu 10 dtk,ds4_brown-spot-1372_3f35a9fa.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-1370_7dea2481.jpg,7.0
+waktu 10 dtk,ds4_brown-spot-1373_4da54f12.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-1370_7dea2481.jpg,7.0
+waktu 10 dtk,ds4_brown-spot-2046_0a922bc5.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2045_4d3d96bb.jpg,8.0
+waktu 10 dtk,ds4_brown-spot-2047_84104857.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2045_4d3d96bb.jpg,9.0
+waktu 10 dtk,ds4_brown-spot-2048_4cec4f59.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2045_4d3d96bb.jpg,9.0
+waktu 10 dtk,ds4_brown-spot-2049_6d69572c.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2045_4d3d96bb.jpg,10.0
+waktu 10 dtk,ds4_brown-spot-2050_1da6b8c3.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2052_44cdee43.jpg,9.0
+waktu 10 dtk,ds4_brown-spot-2051_11196eb8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2052_44cdee43.jpg,9.0
+waktu 10 dtk,ds4_brown-spot-23_fdfd1135.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_Healthy-1271_e3727431.jpg,6.0
+waktu 10 dtk,ds4_brown-spot-264_7e91c4fe.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_Healthy-198_8b9f392f.jpg,6.0
+waktu 10 dtk,ds4_brown-spot-269_72162cd3.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,10.0
+waktu 10 dtk,ds4_brown-spot-270_f025c596.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,9.0
+waktu 10 dtk,ds4_brown-spot-271_2fff578f.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,8.0
+waktu 10 dtk,ds4_brown-spot-274_feaf0624.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-273_c93cd6d2.jpg,9.0
+waktu 10 dtk,ds4_brown-spot-296_c22c8498.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-295_de91e791.jpg,7.0
+waktu 10 dtk,ds4_brown-spot-297_c67ecaba.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-295_de91e791.jpg,8.0
+waktu 10 dtk,ds4_brown-spot-298_572c5490.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-295_de91e791.jpg,10.0
+waktu 10 dtk,ds4_brown-spot-375_b880a4d1.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-374_4b2aca8b.jpg,8.0
+waktu 10 dtk,ds4_brown-spot-376_fb40e02d.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-374_4b2aca8b.jpg,10.0
+waktu 10 dtk,ds4_brown-spot-399_a4055841.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-400_35220054.jpg,10.0
+waktu 10 dtk,ds4_brown-spot-437_6396a23d.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_blast-492_13a0d9c2.jpg,9.0
+waktu 10 dtk,ds4_brown-spot-475_2da83fa4.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_Healthy-688_83c8ea7a.jpg,6.0
+waktu 10 dtk,ds4_brown-spot-481_2a5fb6f8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_blast-515_41aba61f.jpg,8.0
+waktu 10 dtk,ds4_brown-spot-770_11d4702b.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,8.0
+waktu 10 dtk,ds4_brown-spot-771_d90622be.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,7.0
+waktu 10 dtk,ds4_brown-spot-772_246273c5.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,7.0
+waktu 10 dtk,ds4_brown-spot-87_807164ca.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_blast-782_86d6697d.jpg,8.0
+waktu 10 dtk,ds4_brown-spot-943_c7753f28.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,6.0
+waktu 10 dtk,ds4_brown-spot-944_4d7f2ac8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,6.0
+waktu 10 dtk,ds4_brown-spot-945_f16418f4.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,7.0
+waktu 10 dtk,ds4_brown-spot-946_db6d1b11.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,7.0
+waktu 10 dtk,ds4_brown-spot-947_0ed5f31b.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+waktu 10 dtk,ds4_brown-spot-948_53852de8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+waktu 10 dtk,ds4_brown-spot-949_8c998b1c.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+waktu 10 dtk,ds4_Healthy-1149_e95f4f61.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-100_585ffd32.jpg,10.0
+waktu 10 dtk,ds4_Healthy-1299_6c797248.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,10.0
+waktu 10 dtk,ds4_Healthy-1300_19eca02d.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,10.0
+waktu 10 dtk,ds4_Healthy-1301_fca29b05.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,9.0
+waktu 10 dtk,ds4_Healthy-1302_9be5fd91.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,9.0
+waktu 10 dtk,ds4_Healthy-1442_afe03eda.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1441_0e2c998c.jpg,8.0
+waktu 10 dtk,ds4_Healthy-1450_77ef08e4.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1453_cf6e6235.jpg,9.0
+waktu 10 dtk,ds4_Healthy-1451_af82e4d9.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1453_cf6e6235.jpg,8.0
+waktu 10 dtk,ds4_Healthy-1452_c3c86ba3.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1453_cf6e6235.jpg,7.0
+waktu 10 dtk,ds4_Healthy-1558_55766322.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1559_1b4af6f6.jpg,9.0
+waktu 10 dtk,ds4_Healthy-191_1aff1051.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-190_476db4f4.jpg,6.0
+waktu 10 dtk,ds4_Healthy-192_4be776e8.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-190_476db4f4.jpg,7.0
+waktu 10 dtk,ds4_Healthy-193_ee77bb25.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-190_476db4f4.jpg,9.0
+waktu 10 dtk,ds4_Healthy-196_2dc5b54e.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-198_8b9f392f.jpg,10.0
+waktu 10 dtk,ds4_Healthy-197_9e813953.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-198_8b9f392f.jpg,7.0
+waktu 10 dtk,ds4_Healthy-207_6b920217.jpg,test,background,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,7.0
+waktu 10 dtk,ds4_Healthy-208_aa6d20d3.jpg,test,background,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,6.0
+waktu 10 dtk,ds4_Healthy-463_73837881.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-465_1562c42f.jpg,10.0
+waktu 10 dtk,ds4_Healthy-464_9cde5f05.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-465_1562c42f.jpg,8.0
+waktu 10 dtk,ds4_Healthy-661_2a1f3b6d.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-664_9782429e.jpg,9.0
+waktu 10 dtk,ds4_Healthy-662_1780b4e0.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-664_9782429e.jpg,7.0
+waktu 10 dtk,ds4_Healthy-663_cd1d6855.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-664_9782429e.jpg,6.0
+waktu 10 dtk,ds4_Healthy-680_400177e0.jpg,test,background,ds4,waktu_10,waktu_10,ds4_brown-spot-467_e92502b8.jpg,6.0
+waktu 10 dtk,ds4_Healthy-781_81d6e927.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-780_fb39893e.jpg,6.0
+waktu 10 dtk,ds4_Healthy-902_4b57b51f.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-63_01b89e37.jpg,8.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-1093_f9434588.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-708_ac873863.jpg,0.9521
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-1094_c98742da.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9523
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-1095_d070a887.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-708_ac873863.jpg,0.9538
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-1304_b21b0825.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_Healthy-1441_0e2c998c.jpg,6.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-1305_0c957475.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_Healthy-1441_0e2c998c.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-144_7147fe94.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-184_c4be1d0f.jpg,0.9585
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-147_b220b7e7.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_brown-spot-697_76a7c4c9.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-148_474802c5.jpg,test,leaf_blast,ds4,dino_0.95;sift_15,sift_15,ds4_blast-714_561b0755.jpg,18.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-157_b367d0ee.jpg,test,leaf_blast,ds4,sift_15;waktu_10,sift_15,ds4_brown-spot-77_85d84353.jpg,15.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-16_0ef9c361.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-17_f6052cf7.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-193_a52f6957.jpg,test,leaf_blast,ds4,dino_0.95;waktu_10,dino_0.95,ds4_blast-160_9cafea6f.jpg,0.9537
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-362_52c227ac.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-361_027fa7b0.jpg,9.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-366_78197a44.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-560_71326d8b.jpg,0.9563
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-401_f2662ff6.jpg,test,leaf_blast,ds4,dino_0.95;waktu_10,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.957
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-407_27606a5f.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-446_4e216d9b.jpg,0.9569
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-408_a4b067a6.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-551_a2499d9f.jpg,0.9571
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-421_dc569d9d.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-519_349915c5.jpg,0.9543
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-440_5a867b0a.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-374_4b2aca8b.jpg,0.9557
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-452_aa768a33.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-444_19963618.jpg,0.9518
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-481_3e7edb57.jpg,test,leaf_blast,ds4,dino_0.95;waktu_10,dino_0.95,ds4_brown-spot-415_6326eb12.jpg,0.9682
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-493_2cf6f44f.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-492_13a0d9c2.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-505_3656e027.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-475_4b49d761.jpg,0.9595
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-508_09c75f85.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-413_d44de1cb.jpg,0.9508
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-510_66d73351.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-475_4b49d761.jpg,0.9567
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-514_5148f37c.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-492_13a0d9c2.jpg,0.9581
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-537_ad118814.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-475_4b49d761.jpg,0.9671
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-538_3e420d18.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-586_754a72e4.jpg,0.9618
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-541_6416faaf.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-558_851f148d.jpg,0.9531
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-554_9b6304e8.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-475_4b49d761.jpg,0.952
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-854_8aa4c762.jpg,test,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9539
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-101_21a1218b.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.9555
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-1372_3f35a9fa.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-1370_7dea2481.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-1373_4da54f12.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-1370_7dea2481.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-1698_84f9de6e.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1842_f5d847cc.jpg,0.9529
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-1699_9a97b817.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1913_22386214.jpg,0.9501
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-1704_6f735066.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-1269_e9cc677c.jpg,0.9502
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-1713_1d150e03.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1872_4a124257.jpg,0.9582
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-1714_6e4f31ef.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1872_4a124257.jpg,0.9557
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-1715_cf3e0777.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1872_4a124257.jpg,0.9545
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-2046_0a922bc5.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_blast-1243_24cd1115.jpg,0.9533
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-2047_84104857.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_blast-1243_24cd1115.jpg,0.9527
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-2048_4cec4f59.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_blast-1243_24cd1115.jpg,0.9512
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-2049_6d69572c.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2045_4d3d96bb.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-2050_1da6b8c3.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2052_44cdee43.jpg,9.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-2051_11196eb8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2052_44cdee43.jpg,9.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-23_fdfd1135.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_Healthy-1271_e3727431.jpg,6.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-264_7e91c4fe.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_Healthy-198_8b9f392f.jpg,6.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-269_72162cd3.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_Healthy-559_8db48946.jpg,0.9558
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-270_f025c596.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_brown-spot-347_7b51a241.jpg,0.9561
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-271_2fff578f.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_brown-spot-347_7b51a241.jpg,0.9553
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-274_feaf0624.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-273_c93cd6d2.jpg,9.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-296_c22c8498.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_blast-549_da08b0a3.jpg,0.9624
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-297_c67ecaba.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_blast-526_29f38857.jpg,0.9601
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-298_572c5490.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_brown-spot-306_acc7a72c.jpg,0.9531
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-299_763170c6.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9687
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-375_b880a4d1.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9599
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-376_fb40e02d.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_brown-spot-374_4b2aca8b.jpg,0.966
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-377_bb24eb5d.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9679
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-378_ad68ae82.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9595
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-399_a4055841.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_brown-spot-431_87f2dc4a.jpg,0.9612
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-432_54d0a151.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-330_593ab250.jpg,0.9667
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-433_4296f187.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-431_87f2dc4a.jpg,0.9672
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-437_6396a23d.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_blast-492_13a0d9c2.jpg,9.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-458_7064688a.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9684
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-475_2da83fa4.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_Healthy-688_83c8ea7a.jpg,6.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-479_214f3c45.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-572_8c9188dc.jpg,0.9531
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-481_2a5fb6f8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_blast-515_41aba61f.jpg,8.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-505_2da8f3e1.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.9688
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-506_8bf2ca0d.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-6_9bbf97f9.jpg,0.9523
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-527_a4e80e29.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-496_647d21b1.jpg,0.9604
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-528_6da19aca.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9665
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-529_62bc754a.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-332_58e65876.jpg,0.954
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-530_daf9dd7e.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-487_f466092d.jpg,0.9669
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-535_deb5c93d.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-558_851f148d.jpg,0.9602
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-553_4d9bbd22.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-488_5836cb0d.jpg,0.9561
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-554_caba1cbd.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-457_60f607ad.jpg,0.9669
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-555_fac85ac9.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-496_647d21b1.jpg,0.9675
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-556_b3ac9a0b.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-404_97bc12ae.jpg,0.9643
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-585_b41f9243.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-331_ae63f520.jpg,0.9643
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-73_a1cd5bd2.jpg,test,brown_spot,ds4,dino_0.95;sift_15,sift_15,ds4_brown-spot-77_85d84353.jpg,18.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-751_e59b9043.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-839_276b8d87.jpg,0.9541
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-753_bb12813a.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9524
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-755_6c3370b5.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1775_406a10e4.jpg,0.9519
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-759_d6ca782e.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-839_276b8d87.jpg,0.9548
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-76_41a87b31.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-170_155b62ea.jpg,0.9533
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-761_8131d1b5.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9513
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-762_7c1289d8.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9618
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-763_a8e4503c.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1502_47e3e46a.jpg,0.9529
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-764_d428c404.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-1349_f66c1600.jpg,0.954
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-770_11d4702b.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,8.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-771_d90622be.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-772_246273c5.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-84_42320904.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9516
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-856_bf5d9043.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-2118_7b5e8cbc.jpg,0.9613
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-859_b18ffc5b.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-1788_1a27e870.jpg,0.9569
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-866_1c9c0eef.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-23_9661a032.jpg,0.9549
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-868_2b26e159.jpg,test,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-23_9661a032.jpg,0.9534
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-87_807164ca.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_blast-782_86d6697d.jpg,8.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-943_c7753f28.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,6.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-944_4d7f2ac8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,6.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-945_f16418f4.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-946_db6d1b11.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-947_0ed5f31b.jpg,test,brown_spot,ds4,dino_0.95;waktu_10,dino_0.95,ds4_blast-879_16cba576.jpg,0.9534
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-948_53852de8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-949_8c998b1c.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-10_7029d758.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-407_e452fc3b.jpg,0.9543
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1149_e95f4f61.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-100_585ffd32.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1299_6c797248.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1300_19eca02d.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1301_fca29b05.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,9.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1302_9be5fd91.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,9.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-132_92ffe6d9.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-156_bec29b20.jpg,0.9538
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1442_afe03eda.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1441_0e2c998c.jpg,8.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1450_77ef08e4.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1453_cf6e6235.jpg,9.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1451_af82e4d9.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1453_cf6e6235.jpg,8.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1452_c3c86ba3.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1453_cf6e6235.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1558_55766322.jpg,test,background,ds4,dino_0.95;waktu_10,dino_0.95,ds4_Healthy-1547_e0cb2d35.jpg,0.953
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1560_1e8f9066.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-1559_1b4af6f6.jpg,0.9538
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-1566_166ca18f.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-1570_328811cd.jpg,0.9662
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-191_1aff1051.jpg,test,background,ds4,dino_0.95;waktu_10,dino_0.95,ds4_Healthy-168_631ad6fb.jpg,0.955
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-192_4be776e8.jpg,test,background,ds4,dino_0.95;waktu_10,dino_0.95,ds4_Healthy-157_667859a2.jpg,0.9697
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-193_ee77bb25.jpg,test,background,ds4,dino_0.95;waktu_10,dino_0.95,ds4_Healthy-157_667859a2.jpg,0.9665
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-196_2dc5b54e.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-198_8b9f392f.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-197_9e813953.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-198_8b9f392f.jpg,7.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-207_6b920217.jpg,test,background,ds4,dino_0.95;waktu_10,dino_0.95,ds4_Healthy-559_8db48946.jpg,0.9539
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-208_aa6d20d3.jpg,test,background,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,6.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-221_e323cfaa.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-572_0bf21d2f.jpg,0.9561
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-222_37c2f5de.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-659_db8097e2.jpg,0.9614
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-223_b1aecc5e.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-565_1122989b.jpg,0.9601
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-224_dcbd1a6d.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-565_1122989b.jpg,0.9659
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-228_2643b6ca.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9517
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-432_f7a726c8.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-449_5a026e91.jpg,0.9604
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-463_73837881.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-465_1562c42f.jpg,10.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-464_9cde5f05.jpg,test,background,ds4,dino_0.95;waktu_10,dino_0.95,ds4_Healthy-564_67925c88.jpg,0.9504
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-54_3e947832.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-77_85d84353.jpg,0.9589
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-596_14456c92.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-241_e2674898.jpg,0.9649
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-597_280ce378.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-594_90404adb.jpg,0.9535
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-598_dce43540.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-594_90404adb.jpg,0.9583
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-599_1c10a04d.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-593_e527b310.jpg,0.9631
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-616_ccbc8611.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-552_a689aa75.jpg,0.9578
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-617_0b16f5a0.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-246_941cb8a1.jpg,0.9514
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-618_0512c473.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-740_c91ae354.jpg,0.9586
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-619_8f18bffc.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-246_941cb8a1.jpg,0.9606
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-620_7e0b3f58.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-740_c91ae354.jpg,0.951
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-621_8e99e2c1.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-594_90404adb.jpg,0.9574
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-622_3faeaa64.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-78_8237be6a.jpg,0.9604
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-633_7c3abc0d.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_blast-161_5c672d81.jpg,0.9599
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-661_2a1f3b6d.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-664_9782429e.jpg,9.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-662_1780b4e0.jpg,test,background,ds4,dino_0.95;waktu_10,dino_0.95,ds4_Healthy-664_9782429e.jpg,0.9644
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-663_cd1d6855.jpg,test,background,ds4,dino_0.95;waktu_10,dino_0.95,ds4_Healthy-664_9782429e.jpg,0.9659
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-679_0aa8b1b9.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-414_69f9c94b.jpg,0.9562
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-680_400177e0.jpg,test,background,ds4,waktu_10,waktu_10,ds4_brown-spot-467_e92502b8.jpg,6.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-697_294a3344.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9618
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-711_ae2cc0d0.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9625
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-712_9c325c7d.jpg,test,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-714_80bfd521.jpg,0.9589
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-781_81d6e927.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-780_fb39893e.jpg,6.0
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-902_4b57b51f.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-63_01b89e37.jpg,8.0
+"gabungan (0,95 / 15 / 10 dtk)",ds2_Healthy-rice-leaf-107_3e531808.jpg,test,background,ds2,dino_0.95,dino_0.95,ds2_Healthy-rice-leaf-125_667722c6.jpg,0.9641
+"gabungan (0,95 / 15 / 10 dtk)",ds2_Healthy-rice-leaf-11_d3fa3f50.jpg,test,background,ds2,sift_15,sift_15,ds2_Healthy-rice-leaf-13_7bc3f8bb.jpg,20.0
+"gabungan (0,95 / 15 / 10 dtk)",ds2_Healthy-rice-leaf-147_23e0869f.jpg,test,background,ds2,dino_0.95;sift_15,sift_15,ds2_Healthy-rice-leaf-13_7bc3f8bb.jpg,19.0
+"gabungan (0,95 / 15 / 10 dtk)",ds2_Healthy-rice-leaf-155_4d7705ae.jpg,test,background,ds2,dino_0.95,dino_0.95,ds2_Healthy-rice-leaf-122_ec84feb5.jpg,0.9601
+"gabungan (0,95 / 15 / 10 dtk)",ds2_Healthy-rice-leaf-65_d9eac6ed.jpg,test,background,ds2,sift_15,sift_15,ds2_Healthy-rice-leaf-17_44dfe128.jpg,20.0
+"gabungan (0,95 / 15 / 10 dtk)",ds2_Healthy-rice-leaf-85_ca963026.jpg,test,background,ds2,dino_0.95,dino_0.95,ds2_Healthy-rice-leaf-88_90e62edd.jpg,0.9523
+"gabungan (0,95 / 15 / 10 dtk)",ds2_Healthy-rice-leaf-86_c395cbb4.jpg,test,background,ds2,dino_0.95,dino_0.95,ds2_Healthy-rice-leaf-88_90e62edd.jpg,0.9539
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-197_133f5e4a.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.954
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-202_7fdfd1fd.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-357_2d00ab58.jpg,0.9545
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-210_b63c3c21.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-14_05da8bee.jpg,0.9513
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-219_e8f9151e.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-408_49327232.jpg,0.9592
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-220_4e0663ef.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-336_71751ab8.jpg,0.9567
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-222_8acebe2b.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9591
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-224_b4d74982.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9522
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-228_fa32db11.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-357_5b694736.jpg,0.9518
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-232_87d6c91c.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9566
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-233_24ff1f86.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-468_2466d77d.jpg,0.9551
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-254_24b20cee.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-375_6576dd82.jpg,0.9538
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-256_78e99a42.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9631
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-260_6511ed09.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-339_dbd20633.jpg,0.9525
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-261_53066fae.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_blast-350_3e169512.jpg,0.9529
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-262_2c2e9f01.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-294_e0aac66a.jpg,0.9517
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-263_f6e2f841.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-560_71326d8b.jpg,0.9553
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-270_f7c94dbb.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-324_de210c2c.jpg,0.9601
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-277_84fe672c.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-573_207ba126.jpg,0.9593
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-288_a3e6cd1f.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_Healthy-623_88bb0b16.jpg,0.9535
+"gabungan (0,95 / 15 / 10 dtk)",ds4_blast-289_61e913a3.jpg,test_new_session,leaf_blast,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.9514
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-108_749ec940.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-349_4437ddcb.jpg,0.9554
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-112_e93fd14d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-341_143ff95f.jpg,0.9522
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-115_5bd1eceb.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-331_ae63f520.jpg,0.9602
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-119_f2fc3ed4.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9525
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-120_8023d9cc.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9567
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-122_e2ff06de.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-356_55b2f922.jpg,0.9541
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-124_bb82782b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.9517
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-130_a0031469.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-330_593ab250.jpg,0.9661
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-131_a979cd0b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-721_dc301d21.jpg,0.9569
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-132_68ef5c3f.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-323_de5c4e7d.jpg,0.9642
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-135_fec86b6b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-415_178c5d27.jpg,0.9606
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-137_cba914e3.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-103_b2ca84b0.jpg,0.9608
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-141_b528fe85.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-492_13a0d9c2.jpg,0.9513
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-143_f1ee367a.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-368_1f133855.jpg,0.9591
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-144_d538393f.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9503
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-147_4d0fccba.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-573_207ba126.jpg,0.9592
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-157_e00c2907.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-341_143ff95f.jpg,0.967
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-159_33702b68.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-349_4437ddcb.jpg,0.9514
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-162_de1b79dc.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-374_4b2aca8b.jpg,0.9546
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-165_d351921c.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-322_9ac55062.jpg,0.9508
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-169_18673836.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9654
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-172_56a80d57.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-497_7963a7ac.jpg,0.9601
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-173_8e2bff9d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-184_c4be1d0f.jpg,0.955
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-175_f69d7132.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-55_45d004f3.jpg,0.9534
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-178_dfbbcdef.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-449_5a026e91.jpg,0.9553
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-179_8e8b2672.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-261_6cc5caac.jpg,0.965
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-180_1f5e6c27.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-567_92206135.jpg,0.9551
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-183_0f42f749.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-357_2d00ab58.jpg,0.9502
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-190_dd804f8d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-497_7963a7ac.jpg,0.9603
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-191_13b53c30.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-396_350f17bc.jpg,0.9543
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-194_1c818438.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.953
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-195_66d5bd61.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9573
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-198_48473f20.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.9636
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-199_a06d2f92.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-295_de91e791.jpg,0.9538
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-207_b4609f21.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-522_b6c1d9e6.jpg,0.9576
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-208_28aed07d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-311_a5d49d0f.jpg,0.9558
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-213_7c08d824.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-360_0d139f56.jpg,0.9522
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-214_578bc24f.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-624_2858fc27.jpg,0.9576
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-220_7974c4d5.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-332_58e65876.jpg,0.9536
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-221_7c5f20ec.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-305_b1596d68.jpg,0.9501
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-227_eb8e72c8.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-356_55b2f922.jpg,0.9598
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-228_d3514cc0.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-357_2d00ab58.jpg,0.9634
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-231_2f80cdd2.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.9625
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-232_7f0ad871.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-332_58e65876.jpg,0.9635
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-233_5bb9f53e.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-295_de91e791.jpg,0.9622
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-234_e5f80754.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-343_df8d1d16.jpg,0.9652
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-235_22d4f8ec.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-364_95cf9f43.jpg,0.9613
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-236_0dfe4d00.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-363_21135de1.jpg,0.9606
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-237_9957337c.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-321_09a54d68.jpg,0.9512
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-238_1f7ad12b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-323_de5c4e7d.jpg,0.955
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-239_4d2d3dbb.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-89_7c48932e.jpg,0.9591
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-240_3082db7b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-373_c78f5cc8.jpg,0.9515
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-241_2411110b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_Healthy-538_82c86037.jpg,0.9552
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-243_deba0b8b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-341_143ff95f.jpg,0.9601
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-246_93f8dd14.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-571_0c0482c8.jpg,0.9638
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-247_410dc06b.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_brown-spot-488_5836cb0d.jpg,0.9628
+"gabungan (0,95 / 15 / 10 dtk)",ds4_brown-spot-248_143add0d.jpg,test_new_session,brown_spot,ds4,dino_0.95,dino_0.95,ds4_blast-170_155b62ea.jpg,0.9553
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-104_c6d1ff23.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-6_9bbf97f9.jpg,0.9512
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-106_7af89f1d.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-564_67925c88.jpg,0.9542
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-109_b73227e9.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-559_8db48946.jpg,0.9635
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-111_892d7988.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-356_55b2f922.jpg,0.9577
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-112_b6d0729c.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-356_55b2f922.jpg,0.9576
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-114_006442dd.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-341_143ff95f.jpg,0.9543
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-63_5770140b.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-562_27d0865e.jpg,0.9521
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-66_10ac9701.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-562_27d0865e.jpg,0.9552
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-86_b703eb40.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-340_9af59f2d.jpg,0.9577
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-94_dc615875.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_brown-spot-295_de91e791.jpg,0.956
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-95_59a7356b.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-415_178c5d27.jpg,0.9633
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-97_9c08d142.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-538_82c86037.jpg,0.9582
+"gabungan (0,95 / 15 / 10 dtk)",ds4_Healthy-99_7574a546.jpg,test_new_session,background,ds4,dino_0.95,dino_0.95,ds4_Healthy-553_3489a507.jpg,0.962
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-1304_b21b0825.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_Healthy-1441_0e2c998c.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-1305_0c957475.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_Healthy-1441_0e2c998c.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-147_b220b7e7.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_brown-spot-697_76a7c4c9.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-148_474802c5.jpg,test,leaf_blast,ds4,sift_15,sift_15,ds4_blast-714_561b0755.jpg,18.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-157_b367d0ee.jpg,test,leaf_blast,ds4,sift_15;waktu_10,sift_15,ds4_brown-spot-77_85d84353.jpg,15.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-16_0ef9c361.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-17_f6052cf7.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-193_a52f6957.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-362_52c227ac.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-361_027fa7b0.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-401_f2662ff6.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-400_561edd4e.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-481_3e7edb57.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_brown-spot-415_6326eb12.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_blast-493_2cf6f44f.jpg,test,leaf_blast,ds4,waktu_10,waktu_10,ds4_blast-492_13a0d9c2.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-1372_3f35a9fa.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-1370_7dea2481.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-1373_4da54f12.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-1370_7dea2481.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-2046_0a922bc5.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2045_4d3d96bb.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-2047_84104857.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2045_4d3d96bb.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-2048_4cec4f59.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2045_4d3d96bb.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-2049_6d69572c.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2045_4d3d96bb.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-2050_1da6b8c3.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2052_44cdee43.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-2051_11196eb8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-2052_44cdee43.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-23_fdfd1135.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_Healthy-1271_e3727431.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-264_7e91c4fe.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_Healthy-198_8b9f392f.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-269_72162cd3.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-270_f025c596.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-271_2fff578f.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-274_feaf0624.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-273_c93cd6d2.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-296_c22c8498.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-295_de91e791.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-297_c67ecaba.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-295_de91e791.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-298_572c5490.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-295_de91e791.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-375_b880a4d1.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-374_4b2aca8b.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-376_fb40e02d.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-374_4b2aca8b.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-399_a4055841.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-400_35220054.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-437_6396a23d.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_blast-492_13a0d9c2.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-475_2da83fa4.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_Healthy-688_83c8ea7a.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-481_2a5fb6f8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_blast-515_41aba61f.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-73_a1cd5bd2.jpg,test,brown_spot,ds4,sift_15,sift_15,ds4_brown-spot-77_85d84353.jpg,18.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-770_11d4702b.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-771_d90622be.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-772_246273c5.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-77_85d84353.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-87_807164ca.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_blast-782_86d6697d.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-943_c7753f28.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-944_4d7f2ac8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-945_f16418f4.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-946_db6d1b11.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-947_0ed5f31b.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-948_53852de8.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_brown-spot-949_8c998b1c.jpg,test,brown_spot,ds4,waktu_10,waktu_10,ds4_brown-spot-941_7adbd069.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1149_e95f4f61.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-100_585ffd32.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1299_6c797248.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1300_19eca02d.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1301_fca29b05.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1302_9be5fd91.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-737_0f93bbe4.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1442_afe03eda.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1441_0e2c998c.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1450_77ef08e4.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1453_cf6e6235.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1451_af82e4d9.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1453_cf6e6235.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1452_c3c86ba3.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1453_cf6e6235.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-1558_55766322.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-1559_1b4af6f6.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-191_1aff1051.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-190_476db4f4.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-192_4be776e8.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-190_476db4f4.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-193_ee77bb25.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-190_476db4f4.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-196_2dc5b54e.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-198_8b9f392f.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-197_9e813953.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-198_8b9f392f.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-207_6b920217.jpg,test,background,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-208_aa6d20d3.jpg,test,background,ds4,waktu_10,waktu_10,ds4_brown-spot-272_0524fc1c.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-463_73837881.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-465_1562c42f.jpg,10.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-464_9cde5f05.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-465_1562c42f.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-661_2a1f3b6d.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-664_9782429e.jpg,9.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-662_1780b4e0.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-664_9782429e.jpg,7.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-663_cd1d6855.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-664_9782429e.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-680_400177e0.jpg,test,background,ds4,waktu_10,waktu_10,ds4_brown-spot-467_e92502b8.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-781_81d6e927.jpg,test,background,ds4,waktu_10,waktu_10,ds4_Healthy-780_fb39893e.jpg,6.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds4_Healthy-902_4b57b51f.jpg,test,background,ds4,waktu_10,waktu_10,ds4_blast-63_01b89e37.jpg,8.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds2_Healthy-rice-leaf-11_d3fa3f50.jpg,test,background,ds2,sift_15,sift_15,ds2_Healthy-rice-leaf-13_7bc3f8bb.jpg,20.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds2_Healthy-rice-leaf-147_23e0869f.jpg,test,background,ds2,sift_15,sift_15,ds2_Healthy-rice-leaf-13_7bc3f8bb.jpg,19.0
+"SIFT 15 + waktu 10 dtk (DINOv2 0,97)",ds2_Healthy-rice-leaf-65_d9eac6ed.jpg,test,background,ds2,sift_15,sift_15,ds2_Healthy-rice-leaf-17_44dfe128.jpg,20.0

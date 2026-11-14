@@ -1,0 +1,16 @@
+DINOv2 0,95: test | ds4_blast-510_66d73351.jpg ~ ds4_blast-475_4b49d761.jpg | cos 0.957
+DINOv2 0,95: test | ds4_brown-spot-1713_1d150e03.jpg ~ ds4_brown-spot-1872_4a124257.jpg | cos 0.958
+DINOv2 0,95: test | ds4_Healthy-597_280ce378.jpg ~ ds4_Healthy-594_90404adb.jpg | cos 0.954
+DINOv2 0,95: test | ds4_Healthy-222_37c2f5de.jpg ~ ds4_Healthy-659_db8097e2.jpg | cos 0.961
+DINOv2 0,95: test_new_session | ds4_brown-spot-120_8023d9cc.jpg ~ ds4_brown-spot-322_9ac55062.jpg | cos 0.957
+DINOv2 0,95: test_new_session | ds4_brown-spot-243_deba0b8b.jpg ~ ds4_brown-spot-341_143ff95f.jpg | cos 0.960
+DINOv2 0,95: test_new_session | ds4_blast-270_f7c94dbb.jpg ~ ds4_brown-spot-324_de210c2c.jpg | cos 0.960
+DINOv2 0,95: test_new_session | ds4_brown-spot-248_143add0d.jpg ~ ds4_blast-170_155b62ea.jpg | cos 0.955
+SIFT 15: test | ds4_brown-spot-73_a1cd5bd2.jpg ~ ds4_brown-spot-77_85d84353.jpg | 18 inlier
+SIFT 15: test | ds4_blast-157_b367d0ee.jpg ~ ds4_brown-spot-77_85d84353.jpg | 15 inlier
+SIFT 15: test | ds2_Healthy-rice-leaf-147_23e0869f.jpg ~ ds2_Healthy-rice-leaf-13_7bc3f8bb.jpg | 19 inlier
+SIFT 15: test | ds2_Healthy-rice-leaf-65_d9eac6ed.jpg ~ ds2_Healthy-rice-leaf-17_44dfe128.jpg | 20 inlier
+waktu 10 dtk: test | ds4_brown-spot-376_fb40e02d.jpg ~ ds4_brown-spot-374_4b2aca8b.jpg | 10 dtk
+waktu 10 dtk: test | ds4_brown-spot-274_feaf0624.jpg ~ ds4_brown-spot-273_c93cd6d2.jpg | 9 dtk
+waktu 10 dtk: test | ds4_brown-spot-948_53852de8.jpg ~ ds4_brown-spot-941_7adbd069.jpg | 10 dtk
+waktu 10 dtk: test | ds4_brown-spot-944_4d7f2ac8.jpg ~ ds4_brown-spot-941_7adbd069.jpg | 6 dtk

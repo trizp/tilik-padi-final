@@ -59,6 +59,7 @@ secrets.toml
 /bahan_bimbingan_v9/
 /_prototipe_app_v9/
 /_sinkron_tilik_padi/
+/skripsi/
 
 # ---------------------------------------------------------------- dataset: semua diabaikan kecuali manifest/daftar split kecil
 # (foto dan label tidak didistribusikan; unduh dari sumber aslinya, lihat README)
